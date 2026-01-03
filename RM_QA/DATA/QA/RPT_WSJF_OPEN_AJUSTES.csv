@@ -123,7 +123,6 @@ AJ_000166,Build: gerar RaveMasters.exe no ZIP a partir do Game.exe legado,Logs/V
 AJ_000169,Auditar tokens T*/B*/ET* em textos (nomes/descrições) e limpar ruído,Conteúdo,P2,BACKLOG,1.25,122.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000171,Atualizar pipeline/validações para convenção limpa (MAIN + RM_YYYYMMDD_Rxx),Automação,P2,BACKLOG,1.25,123.0,4.0,3.0,3.0,10.0,8.0,AJ_000167,,
 AJ_000196,"Digest narrativo do Overlord (técnicas, estrutura, checklist) sem transcrição",HUMAN,P2,BACKLOG,1.25,124.0,4.0,3.0,3.0,10.0,8.0,AJ_000194,,
-AJ_000199,README: explicit AI-only spec item (log visibility) + linter rules,,P2,BACKLOG,1.25,125.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000204,Generate unified AI_TABLE_CATALOG (00_INDEX + DATA_INDEX),,P2,BACKLOG,1.25,126.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000206,Speaker registry (NPC + Monster talkers) and authoring contract,SCHEMA,P2,BACKLOG,1.25,127.0,4.0,3.0,3.0,10.0,8.0,AJ_000205,,
 AJ_000210,Aliados/Summons: templates de stats + runtime RGSS (spawn/controle/cleanup) + validações,Arquitetura/Combate,P2,BACKLOG,1.25,128.0,4.0,3.0,3.0,10.0,8.0,,,
@@ -144,3 +143,4 @@ AJ_000161,Revisar Especificação Funcional (BDD/TDD) e registrar no ecossistema
 AJ_000162,Revisar Especificação Técnica e registrar no ecossistema,Arquitetura,P2,BACKLOG,1.230769,143.0,6.0,3.0,7.0,16.0,13.0,,,
 AJ_000190,COL_META: enriquecer semântica + constraints e gerar MER/Specs ai-friendly,GOV/SCHEMA,P2,BACKLOG,1.230769,144.0,6.0,3.0,7.0,16.0,13.0,AJ_000124,,
 AJ_000286,Chunk 16V18 — Revisar e canonizar (Reino Élfico — Mercado Élfico),MAPA,P2,BACKLOG,1.230769,145.0,6.0,3.0,7.0,16.0,13.0,AJ_000290,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
+AJ_000417,CI: linter automático de legibilidade AI + visibilidade de log,QA/CI,P2,BACKLOG,2.6,146.0,5.0,4.0,4.0,13,5.0,AI_READABILITY.md published,Checklist automatizado em CI com relatório QA,Reforça contrato AI-only e visibilidade de logs
