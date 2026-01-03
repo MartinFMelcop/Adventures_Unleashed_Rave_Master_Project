@@ -233,34 +233,37 @@ ${picked.map((p) => `- \`${p}\``).join("\n")}
 
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-  const tool = {
+  const tools = [
+  {
     type: "function",
-    function: {
-      name: "emit_patch",
-      description: "Retorna um patch unified diff (compatível com git apply).",
-      parameters: {
-        type: "object",
-        additionalProperties: false,
-        properties: { patch: { type: "string" } },
-        required: ["patch"],
+    name: "emit_patch",
+    description: "Retorna um patch unified diff (compatível com git apply).",
+    strict: true,
+    parameters: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        patch: { type: "string" },
       },
-      strict: true,
+      required: ["patch"],
     },
-  };
+  },
+];
 
-  const resp = await client.responses.create({
-    model: MODEL,
-    input: [
-      {
-        role: "system",
-        content:
-          "Você é um bot de manutenção de projeto RPG Maker XP. Retorne SOMENTE um patch unified diff (git apply).",
-      },
-      { role: "user", content: ctx },
-    ],
-    tools: [tool],
-    tool_choice: { type: "function", function: { name: "emit_patch" } },
-  });
+const resp = await client.responses.create({
+  model: MODEL,
+  input: [
+    {
+      role: "system",
+      content:
+        "Você é um bot de manutenção de projeto RPG Maker XP. Retorne SOMENTE um patch unified diff (git apply).",
+    },
+    { role: "user", content: ctx },
+  ],
+  tools,
+  tool_choice: { type: "function", name: "emit_patch" },
+});
+
 
   const call = (resp.output || []).find((o) => o.type === "function_call" && o.name === "emit_patch");
   if (!call) throw new Error("Modelo não retornou function_call emit_patch.");
