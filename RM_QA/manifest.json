@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000199",
+  "version_aj": "AJ_000418",
   "manifest_version": 1,
-  "generated_utc": "2026-01-03T19:53:57Z",
+  "generated_utc": "2026-01-03T20:22:08Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -11,8 +11,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 23263,
-      "sha256": "ba91b8d033be68293c3d1a3e554481e7b188c88be71b1f33bbb5fd0a84c7d00f"
+      "bytes": 23611,
+      "sha256": "1e2e6fa6117d65ee305d4872c8f2c69d69853a3bc0df27eadd305577c72c081e"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -36,8 +36,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 30349,
-      "sha256": "5d35076e3afcbc0bcafcd46693d9f73e932b03d4087b440492190ef022b7dbcc"
+      "bytes": 30987,
+      "sha256": "f64b0a8dcb43b6be57765dc0dc40ff5be25aa578b7cae756c1e813d49b735b2b"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -63,6 +63,11 @@
       "relpath": "DATA/QA/DOCUMENTACAO_CLASSES.csv",
       "bytes": 49451,
       "sha256": "50434ce3b0fcd14311ff6bbaf6ac3b23862879219cdb09ae2d5e59c2827bd810"
+    },
+    {
+      "relpath": "DATA/QA/EVIDENCES/AJ_000373_ANALISE.md",
+      "bytes": 3110,
+      "sha256": "320c5efd66c13e8e224195a685561deb20ab546be2a8cfba53c94c8ce92e3d0e"
     },
     {
       "relpath": "DATA/QA/EVIDENCES/SMOKE/.keep",
@@ -166,8 +171,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 376361,
-      "sha256": "b6a0042656cc1babffa4c7d14202a3cfef1eaf207ac55751593afc37fb386caf"
+      "bytes": 379363,
+      "sha256": "1051259dbada8ef88781e9b8a82174da3eb2015e0ea9670b264c53c27408aa61"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -406,8 +411,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 26612,
-      "sha256": "307a07fc629c42c25f3204a1b32b57ee166992799ce184f955ce98457248fab0"
+      "bytes": 27039,
+      "sha256": "da232c9bba3f0c74365303f2bc2fef9811a592c97075ecf7ec1d287f11ddc81e"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",
@@ -530,6 +535,11 @@
       "sha256": "b3370fb6eb05f27fd44d09162450110beee14bfb1d1586c461cbd824c29bc9ea"
     },
     {
+      "relpath": "DATA/QA/TOOLS/refresh_integrity_artifacts.py",
+      "bytes": 5244,
+      "sha256": "e8f7ff5aca9d30e599513e7be86ecc2b439a81839314ae9c33ac310da4317ec9"
+    },
+    {
       "relpath": "DATA/QA/TOOLS/run_combat_vector_runner.py",
       "bytes": 12488,
       "sha256": "af5974ab68777705dfd6f956da6368ad55c348a95a5a0477907bd14961e1c80f"
@@ -576,14 +586,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 11614,
-      "sha256": "ea01a4a243d5a05f117b296cf900ba54cba452b4bf3435ff16e4e01cadf94b40"
-    },
-    {
-      "relpath": "manifest.json",
-      "bytes": 19983,
-      "sha256": "f95d3674ecccaa276554d874dee58da6996a2388a19401c580b1875cf9920657"
+      "bytes": 11830,
+      "sha256": "5775e9542f8c13d5c14d35fa3dadf4e5f3081549b2f2ef36623ecc11b94c5bca"
     }
-  ],
-  "version_build": "Build_000001"
+  ]
 }
