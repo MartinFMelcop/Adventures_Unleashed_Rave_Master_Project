@@ -10,11 +10,11 @@ AJ_000398,UI seleção de passiva única equipada,UI/Build,P0,BACKLOG,3.375,8.0,
 AJ_000399,UI slots de habilidades ativas,UI/Combate,P0,BACKLOG,3.375,9.0,10.0,10.0,7.0,27.0,8.0,,,
 AJ_000400,Quest Journal jogável (main + side),UI/Quests,P0,BACKLOG,3.375,10.0,10.0,10.0,7.0,27.0,8.0,,,
 AJ_000406,Persistência local-test (save/load) para flags/quests/reputação/passiva,Save/Load,P0,BACKLOG,3.375,11.0,9.0,10.0,8.0,27.0,8.0,,,
-AJ_000408,Aplicar Tone dia/noite em mapas externos + persistir em transfer,Iluminação/DiaNoite,P0,BACKLOG,3.375,12.0,9.0,10.0,8.0,27.0,8.0,,,
+AJ_000408,Aplicar Tone dia/noite em mapas externos + persistir em transfer,Iluminação/DiaNoite,P0,BACKLOG,3.375,12.0,9.0,10.0,8.0,27.0,8.0,,,Precisamos decidir storage da TIME_TONE_OVERRIDES (CSV vs script) e convenção de nomes de mapas; alinhar se interiores especiais usam tone global ou opt-out explícito; checar se há mapas com tone custom atual que não devem ser sobrescritos.
 AJ_000158,Revisar cavernas/iluminação/tochas/postes de luz (mecânicas e dados),Dungeons,P0,BACKLOG,3.125,13.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000407,Runtime do Tempo (tick + troca de fase + flags),Tempo,P0,BACKLOG,3.125,14.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000409,Framework 'Caverna Escura' (overlay + luzes por evento),Iluminação/Cavernas,P0,BACKLOG,3.125,15.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000410,Item/estado Tocha/Lanterna integrado ao lighting,Iluminação/Itens,P0,BACKLOG,3.125,16.0,9.0,9.0,7.0,25.0,8.0,,,
+AJ_000407,Runtime do Tempo (tick + troca de fase + flags),Tempo,P0,BACKLOG,3.125,14.0,9.0,9.0,7.0,25.0,8.0,,,"Definir resolução do tick (frames vs segundos) e como pausar durante cutscenes; confirmar se V_TIME_PHASE é inteiro ou símbolo para scripts existentes; mapear impacto em auto-run comuns (ex.: teleporte, batalha)."
+AJ_000409,Framework 'Caverna Escura' (overlay + luzes por evento),Iluminação/Cavernas,P0,BACKLOG,3.125,15.0,9.0,9.0,7.0,25.0,8.0,,,Definir thresholds de desempenho alvo (FPS mínimo) e tamanho máximo de bitmap cache; alinhar política de redraw (per frame vs on change); checar coexistência com weather/fog existentes.
+AJ_000410,Item/estado Tocha/Lanterna integrado ao lighting,Iluminação/Itens,P0,BACKLOG,3.125,16.0,9.0,9.0,7.0,25.0,8.0,,,Decidir modelo de uso (toggle infinito vs consumível); definir fontes iniciais de obtenção (loja/loot/craft) para Ato 1; alinhar se tocha influencia stealth/percepção ou apenas iluminação.
 AJ_000411,Plano de iluminação Ato 1: DGN-FORT-01 e DGN-COAST-01 + casas da vila,Iluminação/Conteúdo,P0,BACKLOG,3.125,17.0,9.0,9.0,7.0,25.0,8.0,,,
 AJ_000217,Ato 1: Gancho do protagonista (menina desaparecida + panfletos + mapa narrativo),STORY/HOOK,P0,BACKLOG,3.0,18.0,9.0,9.0,6.0,24.0,8.0,Define starting capital chunk IDs + initial quest ID namespace.,Hook + quest/beat data exists and references validate.,
 AJ_000381,Implementar prólogo slideshow no RMXP (skip/avanço),Narrativa/UX,P0,BACKLOG,3.0,19.0,9.0,9.0,6.0,24.0,8.0,,,
@@ -49,15 +49,15 @@ AJ_000328,Chunk 22W9 — Revisar e canonizar (Pântano — Campina da Tumba),MAP
 AJ_000329,Chunk 22X10 — Revisar e canonizar (Pântano — Campo dos Líquens Luminosos),MAPA,P0,BACKLOG,2.4,48.0,5.0,4.0,3.0,12.0,5.0,AJ_000338,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000148,"Unificar base única de habilidades (Monstros, Classes, Aliados, Summons, Combate)",Combate/Skills,P0,BACKLOG,2.375,49.0,8.0,6.0,5.0,19.0,8.0,,,
 AJ_000150,Revisar regras de combate/cálculos/escalabilidade/multiplicadores/competitividade,Combate/Balance,P0,BACKLOG,2.375,50.0,8.0,6.0,5.0,19.0,8.0,,,
-AJ_000184,Melhoria: LinhasCopiadas/ColunasCopiadas por última célula não vazia (não max_row/max_col),Governança,P0,BACKLOG,2.375,51.0,6.0,4.0,9.0,19.0,8.0,Nenhuma,,
 AJ_000354,Terminologia: padronizar Âncora de Respawn (Lareira/Acampamento) em dados e docs,GOV/Terminologia,P0,BACKLOG,2.375,52.0,6.0,4.0,9.0,19.0,8.0,AJ_000350,,
+AJ_000416,Automação CI: recalcular used range do 00_INDEX e alertar drift,Governança/CI,P1,BACKLOG,3.0,52.0,6.0,5.0,4.0,15.0,5.0,,,Follow-up de AJ_000184 para evitar recalculo manual e monitorar drift.
 AJ_000367,Normalizar sheet_name_map.json para schema único,GOV/SCHEMA,P0,BACKLOG,2.375,53.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000368,Criar README de módulo (ACT1/QA/ART) + links cruzados,Governança/README,P0,BACKLOG,2.375,54.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000370,Definir DoD formal para 'canonizar chunk' + validação QA,GOV/Chunks,P0,BACKLOG,2.375,55.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000374,Índice mestre de referências RMXP (doc único + links),GOV/RMXP,P0,BACKLOG,2.375,56.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000375,Validador anti-regressão: índices órfãos (DATA_INDEX vs arquivos),QA/CI,P0,BACKLOG,2.375,57.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000376,Padronizar WorkbooksImpactados/SheetsImpactadas + validação,QA/GOV,P0,BACKLOG,2.375,58.0,6.0,4.0,9.0,19.0,8.0,,,
-AJ_000405,Troca automática de BGM/BGS por contexto (Ato 1),Áudio,P0,BACKLOG,2.2,59.0,5.0,3.0,3.0,11.0,5.0,,,
+AJ_000405,Troca automática de BGM/BGS por contexto (Ato 1),Áudio,P0,BACKLOG,2.2,59.0,5.0,3.0,3.0,11.0,5.0,,,Confirmar BGM/BGS default por MapType e naming final dos arquivos; definir nível de log/alerta quando fallback é usado; alinhar ordem de prioridade entre cutscene/combate/ambiente para scripts existentes.
 AJ_000121,Trocar política de nome duplicado de itens: NomeBase + NomeDisplay,Itens,P1,BACKLOG,2.125,60.0,7.0,6.0,4.0,17.0,8.0,Referência ao ajuste anterior 'Como evitar confusão de itens com mesmo nome (por raridade)?' (AJ_000026),,
 AJ_000149,"Revisar nomes de regiões, personagens e monstros (nomenclatura e consistência)",Padrões/IDs,P1,BACKLOG,2.125,61.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000154,"Revisar itens de coleta (picaretas, machados, pesca, herborismo etc.)",Itens,P1,BACKLOG,2.125,62.0,7.0,6.0,4.0,17.0,8.0,,,
