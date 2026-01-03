@@ -1,42 +1,72 @@
-﻿name: AI - Aplicar próximo ajuste
+﻿name: AI Ajustes (auto)
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *" # a cada 30 min (UTC)
+  workflow_dispatch: {}
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: ai-ajustes
+  cancel-in-progress: false
 
 jobs:
-  apply-next-adjustment:
+  run:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
+          cache-dependency-path: automation/package-lock.json
 
       - name: Install deps
         working-directory: automation
         run: npm ci
 
-      - name: Run bot (gera mudanças no workspace)
+      - name: Run bot
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: "gpt-5.2"
           LOG_PATH: "RM_QA/DATA/QA/LOG_AJUSTES.csv"
-          AI_MAX_FILES: "10"
+          AI_STOP_NEW_BACKLOG_AT: "1500"
+          AI_MAX_FILES: "16"
           AI_MAX_CHARS: "20000"
-        run: node automation/ai_apply_next_adjustment.mjs
+          AI_MODEL_ATTEMPTS: "3"
+        run: |
+          set -euo pipefail
+          node automation/ai_apply_next_adjustment.mjs | tee /tmp/ai.log
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: "ai/ajustes"
-          title: "AI: aplicar próximo ajuste do LOG_AJUSTES"
-          body-path: automation/_AI_PR_BODY.md
-          commit-message: "AI: aplicar próximo ajuste do LOG_AJUSTES"
-          labels: automated,ai-ajustes
+      - name: Commit & push (no approval)
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "ai-ajustes-bot"
+          git config user.email "ai-ajustes-bot@users.noreply.github.com"
+
+          AJ=$(grep -oE 'AJ_[0-9]{6}' /tmp/ai.log | head -n 1 || true)
+          MSG="AI: apply next AJ"
+          if [[ -n "$AJ" ]]; then MSG="AI: apply $AJ"; fi
+
+          git add -A
+          git commit -m "$MSG"
+
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"

@@ -27,3 +27,9 @@ automation/node_modules/
 automation/_AI_*
 automation/_last_patch.diff
 automation/_context_dump.txt
+
+node_modules/
+automation/node_modules/
+automation/_AI_PR_BODY.md
+automation/_last_patch.diff
+
