@@ -580,20 +580,18 @@ async function appendChangeLog(ajusteId, changedFiles) {
 
 // ===================== OpenAI patch generation =====================
 async function requestPatch(client, ctx, attempt) {
-  const tools = [
+    const tools = [
     {
       type: "function",
-      function: {
-        name: "emit_patch",
-        description: "Retorna um patch unified diff compatível com git apply (deve começar com 'diff --git').",
-        parameters: {
-          type: "object",
-          additionalProperties: false,
-          properties: { patch: { type: "string" } },
-          required: ["patch"],
-        },
-        strict: true,
+      name: "emit_patch",
+      description: "Retorna um patch unified diff compatível com git apply (deve começar com 'diff --git').",
+      parameters: {
+        type: "object",
+        additionalProperties: false,
+        properties: { patch: { type: "string" } },
+        required: ["patch"],
       },
+      strict: true,
     },
   ];
 
@@ -617,7 +615,7 @@ async function requestPatch(client, ctx, attempt) {
       { role: "user", content: user },
     ],
     tools,
-    tool_choice: { type: "function", function: { name: "emit_patch" } },
+        tool_choice: { type: "function", name: "emit_patch" },
   });
 
   const call = (resp.output || []).find(
