@@ -1,0 +1,192 @@
+﻿diff --git a/automation/ai_apply_next_adjustment.mjs b/automation/ai_apply_next_adjustment.mjs
+index 15029ef..20ff935 100644
+--- a/automation/ai_apply_next_adjustment.mjs
++++ b/automation/ai_apply_next_adjustment.mjs
+@@ -275,6 +275,41 @@ function validatePatchPaths(patchText) {
+   }
+ }
+ 
++
++function normalizePatchText(patchText) {
++  let p = String(patchText || "");
++  // Remove BOM, normalize quebras de linha (git apply no Linux espera \n)
++  p = p.replace(/^\uFEFF/, "");
++  p = p.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
++
++  // Se o modelo ignorar o contrato e mandar fences, removemos.
++  p = p.replace(/^```(?:diff)?\s*\n/, "");
++  p = p.replace(/\n```\s*$/, "");
++
++  return p.trim() + "\n";
++}
++
++function patchSnippetAroundLine(patchText, lineNo, radius = 6) {
++  const lines = String(patchText || "").split("\n");
++  const n = Math.max(1, Number(lineNo) || 1);
++  const start = Math.max(1, n - radius);
++  const end = Math.min(lines.length, n + radius);
++  const out = [];
++  for (let i = start; i <= end; i++) {
++    out.push(`${String(i).padStart(4, " ")}: ${lines[i - 1] ?? ""}`);
++  }
++  return out.join("\n");
++}
++
++function buildApplyFeedback(errMsg, patchText) {
++  const msg = String(errMsg || "");
++  const m = msg.match(/line\s+(\d+)/i);
++  if (!m) return msg;
++  const lineNo = Number(m[1]);
++  return `${msg}\n\nTrecho do patch ao redor da linha ${lineNo}:\n${patchSnippetAroundLine(patchText, lineNo)}`;
++}
++
++
+ function computeWSJFFields(r) {
+   const bv = num(r.BV, NaN);
+   const tc = num(r.TC, NaN);
+@@ -579,21 +614,19 @@ async function appendChangeLog(ajusteId, changedFiles) {
+ }
+ 
+ // ===================== OpenAI patch generation =====================
+-async function requestPatch(client, ctx, attempt) {
++async function requestPatch(client, ctx, attempt, validationFeedback) {
+   const tools = [
+     {
+       type: "function",
+-      function: {
+-        name: "emit_patch",
+-        description: "Retorna um patch unified diff compatível com git apply (deve começar com 'diff --git').",
+-        parameters: {
+-          type: "object",
+-          additionalProperties: false,
+-          properties: { patch: { type: "string" } },
+-          required: ["patch"],
+-        },
+-        strict: true,
++      name: "emit_patch",
++      description: "Retorna um patch unified diff compatível com git apply (deve começar com 'diff --git').",
++      parameters: {
++        type: "object",
++        additionalProperties: false,
++        properties: { patch: { type: "string" } },
++        required: ["patch"],
+       },
++      strict: true,
+     },
+   ];
+ 
+@@ -601,14 +634,19 @@ async function requestPatch(client, ctx, attempt) {
+     "Você é um bot de manutenção de projeto RPG Maker XP.",
+     "RETORNE SOMENTE um patch unified diff compatível com `git apply`.",
+     "O patch DEVE começar com `diff --git`.",
++    "NUNCA use '...' ou placeholders — o diff precisa ser completo e aplicável.",
+     "Nada de explicações, nada fora do diff.",
+     "Mudanças mínimas; sem refatoração desnecessária.",
+   ].join("\n");
+ 
+-  const user =
++  const baseUser =
+     attempt === 1
+       ? ctx
+-      : `Sua resposta anterior foi inválida.\nRegras:\n- Retorne APENAS o patch unified diff.\n- Deve começar com 'diff --git'.\n\n${ctx}`;
++      : `Sua resposta anterior foi inválida.\nRegras:\n- Retorne APENAS o patch unified diff.\n- Deve começar com 'diff --git'.\n- Sem texto fora do diff.\n\n${ctx}`;
++
++  const user = validationFeedback
++    ? `${baseUser}\n\nIMPORTANTE: Seu patch anterior falhou no \`git apply --check\`.\nErro:\n${validationFeedback}\n\nCorrija o patch e retorne novamente APENAS o diff.`
++    : baseUser;
+ 
+   const resp = await client.responses.create({
+     model: MODEL,
+@@ -617,19 +655,23 @@ async function requestPatch(client, ctx, attempt) {
+       { role: "user", content: user },
+     ],
+     tools,
+-    tool_choice: { type: "function", function: { name: "emit_patch" } },
++    tool_choice: { type: "function", name: "emit_patch" },
+   });
+ 
+   const call = (resp.output || []).find(
+-    (o) => o.type === "function_call" && (o.name === "emit_patch" || o?.function?.name === "emit_patch")
++    (o) =>
++      o.type === "function_call" &&
++      (o.name === "emit_patch" || o?.function?.name === "emit_patch")
+   );
+   if (!call) throw new Error("Modelo não retornou function_call emit_patch.");
+ 
+   const rawArgs = call.arguments ?? call?.function?.arguments;
+-  const args = typeof rawArgs === "string" ? JSON.parse(rawArgs || "{}") : (rawArgs || {});
+-  return String(args.patch || "").trim();
++  const args =
++    typeof rawArgs === "string" ? JSON.parse(rawArgs || "{}") : (rawArgs || {});
++  return normalizePatchText(String(args.patch || ""));
+ }
+ 
++
+ // ===================== Main =====================
+ async function main() {
+   if (!process.env.OPENAI_API_KEY) {
+@@ -686,30 +728,54 @@ async function main() {
+     }
+   }
+ 
+-  // 5) Pedir patch ao modelo (com retries)
++  // 5) Pedir patch ao modelo (com retries + git apply --check)
+   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+ 
++  const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), "rm_ai_patch_"));
++  const patchPath = path.join(tmpDir, `last_patch_${ajusteId}.diff`);
++
+   let patch = "";
+   let lastErr = null;
++  let validationFeedback = "";
++
+   for (let attempt = 1; attempt <= MAX_MODEL_ATTEMPTS; attempt++) {
+     try {
+-      patch = await requestPatch(client, ctx, attempt);
+-      if (!patch.startsWith("diff --git")) throw new Error("Patch inválido: não começa com 'diff --git'.");
++      patch = await requestPatch(client, ctx, attempt, validationFeedback);
++
++      if (!patch.startsWith("diff --git")) {
++        throw new Error("Patch inválido: não começa com 'diff --git'.");
++      }
+       validatePatchPaths(patch);
++
++      await fs.writeFile(patchPath, patch, "utf8");
++
++      try {
++        await git(["apply", "--check", "--whitespace=nowarn", patchPath]);
++      } catch (applyErr) {
++        validationFeedback = buildApplyFeedback(
++          applyErr?.message || String(applyErr),
++          patch
++        );
++        console.log("Patch falhou em git apply --check; tentando novamente.");
++        // Log enxuto para debug (não spammar tudo)
++        console.log(validationFeedback.split("\n").slice(0, 60).join("\n"));
++        patch = "";
++        lastErr = applyErr;
++        continue;
++      }
++
++      // OK
+       break;
+     } catch (e) {
+       lastErr = e;
+       patch = "";
++      if (!validationFeedback) validationFeedback = String(e?.message || e);
+     }
+   }
+-  if (!patch) throw lastErr || new Error("Falha ao obter patch válido do modelo.");
+-
+-  // 6) Aplicar patch
+-  const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), "rm_ai_patch_"));
+-  const patchPath = path.join(tmpDir, `last_patch_${ajusteId}.diff`);
+-  await fs.writeFile(patchPath, patch + "\n", "utf8");
+ 
+-  await git(["apply", "--check", "--whitespace=nowarn", patchPath]);
++  if (!patch) throw lastErr || new Error("Falha ao obter patch válido do modelo.");
++
++  // 6) Aplicar patch (já validado)
+   await git(["apply", "--whitespace=nowarn", patchPath]);
+ 
+   // 7) Arquivos alterados
