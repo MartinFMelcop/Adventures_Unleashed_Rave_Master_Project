@@ -1,7 +1,7 @@
 AjusteID,Titulo,Area,Prioridade,Status,WSJF_SCORE,WSJF_RANK,BV,TC,RR_OE,CoD,JobSize,Dependencias,DefinicaoDePronto,Notas
-AJ_000373,Local Test Assembler (montar pasta jogável),Release/Teste,P0,BACKLOG,5.4,1.0,9.0,10.0,8.0,27.0,5.0,,,
-AJ_000248,CI: notificação opcional (Slack/Discord/email) em FAIL do prepack gate,QA/CI,P0,BACKLOG,5.0,2.0,8.0,9.0,8.0,25.0,5.0,,,
-AJ_000297,Chunk 18X18 — Revisar e canonizar (Serra — Porta da Caverna de Prova),MAPA,P0,BACKLOG,5.0,3.0,9.0,9.0,7.0,25.0,5.0,AJ_000296,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
+AJ_000373,Local Test Assembler (montar pasta jogável),Release/Teste,P0,BACKLOG,5.4,1.0,9.0,10.0,8.0,27.0,5.0,,,Precisa checklist de pré-condição e relatório pós-build; avisos para assets opcionais.
+AJ_000248,CI: notificação opcional (Slack/Discord/email) em FAIL do prepack gate,QA/CI,P0,BACKLOG,5.0,2.0,8.0,9.0,8.0,25.0,5.0,,,Definir canal/segredo por env e payload mínimo (gate_<MODULE>.md); flag --notify para builds locais.
+AJ_000297,Chunk 18X18 — Revisar e canonizar (Serra — Porta da Caverna de Prova),MAPA,P0,BACKLOG,5.0,3.0,9.0,9.0,7.0,25.0,5.0,AJ_000296,,Canonização depende de DoD de chunks da serra e decisões narrativas/loot (AJ_000370/387/388).
 AJ_000387,Tabelas de encontro por região/chunk (Monstros ↔ ChavesMapa),Encontros,P0,BACKLOG,3.4,4.0,7.0,6.0,4.0,17.0,5.0,,,
 AJ_000388,Loot mínimo por chunk (drops/baús),Loot,P0,BACKLOG,3.4,5.0,7.0,6.0,4.0,17.0,5.0,,,
 AJ_000369,Revisar política do Act1 Scope Freeze (modo STRICT/MILESTONE/OFF),GOV/Processo,P0,BACKLOG,3.375,6.0,9.0,9.0,9.0,27.0,8.0,,,
@@ -144,3 +144,4 @@ AJ_000162,Revisar Especificação Técnica e registrar no ecossistema,Arquitetur
 AJ_000190,COL_META: enriquecer semântica + constraints e gerar MER/Specs ai-friendly,GOV/SCHEMA,P2,BACKLOG,1.230769,144.0,6.0,3.0,7.0,16.0,13.0,AJ_000124,,
 AJ_000286,Chunk 16V18 — Revisar e canonizar (Reino Élfico — Mercado Élfico),MAPA,P2,BACKLOG,1.230769,145.0,6.0,3.0,7.0,16.0,13.0,AJ_000290,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000417,CI: linter automático de legibilidade AI + visibilidade de log,QA/CI,P2,BACKLOG,2.6,146.0,5.0,4.0,4.0,13,5.0,AI_READABILITY.md published,Checklist automatizado em CI com relatório QA,Reforça contrato AI-only e visibilidade de logs
+AJ_000419,Integrar refresh ao CI (todos módulos) + diff de hashes,QA/CI,P1,BACKLOG,1.875,148.0,6.0,4.0,5.0,8.0,8.0,,CI publica diff de manifest/checksums antes do gate.,Criado 2026-01-03T20:21:12Z como follow-up do AJ_000418.
