@@ -19,11 +19,15 @@ python DATA/QA/TOOLS/prepack_gate_validate.py RM_CORE RM_ACT1 RM_QA RM_ART RM_LE
 
 ## Output files (optional)
 - `--json-out gate.json` writes a structured summary (status + findings)
-- `--md-out gate.md` writes a Markdown summary (handy for PR comments)
+- `--md-out gate.md` writes a Markdown summary (handy for PR comments or notifications)
+- `--notify-webhook <URL>` or env `RM_NOTIFY_WEBHOOK`: posts a JSON payload when the gate **fails** (or on pass when `--notify-on-pass`)
 
 Example:
 ```bash
-python DATA/QA/TOOLS/prepack_gate_validate.py --md-out gate_RM_QA.md RM_QA
+python DATA/QA/TOOLS/prepack_gate_validate.py \
+  --md-out gate_RM_QA.md \
+  --notify-webhook "$RM_NOTIFY_WEBHOOK" \
+  RM_QA
 ```
 
 ## How to integrate in CI
@@ -33,4 +37,5 @@ python DATA/QA/TOOLS/prepack_gate_validate.py --md-out gate_RM_QA.md RM_QA
 
 ## Notes
 - This is the **gate** only. Generating the reports (ex.: `RPT_TRACEABILITY_VALIDATION`) happens in earlier pipeline steps.
-- Version: **AJ_000243** (2025-12-27)
+- Notification payload is generic JSON (`status`, counters, preview of findings, and optional link to the generated Markdown). Adapt to Slack/Discord by wrapping in the target service format.
+- Version: **AJ_000248** (2026-01-03)

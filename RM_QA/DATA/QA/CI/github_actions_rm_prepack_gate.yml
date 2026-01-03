@@ -26,21 +26,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepack gate (integrity + traceability)
+        env:
+          RM_NOTIFY_WEBHOOK: ${{ secrets.RM_NOTIFY_WEBHOOK }}
         run: |
           python RM_QA/DATA/QA/TOOLS/prepack_gate_validate.py \
             --skip-dialogue-scenarios \
             --skip-combat-vectors \
+            --md-out gate_${{ matrix.module }}.md \
+            --json-out gate_${{ matrix.module }}.json \
+            --notify-env RM_NOTIFY_WEBHOOK \
             ${{ matrix.module }}
-
-      - name: Optional notify webhook
-        if: always()
-        env:
-          RM_NOTIFY_WEBHOOK: ${{ secrets.RM_NOTIFY_WEBHOOK }}
-          RM_MODULE: ${{ matrix.module }}
-          RM_STATUS: ${{ job.status }}
-        run: |
-          if [ -n "$RM_NOTIFY_WEBHOOK" ]; then
-            curl -sS -X POST "$RM_NOTIFY_WEBHOOK" \
-              -H "Content-Type: application/json" \
-              -d "{\"module\": \"$RM_MODULE\", \"status\": \"$RM_STATUS\", \"workflow\": \"RM Prepack Gate\"}" || true
-          fi

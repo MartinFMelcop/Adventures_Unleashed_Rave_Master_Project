@@ -36,6 +36,8 @@ import zipfile
 import subprocess
 import tempfile
 import shutil
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
@@ -347,6 +349,28 @@ def _findings_to_json(all_findings: List[Finding]) -> Dict:
         ],
     }
 
+
+def _build_notify_payload(status: str, fails: List[Finding], warns: List[Finding], md_out: Optional[str]) -> Dict:
+    preview: List[Finding] = fails[:5] if fails else warns[:3]
+    lines = []
+    for f in preview:
+        lines.append(f"{f.module}:{f.code} — {f.message}")
+    return {
+        "status": status,
+        "fail_count": len(fails),
+        "warn_count": len(warns),
+        "summary": f"PREPACK_GATE {status} (fails={len(fails)}, warns={len(warns)})",
+        "preview": lines,
+        "details_md": md_out,
+    }
+
+
+def _send_webhook(url: str, payload: Dict) -> None:
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        resp.read()
+
 def _render_markdown_summary(all_findings: List[Finding]) -> str:
     data = _findings_to_json(all_findings)
     status = data["status"]
@@ -513,6 +537,12 @@ def main(argv: Optional[List[str]] = None) -> int:
                     help="Write a JSON summary of findings to this path.")
     ap.add_argument("--md-out", default=None,
                     help="Write a Markdown summary of findings to this path (useful for PR comments).")
+    ap.add_argument("--notify-webhook", default=None,
+                    help="Webhook URL (JSON POST) used to notify on FAIL. If omitted, uses the env var defined by --notify-env.")
+    ap.add_argument("--notify-env", default="RM_NOTIFY_WEBHOOK",
+                    help="Environment variable that stores the webhook URL (default: RM_NOTIFY_WEBHOOK).")
+    ap.add_argument("--notify-on-pass", action="store_true",
+                    help="Also send notification when the gate passes (default: only on FAIL).")
     ap.add_argument("modules", nargs="+", help="One or more module ZIPs (or extracted module folders).")
     args = ap.parse_args(argv)
 
@@ -540,6 +570,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     fails = [f for f in all_findings if f.level == "FAIL"]
     warns = [f for f in all_findings if f.level == "WARN"]
+    notify_url = (args.notify_webhook or os.environ.get(args.notify_env, "")).strip()
 
     if fails:
         print("PREPACK_GATE: FAIL")
@@ -548,12 +579,22 @@ def main(argv: Optional[List[str]] = None) -> int:
         if warns:
             for f in warns:
                 print(f"[{f.module}] {f.code}: {f.message}")
+        if notify_url:
+            try:
+                _send_webhook(notify_url, _build_notify_payload("FAIL", fails, warns, args.md_out))
+            except Exception as e:
+                print(f"PREPACK_GATE: WARN (notify failed): {e}", file=sys.stderr)
         return 1
 
     print("PREPACK_GATE: PASS")
     if warns:
         for f in warns:
             print(f"[{f.module}] {f.code}: {f.message}")
+    if notify_url and args.notify_on_pass:
+        try:
+            _send_webhook(notify_url, _build_notify_payload("PASS", fails, warns, args.md_out))
+        except Exception as e:
+            print(f"PREPACK_GATE: WARN (notify failed): {e}", file=sys.stderr)
     return 0
 
 if __name__ == "__main__":

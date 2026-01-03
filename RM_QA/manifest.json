@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000418",
+  "version_aj": "AJ_000248",
   "manifest_version": 1,
-  "generated_utc": "2026-01-03T20:22:08Z",
+  "generated_utc": "2026-01-03T20:40:32Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -12,7 +12,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 23611,
-      "sha256": "1e2e6fa6117d65ee305d4872c8f2c69d69853a3bc0df27eadd305577c72c081e"
+      "sha256": "52614a5663efa1969276be575e8f3453191a7598cf50121d746378f755f0540c"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -21,8 +21,8 @@
     },
     {
       "relpath": "DATA/QA/00_INDEX.csv",
-      "bytes": 23147,
-      "sha256": "2bd3055199e6d67f1285ed3cbb91d1882c21d1025df2456bd11c4be09e7816c1"
+      "bytes": 23161,
+      "sha256": "a0429f9b11b8b4f171410ee235102f681926ef8555beb411c6bc37cae9f1aba5"
     },
     {
       "relpath": "DATA/QA/00_INDEX_DEPRECADA.csv",
@@ -35,19 +35,24 @@
       "sha256": "f05edb790ceb3f6fa1b808a132b30791ecb35a94c833a21c0f9c89aa92c3343d"
     },
     {
+      "relpath": "DATA/QA/ANALISES_AJ_000405_000408.md",
+      "bytes": 3699,
+      "sha256": "e441f32494e65e0a81f17c64f3c829a39d0141e5a88f82467413243901b9c451"
+    },
+    {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 30987,
-      "sha256": "f64b0a8dcb43b6be57765dc0dc40ff5be25aa578b7cae756c1e813d49b735b2b"
+      "bytes": 31409,
+      "sha256": "3921540eb971197abf9fc89e8dfd84b1ff03eb2da7ae8a15df3ec60b00509b54"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
-      "bytes": 1262,
-      "sha256": "1cb4dee48ce261d2d1ec36004f91426a6f467e87bd7ebd70ee3868595ceb69d4"
+      "bytes": 1467,
+      "sha256": "c0519ad7a4615120c027249012bea059e29cfa89615613f09023bc1967774b1c"
     },
     {
       "relpath": "DATA/QA/CI/github_actions_rm_prepack_gate.yml",
-      "bytes": 1385,
-      "sha256": "e123efc6637bd7b75915d7b7c591e19efaab3a57a09566afdaa6bf60e11089cf"
+      "bytes": 1099,
+      "sha256": "e5d4b54fe4621853e1744d07aec9a9145610e80f1fb3542e1cfdf00ee1407e06"
     },
     {
       "relpath": "DATA/QA/DIC_SHEET_ALIASES.csv",
@@ -63,6 +68,11 @@
       "relpath": "DATA/QA/DOCUMENTACAO_CLASSES.csv",
       "bytes": 49451,
       "sha256": "50434ce3b0fcd14311ff6bbaf6ac3b23862879219cdb09ae2d5e59c2827bd810"
+    },
+    {
+      "relpath": "DATA/QA/EVIDENCES/AJ_000248_ANALISE.md",
+      "bytes": 1928,
+      "sha256": "3891a95c4e2bf01d653d2f7db6a14023c9cfb5c33dcefefdfd75154d5b5b3f47"
     },
     {
       "relpath": "DATA/QA/EVIDENCES/AJ_000373_ANALISE.md",
@@ -171,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 379363,
-      "sha256": "1051259dbada8ef88781e9b8a82174da3eb2015e0ea9670b264c53c27408aa61"
+      "bytes": 382180,
+      "sha256": "5f37212733296da400643f16183eee4963352d563b60c73f99ec9d10d910889d"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -411,8 +421,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 27039,
-      "sha256": "da232c9bba3f0c74365303f2bc2fef9811a592c97075ecf7ec1d287f11ddc81e"
+      "bytes": 25657,
+      "sha256": "d8116a45016ca7074c6480d4fd22cf0481d59b723b87d2f1041657602bc81415"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",
@@ -506,8 +516,8 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/PREPACK_GATE.md",
-      "bytes": 1403,
-      "sha256": "9ce9393d37878e59290f2e18178a38815453aa1b5fd00d7566b6e6c24db7b08d"
+      "bytes": 1799,
+      "sha256": "f4ba2cd342dfde8bd447bca8b97d58e4885cdbc815cd660d9bf02790e9fd1f79"
     },
     {
       "relpath": "DATA/QA/TOOLS/__pycache__/prepack_gate_validate.cpython-311.pyc",
@@ -531,8 +541,8 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/prepack_gate_validate.py",
-      "bytes": 25591,
-      "sha256": "b3370fb6eb05f27fd44d09162450110beee14bfb1d1586c461cbd824c29bc9ea"
+      "bytes": 27560,
+      "sha256": "a59792c0f6c55332d470c29696c8547ab02f280f93c0b6c37617caa6b4cda14f"
     },
     {
       "relpath": "DATA/QA/TOOLS/refresh_integrity_artifacts.py",
@@ -586,8 +596,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 11830,
-      "sha256": "5775e9542f8c13d5c14d35fa3dadf4e5f3081549b2f2ef36623ecc11b94c5bca"
+      "bytes": 12038,
+      "sha256": "b14ca13310af187129025f95eaf4524fb7344ec62b13dbe21b38c4d374d53e3b"
     }
   ]
 }

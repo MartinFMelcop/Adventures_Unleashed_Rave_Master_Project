@@ -8,6 +8,7 @@ This folder contains **templates** to help you run the RM validation gates in CI
   - runs the **prepack gate** (`prepack_gate_validate.py`) as a **matrix per module**
   - uploads gate summaries + QA reports as artifacts
   - (on PRs) posts/updates a **single PR comment** with a combined gate summary
+  - optionally posts a **webhook notification** (Slack/Discord/email gateway) on **FAIL**
 
 ## How to use
 
@@ -25,6 +26,7 @@ This folder contains **templates** to help you run the RM validation gates in CI
 3) The workflow will:
 - fail the build if the gate prints `PREPACK_GATE: FAIL`
 - upload `gate_<MODULE>.md` and `RM_QA/DATA/QA/RPT_*.csv` artifacts (even on failure)
+- send an **optional webhook** (set `secrets.RM_NOTIFY_WEBHOOK`) with a short JSON summary when a matrix leg fails
 
 ## Status badge (optional)
 
