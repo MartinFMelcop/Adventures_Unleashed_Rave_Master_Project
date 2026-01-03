@@ -21,3 +21,9 @@ Desktop.ini
 
 # RPG Maker XP possíveis artefatos externos
 /Game.rgssad
+
+
+automation/node_modules/
+automation/_AI_*
+automation/_last_patch.diff
+automation/_context_dump.txt
