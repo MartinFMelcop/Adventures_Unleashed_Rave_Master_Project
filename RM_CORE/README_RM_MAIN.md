@@ -59,9 +59,10 @@ integrity:
 - **MUST** register at least one *future improvement* in `LOG_AJUSTES.FuturasMelhorias` (even if the AJ is small).
 - **MUST** keep changes incremental and AI-friendly (prefer adding small, well-scoped artifacts over large refactors).
 
-**During homologation of any AJ**  
+**During homologation of any AJ**
 - **MUST** create **at least one** new AJ record in `LOG_AJUSTES` (usually as BACKLOG) capturing a next improvement.
 - **MUST** reprioritize the open pool using **WSJF** (update `WSJF_RANK`) and refresh `DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv`.
+- **MUST** aplicar o checklist de legibilidade/log visibility em `DATA/GOV/AI_READABILITY.md` antes de concluir.
 
 
 **MER / Functional Spec / Technical Spec are living artifacts (NOT optional)**  
@@ -231,6 +232,7 @@ Sempre que eu for **planejar ou executar** qualquer ajuste (AJ), sigo **esta ord
 5. `DATA/QA/CHANGE_LOG.csv` (build history)
 6. `DATA/QA/RMXP_KNOWLEDGE_BASE_CSV.csv` (RMXP terminology grounding)
 7. `DATA/CORE/REFERENCIAS_MASTER.csv` (media/reference canon)
+8. `DATA/GOV/AI_READABILITY.md` (linter de legibilidade/log visibility)
 
 ### AJ_000122 / AJ_000123 — tabelas machine-friendly (canon operacional)
 
