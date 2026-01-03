@@ -1,0 +1,11 @@
+AxisID,AxisKey,DisplayName,Description,Min,Max,DefaultNPC,Notes
+AX01,EMPATHY,Empathy / Prosociality,"Tendency to help, care, and avoid harm; higher = more prosocial.",0,100,50,Used with Trust/Respect for social choices.
+AX02,ASSERTIVENESS,Assertiveness / Dominance,"Tendency to lead, confront, impose boundaries; higher = more dominant.",0,100,50,Low values may 'absorb' conflicts before reacting.
+AX03,ORDER_NEED,Order Need / Conscientiousness,"Preference for structure, rules, planning; higher = more orderly.",0,100,50,Supports 'lawful' behavior patterns.
+AX04,NOVELTY,Novelty Seeking / Curiosity,"Drive to explore, improvise, learn by doing; higher = more curious.",0,100,50,High values favor experimentation.
+AX05,RISK,Risk Appetite,Comfort with danger and uncertainty; higher = more risk-taking.,0,100,50,Affects threat responses and bold actions.
+AX06,PATIENCE,Patience / Delay Tolerance,"Ability to wait, tolerate frustration; higher = more patient.",0,100,50,High values delay escalation; pairs with VOLATILITY.
+AX07,VOLATILITY,Emotional Reactivity / Volatility,How strongly emotions spike under stress; higher = more reactive.,0,100,50,Used with Stress and Outburst rules.
+AX08,BASE_TRUST,Baseline Trust / Suspicion,Default assumption about others; higher = more trusting.,0,100,50,Low values detect manipulation and assume malice.
+AX09,PRAGMATISM,Principles vs Pragmatism,Higher = more principle-driven; lower = more pragmatic/ends-justify.,0,100,50,Supports lawful vs opportunistic moral styles.
+AX10,DIRECTNESS,Communication: Directness vs Tact,Higher = more direct/blunt; lower = more tactful/indirect.,0,100,50,Can be temporarily overridden in OUTBURST.

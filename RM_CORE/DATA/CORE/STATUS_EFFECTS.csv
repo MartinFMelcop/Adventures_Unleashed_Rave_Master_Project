@@ -1,0 +1,7 @@
+StatusID,EffectKey,EffectValue,Unit,Notes
+POISON,DOT_PCT_HP_MAX,0.06,ratio,Tick no fim da rodada; ignora Defender; não escala
+BLEED,DOT_PCT_HP_MAX,0.03,ratio,Tick no fim da rodada; ignora Defender; não escala
+BLEED,HEALING_RECEIVED_MULT,0.7,mult,-30% cura recebida enquanto ativo
+BURN,DOT_PCT_HP_MAX,0.03,ratio,Tick no fim da rodada; ignora Defender; não escala
+BURN,ATK_MULT,0.7,mult,-30% ATK enquanto ativo
+DISARM,WEAPON_DISABLED,1.0,bool,Alvo perde/inefetiva arma enquanto ativo

@@ -1,0 +1,7 @@
+FormulaID,Nome,Formula,Parametros,Defaults,Observacoes
+HIT_C,Hit chance (ACC vs EVA),"clamp(BaseHit * (ACC/(ACC+EVA)) * clamp(0.85,1.15,1+0.02*(LvlAtk-LvlDef)), 0.05, 0.95)","BaseHit, ACC, EVA, LvlAtk, LvlDef",BaseHit=0.90; clampHit=5–95%; lvlCoef=0.02; lvlClamp=0.85–1.15,Opção C (meio-termo): ratio simples + clamps + leve fator de nível.
+CRIT_C,Crit chance (CRIT),"clamp(CritBase*(CRIT/100), 0, 0.50)","CritBase, CRIT",CritBase=1.0; cap=50%; CritMult=1.5x,Opção C (meio-termo): ratio simples + clamps + leve fator de nível.
+RAW_C,Raw damage,Raw=(ATK_or_MATK*EscalaCoef)*(1+Letalidade),"ATK_or_MATK, EscalaCoef, Letalidade",Letalidade baseline 0.00–0.30,Opção C (meio-termo): ratio simples + clamps + leve fator de nível.
+MIT_C,Mitigação DEF/MDEF,K=100+10*LvlDef; Mit=K/(K+DEF_or_MDEF); Dmg=round(Raw*Mit),"LvlDef, DEF_or_MDEF, Raw",Kbase=100; Klvl=10,Opção C (meio-termo): ratio simples + clamps + leve fator de nível.
+APPLY_C,Debuff apply (Gate 2),"clamp(BaseApply*(EFF/(EFF+RES)), 0.05, 0.95)","BaseApply, EFF, RES",BaseApply=1.0; clamp=5–95%,Opção C (meio-termo): ratio simples + clamps + leve fator de nível.
+DUR_C,Duration final,"max(1, round(BaseDur*(1 + DurApply/100 - Ten/100)))","BaseDur, DurApply, Ten",min=1; round(),DurApply=DEBUFF_DUR_APPLY or BUFF_DUR (+BUFF_REC); Ten=DEBUFF_TEN (buff usa +BUFF_REC). Reaplicar soma duração.

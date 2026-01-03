@@ -1,0 +1,8 @@
+check_id,check_name,required,status,details,evidence
+ACT1COV_001,CORE has ACT_ALLOWLIST_ACT1.csv,Y,PASS,DATA/GOV/ACT_ALLOWLIST_ACT1.csv must exist in RM_CORE.,present
+ACT1COV_002,ACT1 has EXPORT_TAGS.csv,Y,PASS,DATA/DEV/EXPORT_TAGS.csv must exist in RM_ACT1.,present
+ACT1COV_003,MODULE_WORKFLOW references ACT_ALLOWLIST_ACT1,Y,PASS,MODULE_WORKFLOW should document allowlist governance for RM_ACT1.,contains ACT_ALLOWLIST_ACT1
+ACT1COV_004,Allowlist includes required DEV scope rule,Y,PASS,Allowlist must include required rule for DATA/DEV/**.,rule present
+ACT1COV_005,RM_ACT1 does not duplicate full CORE,N,PASS,"In bootstrap, RM_ACT1 can reference RM_CORE instead of copying CORE wholesale.",DATA/CORE not present in RM_ACT1
+ACT1COV_006,ACT1 has ACT_ENTITY_TAGS.csv,Y,PASS,RM_ACT1 must include DATA/DEV/ACT_ENTITY_TAGS.csv to define Act 1 subset by entity IDs.,present (263 rows)
+ACT1COV_007,Entity tag coverage (critical entity types),Y,PASS,Entity-level tags must cover all IDs for critical entity tables (CHUNK/QUEST/SIDEQUEST/NPC/MINIDUNGEON/DUNGEON/INNER).,CHUNK:61/61; QUEST:28/28; SIDEQUEST:41/41; NPC:22/22; MINIDUNGEON:5/5; DUNGEON:2/2; INNER:16/16

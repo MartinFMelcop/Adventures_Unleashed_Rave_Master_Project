@@ -1,0 +1,7 @@
+StepID,StepName,Expected,EvidencePath,Status,Notes
+SMK-01,Boot Game.exe,Jogo abre sem crash; chega no Title,EVIDENCES/SMOKE/SMK-01_boot.png,PENDING,
+SMK-02,New Game,New Game inicia; player tem controle; sem softlock,EVIDENCES/SMOKE/SMK-02_new_game.png,PENDING,
+SMK-03,Talk NPC (Action Button),Diálogo abre/fecha; sem travar input,EVIDENCES/SMOKE/SMK-03_dialogue.png,PENDING,Preferir evento Action Button; evitar Autorun permanente.
+SMK-04,Transfer Player,Transferência de mapa funciona; posição correta,EVIDENCES/SMOKE/SMK-04_transfer.png,PENDING,"Se usar variáveis, padrão MapID/X/Y."
+SMK-05,Save,Salvar funciona (cria SaveX.rxdata),EVIDENCES/SMOKE/SMK-05_save.png,PENDING,
+SMK-06,Load,Carregar restaura estado sem crash,EVIDENCES/SMOKE/SMK-06_load.png,PENDING,

@@ -1,0 +1,7 @@
+Parametro,Valor,Descricao
+HAS_ZERO,False,"Não existe reputação 0. Valores válidos: -3,-2,-1,+1,+2,+3."
+CLAMP_MIN,-3,Mínimo (3 estrelas pretas).
+CLAMP_MAX,3,Máximo (3 estrelas brancas).
+NEUTRAL_ABS,1,±1 é quase nulo (tolerância mínima).
+CROSSING_THRESHOLD_ABS,2,Para cruzar de negativo→positivo (ou inverso) exige delta absoluto >=2.
+DELTA_SATURATION,IGNORE,"Se já estiver no máximo/mínimo, ganhos/perdas adicionais não mudam o valor."

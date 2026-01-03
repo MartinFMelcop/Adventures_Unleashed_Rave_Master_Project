@@ -1,0 +1,4 @@
+tag_id,entity_type,entity_ref,tag,tag_scope,notes,status,updated_utc
+EXP_TAG_0001,FILE_PATTERN,DATA/DEV/**,ACT_1,MODULE,Default: all DEV data is considered Act 1 working set until per-entity tagging exists.,ACTIVE,2025-12-25T17:57:47Z
+EXP_TAG_0002,FILE_PATTERN,DATA/DEV/**,EXPORT_ACT1,EXPORT,Used by exporters to include DEV CSVs when producing RM_ACT1.,ACTIVE,2025-12-25T17:57:47Z
+EXP_TAG_0003,TABLE,DATA/DEV/ACT_ENTITY_TAGS.csv,ACT_ENTITY_TAGS,MODULE,Entity-level tagging (by IDs) for ACT_1 / EXPORT_ACT1. Use as the canonical subset definition for Act 1 content.,ACTIVE,2025-12-26T11:52:23Z

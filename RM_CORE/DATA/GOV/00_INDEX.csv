@@ -1,0 +1,24 @@
+Aba,Modulo,LinhasCopiadas,ColunasCopiadas,CamposChave,DescricaoAba,DescricaoDados,TipoAba,DescricaoCurta,Origem,Status,Observacao,Descricao
+MER_AI,GOV,,,RecordID;RecordType,,,,MER AI-friendly scaffold: entities + relationships derived from DIC_* and REL_* patterns.,,ATIVO,,
+SPEC_FUNC_AI,GOV,,,,,,,,,EM_CONSTRUCAO,Canonical CSV: DATA/GOV/SPEC_FUNC_AI.csv ; Doc: DATA/GOV/SPEC_FUNC_AI.md,"Functional specification (AI-friendly): gameplay/governance modules, rules, acceptance criteria, and traceability pointers."
+CHUNKS_ASIM_DET,GOV,,,,,,DB,,,,,
+CHUNKS_ASIM_FIX,GOV,,,,,,DB,,,,,
+CHUNKS_FIX_MANUAL,GOV,,,,,,DB,,,,,
+CHUNKS_INVALID_CELLS,GOV,,,,,,DB,,,,,
+CHUNKS_NORMALIZ_PREVIA,GOV,,,,,,DB,,,,,
+DUPLICIDADES_HASH,GOV,,,,,,DB,,,,,
+00_GOVERNANCA_SUGESTAO,GOV,,,,Rascunho histórico (não editar); usar 00_GOVERNANCA,,DEPRECADA,Rascunho histórico (não editar); usar 00_GOVERNANCA,,,,
+COL_META_MASTER,GOV,,,col_meta_id;column_normalized,COL_META consolidated column dictionary.,"One row per normalized column; includes usage counts, original variants, inferred types, and flags.",GOV_DERIVED,Derived consolidated dictionary of normalized columns (COL_META).,DERIVED,ATIVO,Built from NAMING_MAP_COLUMNS + CSV headers. Use for schema grounding and future renaming/standardization.,
+00_META,GOV,,,,,,LOG,,,,,
+00_GOVERNANCA,GOV,,,Entidade,Matriz de governança (Fonte da Verdade): Entidade→Workbook/Sheet→regras,,QA,Matriz de governança (Fonte da Verdade): Entidade→Workbook/Sheet→regras,,,,
+QA_CHUNKS_RESUMO,GOV,,,,,,QA,,,,,
+QA_CHUNKS_TOTAIS,GOV,,,,,,QA,,,,,
+00_INDEX,GOV,,,,,,REF,,,,,
+00_INDEX_FALTANTES,GOV,,,,,,REF,,,,,
+BUNDLE_SCALING_PLAN,GOV,,,policy_version,Plano de escalabilidade do bundle (quando o snapshot ficar grande).,"Triggers, módulos (CORE/ACT/QA/LEGACY), regras de assembly e operação.",POLICY,Plan: split into deterministic module ZIPs when size thresholds are hit.,DATA/GOV/BUNDLE_SCALING_PLAN.json,ATIVO,Usar quando uploads/downloads falharem ou bundle crescer > thresholds.,Policy machine-readable for modular delivery.
+MODULE_WORKFLOW,GOV,,,module_id;scope,Workflow and operational contract for multi-bundle module ZIP delivery.,"Defines module boundaries, determinism rules, and minimal-change execution steps.",POLICY,Ops: multi-bundle workflow,DATA/GOV/MODULE_WORKFLOW.md,ATIVO,Used when switching to multi-bundle mode (see BUNDLE_SCALING_PLAN).,Machine-readable guidance for split/merge operations and module-only adjustments.
+ACT_ALLOWLIST_ACT1,GOV,5.0,12.0,rule_id,Allowlist deterministic rules for building/exporting RM_ACT1 (Act 1 subset).,Patterns (glob/path) marking which canonical CSVs should be included/excluded in RM_ACT1 packaging.,DB,Allowlist export rules for RM_ACT1 (subset determinístico).,CSV=DATA/GOV/ACT_ALLOWLIST_ACT1.csv,ATIVO,Created by AJ_000225.,Used by tooling/build scripts to produce a deterministic Act 1 working set without copying all CORE.
+TRACEABILITY_MAP,GOV,6.0,7.0,trace_id;tec_spec_id,Traceability join map across MER → Functional → Technical.,Derived mapping table for audits and generators. Derived from SPEC_TEC_AI.trace_mer/trace_func.,DERIVED,MER→FUNC→TEC map,AJ_000203,ATIVO,,Machine-friendly traceability contract.
+ACT_STAGE_MAP,GOV,12.0,5.0,stage_id;act_id,Stable mapping of roadmap Stage IDs to Act gates (Act 1 / Act 4).,Generated from RM_DELIVERY_ROADMAP_AI.json; used for ACT_GATE validation.,DERIVED,Stage→Act map,AJ_000203,ATIVO,,Supports governance and WSJF alignment.
+TRACEABILITY_CONTRACT,GOV,,,,Documentation of the traceability contract and reference formats.,Explains MER_AI / SPEC_FUNC_AI / SPEC_TEC_AI columns and derived maps.,DOC,Traceability contract,AJ_000203,ATIVO,,Human-readable spec for agents.
+ART_PIPELINE_POLICY,GOV,,,,Governance policy for image-only art assets and indexing (sha256 + tags).,Rules for ART_IMAGE_ASSET_INDEX and external pointer conventions.,POLICY,Art pipeline policy,GOV,DRAFT,,Human-readable policy for agents/tooling.

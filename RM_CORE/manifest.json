@@ -1,0 +1,744 @@
+{
+  "module": "RM_CORE",
+  "version_aj": "AJ_000368",
+  "manifest_version": 1,
+  "generated_utc": "2026-01-03T00:19:37Z",
+  "files": [
+    {
+      "relpath": "DATA/.keep",
+      "bytes": 68,
+      "sha256": "0463d2fe6887cc5d8598365b9a33759913c09567de4a083f340cf6ff37185fc9"
+    },
+    {
+      "relpath": "DATA/CORE/00_INDEX.csv",
+      "bytes": 17796,
+      "sha256": "277b9e58f5c163dd7eae17aad32e0de87a2b1feaa52eeac0df2ba9d107d7d482"
+    },
+    {
+      "relpath": "DATA/CORE/00_META.csv",
+      "bytes": 1919,
+      "sha256": "cbcaf023782cf9699e8c20c4d1ef91af10e4641612016ce3edf13cb023cb28ad"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_CHUNKS.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_CLASSES.csv",
+      "bytes": 422,
+      "sha256": "4adec556c9d7c6fbbdbacfd410d333ce9098eb47dc62f729cb42725372d21935"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_FLAGS.csv",
+      "bytes": 296,
+      "sha256": "756b3c8ae8059f252353a20ead80855c800b6be477037e310fe4226d4cdeda15"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_ID.csv",
+      "bytes": 1297,
+      "sha256": "b1617c26ea548b49ac0d198ada1abfabdf312b0bf597d4cb5c0608c4bee16ace"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_ITEMS.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_NPCS.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_PASSIVES.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_QUESTS.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ALIASES_SKILLS.csv",
+      "bytes": 65,
+      "sha256": "4bfe6ffbc093522faa5f4110d51cae5f10ddc3b0287ee53021f429cc09ad1a01"
+    },
+    {
+      "relpath": "DATA/CORE/ANTECEDENTES.csv",
+      "bytes": 2059,
+      "sha256": "c90e329a6217b911146f3ceed2e56ea38ba7ebb6c19d963b5f965ab429dd7b6c"
+    },
+    {
+      "relpath": "DATA/CORE/ART_IMAGE_ASSET_INDEX.csv",
+      "bytes": 135740,
+      "sha256": "c3b791e83b8d5a2d8e51d8e8be8e0175ac5e4ec75fbd132b843a9bf92a463604"
+    },
+    {
+      "relpath": "DATA/CORE/AUDIO_CUES.csv",
+      "bytes": 3185,
+      "sha256": "413261cce82d3334f68b548fc3090280133a1f564961d16938576d9447e8754d"
+    },
+    {
+      "relpath": "DATA/CORE/AUDIO_RULES.md",
+      "bytes": 977,
+      "sha256": "162aa2612faee925923231526aa4653278ae8e37994ac271f14d058e40df0007"
+    },
+    {
+      "relpath": "DATA/CORE/CHUNK_ACESSO.csv",
+      "bytes": 213,
+      "sha256": "5eb41792094d92394dbf6594c0344ca818a75e3afb80fc81d77df7884c45920b"
+    },
+    {
+      "relpath": "DATA/CORE/CHUNK_CONEXOES.csv",
+      "bytes": 28572,
+      "sha256": "eb23c9f8e3f91dcb1b3da1abbd3d4f7e9a232e348f80018ba54e1a0dba3c83c2"
+    },
+    {
+      "relpath": "DATA/CORE/CHUNK_EVENTOS.csv",
+      "bytes": 168,
+      "sha256": "9069723597488eaff2fb18923d4dcf14759038e163592fc3102b20e2ee9494ce"
+    },
+    {
+      "relpath": "DATA/CORE/CHUNK_LOOT.csv",
+      "bytes": 167,
+      "sha256": "6d33ee6dd5a42a72cf57831b0dcbe4cc076d8e14faaeaac396774cb4d2245a86"
+    },
+    {
+      "relpath": "DATA/CORE/COMBAT_FORMULAS.csv",
+      "bytes": 1370,
+      "sha256": "2bd6f8c5a16693200263391026e63ee63b83b34f9ef1c81ea0406d423ffeb79c"
+    },
+    {
+      "relpath": "DATA/CORE/COMPETITIVE_ACCESS_RULES.csv",
+      "bytes": 707,
+      "sha256": "678e5ad7466eaf5a3ab02ba367970a96945e7b35b98f2b39561f9e50ee1840e3"
+    },
+    {
+      "relpath": "DATA/CORE/CONSUMIVEIS_MASTER.csv",
+      "bytes": 3273,
+      "sha256": "93782b0909f655ac6c412bb057f724871cf15a515e0467117b95a1bb018ce5b0"
+    },
+    {
+      "relpath": "DATA/CORE/CRAFTING.csv",
+      "bytes": 3591,
+      "sha256": "2d8ad6088b11e73d879179470bf549782be09e5d4601c24c26a6f657760c489d"
+    },
+    {
+      "relpath": "DATA/CORE/CRAFTING_RECIPE.csv",
+      "bytes": 6594,
+      "sha256": "bd4e60164240e7647db4fb6db8430e2198562f6a461ad5cf3977fac2e891256f"
+    },
+    {
+      "relpath": "DATA/CORE/CRAFTING_STATION.csv",
+      "bytes": 6385,
+      "sha256": "cc5ec167fdc9f8f75e57827d2987bb7bb2ecc89b79dd42c519b55b40343f464f"
+    },
+    {
+      "relpath": "DATA/CORE/DERIVED_ATTRIBUTES.csv",
+      "bytes": 4469,
+      "sha256": "4051947173cefbecb61a0b8662a8c5f0daaa08610ea6e8073b28a7b32a173358"
+    },
+    {
+      "relpath": "DATA/CORE/DIALOGUE_INTENTS.csv",
+      "bytes": 1155,
+      "sha256": "efef29a342f1fd2a4d347bb2cc89ad669f82a35816785ad39745a2e62f14ee32"
+    },
+    {
+      "relpath": "DATA/CORE/DIALOGUE_TAGS.csv",
+      "bytes": 1617,
+      "sha256": "45e31dd36e59a1f87cfb2764d7ed2e9579551348d9f6738354caf11991a30eac"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_ARMADURAS.csv",
+      "bytes": 4254,
+      "sha256": "814bf8b8e645be321e662b31020bce4d95ea1acb18b111bfeeed745fc1bb25be"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_CORES.csv",
+      "bytes": 1155,
+      "sha256": "6a9537d13dc1e6aa96fb8fe204c6f3c30ee56d006c5b911759ee40182b01112e"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_CUTSCENES.csv",
+      "bytes": 18949,
+      "sha256": "9d1d8949d666da1775adc078dff35dc588b9235856bd6031e47458a04f1623bb"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_ESCALA_SKILL.csv",
+      "bytes": 6576,
+      "sha256": "072ec6723fe491bd01a1a903a7ba1b12a71af697d3f2f6cd5f88ad2644eca304"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_ESCALA_TO_LEARNLEVEL.csv",
+      "bytes": 8392,
+      "sha256": "910a5b1b36f7a8f496360a6545a24544917240067bfc70b1e6cb5521d8c47115"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_HOSTILIDADE.csv",
+      "bytes": 321,
+      "sha256": "98358e4321394a06057b385937686c75092c8b48588938b68e1c1e7e51381d89"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_NPC_TIPO.csv",
+      "bytes": 26,
+      "sha256": "bb18c9c1250294e9d0f611725eb940a0ef1d863b64c70167d018eb401bb72193"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_PAPEIS.csv",
+      "bytes": 955,
+      "sha256": "9fcc17e978ac256bcdd0e460fbf50f19cab75f21bbf7f79c9eff93c1fd38ee1a"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_PREFIXOS_ID_MONSTROS.csv",
+      "bytes": 120,
+      "sha256": "0457c561c1f7edf72e7c16b262692d64eb8d1996aff90bad9dc416290253fb2a"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_REGIOES.csv",
+      "bytes": 216,
+      "sha256": "c7ac55cf73ec818c7bb52640ff5c8c52c5931f61588734a901fe4a35c69e40af"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_REPUTACAO_NIVEIS.csv",
+      "bytes": 538,
+      "sha256": "90440d30a215b30f7898bb783822cb9bbb15ce87bd775618df3a190611ba923a"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_REPUTACAO_REGIOES.csv",
+      "bytes": 733,
+      "sha256": "7df6ca4febba0718b2fe42fbae28e4f64a70e0e8dcf0ec736fe53b5ff9b54828"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_TAGS.csv",
+      "bytes": 164,
+      "sha256": "66d158fc46bb9d6a8c75f14b632fb9a48f7f73dd5a83c9d3da133b8c11b7018a"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_TIPOS_DANO.csv",
+      "bytes": 1444,
+      "sha256": "7451212041f26b1e1d72f7ee981d6717c5f1f5449487bf1f43d57b2d98c1d3d8"
+    },
+    {
+      "relpath": "DATA/CORE/DIC_TIPOS_MONSTROS.csv",
+      "bytes": 2072,
+      "sha256": "3fb6e2b46e8f9118c617a74403e24cd7b9902e9e1e686fabc58287372a5cc20b"
+    },
+    {
+      "relpath": "DATA/CORE/ECHO_EVENT_MODEL.csv",
+      "bytes": 546,
+      "sha256": "0e13b63d4e26e35afefec2bae187491436bcf5b12a3c125d1e42634e3e93a163"
+    },
+    {
+      "relpath": "DATA/CORE/ECONOMIA.csv",
+      "bytes": 407,
+      "sha256": "bd0530dcc04a817c5afed1346fa509f0249f7d91a878a506a87c325fcb5af2a4"
+    },
+    {
+      "relpath": "DATA/CORE/ECON_DIRETRIZES.csv",
+      "bytes": 71,
+      "sha256": "c98316af337f7f87d62cc25dc26b24f335e4b72a1a6860e47acf8a0274f8ae31"
+    },
+    {
+      "relpath": "DATA/CORE/ECON_DURACOES.csv",
+      "bytes": 79,
+      "sha256": "b63ae414c877cd91bd617f75ea55242004adf1d9a7660034ec0c43ccfcf3ff70"
+    },
+    {
+      "relpath": "DATA/CORE/ECON_MOEDAS.csv",
+      "bytes": 455,
+      "sha256": "e4f7cfa56f3ec35b368b9679676419bef729a12fe93f137b51086827fc02b618"
+    },
+    {
+      "relpath": "DATA/CORE/ECON_PRECIFICACAO.csv",
+      "bytes": 90,
+      "sha256": "c1cd02de40f5f1fbe2d1436cee7df64ee376414e225b0811fabb1bedbaaa569c"
+    },
+    {
+      "relpath": "DATA/CORE/FACTION_NORMS.csv",
+      "bytes": 1712,
+      "sha256": "8a176917e897608eac0382d0b8622640752537a1e95ea2daccd6882c84e88771"
+    },
+    {
+      "relpath": "DATA/CORE/FAE_TAGS_DICTIONARY.csv",
+      "bytes": 1966,
+      "sha256": "9f5a602878ce0a3fc3066582d51eeb9a483bf2edc428b5b8da3f42cdd99e6cd1"
+    },
+    {
+      "relpath": "DATA/CORE/FAE_TAG_ASSIGNMENTS.csv",
+      "bytes": 14246,
+      "sha256": "1534c802e1d54bd99cb9dda0cd6022a37ec42b36e201038f6b5ebe44708b8694"
+    },
+    {
+      "relpath": "DATA/CORE/FLAGS_MASTER.csv",
+      "bytes": 21831,
+      "sha256": "2b295af9a45c4f654669f53ec86f575b80772fcefb8c6ec837edda8d26818ff0"
+    },
+    {
+      "relpath": "DATA/CORE/GATES_MASTER_V2_REF.csv",
+      "bytes": 1388,
+      "sha256": "e6be6f8fac9244630436a5168faae482722b7180f08b16a4bb1c0ee950c6282a"
+    },
+    {
+      "relpath": "DATA/CORE/ITEM_CLASS_RULES.csv",
+      "bytes": 2296,
+      "sha256": "b08aac81b9e4e9208faed5f9c264c090d801fb6039c9a02b8cc23ab45eb75ba5"
+    },
+    {
+      "relpath": "DATA/CORE/ITENS_AUX_COMPONENTES.csv",
+      "bytes": 1769,
+      "sha256": "297a84a0cf377f5b7c28556d69708dfa64c3a2142db009738de5d51d72bc203b"
+    },
+    {
+      "relpath": "DATA/CORE/ITENS_AUX_CONSUMIVEIS.csv",
+      "bytes": 4417,
+      "sha256": "818fd0699891b3aab8b32922e8cdd75e1ea600404c6cab8e478b835ac2f98287"
+    },
+    {
+      "relpath": "DATA/CORE/ITENS_AUX_MATERIAIS.csv",
+      "bytes": 21865,
+      "sha256": "194db21ccf715921f7bfdd4110165664da9af4b175c954c0f5039909ba1b5e7a"
+    },
+    {
+      "relpath": "DATA/CORE/ITENS_MASTER.csv",
+      "bytes": 87464,
+      "sha256": "73d163813601cead81c6295ed8d0610a516f0c2f54415c15bbe1d72236193f45"
+    },
+    {
+      "relpath": "DATA/CORE/KITS_INICIAIS.csv",
+      "bytes": 1727,
+      "sha256": "fba53abe280f94d60d68cc7513ab9edab686e223e14783fc88c8ccb973d96d67"
+    },
+    {
+      "relpath": "DATA/CORE/LVL1.csv",
+      "bytes": 649,
+      "sha256": "e16a9d0990d6825b9606c427c944e415764ad2cd0feca362deaf0036661d56a5"
+    },
+    {
+      "relpath": "DATA/CORE/LVL99.csv",
+      "bytes": 739,
+      "sha256": "6508f2067188220ea5e285c6f5d0e1bd4c97aa5b3d11987a677d53ce2eb4555f"
+    },
+    {
+      "relpath": "DATA/CORE/MODIFIERS_CATALOGO.csv",
+      "bytes": 639,
+      "sha256": "8bdfee1b48f9dd9ba4e550435b5454822b7fab45db0bad8f4b358c340173319f"
+    },
+    {
+      "relpath": "DATA/CORE/MONSTROS_STATS.csv",
+      "bytes": 10438,
+      "sha256": "cbd9f5a6a728150b7d67de4d821e6721638b5b36d8608897b809d2a7980dde9e"
+    },
+    {
+      "relpath": "DATA/CORE/PASSIVE_EQUIP_RULES.csv",
+      "bytes": 268,
+      "sha256": "8a22e1c97a5336e27e2bec8012190f628f61e9466dc0d0213d40a30cfad38130"
+    },
+    {
+      "relpath": "DATA/CORE/PERICIAS_SOFTSKILLS.csv",
+      "bytes": 8565,
+      "sha256": "69fce1ada187cd971fbdd8b923bde3d6e8da5c3d8c40f4f596db1030ea377615"
+    },
+    {
+      "relpath": "DATA/CORE/PERICIA_UNLOCKS.csv",
+      "bytes": 8816,
+      "sha256": "a8fcc31e90685538ef698ef4aa0d80a3762c607ee7641c809697e21edeb01383"
+    },
+    {
+      "relpath": "DATA/CORE/PERICIA_XP_LEVEL_TABLE.csv",
+      "bytes": 3494,
+      "sha256": "63d1b0dea001f68e00afbe776c186251f4125331d58718b842c24e63e933f927"
+    },
+    {
+      "relpath": "DATA/CORE/PERICIA_XP_SOURCES.csv",
+      "bytes": 4211,
+      "sha256": "d18d6c7f129d172ee87413d08a92c46ae5dd749257bc0c4ac2e12fdfeedcd82a"
+    },
+    {
+      "relpath": "DATA/CORE/PERSONALITY_ARCHETYPE.csv",
+      "bytes": 1714,
+      "sha256": "4feead8082bf44c0095fc5a4ba537b3d15917ee2ebe9dceb03339a516c16e2d6"
+    },
+    {
+      "relpath": "DATA/CORE/PERSONALITY_AXIS_DEF.csv",
+      "bytes": 1669,
+      "sha256": "f0e3c3733fb87659538d2fded167d8c6e6180281d86a0fe47f3911f8c3ffee38"
+    },
+    {
+      "relpath": "DATA/CORE/PLAYER_LEVEL_STAT_BUDGET.csv",
+      "bytes": 20753,
+      "sha256": "5b28084252715e63df992265f70cb203e3dd5e8f9accc5ae9e14af92df0abf7b"
+    },
+    {
+      "relpath": "DATA/CORE/PLAYER_LEVEL_XP_TABLE.csv",
+      "bytes": 16515,
+      "sha256": "37aaa36eb9141851cb7800dc89fc01725a9f232b7d093ef3334bea1554c5e161"
+    },
+    {
+      "relpath": "DATA/CORE/PLAYER_XP_SOURCES.csv",
+      "bytes": 1914,
+      "sha256": "7461382467fdb06860055be7347ff25c5c40658efb225f27c3f64327a520e05d"
+    },
+    {
+      "relpath": "DATA/CORE/REFERENCIAS_APLICADAS_T6_1.csv",
+      "bytes": 3202,
+      "sha256": "3216544e6ece98db10553122661b8bb758bad8b14bb2174e9f96a7d58612e851"
+    },
+    {
+      "relpath": "DATA/CORE/REFERENCIAS_APLICADAS_T6_1_V2.csv",
+      "bytes": 8166,
+      "sha256": "4acdac9e152792c5007a0d0b8be7931cbb2edd738d1ca3a9631cbc9728e36fb2"
+    },
+    {
+      "relpath": "DATA/CORE/REFERENCIAS_MASTER.csv",
+      "bytes": 33599,
+      "sha256": "13aa1d744110d24ca818b97e4ed9744b90da8cb13a1c605e36cd0a22b06ab5f0"
+    },
+    {
+      "relpath": "DATA/CORE/REGRAS_COMBATE_INDEX.csv",
+      "bytes": 1104,
+      "sha256": "af4b7ca99001e86ba2a2a8343a58e64aaf5bc1998873a0500829006720c90762"
+    },
+    {
+      "relpath": "DATA/CORE/REGRAS_DE_COMBATE.csv",
+      "bytes": 22193,
+      "sha256": "f2c97e85ce573c50aa1959ec81221882c4fff4d164126fc22c5e6c9dd64c17e9"
+    },
+    {
+      "relpath": "DATA/CORE/REL_ANTECEDENTE_PASSIVA.csv",
+      "bytes": 25,
+      "sha256": "6b5f1407159a9c4a7ed032bf471c94772fbc1247ec5429cf3776a16836aea279"
+    },
+    {
+      "relpath": "DATA/CORE/REL_REQUIREMENTS.csv",
+      "bytes": 26055,
+      "sha256": "b04f1e6ac409e071cb8cf5da0c3ebe8db0f6801b2eedbdab557d29bc2442f079"
+    },
+    {
+      "relpath": "DATA/CORE/REL_TRIGGERS.csv",
+      "bytes": 13708,
+      "sha256": "5418e7b185685bdf5c243e1fd29f20683a41ff1612cdab46b0f2026a5234a00d"
+    },
+    {
+      "relpath": "DATA/CORE/REPUTATION_RULES.csv",
+      "bytes": 24612,
+      "sha256": "68b4d0cd9eef47bd5d2259d3bc33fe8aebc1f748441f3b27a233932bc45e1f5f"
+    },
+    {
+      "relpath": "DATA/CORE/REPUTATION_RULES.md",
+      "bytes": 2184,
+      "sha256": "03b486d9f3c6b65955d43cb08f0fbbe86c2dda5f037ae3df4fd7c1f374394dff"
+    },
+    {
+      "relpath": "DATA/CORE/REP_EFEITOS_SUGERIDOS.csv",
+      "bytes": 1969,
+      "sha256": "8ae8139af51f446a6c924b4548ffb399ec9753e89e069e55fa1d03f6b29f13c2"
+    },
+    {
+      "relpath": "DATA/CORE/REP_REGRAS.csv",
+      "bytes": 458,
+      "sha256": "093d4ef95e599355a7390720363487dbea305859ff0d9f3fb3e8aff08f814891"
+    },
+    {
+      "relpath": "DATA/CORE/RESOURCE_MATERIAL_DEF.csv",
+      "bytes": 1970,
+      "sha256": "f0367d2842033eebddffdbd9d7581c6dfee3e2abf6043f949a4885826a007590"
+    },
+    {
+      "relpath": "DATA/CORE/RESOURCE_NODE_MASTER.csv",
+      "bytes": 1802,
+      "sha256": "ba25a80fbe4be6ddec7ab46dfec38361757094025a01319fe97e957c97225997"
+    },
+    {
+      "relpath": "DATA/CORE/RESOURCE_RESPAWN_RULES.csv",
+      "bytes": 520,
+      "sha256": "9f5cd1b88a03739964020915ffaf4b69f64d4ed0bb20ce2553bee38e7259a613"
+    },
+    {
+      "relpath": "DATA/CORE/RESOURCE_YIELD_RULES.csv",
+      "bytes": 1757,
+      "sha256": "10b74cb9a0c44e7a030cca4d41cc31a8084664f348fd1b6f7b3b8d9c674bd9af"
+    },
+    {
+      "relpath": "DATA/CORE/RPT_T6_1_MENTORES_FLAGS.csv",
+      "bytes": 415,
+      "sha256": "f06b9583cd6784b48a48ba3df61da89c15a2067d14fd74bcd61fa6d3bb1d3964"
+    },
+    {
+      "relpath": "DATA/CORE/STATUS_CATEGORIA_E_TIPO.csv",
+      "bytes": 461,
+      "sha256": "070a657b664057460d57b281722d89ab427f36d41d2f4d5f7acaa90ba1c05bcc"
+    },
+    {
+      "relpath": "DATA/CORE/STATUS_EFFECTS.csv",
+      "bytes": 485,
+      "sha256": "2739de245001bfeb807c8a84145fec98ebb53ea5388cc3a19696c87ac514cbfe"
+    },
+    {
+      "relpath": "DATA/CORE/TIER_RULES.csv",
+      "bytes": 806,
+      "sha256": "ab7539b3ae07a8410bc394417f4fb507eea455ab8f06fa34afef7881b0cefd69"
+    },
+    {
+      "relpath": "DATA/CORE/TIME_FLAGS.csv",
+      "bytes": 448,
+      "sha256": "e16ed14501fa9d9c02395bf96ef5db01a623d7ebff49691bcbf338c40b6597ab"
+    },
+    {
+      "relpath": "DATA/CORE/TIME_PHASES_MASTER.csv",
+      "bytes": 418,
+      "sha256": "1061a8872de770b165b901cea7b3f629546fb95d3908ff4c64578e1a624b3707"
+    },
+    {
+      "relpath": "DATA/CORE/TOKEN_EXCHANGE.csv",
+      "bytes": 489,
+      "sha256": "349baaead256767bb53b71020c98d7e95f3cd92239ef81c1e8b9d0582e0783d2"
+    },
+    {
+      "relpath": "DATA/CORE/TOKEN_MASTER.csv",
+      "bytes": 273,
+      "sha256": "adee56986bb5d6716d2b1286f7b60c97db40e05715fed82a1e729a2173133f1d"
+    },
+    {
+      "relpath": "DATA/DATA_INDEX.csv",
+      "bytes": 32119,
+      "sha256": "4bd1b6f49f313a2aa2a3e2ec7eef00eee24cbdf3315cefa25d5ea93a0ed22841"
+    },
+    {
+      "relpath": "DATA/GOV/00_GOVERNANCA.csv",
+      "bytes": 19056,
+      "sha256": "2a5fa4bf8cc0d85813f0ef742da5eb58e71232e2c4dde24140631b7520366610"
+    },
+    {
+      "relpath": "DATA/GOV/00_GOVERNANCA_SUGESTAO.csv",
+      "bytes": 4048,
+      "sha256": "4ab640d0c7c83793c5d2c4efe9d04896c31871bcce1ebf01d1a384e1e3161e65"
+    },
+    {
+      "relpath": "DATA/GOV/00_INDEX.csv",
+      "bytes": 3951,
+      "sha256": "75346250c9439584e5712900f053461dafc555d9a4ebfb578212021abffe12bc"
+    },
+    {
+      "relpath": "DATA/GOV/00_INDEX_FALTANTES.csv",
+      "bytes": 791,
+      "sha256": "f3e634bca9e8a6e67f8a6121f01e62ad3e2cacd30a1422d3dfc8eacba3c7527f"
+    },
+    {
+      "relpath": "DATA/GOV/00_META.csv",
+      "bytes": 2032,
+      "sha256": "17c167fa3a036e249610a6865a85f8f355f8813c263eddc90e37a63981a1f7e7"
+    },
+    {
+      "relpath": "DATA/GOV/ACT_ALLOWLIST_ACT1.csv",
+      "bytes": 1534,
+      "sha256": "7e8c0d379a2b5a6f896f30ffcd997b68b24adb5743775b169ae43e5220542c4b"
+    },
+    {
+      "relpath": "DATA/GOV/ACT_STAGE_MAP.csv",
+      "bytes": 1547,
+      "sha256": "d53d7ee9cc44e831231b504c377f864ee8cc3bcbe3094827bf0fc1f4c4d48a9e"
+    },
+    {
+      "relpath": "DATA/GOV/AI_HANDOFF.md",
+      "bytes": 656,
+      "sha256": "c50acff62281dfdbf545f33cb7725f12c3b229f3b1412b4b15f52a2ec2c73e2c"
+    },
+    {
+      "relpath": "DATA/GOV/AI_READABILITY_POLICY.json",
+      "bytes": 2744,
+      "sha256": "27006974f0823db08ab048be00e129bc2377705dc85284be0fbc54f51c9665b0"
+    },
+    {
+      "relpath": "DATA/GOV/ART_PIPELINE_POLICY.md",
+      "bytes": 1852,
+      "sha256": "694f9927aae5fa62b22b285afcee4190134a4169923f46842fe556201b290e28"
+    },
+    {
+      "relpath": "DATA/GOV/BUNDLE_SCALING_PLAN.json",
+      "bytes": 2894,
+      "sha256": "b0fc1fe942ce9681d13de8c09b538f5d0586405b683d4384b0892792876e61f8"
+    },
+    {
+      "relpath": "DATA/GOV/CHUNKS_ASIM_DET.csv",
+      "bytes": 2150,
+      "sha256": "950bffcc4620c0fc68150d704781c58265689c9b8f0a5381ebd13ba06b86482d"
+    },
+    {
+      "relpath": "DATA/GOV/CHUNKS_ASIM_FIX.csv",
+      "bytes": 2153,
+      "sha256": "51b5bf2e3e429b44d1600bc6f6016c2739ad6c3cf8267676667e8ecd42e0a79c"
+    },
+    {
+      "relpath": "DATA/GOV/CHUNKS_FIX_MANUAL.csv",
+      "bytes": 944,
+      "sha256": "4d8a4c2f89a6d5bd5d0bdf281d28f13c946858f72771cd054b2ee3368fa6ffcf"
+    },
+    {
+      "relpath": "DATA/GOV/CHUNKS_INVALID_CELLS.csv",
+      "bytes": 723,
+      "sha256": "1e957f999a1ead777de80f3d82e7f8edd96c4f4a6b4a588409dfaa56021c54b5"
+    },
+    {
+      "relpath": "DATA/GOV/CHUNKS_NORMALIZ_PREVIA.csv",
+      "bytes": 20137,
+      "sha256": "dc55222c33a8b37d02a8a14a729b9611bd355f5974c6a07bb7b078928f4a4037"
+    },
+    {
+      "relpath": "DATA/GOV/COL_META_MASTER.csv",
+      "bytes": 138889,
+      "sha256": "50e97e66fe1ccf52db6e8bd20e877e133fe2d99e5205e17b52d3b6fc35446ea6"
+    },
+    {
+      "relpath": "DATA/GOV/DUPLICIDADES_HASH.csv",
+      "bytes": 387,
+      "sha256": "74992164924dede9e13d2b6a93b7199ebbba20af9a66093473b7e4663d74b28f"
+    },
+    {
+      "relpath": "DATA/GOV/ID_TOKEN_AUDIT.csv",
+      "bytes": 4579,
+      "sha256": "8c21e82bc19ffe5d9b1400b18e45bb99275b7773c71a7c0227c29a307a469fd1"
+    },
+    {
+      "relpath": "DATA/GOV/ID_TOKEN_POLICY.json",
+      "bytes": 2183,
+      "sha256": "91a955ae8040d4e817f92e829295197b42bd8d66b6d7588f619ee90784a962c3"
+    },
+    {
+      "relpath": "DATA/GOV/INTRO_FLOW.md",
+      "bytes": 1272,
+      "sha256": "1b48497ce240e83702d71f85a15a213bf9a6258c2ec9eef8b0f8244561cf2826"
+    },
+    {
+      "relpath": "DATA/GOV/LEGACY_BUNDLE_POLICY.json",
+      "bytes": 1519,
+      "sha256": "cb32aa58c6318fc5c426496c1bdd3e1c798c2b46781d4928c9063005e0a06b0e"
+    },
+    {
+      "relpath": "DATA/GOV/MANIFESTO_8_ARTEFATOS.json",
+      "bytes": 3772,
+      "sha256": "c1ea596b775bde843912577ad1b4319efabc576cbd56519485cc6ab6888736b4"
+    },
+    {
+      "relpath": "DATA/GOV/MER_AI.csv",
+      "bytes": 27007,
+      "sha256": "3aec142bb691e05ce0ba3018740a2632c05ca882acf1f0a4382c4c7638ac1597"
+    },
+    {
+      "relpath": "DATA/GOV/MER_AI.md",
+      "bytes": 2081,
+      "sha256": "fd5b5c2ccaa438e5e1e969964942264ceb537cc20c535e69e97bcdd1915ae56b"
+    },
+    {
+      "relpath": "DATA/GOV/MODULE_WORKFLOW.md",
+      "bytes": 3579,
+      "sha256": "8ea526849aa9f01719bc30216d39ca2c3a3dbd0eb8e01c569c145e8ba71451d7"
+    },
+    {
+      "relpath": "DATA/GOV/NAMING_CONVENTIONS_SNAKE_CASE.json",
+      "bytes": 1522,
+      "sha256": "7e23ea99b25ab95769d0299f4928c8bf7b9757d963670552ad46c22e9f9922e4"
+    },
+    {
+      "relpath": "DATA/GOV/NAMING_MAP_COLUMNS.csv",
+      "bytes": 229425,
+      "sha256": "415bf068c6ef790671a3f809612e3950e5a7236421a9dcf5d027fc9959c690b3"
+    },
+    {
+      "relpath": "DATA/GOV/POI_DENSITY_GUIDE.md",
+      "bytes": 2060,
+      "sha256": "0bc0177cf8618b81de2c0bac02cffe628c520a298e75691bc8327babb2446ad6"
+    },
+    {
+      "relpath": "DATA/GOV/QA_CHUNKS_RESUMO.csv",
+      "bytes": 334,
+      "sha256": "96d02f13785bcae1af00223f1b6ca789b6ccfd8ea9f8ab4dcc4d37c7635cb284"
+    },
+    {
+      "relpath": "DATA/GOV/QA_CHUNKS_TOTAIS.csv",
+      "bytes": 69,
+      "sha256": "290370c8261e7654f452f624cb39809a925e8294922709dcfed90339f394db30"
+    },
+    {
+      "relpath": "DATA/GOV/RMXP_DIALOGUE_RUNTIME_BINDINGS.md",
+      "bytes": 5019,
+      "sha256": "2d9a52857d294ed47e4589655fec457aac169c01b53483139d2771a3630b9be4"
+    },
+    {
+      "relpath": "DATA/GOV/RMXP_FLAGS_EVENTS_RUNTIME_BINDINGS.md",
+      "bytes": 1930,
+      "sha256": "4de2bc63776d7c1f5cac2316d2998fbc9427531e040cde7af95ed1b1b40e3762"
+    },
+    {
+      "relpath": "DATA/GOV/RMXP_PACKAGING_AND_INPUT_NOTES.md",
+      "bytes": 2669,
+      "sha256": "dc748193edbea39bb3397d2c0279ae390b21d587a4468f654e2913aaf14beeef"
+    },
+    {
+      "relpath": "DATA/GOV/RMXP_PLAYER_LEVEL_RUNTIME_BINDINGS.md",
+      "bytes": 2559,
+      "sha256": "1e02a5cfa347280c5a3f6bc3c39db84194c321c348f6ffc9419d2e7ca896708a"
+    },
+    {
+      "relpath": "DATA/GOV/RM_DELIVERY_ROADMAP_AI.json",
+      "bytes": 5954,
+      "sha256": "d5189a516ae0399ced968ef9b0bd14c76eada25f2371eb6c6588fdbacbae694d"
+    },
+    {
+      "relpath": "DATA/GOV/SF-0310_NPC_PERSONALITY.md",
+      "bytes": 3180,
+      "sha256": "1576ebfb1785c273a899ec23abff59de80e739d93c783ffd164f62d3de5202a2"
+    },
+    {
+      "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
+      "bytes": 18287,
+      "sha256": "ed2f37e075298e8701c549d36952a0b6b6ffe0920dc1ee9e284ffb08e371bd2b"
+    },
+    {
+      "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
+      "bytes": 2479,
+      "sha256": "a3ecbe8c9b54eea57ee693949b44ccb7745c63153e11f59a204a2c1b0bc6d6e5"
+    },
+    {
+      "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
+      "bytes": 10740,
+      "sha256": "667263e41515abff297c33b5d54db661789eaccaad947b4f231d3b02ebfef777"
+    },
+    {
+      "relpath": "DATA/GOV/SPEC_TEC_AI.md",
+      "bytes": 1333,
+      "sha256": "9de0afc9334ae4e732ccfc6648660a39c01a5dc852a1d4ec16496d013938a7c8"
+    },
+    {
+      "relpath": "DATA/GOV/TRACEABILITY_CONTRACT.md",
+      "bytes": 1210,
+      "sha256": "505cd14b3dc79ae0b88a0944d8237d9e7169a13bc533641ec60295cf9e643590"
+    },
+    {
+      "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
+      "bytes": 1574,
+      "sha256": "86a31c82a9fba1eb05d7809761ec8db35a60884b2d373af15ef88bb753a7a3c3"
+    },
+    {
+      "relpath": "DATA/sheet_name_map.json",
+      "bytes": 6747,
+      "sha256": "a46af921840d1268711e37975350a5cf878a3df3303e72bf8a2dceedf5de925a"
+    },
+    {
+      "relpath": "MODULE_INFO.json",
+      "bytes": 682,
+      "sha256": "9e8d96f7fef9d02d2d6c466fe3d05e902f8298793f23bf129caee9bc79d9cc5a"
+    },
+    {
+      "relpath": "README_RM_MAIN.md",
+      "bytes": 30337,
+      "sha256": "1fabf908bb9941a475d11b77fe6cd4afa4e0603e5aac12e41d9892f63d1c5220"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 14098,
+      "sha256": "6fa2ea7cea7c34f7800eadfa76d2e7ed32218b5e92f5f0dcf9f1b90bfe3919eb"
+    }
+  ],
+  "version_build": "Build_000001"
+}

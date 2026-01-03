@@ -1,0 +1,67 @@
+{
+  "rm_id_token_policy_spec": "v1",
+  "updated_utc": "2025-12-24T00:37:46Z",
+  "scope": "Token usage rules for workflow/stage tokens (T*/B*/ET*) across IDs, fields, and text",
+  "canonical_formats": {
+    "ETID": {
+      "canonical_regex": "^T\\d+\\.B\\d+(\\.\\d+)*$",
+      "allowed_alias_regexes": [
+        "^T\\d+_B\\d+(_\\d+)*$",
+        "^T\\d+-B\\d+(-\\d+)*$"
+      ],
+      "canonical_example": "T7.B2.1",
+      "alias_examples": [
+        "T7_B2_1",
+        "T7-B2-1"
+      ]
+    },
+    "ET": {
+      "canonical_regex": "^ET\\d+$",
+      "allowed_alias_regexes": [
+        "^et\\d+$"
+      ],
+      "canonical_example": "ET5",
+      "alias_examples": [
+        "et5"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "R1",
+      "title": "Workflow tokens must not be embedded into canonical entity IDs",
+      "must": [
+        "Entity IDs (e.g., ItemID, NPCID, QuestID, ChunkID, etc.) MUST be stable and MUST NOT include workflow/stage tokens (T*, B*, ET*).",
+        "If a workflow token appears inside an entity ID, classify as HIGH risk and resolve via alias mapping + controlled migration."
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "ETID is the canonical place for T/B tokens",
+      "must": [
+        "Use ETID field to store stage identifiers (T#.B#.[#]...) in canonical dot form.",
+        "Underscore/hyphen variants are treated as aliases only (see CORE/ALIASES_ID.csv)."
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Textual references are allowed but should be normalized",
+      "should": [
+        "In Titles/Descriptions, prefer canonical dot form for stage tokens (T#.B#.[#]...).",
+        "If legacy underscores exist in text, they may remain but must be covered by ALIASES_ID mappings."
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Audit is mandatory before any migration",
+      "must": [
+        "Before renaming any canonical IDs, generate/update ID_TOKEN_AUDIT.csv and ALIASES_ID.csv.",
+        "Migration steps must be executed in their own AJ with explicit acceptance criteria."
+      ]
+    }
+  ],
+  "artifacts": {
+    "audit_csv": "DATA/GOV/ID_TOKEN_AUDIT.csv",
+    "aliases_id_csv": "DATA/CORE/ALIASES_ID.csv"
+  }
+}

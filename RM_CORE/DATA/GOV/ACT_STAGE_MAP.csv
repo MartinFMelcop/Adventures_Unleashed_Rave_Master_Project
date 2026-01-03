@@ -1,0 +1,13 @@
+stage_id,stage_name,act_id,act_name,rationale
+S1_MER_AI,MER ai-friendly,ACT_1,Local executable for tests,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S1_MER_AI,MER ai-friendly,ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S2_SPEC_FUNC_AI,Functional specification ai-friendly,ACT_1,Local executable for tests,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S2_SPEC_FUNC_AI,Functional specification ai-friendly,ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S3_SPEC_TEC_AI,Technical specification ai-friendly,ACT_1,Local executable for tests,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S3_SPEC_TEC_AI,Technical specification ai-friendly,ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S4_DEV_RMXP,Game development,ACT_1,Local executable for tests,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S4_DEV_RMXP,Game development,ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S5_BUILD_LOCAL_ACT1,Local executable build (Act 1 tests),ACT_1,Local executable for tests,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S5_BUILD_LOCAL_ACT1,Local executable build (Act 1 tests),ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S6_PUBLISH_STEAM_ACT4,Steam publication (Act 4),ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).
+S7_POST_LAUNCH,Post-launch improvements,ACT_4,Steam publication,Derived from RM_DELIVERY_ROADMAP_AI.json (AJ_000203).

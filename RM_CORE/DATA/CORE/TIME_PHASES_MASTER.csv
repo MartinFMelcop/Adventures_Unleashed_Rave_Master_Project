@@ -1,0 +1,6 @@
+PhaseID,Ordem,DuracaoSeg,SwitchDia,SwitchNoite,LuzCasasEstado,ToneR,ToneG,ToneB,ToneGray,NPC_Rua_Densidade,WorkersEstado
+PH_DAY,0,7200,True,False,0,0,0,0,0,3,TRABALHANDO
+PH_AFTERNOON_START,1,900,True,False,1,10,-10,-10,0,2,DESCANSANDO
+PH_NIGHT_START,2,1800,False,True,2,-40,-40,0,40,1,DESCANSANDO
+PH_NIGHT_PEAK,3,3600,False,True,0,-80,-80,20,80,0,DESCANSANDO
+PH_DAWN,4,900,True,False,0,20,10,30,10,1,TRABALHANDO

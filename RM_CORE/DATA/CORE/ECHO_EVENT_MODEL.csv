@@ -1,0 +1,3 @@
+ModelID,Nome,Descricao,Availability,RewardMultiplier,TokenEarnMultiplier,DropRateMultiplier,Policy,Notes
+ECHO_MODEL_ACTIVE,Active (Mundo Aberto),"Evento ativo no mapa (janela/rota). Melhor eficiência, risco maior.",WORLD_OPEN,1.00,1.00,1.00,ANTI_MISSABLE_BY_ECHO+TOKENS,Disponível por janela/Capítulo; nunca é a única forma.
+ECHO_MODEL_ECHO,Echo (Waystone),Instância Eco via Waystone (sempre disponível). Menos eficiência; garante acesso.,WAYSTONE_ONLY,0.75,0.90,0.85,ALWAYS_AVAILABLE,Usar para catch-up e para não bloquear competitivo.

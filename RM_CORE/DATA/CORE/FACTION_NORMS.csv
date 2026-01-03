@@ -1,0 +1,19 @@
+FactionID,FactionName,NormID,Value_0_100,Notes
+FAC_ROSE_VILLAGE,Vila Rose,VIOLENCE_TOLERANCE,25,Civilized settlement norms.
+FAC_ROSE_VILLAGE,Vila Rose,HONOR_IMPORTANCE,60,Civilized settlement norms.
+FAC_ROSE_VILLAGE,Vila Rose,LAW_IMPORTANCE,75,Civilized settlement norms.
+FAC_ROSE_VILLAGE,Vila Rose,HOSPITALITY,70,Civilized settlement norms.
+FAC_ROSE_VILLAGE,Vila Rose,BRIBERY_TOLERANCE,30,Civilized settlement norms.
+FAC_ROSE_VILLAGE,Vila Rose,DECEPTION_TOLERANCE,20,Civilized settlement norms.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,VIOLENCE_TOLERANCE,80,Survival + hierarchy; leader-centric.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,HONOR_IMPORTANCE,55,Survival + hierarchy; leader-centric.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,LAW_IMPORTANCE,35,Survival + hierarchy; leader-centric.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,HOSPITALITY,40,Survival + hierarchy; leader-centric.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,BRIBERY_TOLERANCE,65,Survival + hierarchy; leader-centric.
+FAC_GOBLIN_CLAN,Tribo Goblinoide,DECEPTION_TOLERANCE,55,Survival + hierarchy; leader-centric.
+FAC_UMBRAL_ORDER,Ordem Umbrael,VIOLENCE_TOLERANCE,55,"Lawful, pragmatic; manipulation understood but controlled."
+FAC_UMBRAL_ORDER,Ordem Umbrael,HONOR_IMPORTANCE,45,"Lawful, pragmatic; manipulation understood but controlled."
+FAC_UMBRAL_ORDER,Ordem Umbrael,LAW_IMPORTANCE,90,"Lawful, pragmatic; manipulation understood but controlled."
+FAC_UMBRAL_ORDER,Ordem Umbrael,HOSPITALITY,25,"Lawful, pragmatic; manipulation understood but controlled."
+FAC_UMBRAL_ORDER,Ordem Umbrael,BRIBERY_TOLERANCE,10,"Lawful, pragmatic; manipulation understood but controlled."
+FAC_UMBRAL_ORDER,Ordem Umbrael,DECEPTION_TOLERANCE,60,"Lawful, pragmatic; manipulation understood but controlled."

@@ -1,0 +1,4 @@
+Área,Campo,Template,Exemplo
+Monstros,Ações,Verbo + Alvo + Efeito + Duração,Golpeia (alvo único) causando Sangramento por 2 turnos.
+Quests,Texto_UI vs Notas_Dev,Texto_UI = texto exibido ao jogador; Notas_Dev = anotações internas,Texto_UI: 'Recupere a relíquia...' | Notas_Dev: 'DEV: validar reward'
+Calamidades,Template textual,Resumo + Gatilho + Fases/Escalonamento + Contramedidas + Consequências + QuestIDs,Ex.: 'Sinais: céu escurece...'; 'Contramedidas: destruir totem...'

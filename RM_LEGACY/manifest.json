@@ -1,0 +1,44 @@
+{
+  "module": "RM_LEGACY",
+  "version_aj": "AJ_000368",
+  "manifest_version": 1,
+  "generated_utc": "2026-01-03T00:19:37Z",
+  "files": [
+    {
+      "relpath": "HUMAN/RM_HUMAN_VIEWS_MAIN.xlsx",
+      "bytes": 314000,
+      "sha256": "d900db2b7cffc660a32011c1b970b89a0606c740f3d0c957da8790aa6f40d8e4"
+    },
+    {
+      "relpath": "LEGACY/EXTERNAL/RM_Project_IMPORTAR_DOCUMENTOS_LEGADO.zip",
+      "bytes": 4538353,
+      "sha256": "5b85ba45bec5b0e3904405f03ed8be2d5466d7e8e539de21ee79e9ed40764409"
+    },
+    {
+      "relpath": "LEGACY/README_LEGACY.md",
+      "bytes": 1981,
+      "sha256": "54d14ca64d4a6b37d180ee9c90a1be18276f5828896818d4e84e31686680d022"
+    },
+    {
+      "relpath": "LEGACY/REF_LIBRARY/livro_dos_100_contos.docx",
+      "bytes": 95364,
+      "sha256": "69f5bfe584fc3de12c122f79b66d75437ff0cb4bcb44e2d60f92566c9a4a57ad"
+    },
+    {
+      "relpath": "LEGACY/REMOVED_LEGACY_FILES.json",
+      "bytes": 1020,
+      "sha256": "252917c444785181c62f999985a53457feba8b98453613b8469556eded010e23"
+    },
+    {
+      "relpath": "MODULE_INFO.json",
+      "bytes": 556,
+      "sha256": "6f40869b636a9de3fb55cbec7fee4a1e036aba4ffa798ef0d6a2f4bed8ec05cf"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 622,
+      "sha256": "ae55546c2c6aa369724267d52e9a4b060ccf7e0f79b4c1492cd4e6e7f6e41fdd"
+    }
+  ],
+  "version_build": "Build_000001"
+}

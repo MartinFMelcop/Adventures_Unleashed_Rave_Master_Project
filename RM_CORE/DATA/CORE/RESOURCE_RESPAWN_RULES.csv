@@ -1,0 +1,6 @@
+RespawnRuleID,Nome,RuleType,InGameDays,Notes
+RR_DAILY,Respawn Diário,DAILY,1,Respawn padrão por dia in-game (variável global de dia).
+RR_NIGHTLY,Respawn Noturno,NIGHTLY,1,Disponível apenas à noite; reset diário.
+RR_WEEKLY,Respawn Semanal,WEEKLY,7,Para nós valiosos; reduz farm excessivo.
+RR_EVENT_ACTIVE,Janela de Evento Active,EVENT_WINDOW,,Ativo durante janela de calamidade/season no mundo aberto.
+RR_ECHO_ALWAYS,Eco Sempre Disponível,ECHO_ALWAYS,,Disponível via Waystone Eco; limitado por cooldown interno.

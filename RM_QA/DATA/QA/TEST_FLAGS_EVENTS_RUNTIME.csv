@@ -1,0 +1,5 @@
+TestID,Scenario,Steps,Expected
+T001,SaveLoadFlags,"Set FLAG_PLAYER_HELPED for NPC-0007; Save; Load; Query RM_Flags.has?(FLAG_PLAYER_HELPED,NPC-0007)",true
+T002,FlagTTL,"Set FLAG_OUTBURST_RECENT (TTL from table=5); Tick 5 turns; Query",false
+T003,RecentEventTTL,"Push EVT_NPC_OUTBURST (TTL 5); Tick 4; Has? true; Tick 1; Has? false","true->false"
+T004,GlobalFlag,"Set FLAG_TRUST_LOCKED_LOW (RELATION) with npc; ensure global rm_flags does not contain it unless context used","context_only"

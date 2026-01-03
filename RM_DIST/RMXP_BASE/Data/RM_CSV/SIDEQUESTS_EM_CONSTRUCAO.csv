@@ -1,0 +1,942 @@
+IdQuest,Descrição Resumida,Localização,ChaveMapa,Repetível,Critério de Aceite,DoR,Descrição Completa,Texto_UI,Notas_Dev,DoD,Canon,NotaCanon,Perícias,Recompensas,Recompensas_Validacao,TriggerTipo,TriggerValor,PreReq_QuestIDs,Bloqueia_QuestIDs,DC_Padrao,CapituloID,ChaveMapa_Valida,Localizacao_ChavesExtraidas,Pericia_1,Pericia_2,Pericia_3,Pericias_Normalizadas,NPC_IDs,CutsceneIDs,RepZona_Target,Rep_Min_Aceitar,Rep_Delta_Sucesso,Rep_Delta_Falha,Rep_Set_Sucesso,Rep_Set_Falha,Rep_Obs,FAE_Tags,Trace_Normalizacao,PericiaIDs,UnlockKeys_Required,Trace_PericiaFix,ImpactoSocial,QuestTier
+SDQ-0001,[DESCONSIDERAR] A enfermaria de Rose está sem suprimentos: colete materiais e prepare remédios simples.,,24S1,False,,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC Curandeira; 2–4 itens coletáveis; variável 'Estoques_Enfermaria'; 1 evento de triagem.","**Loop (grind):** coletar ervas na borda da mata e entregar.
+**Escolhas:** tratar primeiro quem 'grita mais' ou quem 'precisa mais'.
+**Impacto:** estoques altos reduzem custo de cura em Rose; estoques baixos aumentam pânico e boatos.",, | REWRITE 24S1: NPCs/inners removidos; aguarda novo design.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Estoques_Enfermaria atualizado; recompensa entregue; (opcional) moral ajustada.",,DESCONSIDERAR (24S1 canon revisado): taverna/enfermaria/taberneiro/curandeira não existem; reescrever SDQ.,Alquimia do Pântano:11;Colheita (Ervas/Fungos/Fibras):10;Leitura de Malícia:7;Influência:14,,,Talk,NPC:TBD,,,,CAP-0001,OK,24S1;22T4,11.0,10.0,7.0,11;10;7;14,,,VILA_ROSE,-1.0,1.0,,,,Ajudas básicas à enfermaria.,FAE_CORE_ARC;FAE_ROSE_ARC,CAP-0001;OK;24S1;22T4,11;10;7;14,ALCH_TIER_1;HARVEST_TIER_1;READ_LIE_BASIC;NEGOTIATE_BASIC,id_fix(Alquimia do Pântano:10->11)|id_fix(Colheita (Ervas/Fungos/Fibras):11->10),MINOR,1
+SDQ-0002,[DESCONSIDERAR] Noite de palco na praça: aumente a moral com uma apresentação e lide com um sabotador.,,24S1,False,,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Evento de palco; medidor 'Moral_Rose'; sabotador aleatório; pagamento por rank.","**Loop:** apresentações por rank (Bronze/Prata/Ouro) conforme Metalurgia.
+**Falhas:** vaias, brigas, queda de moral.
+**Impacto:** moral alta barateia itens e abre boatos; moral baixa aumenta furtos e hostilidade.",, | REWRITE 24S1: NPCs/inners removidos; aguarda novo design.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Moral_Rose ajustada; pagamento calculado; sabotador (se revelado) marcado.",,DESCONSIDERAR (24S1 canon revisado): taverna/enfermaria/taberneiro/curandeira não existem; reescrever SDQ.,Metalurgia:13;Leitura de Malícia:7;Trapaça:5;Postura:8;Influência:14,,,Talk,NPC:TBD,,,,CAP-0002,OK,24S1,13.0,7.0,5.0,13;7;5;8;14,,CS-ATO1-18,VILA_ROSE,2.0,1.0,,,,Evento social; requer confiança.,,CAP-0002;OK;24S1,13;7;5;8;14,SMITH_TIER_1;READ_LIE_BASIC;DECEIVE_BASIC;INTIMIDATE_BASIC;NEGOTIATE_BASIC,,MINOR,1
+SDQ-0003,Cartas perdidas: recupere correspondências que podem salvar ou arruinar uma família.,Vila Rose — Arredores do Lenhador (24R0_I) / Vila Rose — Casa dos Aventureiros Caídos (23R1) / Vila Rose — Loja do Mercador (24T2),24R0_I,False,Ouvir pedido de um morador na área norte ou no mercado.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 cartas; 2 NPCs; 1 decisão moral; 1 pista falsa.","**Progressão:** rastrear ladrão → recuperar cartas → decidir destino.
+**Impacto:** entregar tudo aumenta confiança em Rose; esconder ou falsificar cria favores/ameaças futuras.","**Progressão:** rastrear ladrão → recuperar cartas → decidir destino.
+**Impacto:** entregar tudo aumenta confiança em Rose; esconder ou falsificar cria favores/ameaças futuras.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Decisão registrada; reputações atualizadas; recompensa entregue.",CANON,,Investigação:9;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Trapaça:5;Influência:14;Leitura de Malícia:7,,,EnterArea,24R0_I,,,,CAP-0003,OK,24R0_I;23R1;24T2,9.0,16.0,5.0,9;16;5;14;7,,,VILA_ROSE,2.0,1.0,,,,Quest delicada; requer confiança.,,CAP-0003;OK;24R0_I;23R1;24T2,9;16;5;14;7,INVESTIGATE_BASIC;TOOLS_BASIC;DECEIVE_BASIC;NEGOTIATE_BASIC;READ_LIE_BASIC,,MINOR,1
+SDQ-0004,"Colheita comunitária: plante, proteja e entregue alimentos para reduzir fome e preços.",Vila Rose — Pasto das Galinhas e Lagoa de Pesca (24U3) / Vila (nome TBD) — Centro da Vila (Praça) (24S1),24U3,True,Falar com agricultor no pasto/celeiro.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Canteiros interativos; pragas; variável 'Despensa_Rose'; bônus por sequência.","**Loop:** plantar→proteger→colher→entregar.
+**Impacto:** despensa alta reduz preços e melhora moral; fraudes/atrasos pioram reputação e estoque.","**Loop:** plantar→proteger→colher→entregar.
+**Impacto:** despensa alta reduz preços e melhora moral; fraudes/atrasos pioram reputação e estoque.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Despensa_Rose atualizada; pagamento/buffs entregues.",CANON,,Colheita (Ervas/Fungos/Fibras):10;Extração (Minério/Pedra/Cristais):18;Vínculo (Criaturas & Goblins):2;Trapaça:5,,,Talk,NPC:NPC-0006,,,,CAP-0004,OK,24U3;24S1,10.0,18.0,2.0,10;18;2;5,NPC-0006,,VILA_ROSE,-1.0,1.0,,,,Trabalho comunitário.,,CAP-0004;OK;24U3;24S1,10;18;2;5,HARVEST_TIER_1;MINE_TIER_1;BOND_CALM;DECEIVE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),MINOR,1
+SDQ-0005,Caça aos saqueadores: limpe patrulhas goblins remanescentes nas ruínas para deixar rotas seguras.,Ruínas — Vigia Goblin (21Q10) / Ruínas — Desfiladeiro do Entulho (21R11) / Ruínas — Acampamento dos Mentores (22P8),21Q10,True,Pegar cartaz de recompensa no acampamento dos mentores.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Tabela de spawn; contador 'Ameaça_Ruinas'; líder raro.","**Loop:** rastrear→combater/afugentar→reportar.
+**Impacto:** ameaça baixa reduz emboscadas e melhora comércio; ameaça alta fecha rotas.","**Loop:** rastrear→combater/afugentar→reportar.
+**Impacto:** ameaça baixa reduz emboscadas e melhora comércio; ameaça alta fecha rotas.",nan | Trigger normalizado para Talk com NPC-0002 (mural/placar via diálogo).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Ameaça_Ruinas ajustada; recompensa paga.",CANON,,Extração (Minério/Pedra/Cristais):18;Sombra:17;Atenção:12;Postura:8;Trapaça:5,,,Talk,NPC:NPC-0002,,,,CAP-0005,OK,21Q10;21R11;22P8,18.0,17.0,12.0,18;17;12;8;5,NPC-0002,,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,,CAP-0005;OK;21Q10;21R11;22P8,18;17;12;8;5,MINE_TIER_1;STEALTH_BASIC;PERCEIVE_BASIC;INTIMIDATE_BASIC;DECEIVE_BASIC,,MINOR,1
+SDQ-0006,Totens profanados: restaure símbolos antigos (ou profane de vez) e altere o humor espiritual das ruínas.,Ruínas — Passagem dos Totens (21P9),21P9,False,Encontrar a Passagem dos Totens durante exploração.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 totens; 1 altar; 2 finais; variável 'Humor_Espiritual_Ruinas'.","**Escolha:** restaurar (menos assombração) vs profanar (mais loot sombrio, pior reputação com elfos).
+**Impacto:** altera encontros e drops em Ruínas.","**Escolha:** restaurar (menos assombração) vs profanar (mais loot sombrio, pior reputação com elfos).
+**Impacto:** altera encontros e drops em Ruínas.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Humor_Espiritual_Ruinas definido; encontros/drops ajustados.",CANON,,Ritos do Véu:15;Engenharia Rúnica (Waystones):3;Crônicas do Mundo:6;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Trapaça:5,,,EnterArea,21P9,,,,CAP-0006,OK,21P9,15.0,3.0,6.0,15;3;6;16;5,,,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,,CAP-0006;OK;21P9,15;3;6;16;5,RITE_MINOR;WAYSTONE_SAFE_JUMP;LORE_BASIC;TOOLS_BASIC;DECEIVE_BASIC,,MINOR,1
+SDQ-0007,Ferramentas roubadas: recupere kits de ofício para reativar upgrades/craft do acampamento.,Ruínas — Acampamento dos Mentores (22P8) / Ruínas — Vigia Goblin (21Q10),22P8,True,Falar com artesão no acampamento dos mentores.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 kits; 2 rotas (stealth/força); alarme simples.","**Loop:** recuperar kits em depósitos → entregar.
+**Impacto:** devolução reduz custo de upgrades; vender no mercado dá ouro, mas reduz reputação e trava serviços.","**Loop:** recuperar kits em depósitos → entregar.
+**Impacto:** devolução reduz custo de upgrades; vender no mercado dá ouro, mas reduz reputação e trava serviços.",nan | Trigger normalizado: NPC-0030 (Artífice do Acampamento).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Kits entregues OU destino registrado; serviços ajustados.",CANON,,Sombra:17;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Vigor & Carga:4;Trapaça:5,,,Talk,NPC:NPC-0030,,,,CAP-0007,OK,22P8;21Q10,17.0,16.0,4.0,17;16;4;5,NPC-0030,,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,,CAP-0007;OK;22P8;21Q10,17;16;4;5,STEALTH_BASIC;TOOLS_BASIC;CARRY_LIGHT;DECEIVE_BASIC,,MINOR,2
+SDQ-0008,Memórias da pedra: copie inscrições antigas e monte um mapa das ruínas para abrir atalhos.,Ruínas — Desfiladeiro do Entulho (21R11) / Ruínas — Vigia Goblin (21Q10),21R11,False,Receber pedido de estudioso (ou do mercador) após explorar ruínas.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+5 inscrições; 1 pergaminho; porta secreta/atalho como recompensa.","**Progressão:** localizar placas → copiar → validar → entregar.
+**Impacto:** mapa verdadeiro abre atalhos; mapa falso dá ouro rápido e gera consequência (perseguição/banimento).","**Progressão:** localizar placas → copiar → validar → entregar.
+**Impacto:** mapa verdadeiro abre atalhos; mapa falso dá ouro rápido e gera consequência (perseguição/banimento).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Mapa entregue; atalho liberado; recompensa aplicada.",CANON,,Crônicas do Mundo:6;Investigação:9;Mobilidade:1;Atenção:12;Trapaça:5,,,Talk,NPC:NPC-0018,,,,CAP-0008,OK,21R11;21Q10,6.0,9.0,1.0,6;9;1;12;5,NPC-0018,,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,,CAP-0008;OK;21R11;21Q10,6;9;1;12;5,LORE_BASIC;INVESTIGATE_BASIC;TRAVERSE_BASIC;PERCEIVE_BASIC;DECEIVE_BASIC,,MINOR,2
+SDQ-0009,Orvalho luminoso: colete gotas raras sem ofender as fadas — ou pague o preço.,Floresta da Rose — Trilha do Pólen Brilhante (20U9) / Floresta da Rose — Clareira de Âncora (23T3),20U9,True,Pedido do mercador/alquimista após ter acesso à floresta.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Nós de coleta; variável 'Ira_Fadas'; encontro social possível.","**Loop:** coleta cuidadosa → entrega.
+**Impacto:** coleta respeitosa melhora relação; coleta agressiva aumenta Ira_Fadas e dificulta travessias.","**Loop:** coleta cuidadosa → entrega.
+**Impacto:** coleta respeitosa melhora relação; coleta agressiva aumenta Ira_Fadas e dificulta travessias.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Orvalho entregue; Ira_Fadas ajustada; recompensa entregue.",CANON,,Colheita (Ervas/Fungos/Fibras):10;Mobilidade:1;Sombra:17;Influência:14;Atenção:12,,,EnterArea,20U9,,,,CAP-0009,OK,20U9;23T3,10.0,1.0,17.0,10;1;17;14;12,,,FADAS,1.0,0.0,,,,"Depois de Rose, coleta ritual; sem rep farm.",FAE_RITUAL;FAE_SOCIAL,CAP-0009;OK;20U9;23T3,10;1;17;14;12,HARVEST_TIER_1;TRAVERSE_BASIC;STEALTH_BASIC;NEGOTIATE_BASIC;PERCEIVE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),NONE,2
+SDQ-0010,A Fada Calada: ajude uma fada a recuperar a voz e estabilizar a clareira.,Reino das Fadas — Santuário da Guardiã (21S14),21S14,False,Encontrar a fada; Ira_Fadas não estar alta.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC fada; 3 pistas; ritual leve; 2 finais.","**Progressão:** descobrir causa → buscar item/erva → ritual.
+**Impacto:** sucesso dá favor/bênção; explorar a situação piora Ira_Fadas e cria bloqueios.","**Progressão:** descobrir causa → buscar item/erva → ritual.
+**Impacto:** sucesso dá favor/bênção; explorar a situação piora Ira_Fadas e cria bloqueios.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Voz restaurada ou consequência definida; favor/penalidade aplicada.",CANON,,Alquimia do Pântano:11;Engenharia Rúnica (Waystones):3;Metalurgia:13;Leitura de Malícia:7;Colheita (Ervas/Fungos/Fibras):10,,,Talk,NPC:NPC-0020,,,,CAP-0010,OK,21S14,11.0,3.0,13.0,11;3;13;7;10,NPC-0020,,FADAS,2.0,1.0,,,,Confiança maior com fadas.,FAE_CORE_ARC;FAE_GUARDIAN;FAE_RITUAL;FAE_SANCTUARY;FAE_SOCIAL,CAP-0010;OK;21S14,11;3;13;7;10,ALCH_TIER_1;WAYSTONE_SAFE_JUMP;SMITH_TIER_1;READ_LIE_BASIC;HARVEST_TIER_1,id_fix(Alquimia do Pântano:10->11)|id_fix(Colheita (Ervas/Fungos/Fibras):11->10),MINOR,2
+SDQ-0011,Domar o **Cervo de Névoa**: rastreie e cuide de um animal raro sem quebrar tabus. (Monstro: EG014 — Cervo de Névoa),Floresta da Rose — Borda da Mata (Árvore Anciã) (22T4) / Floresta da Rose — Portão do Reino Encantado (19S12),22T4,False,Receber rumor no posto/mercador; reputação com elfos/fadas neutra.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1 ocorrência do **EG014 — Cervo de Névoa**; 3 tentativas; itens de isca/curativo; variável `Confianca_Cervo`.","**Progressão:** rastrear → acalmar → tratar → conduzir.
+
+Batedores comentam sobre um **Cervo de Névoa** que aparece perto de clareiras e some na bruma. Ele está ferido e arisco, e caçadores podem piorar a situação.
+
+**Passos:**
+1) **Extração (Minério/Pedra/Cristais)** para ler rastros (pegadas leves, névoa fria, marcas de fuga).
+2) **Sombra** para se aproximar sem assustar.
+3) **Vínculo (Criaturas & Goblins)** para acalmar e ganhar `Confianca_Cervo`.
+4) **Alquimia do Pântano** para tratar o ferimento e permitir conduzir até um local seguro.
+
+**Saídas:** entregar aos batedores (reputação +) ou liberar (boon na floresta); agressão/morte reduz reputação com elfos/fadas e aumenta patrulhas.
+
+**Recompensas:** favor/reputação, item de couro raro, acesso a dicas de trilha segura.","**Progressão:** rastrear → acalmar → tratar → conduzir.
+
+Batedores comentam sobre um **Cervo de Névoa** que aparece perto de clareiras e some na bruma. Ele está ferido e arisco, e caçadores podem piorar a situação.
+
+**Passos:**
+1) **Extração (Minério/Pedra/Cristais)** para ler rastros (pegadas leves, névoa fria, marcas de fuga).
+2) **Sombra** para se aproximar sem assustar.
+3) **Vínculo (Criaturas & Goblins)** para acalmar e ganhar `Confianca_Cervo`.
+4) **Alquimia do Pântano** para tratar o ferimento e permitir conduzir até um local seguro.
+
+**Saídas:** entregar aos batedores (reputação +) ou liberar (boon na floresta); agressão/morte reduz reputação com elfos/fadas e aumenta patrulhas.
+
+**Recompensas:** favor/reputação, item de couro raro, acesso a dicas de trilha segura.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Destino do cervo registrado; `Confianca_Cervo` final calculada; reputações ajustadas; recompensa entregue.",CANON,,Vínculo (Criaturas & Goblins):2;Alquimia do Pântano:11;Sombra:17;Extração (Minério/Pedra/Cristais):18;Influência:14,,,EnterArea,22T4,,,,CAP-0011,OK,22T4;19S12,2.0,11.0,17.0,2;11;17;18;14,,,FADAS,3.0,0.0,,,,Capstone feérico.,FAE_SOCIAL,CAP-0011;OK;22T4;19S12,2;11;17;18;14,BOND_CALM;ALCH_TIER_1;STEALTH_BASIC;MINE_TIER_1;NEGOTIATE_BASIC,id_fix(Alquimia do Pântano:10->11),NONE,2
+SDQ-0012,Seda e armadilhas: recupere seda de **Aranhas de Galhos** sem desequilibrar a clareira. (Monstro: EG040 — Aranha de Galhos),Floresta da Rose — Bosque dos Ferrões (21T7),21T7,True,Pedido do artesão/mercador após QST-0014.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Nós de teia; presença do **EG040 — Aranha de Galhos**; variável `Equilibrio_Clareira`; 2 métodos (coleta limpa vs combate).","**Loop:** localizar teias maduras → coletar seda → entregar.
+
+Um artesão/mercador paga por seda resistente. Nas ravinas e árvores tortas da floresta, **Aranhas de Galhos** tecem teias grossas e perigosas.
+
+**Progressão:**
+1) **Atenção** para achar teias maduras (menos risco de rompimento).
+2) **Sombra** para se aproximar sem ativar o enxame.
+3) **Gambiarra (Ferramentas/Trancas/Armadilhas)** para coletar e enrolar a seda sem danificar.
+4) **Mobilidade** para atravessar a ravina/altura com segurança.
+
+**Saídas:** combate é possível, mas aumenta `Equilibrio_Clareira` negativo (mais hostilidade/menos nós de coleta no futuro).
+
+**Recompensas:** seda (craft), ouro, XP de ofício.","**Loop:** localizar teias maduras → coletar seda → entregar.
+
+Um artesão/mercador paga por seda resistente. Nas ravinas e árvores tortas da floresta, **Aranhas de Galhos** tecem teias grossas e perigosas.
+
+**Progressão:**
+1) **Atenção** para achar teias maduras (menos risco de rompimento).
+2) **Sombra** para se aproximar sem ativar o enxame.
+3) **Gambiarra (Ferramentas/Trancas/Armadilhas)** para coletar e enrolar a seda sem danificar.
+4) **Mobilidade** para atravessar a ravina/altura com segurança.
+
+**Saídas:** combate é possível, mas aumenta `Equilibrio_Clareira` negativo (mais hostilidade/menos nós de coleta no futuro).
+
+**Recompensas:** seda (craft), ouro, XP de ofício.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Seda entregue; `Equilibrio_Clareira` ajustado; recompensa entregue; (se combate excessivo) penalidade aplicada.",CANON,,Gambiarra (Ferramentas/Trancas/Armadilhas):16;Sombra:17;Mobilidade:1;Colheita (Ervas/Fungos/Fibras):10;Atenção:12,,,EnterArea,21T7,,,,CAP-0012,OK,21T7,16.0,17.0,1.0,16;17;1;10;12,,,FADAS,1.0,0.0,,,,Craft/coleta; sem rep farm.,FAE_CORE_ARC;FAE_SILK;FAE_SOCIAL,CAP-0012;OK;21T7,16;17;1;10;12,TOOLS_BASIC;STEALTH_BASIC;TRAVERSE_BASIC;HARVEST_TIER_1;PERCEIVE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),NONE,2
+SDQ-0013,Ervas de febre do brejo: colete plantas medicinais para evitar surtos em Rose.,Pântano — Borda Encharcada (Pertences no Lodo) (23U4) / Pântano — Charco dos Líquens (24W7),23U4,True,Curandeira pede suprimento quando Surtos>0.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Nós de coleta; DoT leve; variável 'Surtos_Rose'.","**Loop:** coletar→purificar→entregar.
+**Impacto:** surtos baixos melhoram economia e moral; ignorar aumenta custo de cura e eventos negativos.","**Loop:** coletar→purificar→entregar.
+**Impacto:** surtos baixos melhoram economia e moral; ignorar aumenta custo de cura e eventos negativos.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Surtos_Rose ajustado; entrega registrada; recompensa entregue.",CANON,,Extração (Minério/Pedra/Cristais):18;Colheita (Ervas/Fungos/Fibras):10;Alquimia do Pântano:11;Atenção:12,,,Talk,NPC:NPC-0004,,,,CAP-0013,OK,23U4;24W7,18.0,10.0,11.0,18;10;11;12,NPC-0004,,BREJO,-1.0,1.0,,,,Coleta medicinal para surtos.,,CAP-0013;OK;23U4;24W7,18;10;11;12,MINE_TIER_1;HARVEST_TIER_1;ALCH_TIER_1;PERCEIVE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10)|id_fix(Alquimia do Pântano:10->11),MINOR,2
+SDQ-0014,Luzes Errantes: conduza um rito para estabilizar o brejo à noite. (Monstro/Entidade: EG030 — Luz Errante),Pântano — Fenda do Brejo (21W12) / Pântano — Charco dos Líquens (24W7),21W12,False,Encontrar o círculo de pedras à noite.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3–5 ocorrências do **EG030 — Luz Errante** por rodada; 1 altar/círculo de pedras; variável `Calma_Brejo`; 2 finais (guiar vs aprisionar).","**Escolha:** guiar (segurança) vs aprisionar (ganho imediato).
+
+À noite, pequenas **Luzes Errantes** surgem no brejo e puxam viajantes para lama funda. Um devoto ensina um rito simples para reduzir o fenômeno.
+
+**Progressão:**
+1) Reunir oferendas (vela, sal, ervas) e seguir para o círculo.
+2) **Atenção/Extração (Minério/Pedra/Cristais)** para não se perder e evitar poços.
+3) Executar o rito: **Ritos do Véu** guia as luzes para longe das trilhas.
+4) Alternativa: **Engenharia Rúnica (Waystones)** tenta aprisionar uma Luz Errante (risco de efeito colateral).
+
+**Impacto regional:** `Calma_Brejo` alto reduz encontros hostis e melhora rotas; aprisionar dá item, mas piora a calma e atrai entidades.
+
+**Recompensas:** bênção leve de travessia OU item de luz (se aprisionar).","**Escolha:** guiar (segurança) vs aprisionar (ganho imediato).
+
+À noite, pequenas **Luzes Errantes** surgem no brejo e puxam viajantes para lama funda. Um devoto ensina um rito simples para reduzir o fenômeno.
+
+**Progressão:**
+1) Reunir oferendas (vela, sal, ervas) e seguir para o círculo.
+2) **Atenção/Extração (Minério/Pedra/Cristais)** para não se perder e evitar poços.
+3) Executar o rito: **Ritos do Véu** guia as luzes para longe das trilhas.
+4) Alternativa: **Engenharia Rúnica (Waystones)** tenta aprisionar uma Luz Errante (risco de efeito colateral).
+
+**Impacto regional:** `Calma_Brejo` alto reduz encontros hostis e melhora rotas; aprisionar dá item, mas piora a calma e atrai entidades.
+
+**Recompensas:** bênção leve de travessia OU item de luz (se aprisionar).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Rito concluído; `Calma_Brejo` definido; encontros noturnos ajustados; recompensas aplicadas.",CANON,,Ritos do Véu:15;Engenharia Rúnica (Waystones):3;Leitura de Malícia:7;Atenção:12;Extração (Minério/Pedra/Cristais):18,,,EnterArea,21W12,,,,CAP-0014,OK,21W12;24W7,15.0,3.0,7.0,15;3;7;12;18,,,BREJO,-1.0,0.0,,,,Evento do brejo; sem rep farm.,FAE_ENT,CAP-0014;OK;21W12;24W7,15;3;7;12;18,RITE_MINOR;WAYSTONE_SAFE_JUMP;READ_LIE_BASIC;PERCEIVE_BASIC;MINE_TIER_1,,NONE,2
+SDQ-0015,Caça ao **Sapo-Barrigudo do Brejo**: resolva ataques em poças profundas. (Monstro: EG021 — Sapo-Barrigudo do Brejo),Pântano — Charco dos Líquens (24W7) / Pântano — Margem Longa (23X9),24W7,True,Cartaz de recompensa no hub/mercador.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Spawn do **EG021 — Sapo-Barrigudo do Brejo** (escala por nível; opcional 'Alfa' via HP+); variável `Pressao_Brejo`; item de prova (glândula/pele).","**Loop:** iscar → enfrentar/capturar → reportar.
+
+Carregadores somem perto de uma poça funda. Não é um ‘rei’, mas um **Sapo-Barrigudo** grande demais, agressivo e cheio de toxinas.
+
+**Progressão:**
+1) **Extração (Minério/Pedra/Cristais)** para montar isca e escolher o ponto seguro.
+2) **Atenção** para detectar o salto/ataque e evitar puxões para a lama.
+3) Resolver: combate (abater) OU **Vínculo (Criaturas & Goblins)** para capturar/afugentar sem matar (melhor reputação/mais pagamento).
+4) **Alquimia do Pântano** para lidar com toxinas e ferimentos.
+
+**Impacto regional:** `Pressao_Brejo` baixo melhora travessias; alto aumenta ataques e bloqueios.
+
+**Recompensas:** ouro, materiais (glândula/pele), XP de caça.","**Loop:** iscar → enfrentar/capturar → reportar.
+
+Carregadores somem perto de uma poça funda. Não é um ‘rei’, mas um **Sapo-Barrigudo** grande demais, agressivo e cheio de toxinas.
+
+**Progressão:**
+1) **Extração (Minério/Pedra/Cristais)** para montar isca e escolher o ponto seguro.
+2) **Atenção** para detectar o salto/ataque e evitar puxões para a lama.
+3) Resolver: combate (abater) OU **Vínculo (Criaturas & Goblins)** para capturar/afugentar sem matar (melhor reputação/mais pagamento).
+4) **Alquimia do Pântano** para lidar com toxinas e ferimentos.
+
+**Impacto regional:** `Pressao_Brejo` baixo melhora travessias; alto aumenta ataques e bloqueios.
+
+**Recompensas:** ouro, materiais (glândula/pele), XP de caça.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Criatura resolvida; `Pressao_Brejo` ajustada; prova entregue; recompensa paga.",CANON,,Extração (Minério/Pedra/Cristais):18;Vigor & Carga:4;Vínculo (Criaturas & Goblins):2;Alquimia do Pântano:11;Atenção:12,,,EnterArea,24W7,,,,CAP-0015,OK,24W7;23X9,18.0,4.0,2.0,18;4;2;11;12,,,BREJO,-1.0,0.0,,,,Caça pontual; sem rep farm.,,CAP-0015;OK;24W7;23X9,18;4;2;11;12,MINE_TIER_1;CARRY_LIGHT;BOND_CALM;ALCH_TIER_1;PERCEIVE_BASIC,id_fix(Alquimia do Pântano:10->11),NONE,2
+SDQ-0016,Passadiço quebrado: construa/repare uma travessia para abrir um atalho no brejo.,Pântano — Margem Longa (23X9),23X9,False,Encontrar travessia quebrada após QST-0021.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Materiais; 3 pontos de fixação; teste final.","**Progressão:** coletar madeira/corda → reparar → testar.
+**Impacto:** atalho permanente reduz encontros e tempo de viagem; se mal-feito, desaba depois (evento).","**Progressão:** coletar madeira/corda → reparar → testar.
+**Impacto:** atalho permanente reduz encontros e tempo de viagem; se mal-feito, desaba depois (evento).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Passadiço funcional; atalho liberado; recompensa aplicada.",CANON,,Vigor & Carga:4;Mobilidade:1;Extração (Minério/Pedra/Cristais):18;Atenção:12,,,Talk,NPC:NPC-0016,,,,CAP-0016,OK,23X9,4.0,1.0,18.0,4;1;18;12,NPC-0016,,BREJO,1.0,1.0,,,,Atalho: barqueiro/carpinteiro te aceita.,,CAP-0016;OK;23X9,4;1;18;12,CARRY_LIGHT;TRAVERSE_BASIC;MINE_TIER_1;PERCEIVE_BASIC,,MINOR,3
+SDQ-0017,Componentes instáveis: entregue reagentes ao Mago Louco e teste combinações seguras.,Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10),22V10,True,Acesso à torre; falar com assistente.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Lista de reagentes; mini-evento de combinação; variável 'Risco_Arcano'.","**Loop:** entregar reagentes → testar → evitar explosões.
+**Impacto:** risco baixo reduz eventos de anomalia; risco alto gera encontros extras na torre.","**Loop:** entregar reagentes → testar → evitar explosões.
+**Impacto:** risco baixo reduz eventos de anomalia; risco alto gera encontros extras na torre.",Pilot social tone: Mago Louco tende a 'mínimo esforço' no começo; recompensa relação (Trust/Respect) se player for direto e honesto. Evitar gatilhos de manipulação.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Teste registrado; Risco_Arcano atualizado; recompensa entregue.",CANON,,Engenharia Rúnica (Waystones):3;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Investigação:9;Alquimia do Pântano:11,,,Talk,NPC:NPC-0007,,,,CAP-0017,OK,22V10,3.0,16.0,9.0,3;16;9;11,NPC-0007;NPC-0008,,BREJO,2.0,1.0,,,,Serviços do Mago: exige confiança.,,CAP-0017;OK;22V10,3;16;9;11,WAYSTONE_SAFE_JUMP;TOOLS_BASIC;INVESTIGATE_BASIC;ALCH_TIER_1,id_fix(Alquimia do Pântano:10->11),MINOR,3
+SDQ-0018,Limpeza de selos: apague runas perigosas que atraem entidades para o portão da torre.,Torre do Mago — Ponte e Portão Rangente (21V11),21V11,True,Após qualquer 'anomalia' na torre (flag).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3–6 selos por rodada; variável 'Pressao_Veu'.","**Loop:** localizar selos → interpretar → apagar/selar.
+**Impacto:** pressão baixa reduz fendas e encontros; pressão alta aumenta risco.","**Loop:** localizar selos → interpretar → apagar/selar.
+**Impacto:** pressão baixa reduz fendas e encontros; pressão alta aumenta risco.",Use como gatilho de stress: runas perigosas + mentira/manipulação elevam stress do Mago Louco; se stakes altos pode ativar Mood=OUTBURST e encerramento abrupto. | VAR gatilho: V_SDQ_0018_ANOMALIA_TORRE (anomalia/selos).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Selos resolvidos; Pressao_Veu ajustada; recompensa entregue.",CANON,,Engenharia Rúnica (Waystones):3;Ritos do Véu:15;Investigação:9;Atenção:12,,,Var,VAR:V_SDQ_0018_ANOMALIA_TORRE,,,,CAP-0018,OK,21V11,3.0,15.0,9.0,3;15;9;12,NPC-0007,,BREJO,2.0,1.0,,,,Runa perigosa: confiança alta.,,CAP-0018;OK;21V11,3;15;9;12,WAYSTONE_SAFE_JUMP;RITE_MINOR;INVESTIGATE_BASIC;PERCEIVE_BASIC,,MINOR,3
+SDQ-0019,Pergaminhos extraviados: recupere notas de pesquisa que foram parar no mercado.,Vila Rose — Loja do Mercador (24T2) / Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10),24T2,False,Pedido do assistente; ter acesso ao mercador.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 caixas; 1 diálogo tenso; 1 pista falsa.","**Progressão:** rastrear carregador → inspecionar → recuperar.
+**Impacto:** devolver aumenta serviços do mago; perder/roubar trava upgrades e reduz confiança.","**Progressão:** rastrear carregador → inspecionar → recuperar.
+**Impacto:** devolver aumenta serviços do mago; perder/roubar trava upgrades e reduz confiança.",Relação/Confiança: notas roubadas no mercado permitem testar 'suspeita de manipulação' e reação sarcástica; registrar flags de confiança no progresso do arco.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Destino dos pergaminhos definido; serviços ajustados.",CANON,,Investigação:9;Trapaça:5;Influência:14;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Crônicas do Mundo:6,,,Talk,NPC:NPC-0007,,,,CAP-0019,OK,24T2;22V10,9.0,5.0,14.0,9;5;14;16;6,NPC-0007;NPC-0008,,VILA_ROSE,3.0,0.0,,,,Capstone: demanda prestígio máximo na vila.,,CAP-0019;OK;24T2;22V10,9;5;14;16;6,INVESTIGATE_BASIC;DECEIVE_BASIC;NEGOTIATE_BASIC;TOOLS_BASIC;LORE_BASIC,,NONE,3
+SDQ-0020,Treino das **Marmotas Briguentas**: ensine truques (alarme/coleta) para reduzir incidentes em Rose. (Monstro: EV006 — Marmotas Briguentas da Toca),Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10),22V10,True,Falar com assistente após QST-0024.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1–3 ocorrências de **EV006 — Marmotas Briguentas da Toca** por sessão; 3 comandos; medidor `Disciplina_Marmotas`; ranks de treino.","**Loop:** sessão curta → testar comando → subir rank.
+
+Perto da ponte e das trilhas, um bando de **Marmotas Briguentas** vive roubando comida e causando confusão. Um guarda/caçador quer transformar o problema em solução: treinar as marmotas para **dar alarme** quando goblins ou mortos-vivos se aproximarem.
+
+**Progressão:**
+1) **Vínculo (Criaturas & Goblins)** para estabelecer rotina e evitar mordidas.
+2) **Leitura de Malícia** para ler sinais (medo/raiva/fome) e ajustar abordagem.
+3) **Metalurgia** (assobios/ritmo) para comandos consistentes.
+4) Opcional **Influência** para convencer moradores a não espantar as marmotas durante o treino.
+
+**Impacto regional:** rank alto reduz incidentes (furtos/alarme falso) e diminui chances de emboscadas próximas.
+
+**Recompensas:** itens menores, favor do guarda, bônus utilitário (alarme/indicação de trilhas).","**Loop:** sessão curta → testar comando → subir rank.
+
+Perto da ponte e das trilhas, um bando de **Marmotas Briguentas** vive roubando comida e causando confusão. Um guarda/caçador quer transformar o problema em solução: treinar as marmotas para **dar alarme** quando goblins ou mortos-vivos se aproximarem.
+
+**Progressão:**
+1) **Vínculo (Criaturas & Goblins)** para estabelecer rotina e evitar mordidas.
+2) **Leitura de Malícia** para ler sinais (medo/raiva/fome) e ajustar abordagem.
+3) **Metalurgia** (assobios/ritmo) para comandos consistentes.
+4) Opcional **Influência** para convencer moradores a não espantar as marmotas durante o treino.
+
+**Impacto regional:** rank alto reduz incidentes (furtos/alarme falso) e diminui chances de emboscadas próximas.
+
+**Recompensas:** itens menores, favor do guarda, bônus utilitário (alarme/indicação de trilhas).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Rank atualizado; `Disciplina_Marmotas` registrada; bônus/efeitos aplicados; recompensa entregue.",CANON,,Vínculo (Criaturas & Goblins):2;Leitura de Malícia:7;Metalurgia:13;Influência:14,,,Talk,NPC:NPC-0008,,,,CAP-0020,OK,22V10,2.0,7.0,13.0,2;7;13;14,NPC-0008,,BREJO,3.0,0.0,,,,Treino avançado; sem rep farm.,,CAP-0020;OK;22V10,2;7;13;14,BOND_CALM;READ_LIE_BASIC;SMITH_TIER_1;NEGOTIATE_BASIC,,NONE,3
+SDQ-0021,A Lira e a História: reconstrua uma canção antiga para ganhar prestígio no Reino Élfico.,Reino Élfico — Mercado Élfico (16V18),16V18,False,Ter salvo-conduto; falar com mestre de música/mercador.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 fragmentos; 2 apresentações; variável 'Prestigio_Elfico'.","**Progressão:** buscar fragmentos → interpretar → apresentar.
+**Impacto:** prestígio alto abre estoque e favores; ofensa cultural cria bloqueio social temporário.","**Progressão:** buscar fragmentos → interpretar → apresentar.
+**Impacto:** prestígio alto abre estoque e favores; ofensa cultural cria bloqueio social temporário.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Prestigio_Elfico ajustado; recompensas liberadas.",CANON,,Crônicas do Mundo:6;Metalurgia:13;Leitura de Malícia:7;Influência:14,,,Talk,NPC:NPC-0009,,,,CAP-0021,OK,16V18,6.0,13.0,7.0,6;13;7;14,NPC-0009;NPC-0012,,REINO_ELFO,2.0,0.0,,,,Prestígio cultural; sem rep farm.,,CAP-0021;OK;16V18,6;13;7;14,LORE_BASIC;SMITH_TIER_1;READ_LIE_BASIC;NEGOTIATE_BASIC,,NONE,3
+SDQ-0022,Patrulha do arvoredo: rastreie intrusos e marque trilhas seguras na fronteira élfica.,Reino Élfico — Portão de Folhas e Pedra (17V17) / Reino Élfico — Estrada Branca (18V16),17V17,True,Ter acesso ao posto élfico; falar com batedor.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 pontos de patrulha; intruso aleatório; variável 'Seguranca_Elfica'.","**Loop:** patrulhar → resolver (expulsar, prender, negociar).
+**Impacto:** segurança alta flexibiliza bloqueios e taxas; baixa reforça controle.","**Loop:** patrulhar → resolver (expulsar, prender, negociar).
+**Impacto:** segurança alta flexibiliza bloqueios e taxas; baixa reforça controle.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Patrulha concluída; Seguranca_Elfica ajustada; recompensa paga.",CANON,,Sombra:17;Atenção:12;Extração (Minério/Pedra/Cristais):18;Influência:14;Postura:8,,,Talk,NPC:NPC-0010,,,,CAP-0022,OK,17V17;18V16,17.0,12.0,18.0,17;12;18;14;8,NPC-0010,,REINO_ELFO,1.0,1.0,,,,Patrulha de fronteira; confiança básica.,,CAP-0022;OK;17V17;18V16,17;12;18;14;8,STEALTH_BASIC;PERCEIVE_BASIC;MINE_TIER_1;NEGOTIATE_BASIC;INTIMIDATE_BASIC,,MINOR,3
+SDQ-0023,Ritual do Crescente: participe de um rito de fronteira para selar máculas na estrada branca.,Reino Élfico — Estrada Branca (18V16) / Estrada — Marco da Fronteira (17S20),18V16,False,Ter salvo-conduto e reputação neutra/boa; ocorre em noite específica.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 oferendas; teste de foco; variável 'Pureza_Fronteira'.","**Progressão:** coletar oferendas → posicionar → conduzir rito.
+**Impacto:** pureza alta reduz encontros sombrios; falha aumenta anomalias e patrulhas.","**Progressão:** coletar oferendas → posicionar → conduzir rito.
+**Impacto:** pureza alta reduz encontros sombrios; falha aumenta anomalias e patrulhas.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Pureza_Fronteira definida; encontros ajustados; boon aplicado.",CANON,,Ritos do Véu:15;Engenharia Rúnica (Waystones):3;Metalurgia:13;Leitura de Malícia:7,,,EnterArea,18V16,,,,CAP-0023,OK,18V16;17S20,15.0,3.0,13.0,15;3;13;7,,,REINO_ELFO,2.0,1.0,,,,Rito de fronteira; confiança alta.,FAE_RITUAL,CAP-0023;OK;18V16;17S20,15;3;13;7,RITE_MINOR;WAYSTONE_SAFE_JUMP;SMITH_TIER_1;READ_LIE_BASIC,,MINOR,3
+SDQ-0024,Mudas do bosque: plante e cuide de mudas élficas para restaurar clareiras degradadas.,Reino Élfico — Jardins Nobres (16U19) / Reino Élfico — Estrada Branca (18V16),16U19,True,Falar com jardineiro/guarda do jardim; ter salvo-conduto.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 pontos de plantio; variável 'Saude_Bosque'; pragas.","**Loop:** plantar → proteger → reportar.
+**Impacto:** saúde alta abre atalhos e reduz conflitos com fadas; baixa aumenta patrulhas.","**Loop:** plantar → proteger → reportar.
+**Impacto:** saúde alta abre atalhos e reduz conflitos com fadas; baixa aumenta patrulhas.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Saude_Bosque ajustada; recompensa entregue.",CANON,,Colheita (Ervas/Fungos/Fibras):10;Extração (Minério/Pedra/Cristais):18;Vínculo (Criaturas & Goblins):2;Influência:14,,,Talk,NPC:NPC-0011,,,,CAP-0024,OK,16U19;18V16,10.0,18.0,2.0,10;18;2;14,NPC-0011,,REINO_ELFO,1.0,0.0,,,,Viveiro/mudas; sem rep farm.,FAE_SOCIAL,CAP-0024;OK;16U19;18V16,10;18;2;14,HARVEST_TIER_1;MINE_TIER_1;BOND_CALM;NEGOTIATE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),NONE,3
+SDQ-0025,Caça aos Morcegos de Fenda: reduza ataques nas falésias e mantenha a Estrada Costeira segura. (Monstro: EG024 — Morcego de Fenda),Serra — Trilha das Fendas (19W16) / Serra — Mirante do Vento (18W17),19W16,True,Cartaz de recompensa ao aumentar 'Risco_Estrada'.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Spawn escalável do **EG024 — Morcego de Fenda**; contador `Risco_EstradaCosteira`; 1 fenda/ninho por rodada; 1 rota alternativa para evitar combate (selar/afugentar).","**Loop:** rastrear fendas → lidar com ninho → reportar.
+
+Bandidos e viajantes relatam ataques ao entardecer: bandos de **Morcegos de Fenda** saem de rachaduras nas falésias e tentam derrubar carga e animais.
+
+**Progressão:**
+1) **Atenção** para localizar a fenda ativa (guano, eco, correntes de ar).
+2) **Mobilidade/Vigor & Carga** para alcançar o ninho em terreno íngreme.
+3) Resolver: **combate** (eliminar o bando) OU **Sombra** para destruir/afastar o ninho sem alarde (menos risco de novos ataques).
+4) Reportar ao posto/mercador para reduzir `Risco_EstradaCosteira`.
+
+**Impacto regional:** risco baixo aumenta caravanas e abastecimento; risco alto fecha rotas e encarece itens.
+
+**Recompensas:** pagamento por rodada, materiais (asas/couro leve), chance de drop raro (glândula/essência).","**Loop:** rastrear fendas → lidar com ninho → reportar.
+
+Bandidos e viajantes relatam ataques ao entardecer: bandos de **Morcegos de Fenda** saem de rachaduras nas falésias e tentam derrubar carga e animais.
+
+**Progressão:**
+1) **Atenção** para localizar a fenda ativa (guano, eco, correntes de ar).
+2) **Mobilidade/Vigor & Carga** para alcançar o ninho em terreno íngreme.
+3) Resolver: **combate** (eliminar o bando) OU **Sombra** para destruir/afastar o ninho sem alarde (menos risco de novos ataques).
+4) Reportar ao posto/mercador para reduzir `Risco_EstradaCosteira`.
+
+**Impacto regional:** risco baixo aumenta caravanas e abastecimento; risco alto fecha rotas e encarece itens.
+
+**Recompensas:** pagamento por rodada, materiais (asas/couro leve), chance de drop raro (glândula/essência).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Ninho resolvido; `Risco_EstradaCosteira` ajustado; recompensa paga; registro do ponto perigoso atualizado.",CANON,,Atenção:12;Mobilidade:1;Vigor & Carga:4;Sombra:17;Extração (Minério/Pedra/Cristais):18,,,EnterArea,19W16,,,,CAP-0025,OK,19W16;18W17,12.0,1.0,4.0,12;1;4;17;18,,,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,,CAP-0025;OK;19W16;18W17,12;1;4;17;18,PERCEIVE_BASIC;TRAVERSE_BASIC;CARRY_LIGHT;STEALTH_BASIC;MINE_TIER_1,,NONE,4
+SDQ-0026,Deslizamento de rochas: limpe a trilha para manter a passagem aberta (evento de clima).,Serra — Passo Final (19X19) / Serra — Trilha das Fendas (19W16),19X19,True,Aparece após tempestade (gatilho de tempo).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Obstáculo; cordas; variável 'Estrada_Livre'.","**Loop:** remover rochas/árvores → sinalizar.
+**Impacto:** estrada livre melhora comércio; abusos (cobrar pedágio) geram perseguição/reputação negativa.","**Loop:** remover rochas/árvores → sinalizar.
+**Impacto:** estrada livre melhora comércio; abusos (cobrar pedágio) geram perseguição/reputação negativa.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Estrada_Livre ajustada; pagamento/penalidade aplicada.",CANON,,Vigor & Carga:4;Mobilidade:1;Extração (Minério/Pedra/Cristais):18;Trapaça:5,,,EnterArea,19X19,,,,CAP-0026,OK,19X19;19W16,4.0,1.0,18.0,4;1;18;5,,,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,,CAP-0026;OK;19X19;19W16,4;1;18;5,CARRY_LIGHT;TRAVERSE_BASIC;MINE_TIER_1;DECEIVE_BASIC,,NONE,4
+SDQ-0027,Minério Ferro-Marinho: mineire e entregue minério raro para forja e projetos (inclui o Golem).,Serra — Porta da Caverna de Prova (18X18) / Estrada — Reconstruída (17T19),18X18,True,Falar com ferreiro/mercador após visitar a serra.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Nós de minério; limite de carga; variável 'Oferta_Minerio'.","**Loop:** extrair → transportar → entregar.
+**Impacto:** oferta alta reduz preços e habilita upgrades; fraude mistura minério e cria punição.","**Loop:** extrair → transportar → entregar.
+**Impacto:** oferta alta reduz preços e habilita upgrades; fraude mistura minério e cria punição.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Entrega registrada; Oferta_Minerio ajustada; recompensas entregues.",CANON,,Extração (Minério/Pedra/Cristais):18;Vigor & Carga:4;Atenção:12;Trapaça:5,,,Talk,NPC:NPC-0019,,,,CAP-0027,OK,18X18;17T19,18.0,4.0,12.0,18;4;12;5,NPC-0019,,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,,CAP-0027;OK;18X18;17T19,18;4;12;5,MINE_TIER_1;CARRY_LIGHT;PERCEIVE_BASIC;DECEIVE_BASIC,,NONE,4
+SDQ-0028,Resgate de náufragos: encontre sobreviventes após ressaca e trate ferimentos na praia.,Litoral — Marco do Litoral (19Y20),19Y20,False,Evento disparado por rumor no litoral.,2–4 NPCs feridos; tempo limite; variável 'Vidas_Salvas'.,"**Progressão:** localizar → puxar dos recifes → estabilizar → escoltar.
+**Impacto:** salvar muitos melhora reputação e abre contatos futuros; abandonar gera boatos ruins.","**Progressão:** localizar → puxar dos recifes → estabilizar → escoltar.
+**Impacto:** salvar muitos melhora reputação e abre contatos futuros; abandonar gera boatos ruins.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Vidas_Salvas registrada; recompensas/boatos liberados.",CANON,,Alquimia do Pântano:11;Vigor & Carga:4;Leitura de Malícia:7;Atenção:12,,,Talk,NPC:NPC-0017,,,,CAP-0028,OK,19Y20,11.0,4.0,7.0,11;4;7;12,NPC-0017,,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,,CAP-0028;OK;19Y20,11;4;7;12,ALCH_TIER_1;CARRY_LIGHT;READ_LIE_BASIC;PERCEIVE_BASIC,id_fix(Alquimia do Pântano:10->11),NONE,4
+SDQ-0029,[DESCONSIDERAR] Cartografia do caminho: marque rotas e perigos para vender mapas confiáveis (ou forjar e arriscar).,,24S1,False,,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Checklist de marcos; variável 'Qualidade_Mapa'; pagamento por segmento.","**Loop:** completar segmentos (Rose→Ruínas, Ruínas→Serra, Serra→Litoral).
+**Impacto:** mapa bom abre atalhos e melhora comércio; falsificar gera penalidade e perda de confiança.",, | REWRITE 24S1: NPCs/inners removidos; aguarda novo design.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Segmento entregue; Qualidade_Mapa calculada; pagamento aplicado.",,DESCONSIDERAR (24S1 canon revisado): taverna/enfermaria/taberneiro/curandeira não existem; reescrever SDQ.,Crônicas do Mundo:6;Investigação:9;Atenção:12;Trapaça:5;Extração (Minério/Pedra/Cristais):18,,,Talk,NPC:TBD,,,,CAP-0029,OK,24S1;21R11;19W16;17S20,6.0,9.0,12.0,6;9;12;5;18,,,VILA_ROSE,2.0,0.0,,,,"Serviço de cartografia; libera conteúdo/loja, sem farm de rep.",,CAP-0029;OK;24S1;21R11;19W16;17S20,6;9;12;5;18,LORE_BASIC;INVESTIGATE_BASIC;PERCEIVE_BASIC;DECEIVE_BASIC;MINE_TIER_1,,NONE,4
+SDQ-0030,[PROTÓTIPO] Serviço 'cinza' do mercador (adiar para Ato 2+),Vila Rose — Loja do Mercador (24T2) / Estrada — Reconstruída (17T19) / Reino Élfico — Mercado Élfico (16V18),24T2,True,Mercador oferece após confiança; bloqueia se reputação com guardas é alta.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Item de contrabando; 2 checkpoints; variável 'Suspeita'.","**Loop:** rotas alternativas (social/stealth).
+**Impacto:** sucesso dá ouro alto; ser pego causa multa, perda de reputação e bloqueio élfico temporário.","**Loop:** rotas alternativas (social/stealth).
+**Impacto:** sucesso dá ouro alto; ser pego causa multa, perda de reputação e bloqueio élfico temporário.",AJ_000341: contrabando NÃO é canon no ACT1. Guardar como ideia para futuro.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Entrega ou apreensão registrada; Suspeita/Reputações atualizadas.",PROTÓTIPO,,Trapaça:5;Gambiarra (Ferramentas/Trancas/Armadilhas):16;Sombra:17;Influência:14;Postura:8,,,Talk,NPC:NPC-0003,,,,CAP-0030,OK,24T2;17T19;16V18,5.0,16.0,17.0,5;16;17;14;8,NPC-0003,,VILA_ROSE,2.0,0.0,,,,Contrabando: requer confiança do mercador; sem farm de rep.,,CAP-0030;OK;24T2;17T19;16V18,5;16;17;14;8,DECEIVE_BASIC;TOOLS_BASIC;STEALTH_BASIC;NEGOTIATE_BASIC;INTIMIDATE_BASIC,,NONE,4
+SDQ-0031,Bênção itinerante: leve oferendas a pequenos altares para reduzir encontros sombrios nas rotas.,Estrada — Marco da Fronteira (17S20) / Pântano — Fenda do Brejo (21W12) / Vila (nome TBD) — Centro da Vila (Praça) (24S1),17S20,True,Encontrar um altar e receber dica de devoto.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 altares por ciclo; item 'oferenda'; variável 'Calma_Rotas'.","**Loop:** visitar altares → aplicar oferenda.
+**Impacto:** calma alta reduz encontros aleatórios por um tempo; abuso de selo arcano pode gerar efeito inverso.","**Loop:** visitar altares → aplicar oferenda.
+**Impacto:** calma alta reduz encontros aleatórios por um tempo; abuso de selo arcano pode gerar efeito inverso.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Altares ativados; Calma_Rotas ajustada; boon aplicado.",CANON,,Ritos do Véu:15;Influência:14;Leitura de Malícia:7;Engenharia Rúnica (Waystones):3,,,Talk,NPC:NPC-0014,,,,CAP-0031,OK,17S20;21W12;24S1,15.0,14.0,7.0,15;14;7;3,NPC-0014,,REINO_ELFO,-1.0,0.0,,,,Altares na rota; sem rep farm.,,CAP-0031;OK;17S20;21W12;24S1,15;14;7;3,RITE_MINOR;NEGOTIATE_BASIC;READ_LIE_BASIC;WAYSTONE_SAFE_JUMP,,NONE,4
+SDQ-0032,Desafio de mobilidade: complete percursos de saltos e escaladas para liberar atalhos.,Trilha das Ruínas — Ponte da Cachoeira (22S3) / Ruínas — Desfiladeiro do Entulho (21R11) / Serra — Mirante do Vento (18W17),22S3,True,Encontrar placa do desafio (ou instrutor).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 percursos; cronômetro; ranks; recompensas por recorde.","**Loop:** subir rank e ganhar atalhos.
+**Impacto:** ranks altos liberam rotas rápidas; falhar não pune (só não progride).","**Loop:** subir rank e ganhar atalhos.
+**Impacto:** ranks altos liberam rotas rápidas; falhar não pune (só não progride).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Rank atualizado; recordes registrados; recompensa entregue.",CANON,,Mobilidade:1;Vigor & Carga:4;Atenção:12;Metalurgia:13,,,Talk,NPC:NPC-0015,,,,CAP-0032,OK,22S3;21R11;18W17,1.0,4.0,12.0,1;4;12;13,NPC-0015,,GOBLINS,-1.0,0.0,,,,Desafio de mobilidade; desbloqueia atalhos. Sem rep farm.,,CAP-0032;OK;22S3;21R11;18W17,1;4;12;13,TRAVERSE_BASIC;CARRY_LIGHT;PERCEIVE_BASIC;SMITH_TIER_1,,NONE,4
+SDQ-0033,Terapia de grupo do Pothergeist: uma espada voadora quer ajuda pra lidar com seus sentimentos (e o barril também).,Floresta da Rose — Corredores do Pothergeist (21U6),21U6,False,Interagir com a Espada Voadora em crise e aceitar mediar a sessão.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC Curandeira; 2–4 itens coletáveis; variável 'Estoques_Enfermaria'; 1 evento de triagem.","Você encontra uma Espada Voadora que *não quer lutar*. Ela convoca uma roda com Barril Possuído e Escudo Possuído.
+Objetivo: conduzir a 'sessão' (ritual feérico) escolhendo abordagens por perícia.
+- Sucesso: objetos aceitam um propósito e liberam passagem/loot extra leve.
+- Falha: o exercício de 'respiração' vira hazard e inicia combate cômico.
+Final: você ganha um item memorial UNIQUE cosmético.","**Opcional:** Medie uma terapia improvável entre objetos possuídos. (Sem bônus, só história e risada.)",Flags: S_SDQ_POTHER_TERAPIA_DONE. Recompensa cosmética: ITM_SELO_DA_TERAPIA_AEREA_UNIQUE.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Estoques_Enfermaria atualizado; recompensa entregue; (opcional) moral ajustada.",PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Leitura de Malícia:7;Metalurgia:13;Trapaça:5;Influência:14,"1x Selo da Terapia Aérea (UNIQUE, cosmético)",ITM_SELO_DA_TERAPIA_AEREA_UNIQUE,EnterArea,21U6,,,13.0,CAP-0016,OK,21U6,7.0,13.0,5.0,7;13;5;14,,,FADAS,1.0,1.0,,,,Terapia do Pothergeist: comédia + confiança leve.,FAE_RITUAL;FAE_SOCIAL,CAP-0016;OK;21U6,7;13;5;14,READ_LIE_BASIC;SMITH_TIER_1;DECEIVE_BASIC;NEGOTIATE_BASIC,,MINOR,3
+SDQ-0034,Greve no curral: goblins jockeys fazem piquete e te chamam (contra sua vontade) pra ser o RH do Forte.,Forte — Currais e Selas (18S15),18S15,False,Falar com o 'delegado sindical' goblin no piquete do curral.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC Curandeira; 2–4 itens coletáveis; variável 'Estoques_Enfermaria'; 1 evento de triagem.","Um grupo de Goblins Jockeys está em greve: exigem pausa pra lanche, capacete e 'fim do julgamento moral do cavalo'.
+Objetivo: negociar um acordo (Influência/Leitura de Malícia), impor medo (Postura) ou vender uma solução fake (Trapaça).
+Resultado afeta encontros locais por alguns ciclos (opcional) e entrega item memorial UNIQUE cosmético.",**Opcional:** Negocie a greve mais improvável do Forte e saia com um 'crachá' que ninguém pediu.,Variar texto do item conforme desfecho. Recompensa: ITM_CRACHA_RH_HONORARIO_UNIQUE.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Estoques_Enfermaria atualizado; recompensa entregue; (opcional) moral ajustada.",PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Influência:14;Postura:8;Trapaça:5;Leitura de Malícia:7,"1x Crachá de RH Honorário (UNIQUE, cosmético)",ITM_CRACHA_RH_HONORARIO_UNIQUE,Talk,NPC:TBD,,,14.0,CAP-0010,OK,18S15,14.0,8.0,5.0,14;8;5;7,,,GOBLINS,-1.0,1.0,,,,Recomendado pós QST-0010: goblins confusos buscam mediação.,,CAP-0010;OK;18S15,14;8;5;7,NEGOTIATE_BASIC;INTIMIDATE_BASIC;DECEIVE_BASIC;READ_LIE_BASIC,,MINOR,2
+SDQ-0035,O Bagre Bípedo quer gravar a 'emboscada perfeita' e te contrata como diretor. Spoiler: o orbe não é um feed.,Pântano — Ponte da Emboscada (Bagre Bípedo) (24V6),24V6,False,Aceitar ajudar o Bagre Bípedo a montar o set de gravação na ponte.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC Curandeira; 2–4 itens coletáveis; variável 'Estoques_Enfermaria'; 1 evento de triagem.","O Bagre Barrigudo (Bípedo) roubou um orbe do Mago Louco e acha que é artefato de fama.
+Objetivo: montar o 'set' (puzzle leve) e encenar/operar a emboscada (Metalurgia/Sombra).
+Twist: o orbe atrai energia e chama um encontro real.
+Final: item memorial UNIQUE cosmético assinado na lama.","**Opcional:** Dirija uma emboscada cinematográfica no pântano. (Sem bônus, só dignidade perdida.)",Conectar com QST-0021 sem bloquear. Recompensa: ITM_CLAQUETE_DO_DIRETOR_DO_PANTANO_UNIQUE.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Estoques_Enfermaria atualizado; recompensa entregue; (opcional) moral ajustada.",PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Metalurgia:13;Sombra:17;Extração (Minério/Pedra/Cristais):18;Gambiarra (Ferramentas/Trancas/Armadilhas):16,"1x Claquete do Diretor do Pântano (UNIQUE, cosmético)",ITM_CLAQUETE_DO_DIRETOR_DO_PANTANO_UNIQUE,EnterArea,24V6,,,13.0,CAP-0021,OK,24V6,13.0,17.0,18.0,13;17;18;16,,,BREJO,-1.0,1.0,,,,Bagre diretor: comédia; melhora sintonia.,,CAP-0021;OK;24V6,13;17;18;16,SMITH_TIER_1;STEALTH_BASIC;MINE_TIER_1;TOOLS_BASIC,,MINOR,3
+SDQ-0036,"Vácuo de comando: após a queda do Rei Goblin, grupos rivais brigam pelo forte. Você decide se vai pacificar ou esmagar.",Forte — Praça do Novo Rei (17U18),17U18,False,"Após QST-0010; Você encontra três bandos de goblins perdidos brigando por comida e símbolos do rei. Dá para separar, intimidar, ou prop",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Você encontra três bandos de goblins perdidos brigando por comida e símbolos do rei. Dá para separar, intimidar, ou propor regras. Escolha define a rota: Reconstrução (puxa reputação para branco) ou Purga (mantém preto).","O Rei caiu. O forte não sabe o que fazer. E, por algum motivo, você virou a pessoa mais 'qualificada' para resolver isso.",Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Influência:14;Postura:8;Leitura de Malícia:7,Marco: define a rota pós-Rei (Reputação Goblin +).,,EnterArea,17U18,,,14.0,CAP-0010,OK,17U18,14.0,8.0,7.0,14;8;7,,,GOBLINS,-1.0,2.0,,,,Marco: -1 → +1 (delta +2) se rota Reconstrução. Rota Purga pode aplicar delta negativo no evento.,,,14;8;7,NEGOTIATE_BASIC;INTIMIDATE_BASIC;READ_LIE_BASIC,id_fix(Postura:12->8)|id_fix(Leitura de Malícia:10->7),MAJOR,2
+SDQ-0037,Conselho das Três Panelas: formalize um 'conselho provisório' e pare as brigas internas com um ritual ridículo e eficaz.,Forte — Praça do Novo Rei (17U18),17U18,False,"Após QST-0010; Ajude três líderes improvisados (cozinheiro, ferreiro e batedor) a concordarem num conjunto de regras. Cada um quer algo",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Ajude três líderes improvisados (cozinheiro, ferreiro e batedor) a concordarem num conjunto de regras. Cada um quer algo absurdo (panela maior, martelo sagrado, apito de patrulha).",Você não esperava mediar política goblin. E ainda assim aqui estamos.,Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Influência:14;Metalurgia:13;Trapaça:5,Reputação + e desbloqueio de 'funções' (coleta/guarda).,,EnterArea,17U18,,,13.0,CAP-0010,OK,17U18,14.0,13.0,5.0,14;13;5,,,GOBLINS,1.0,1.0,,,,Formaliza conselho; +1 (vira +2).,FAE_RITUAL,,14;13;5,NEGOTIATE_BASIC;SMITH_TIER_1;DECEIVE_BASIC,id_fix(Trapaça:11->5),MINOR,2
+SDQ-0038,Treino do Pelotão Perdido: ensine disciplina a um grupo de goblins confusos (sem virar genocídio) e atribua uma função.,Forte — Currais e Selas (18S15) / Praça do Novo Rei (17U18),18S15,False,"Após QST-0010; Mini-cadeia de treinos: marcha, vigia e coleta. Dependendo do tom, você forma 'guarda do forte' (reduz encontros hostis)",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Mini-cadeia de treinos: marcha, vigia e coleta. Dependendo do tom, você forma 'guarda do forte' (reduz encontros hostis) ou 'coleta' (gera recursos por ciclo).",Eles querem um líder. Você quer que eles parem de tropeçar em armadilhas.,Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Influência:14;Vigor & Carga:4;Leitura de Malícia:7,Reputação + e sistema de trabalho liberado.,,EnterArea,18S15,,,14.0,CAP-0010,OK,18S15,14.0,4.0,7.0,14;4;7,,,GOBLINS,1.0,1.0,,,,Treino e atribuição de função; +1.,,,14;4;7,NEGOTIATE_BASIC;CARRY_LIGHT;READ_LIE_BASIC,alias(Teaching->Influência)|id_fix(Vigor & Carga:12->4)|id_fix(Leitura de Malícia:10->7),MINOR,2
+SDQ-0039,"Reforma do Portão: reconstrua o portão do forte com ajuda goblin, reduzindo saqueadores e abrindo o 'hub do forte'.",Forte — Portão do Forte Goblin (18R14),18R14,False,"Após QST-0010; Coletar madeira/pedra, instalar travas e treinar um turno de vigias. Evento final: repelir um bando oportunista.",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Coletar madeira/pedra, instalar travas e treinar um turno de vigias. Evento final: repelir um bando oportunista.",Construir é mais difícil do que destruir. Eles vão aprender isso agora.,Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Metalurgia:13;Vigor & Carga:4;Extração (Minério/Pedra/Cristais):18,Reputação + e upgrade de fortificação.,,EnterArea,18R14,,,13.0,CAP-0010,OK,18R14,13.0,4.0,18.0,13;4;18,,,GOBLINS,2.0,1.0,,,,Reforma do portão; +1 (vira +3).,,,13;4;18,SMITH_TIER_1;CARRY_LIGHT;MINE_TIER_1,alias(Crafting->Metalurgia)|id_fix(Vigor & Carga:12->4)|id_fix(Extração (Minério/Pedra/Cristais):12->18),MINOR,2
+SDQ-0040,"Contratos de Coleta: delegue tarefas a goblins (madeira, pedra, sucata) e receba recursos por ciclo.",Forte — Praça do Novo Rei (17U18),17U18,True,"Após QST-0010; Sistema repetível: escolha um contrato, espere 1 ciclo, receba recursos. Eventos aleatórios: atraso, briga, sucesso extr",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Sistema repetível: escolha um contrato, espere 1 ciclo, receba recursos. Eventos aleatórios: atraso, briga, sucesso extra.",Você assinou um contrato goblin. A assinatura é uma impressão digital cheia de graxa.,Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Vínculo (Criaturas & Goblins):2;Leitura de Malícia:7,Loop de recursos (sem reputação).,,EnterArea,17U18,,,12.0,CAP-0010,OK,17U18,2.0,7.0,,2;7,,,GOBLINS,2.0,0.0,,,,Loop repetível de recursos; sem rep farm.,,,2;7,BOND_CALM;READ_LIE_BASIC,alias(Management->Vínculo (Criaturas & Goblins))|id_fix(Vínculo (Criaturas & Goblins):12->2)|id_fix(Leitura de Malícia:10->7),NONE,2
+SDQ-0041,"Mercado do Forte: organize uma banca de trocas e libere um estoque goblin (torto, útil e questionável).",Forte — Praça do Novo Rei (17U18),17U18,False,"Após QST-0010; Defina regras de troca, impeça golpe óbvio (que todo mundo vê) e libere um NPC de comércio. Estoque varia por reputação ",NPCs/variáveis do pós-Rei; 1 mapa-hub (17U18); placeholders de diálogos.,"Defina regras de troca, impeça golpe óbvio (que todo mundo vê) e libere um NPC de comércio. Estoque varia por reputação (+2 abre, +3 melhora).",Parabéns: você criou o primeiro mercado goblin semi-legal da região.,Pós-Rei Goblin: reestruturação do forte. Ajustar encounters para 'goblins perdidos' quando S_REI_GOBLIN_DERROTADO=ON.,Quest concluída; flags ajustadas; recompensa entregue; (opcional) upgrades do forte habilitados.,PROTÓTIPO,PROPOSTA — inserir no CANON após playtest.,Influência:14;Trapaça:5;Leitura de Malícia:7,Loja goblin habilitada (tier por reputação).,,EnterArea,17U18,,,13.0,CAP-0010,OK,17U18,14.0,5.0,7.0,14;5;7,,,GOBLINS,2.0,0.0,,,,Desbloqueia loja goblin (estoque por tier); sem rep farm.,,,14;5;7,NEGOTIATE_BASIC;DECEIVE_BASIC;READ_LIE_BASIC,id_fix(Influência:13->14)|id_fix(Trapaça:11->5)|id_fix(Leitura de Malícia:10->7),NONE,2
+SDQ-0042,Mentoria do Lenhador: teste o machado e traga madeira boa para criação.,Vila (nome TBD) — Arredores do Lenhador (24R0_I),24R0_I,False,Falar com o Lenhador durante/apos o evento de chegada.,,O lenhador entrega um machado simples e orienta quais árvores/cortes rendem madeira utilizável. O objetivo é coletar madeira bruta e retornar para validar se está 'boa' como material base (introdução ao loop de craft).,"**Objetivo:** coletar 3x Madeira Bruta e retornar ao Lenhador.
+**Recompensa:** orientação + (opcional) dica de craft inicial.
+**Notas:** o machado é entregue no evento inicial do mapa; esta sidequest serve como mentoria/validação do material.",PROTÓTIPO: depende dos nós de madeira em 24R0_I e da perícia de Lenharia (Madeira).,,PROTÓTIPO,Pode virar tutorial opcional. Não travar o jogador com 'semanal'.,Lenharia (Madeira):19,WEA_MACHADO_DE_MAO_COMUM (já entregue no evento); + dicas (sem item extra por enquanto).,,Talk,NPC-0023,,,,CAP-0001,OK,24R0_I,19.0,,,19,NPC-0023,,VILA_ROSE,0.0,,,,,,,,19,WOODCUT_TIER_1,id_fix(Lenharia (Madeira):1->19),NONE,1
+SDQ-0043,Abastecer a Loja (materiais básicos),Vila (nome TBD) — Loja do Mercador (24T2),24T2,True,Após QST-0012; falar com o Mercador.,,Entregue Fibra/Couro/Carvão (quantidade pequena) para o mercador manter o estoque. Repetível.,Abastecer a Loja (materiais básicos),Completar incrementa MERCHANT_SDQ_DONE (+1). Ao atingir 3/8/18 desbloqueia Tier 1/2/3 no SHOP-VR-MERCADOR.,,CANON,AJ_000341 (canon novo).,Influência:14;Atenção:12;Vigor & Carga:4,Ouro (pequeno) + itens/materiais. MERCHANT_SDQ_DONE +1.,,Talk,NPC:NPC-0003,QST-0012,,,CAP-0012,,,14.0,12.0,4.0,14;12;4,NPC-0003,,VILA_ROSE,,1.0,,,,Ajudas ao mercador aumentam confiança.,FAE_CORE_ARC;FAE_SOCIAL,,14;12;4,NEGOTIATE_BASIC;PERCEIVE_BASIC;CARRY_LIGHT,id_fix(Influência:6->14)|alias(Percepção->Atenção)|id_fix(Atenção:4->12)|alias(Sobrevivência->Vigor & Carga),MINOR,2
+SDQ-0044,Entrega Local (centro ↔ mercador),Vila (nome TBD) — Loja do Mercador (24T2),24T2,True,Após QST-0012; falar com o Mercador.,,Leve um pacote ao Centro da Vila (24S1) e retorne ao mercador. Repetível.,Entrega Local (centro ↔ mercador),Completar incrementa MERCHANT_SDQ_DONE (+1). Ao atingir 3/8/18 desbloqueia Tier 1/2/3 no SHOP-VR-MERCADOR.,,CANON,AJ_000341 (canon novo).,Influência:14;Atenção:12;Vigor & Carga:4,Ouro (pequeno) + itens/materiais. MERCHANT_SDQ_DONE +1.,,Talk,NPC:NPC-0003,QST-0012,,,CAP-0012,,,14.0,12.0,4.0,14;12;4,NPC-0003,,VILA_ROSE,,1.0,,,,Ajudas ao mercador aumentam confiança.,FAE_CORE_ARC;FAE_SOCIAL,,14;12;4,NEGOTIATE_BASIC;PERCEIVE_BASIC;CARRY_LIGHT,id_fix(Influência:6->14)|alias(Percepção->Atenção)|id_fix(Atenção:4->12)|alias(Sobrevivência->Vigor & Carga),MINOR,2
+SDQ-0045,Recuperar Mercadoria (pacote perdido),Vila (nome TBD) — Loja do Mercador (24T2),24T2,True,Após QST-0012; falar com o Mercador.,,Procure um pacote perdido em uma trilha próxima e devolva ao mercador. Repetível.,Recuperar Mercadoria (pacote perdido),Completar incrementa MERCHANT_SDQ_DONE (+1). Ao atingir 3/8/18 desbloqueia Tier 1/2/3 no SHOP-VR-MERCADOR.,,CANON,AJ_000341 (canon novo).,Influência:14;Atenção:12;Vigor & Carga:4,Ouro (pequeno) + itens/materiais. MERCHANT_SDQ_DONE +1.,,Talk,NPC:NPC-0003,QST-0012,,,CAP-0012,,,14.0,12.0,4.0,14;12;4,NPC-0003,,VILA_ROSE,,1.0,,,,Ajudas ao mercador aumentam confiança.,FAE_CORE_ARC;FAE_SOCIAL,,14;12;4,NEGOTIATE_BASIC;PERCEIVE_BASIC;CARRY_LIGHT,id_fix(Influência:6->14)|alias(Percepção->Atenção)|id_fix(Atenção:4->12)|alias(Sobrevivência->Vigor & Carga),MINOR,2

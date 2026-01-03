@@ -1,0 +1,59 @@
+IdMonstro,Nome,Localizacao,Rank,NivelNumero,Aplica_Status_Canon,StatusRawRemovido,HasRawRemoved
+EG004,Fada Frenética do Véu Verde,Floresta das Fadas,Elite,9,CONFUSION;PARALYSIS,MARCA_FEERICA,1
+EG008,Lobo da Bruma Faminta,Floresta das Fadas,Normal,8,BLEED;CONFUSION,MARCA_DE_CACA,1
+EG015,Mandrágora Xamânica do Totem,Floresta das Fadas,Normal,6,POISON;ROOT,SONOLENCIA_CURTA,1
+EG018,Lodo Viscoso Devorador,Brejo Alagado,Normal,10,PARALYSIS,SUJO,1
+EG019,Sanguessuga Sangra-Fundo,Brejo Alagado,Normal,11,BLEED,DRENO_HP,1
+EG029,Sprite Sentinela da Trilha,Floresta das Fadas,Normal,8,CONFUSION,MARCA_FEERICA,1
+EG031,Cervo Astral da Caçada,Floresta das Fadas,Elite,9,BLEED;CONFUSION,MARCA_FEERICA,1
+EG032,Sussurro do Santuário Profano,Floresta das Fadas,Normal,8,SILENCE;CONFUSION,DRENO_SP_LEVE,1
+EG033,Golem de Pedregulho Esmagador,Ruína dos Goblins,Normal,8,STUN,QUEBRA_DEF_LEVE,1
+EG034,Sentinela Rachada da Ruína,Ruína dos Goblins,Elite,11,STUN,QUEBRA_DEF,1
+EG035,Golem de Ferrugem Rangente,Ruína dos Goblins,Normal,10,,"FERRUGEM_ATK_DOWN,QUEBRA_DEF_LEVE",1
+EG036,Boneca de Pedra Possuída,Floresta das Fadas,Normal,6,STUN,QUEBRA_DEF_LEVE,1
+EG045,Sombra Rastejante da Fenda,Ruína dos Goblins,Normal,8,CONFUSION,DRENO_HP_LEVE,1
+EV002,Zumbi Alquímico do Mago Louco,Brejo Alagado (Evento do Mago Louco),Elite,16,POISON,INFECTADO,1
+EV004,Cockatrice Hemodemoníaca,Brejo Alagado (Borda — Evento Único),Elite,15,BLEED;PARALYSIS,QUEBRA_DEF_LEVE,1
+EV005,Lâmina Poltergeist Errante,Floresta das Fadas,Elite,10,BLEED;CONFUSION,DESARME_CHANCE,1
+EG001,Crocodilo do Lodo Fendido,Brejo Alagado,Elite,13,BLEED;PARALYSIS,,0
+EG002,Lontra Rasga-Canela do Brejo,Brejo Alagado,Normal,12,BLEED;CONFUSION,,0
+EG003,Cavaleiro Verrume do Clã,Ruína dos Goblins,Elite,10,BLEED;STUN,,0
+EG005,Escaravelho Aríete das Falésias,Caminho Costeiro,Elite,7,BLEED;STUN,,0
+EG006,Serpente da Maré Cortante,Caminho Costeiro,Normal,3,BLEED;PARALYSIS,,0
+EG007,Alce-Raiz das Escarpas,Caminho Costeiro,Elite,6,BLEED;ROOT,,0
+EG009,Javali Quebra-Troncos,Floresta das Fadas,Normal,6,BLEED;STUN,,0
+EG010,Cão de Guerra Errante,Caminho Costeiro,Normal,4,BLEED;CONFUSION,,0
+EG011,Cabra Chifruda do Precipício,Caminho Costeiro,Normal,5,CONFUSION;STUN,,0
+EG012,Raposa Saqueadora das Falésias,Caminho Costeiro,Normal,3,CONFUSION,,0
+EG013,Urso da Serra Ensandecido,Caminho Costeiro,Normal,4,BLEED;STUN,,0
+EG014,Cervo da Névoa Ruinosa,Caminho Costeiro,Normal,5,BLEED;PARALYSIS,,0
+EG016,Corcel Feral de Casco Rachado,Floresta das Fadas,Normal,7,CONFUSION,,0
+EG017,Hiena Quebra-Canela da Estrada,Caminho Costeiro,Normal,5,BLEED;CONFUSION,,0
+EG020,Peixe Bolha Pustulento,Brejo Alagado,Normal,12,POISON;CONFUSION,,0
+EG021,Sapo-Barrigudo de Bílis,Brejo Alagado,Normal,10,POISON;PARALYSIS,,0
+EG022,Bagre das Sombras Faminto,Brejo Alagado,Normal,11,CONFUSION;PARALYSIS,,0
+EG023,Peixe-Flecha do Brejo,Brejo Alagado,Normal,12,BLEED,,0
+EG024,Morcego da Fenda Voraz,Ruína dos Goblins,Normal,8,BLEED;CONFUSION,,0
+EG025,Corvo de Olho Oco,Ruína dos Goblins,Normal,9,CONFUSION,,0
+EG026,Coruja do Galho Morto,Ruína dos Goblins,Normal,10,CONFUSION,,0
+EG027,Vespa do Penhasco Ferrão-Forte,Caminho Costeiro,Normal,3,POISON;BLEED,,0
+EG028,Fadinha Espiã do Sub-Bosque,Floresta das Fadas,Normal,7,CONFUSION;PARALYSIS,,0
+EG030,Luz Errante do Engano,Floresta das Fadas,Normal,6,CONFUSION,,0
+EG037,Golem de Basalto Trincado,Ruína dos Goblins,Elite,11,BURN;STUN,,0
+EG038,Enxame de Seixos Animados,Ruína dos Goblins,Normal,10,BLEED;PARALYSIS,,0
+EG039,Mosquito Sangra-Noite,Brejo Alagado,Normal,10,POISON;BLEED,,0
+EG040,Aranha Tecelã de Galhos,Floresta das Fadas,Normal,7,POISON;ROOT,,0
+EG041,Abelha de Seiva Bravia,Floresta das Fadas,Normal,8,POISON;BURN,,0
+EG042,Flor Carnívora da Clareira,Floresta das Fadas,Normal,6,POISON;ROOT,,0
+EG043,Cipó Carrasco das Ruínas,Ruína dos Goblins,Normal,9,BLEED;ROOT,,0
+EG044,Toco Rancoroso do Sopro Negro,Ruína dos Goblins,Normal,10,PARALYSIS;STUN,,0
+EG046,Guerreiro Sangra-Pedra do Clã,Ruína dos Goblins,Normal,9,BLEED;CONFUSION,,0
+EG047,Ossada Encharcada,Brejo Alagado,Normal,12,POISON;STUN,,0
+EG048,Filhote Dracônico Serrano,Caminho Costeiro,Elite,5,BURN,,0
+EV001,Imp Vigia da Ponte Quebrada,Ruína dos Goblins,Normal,9,BURN;CONFUSION,,0
+EV003,Bagre Andarilho Barrigudo,Brejo Alagado,Elite,12,BLEED;STUN,,0
+EV006,Marmotas da Toca Feroz,Caminho Costeiro,Normal,3,CONFUSION;STUN,,0
+EV007,Espectro Glacial do Lodo,Brejo Alagado,Elite,13,CONFUSION;PARALYSIS;FREEZE,,0
+MB001,Rei Goblin,Ruínas Goblins (Dungeon do Forte — Núcleo),Boss,15,,,0
+MB002,Ent Enfurecido,Floresta das Fadas (Santuário); Reino Élfico (fronteiras),Boss,18,,,0
+MB003,Demônio da Fenda,Torre do Mago (missão do teleporte); Ruínas Goblins (efeitos colaterais),Boss,20,,,0

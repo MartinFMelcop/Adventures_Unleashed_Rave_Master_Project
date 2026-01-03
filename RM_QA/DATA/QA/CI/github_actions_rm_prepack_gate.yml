@@ -1,0 +1,46 @@
+# Template: GitHub Actions workflow for RM prepack gate (matrix per module) + optional webhook notify
+# Copy this file to: .github/workflows/rm_prepack_gate.yml
+# Assumes module folders exist at repo root: RM_CORE/ RM_ACT1/ RM_QA/ RM_DIST/ RM_ART/ RM_LEGACY/
+
+name: RM Prepack Gate
+
+on:
+  pull_request:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prepack_gate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module: [RM_CORE, RM_ACT1, RM_QA, RM_DIST, RM_ART, RM_LEGACY]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepack gate (integrity + traceability)
+        run: |
+          python RM_QA/DATA/QA/TOOLS/prepack_gate_validate.py \
+            --skip-dialogue-scenarios \
+            --skip-combat-vectors \
+            ${{ matrix.module }}
+
+      - name: Optional notify webhook
+        if: always()
+        env:
+          RM_NOTIFY_WEBHOOK: ${{ secrets.RM_NOTIFY_WEBHOOK }}
+          RM_MODULE: ${{ matrix.module }}
+          RM_STATUS: ${{ job.status }}
+        run: |
+          if [ -n "$RM_NOTIFY_WEBHOOK" ]; then
+            curl -sS -X POST "$RM_NOTIFY_WEBHOOK" \
+              -H "Content-Type: application/json" \
+              -d "{\"module\": \"$RM_MODULE\", \"status\": \"$RM_STATUS\", \"workflow\": \"RM Prepack Gate\"}" || true
+          fi

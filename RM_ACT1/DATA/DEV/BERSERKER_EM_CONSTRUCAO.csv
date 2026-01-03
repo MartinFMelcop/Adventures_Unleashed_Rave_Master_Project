@@ -1,0 +1,96 @@
+Berserker:,,Perícia,Level Cap,,CorID,Hexadecimal,,,,SkillID,Escala,Nome,Tipo,Ação,Descrição Resumida,Letalidade,Duração de Bônus,Duração de Letargia,CustoSP,Cooldown,CD,Descrição Técnica da Habilidade,,PassiveID,Escala,Nome da Passiva,Efeito,Descrição,,,,,,,,,Armadura_1,Armadura_2,Armadura_3,Armadura_4,Armadura_5,ArmadurasPermitidas,,,,,,,,,,Categoria,Tags,PerfilDeAlvo,Nivel_1,Nivel_2,Nivel_3,DeltaEfeito_Lv2,DeltaEfeito_Lv3,,Nivel_1,Nivel_2,Nivel_3,DeltaEfeito_Lv2,DeltaEfeito_Lv3
+,,Mobilidade,12,,49,,,,,BERSERKER_SKL_001,3,Corte da Fúria,Habilidade Ofensiva,Ação,Um ataque que aumenta de poder a cada golpe consecutivo bem-sucedido no inimigo.,0.9,-,-,35,-,,"Golpe físico corpo-a-corpo (1m). Necessita arma cortante ou perfurante. Realiza um golpe de POT 90% com a arma. No acerto concede um ponto de ação bonus no turno (Gaste esse ponto somente para atacar). Recebe uma contagem de [Fúria I/II/III].
+
+[Fúria I/II/III] +6/+11/+15 STR",,BERSERKER_PAS_001,4,Fúria Inicial,Começa o combate com bônus de STR e velocidade de ação por 1 turno.,Sua presença no campo é um estrondo de pura violência.,,,,,,,,,,,,,,,,,,,,,,,,Habilidade Ofensiva,,Single,,,,,,,,,,,
+,,Vínculo (Criaturas & Goblins),10,,34,,,,,BERSERKER_SKL_002,6,Rugido Selvagem,Suporte/Habilidade Ofensiva,Ação,Um grito que aumenta o dano de ataque do Berserker baseado na porcentagem de saúde perdida.,0.85,3,-,40,-,,"Golpe físico corpo-a-corpo (1m). Realiza um golpe de POT 85%.Concede 3 contagens de [Fúria I/II/III]. Caso esteja com PONTOS DE VIDA abaixo de 60% da CONSTITUIÇÃO TOTAL, recebe ao invés 3 contagens de [Fúria Indomável I/II/III]
+
+[Fúria I/II/III] +6/+11/+15 STR
+[Fúria Indomável] +6/+11/+15 STR e DEF",,BERSERKER_PAS_002,9,Grito da Carnificina,Recupera SP ao derrotar inimigos.,A matança alimenta sua alma selvagem.,,,,,,,,,,,,,,,,,,,,,,,,Suporte/Habilidade Ofensiva,,Single,,,,,,,,,,,
+Tipo de Armadura:,,Engenharia Rúnica (Waystones),5,,39,,,,,BERSERKER_SKL_003,12,Frenesi de Sangue,Suporte,Ação,Aumenta a velocidade de ataque do Berserker para cada inimigo ferido próximo.,-,4,-,45,-,,"(Área 10m). Caso tenha um inimigo com PONTOS DE VIDA abaixo de sua CONSTITUIÇÃO TOTAL dentro da distância do grito recebe 4 contagens de [Frenesi I/II/III]. Caso tenha 2 ou mais inimigos, recebe ao invés 4 contagens de [Alto Frenesi I/II/III]
+
+[Frenesi I/II/III] +6/+11/+15 AGI
+[Alto Frenesi I/II/III] +11/+15/+18 AGI",,BERSERKER_PAS_003,14,Resistência Bruta,Reduz 15% do dano recebido com menos de 30% de HP.,"Quando ferido, o Berserker se torna ainda mais implacável.",,,,,,,,,,,,,,,,,,,,,,,,Suporte,,SplashArea,,,,,,,,,,,
+Half Plate,,Vigor & Carga,18,,,,,,,BERSERKER_SKL_004,18,Destruição Frenética,Habilidade Ofensiva,Ação,Concede um aumento significativo de dano ao custo de reduzir a defesa do Berserker.,1.1,-,-,60,-,,"Golpe físico corpo-a-corpo (1m). Realiza um golpe de POT 120% (Contusão). Recebe uma contagem de [Guarda Aberta I/II].
+
+[Guarda Aberta I/II] -11/-6 DEF",,BERSERKER_PAS_004,20,Eco da Matança,"Após um crítico, o próximo ataque tem bônus de dano.",Cada golpe letal ecoa com sede de mais destruição.,,,,,,,,,,,,,,,,,,,,,,,,Habilidade Ofensiva,,Single,,,,,,,,,,,
+,,Trapaça,7,,,,,,,BERSERKER_SKL_005,20,Sede de Sangue,Suporte,Ação,"Aumenta o dano do Berserker proporcionalmente à quantidade de HP perdido, incentivando um estilo agressivo.",-,5,-,55,-,,"Concede 5 contagens de [Fúria I/II/III]. Caso esteja com PONTOS DE VIDA abaixo de 50% da CONSTITUIÇÃO TOTAL, recebe ao invés 5 contagens de [Fúria Indomável I/II/III] e 5 contagens de [Frenesi I/II/III]
+
+[Fúria I/II/III] +6/+11/+15 STR
+[Fúria Indomável] +6/+11/+15 STR e DEF
+[Frenesi I/II/III] +6/+11/+15 AGI",,BERSERKER_PAS_005,26,Mente Despedaçada,Imune a medo e confusão.,"Nem a dor, nem o pavor o detêm — só a fúria comanda seus passos.",,,,,,,,,,,,,,,,,,,,,,,,Suporte,,Single,,,,,,,,,,,
+(Narrativa movida para DOCUMENTACAO_CLASSES),,Crônicas do Mundo,6,,,,,,,BERSERKER_SKL_006,30,Golpe do Titã,Habilidade Ultimato,Ação,"Um ataque devastador que concentra toda a força do Berserker, causando dano massivo a um único alvo.",1.8,-,-,95,8,,"Golpe físico corpo-a-corpo (2m). Realiza um golpe de POT 180% (Contusão). Caso o oponente tenha DEFESA maior que sua DEFESA aplica [STAB] no golpe.
+
+[STAB] x1,5 de Dano",,BERSERKER_PAS_006,33,Perseverança Impiedosa,Cura mínima por turno em combate corpo a corpo.,"Enquanto houver luta, há força em seus músculos.",,,,,,,,,,,,,,,,,,,,,,,,Habilidade Ultimato,,Single,,,,,,,,,,,
+,,Leitura de Malícia,8,,,,,,,BERSERKER_SKL_007,40,Fúria do Redemoinho,Habilidade Ofensiva,Ação,"Permite ao Berserker girar com sua arma, atingindo todos os inimigos ao redor.",1.2,-,-,80,-,,Golpe físico em área circular (raio de 2m). Necessita arma cortante. Realiza um golpe de POT 120% com a arma.,,BERSERKER_PAS_007,45,A Ira é o Caminho,Aumenta 20% do dano enquanto sob efeito de debuffs.,Cada punição infligida sobre você retorna em força multiplicada.,,,,,,,,,,,,,,,,,,,,,,,,Habilidade Ofensiva,,SplashArea,,,,,,,,,,,
+,,Postura,18,,,,,,,BERSERKER_SKL_008,50,Encarnar a Fúria,Suporte/Habilidade Ultimato,Ação,"Transforma o Berserker temporariamente, aumentando significativamente sua força, velocidade e resistência.",1.5,4,-,110,7,,"Buff pessoal. Elimine quantas contagens quiser de sua fixa. Concede 4 contagens de [Fúria Encarnada].
+
+[Fúria Encarnada] (+18 STR, +18 AGI, +18 DEF).",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Suporte/Habilidade Ultimato,,Self,,,,,,,,,,,
+,,Investigação,6,,,,,,,BERSERKER_SKL_009,60,Carnificina Sem Fim,Habilidade Ultimato,Ação,Cada inimigo derrotado durante a habilidade aumenta sua duração e melhora o dano e velocidade de ataque.,1.6,-,-,120,9,,"Golpe físico em área circular (raio de 3m). Elimine quantas contagens quiser de sua fixa. Concede uma contagem de [Fúria em Carnificina]. Realiza um golpe de POT 160% (Contusão).
+
+[Fúria em Carnificina] (+18 STR,+18 AGI, +18 DEF). Enquanto [Fúria em Carnificina] estiver acima de 0 na contagem, durante seu turno, toda vez que um inimigo morrer, adicione dois pontos de ação que podem ser gastos durante este turno. Apenas um deles pode ser utilizado com a ação de atacar.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Habilidade Ultimato,,SplashArea,,,,,,,,,,,
+,,Alquimia do Pântano,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Colheita (Ervas/Fungos/Fibras),8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Atenção,11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Metalurgia,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Influência,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Ritos do Véu,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Gambiarra (Ferramentas/Trancas/Armadilhas),6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Sombra,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Extração (Minério/Pedra/Cristais),14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Libere Sua Fúria: Embarque na Jornada do Berserker,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Você já sentiu o chamado da batalha, um desejo ardente de liberar sua força e coragem em meio ao caos do combate? A classe Berserker é sua passagem para um mundo onde a fúria e o poder bruto se encontram, permitindo-lhe dominar os campos de batalha com uma tempestade de golpes devastadores. Como um Berserker, você canalizará sua ira em cada ataque, transformando a fúria em uma arma que aterroriza seus inimigos e inspira seus aliados.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Escolher ser um Berserker significa abraçar o caminho da intensidade e da paixão pelo combate. Você se especializará em desferir ataques poderosos, usando sua força e raiva para sobrepujar qualquer desafio. Sua jornada será marcada pela adrenalina do confronto, pelo som de cada golpe que ecoa no campo de batalha, e pela visão dos adversários sucumbindo à sua frente.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Os Berserkers são os titãs da linha de frente, capazes de mudar o curso de uma batalha com sua presença avassaladora. Você experimentará o poder de absorver golpes que fariam outros recuar, de se levantar a cada desafio com mais determinação, e de canalizar cada ferimento em mais força para seus ataques devastadores.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Imagine-se no centro da ação, onde sua fúria se torna seu escudo e sua espada, onde cada inimigo abatido alimenta sua determinação incansável. O Berserker não é apenas um guerreiro; é uma força da natureza, um símbolo de resistência e poder que não conhece limites quando despertado.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Ser um Berserker é escolher um caminho onde sua força de vontade se alia à sua força física, onde cada batalha é uma chance de provar que seu espírito indomável é tão letal quanto sua espada. Se a ideia de liberar sua fúria, de enfrentar seus inimigos com uma força que cresce a cada golpe e de se tornar a tempestade que arrasa o campo de batalha o atrai, então a classe Berserker aguarda sua escolha.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,"Junte-se aos lendários Berserkers e descubra o verdadeiro poder que reside na paixão pelo combate e na capacidade de transformar raiva em força. Escolha a classe Berserker e torne-se o guerreiro definitivo, cuja fúria é tão temida quanto respeitada, moldando o destino dos que se atrevem a enfrentá-lo no campo de batalha.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Escala,Nome,Tipo,Velocidade de Ação,Descrição / Efeito,Tags,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,Instinto de Sobrevivência,Passiva Comum,–,Aumenta evasão contra o primeiro ataque recebido.,"Evasão, Sobrevivência",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,Corte da Fúria,Habilidade Ofensiva,Ação,Ataque que aumenta de poder a cada golpe consecutivo bem-sucedido.,"Combo, Escalável",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,Presença Aterradora,Passiva Comum,–,Inimigos mais fracos têm chance de hesitar ao iniciar combate.,"Intimidação, Controle",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,Fúria Inicial,Passiva Exclusiva,–,Começa o combate com bônus de STR e velocidade de ação por 1 turno.,"Buff, Início de Combate",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6,Marca da Experiência,Passiva Comum,–,Ganha mais EXP em confrontos difíceis.,"Progressão, XP",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,Grito da Carnificina,Passiva Exclusiva,–,Recupera SP ao derrotar inimigos.,"Sustentabilidade, Ressource Synergy",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,Resiliência Anímica,Passiva Comum,–,"Reduz efeitos de medo, confusão e encantamento.",Resistência Mental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12,Frenesi de Sangue,Suporte,Ação,Aumenta velocidade de ataque para cada inimigo ferido próximo.,"Buff, Velocidade",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,Olhar do Caçador,Passiva Comum,–,Aumenta chance de crítico contra inimigos debilitados.,"Crítico, Estratégico",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,Resistência Bruta,Passiva Exclusiva,–,Reduz 15% do dano recebido com menos de 30% de HP.,"Defesa, Frenesi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17,Sede de Sangue,Suporte,Ação,Aumenta dano proporcional ao HP perdido.,"Buff, Híbrido de Saúde",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18,Destruição Frenética,Habilidade Ofensiva,Ação,"Dá aumento significativo de dano, reduz defesa.","Poder, Custo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19,Vontade Inabalável,Passiva Comum,–,"Ao chegar abaixo de 20% HP, recebe resistência temporária.","Resiliência, Frenesi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,Eco da Matança,Passiva Exclusiva,–,"Após um crítico, o próximo ataque tem bônus de dano.","Crítico, Bônus de Combo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20,Sede de Sangue (habilidade),Suporte,Ação,Aumenta dano conforme HP perdido.,"Buff, Híbrido de Saúde",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26,Mente Despedaçada,Passiva Exclusiva,–,Imune a medo e confusão.,Resistência Mental,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30,Golpe do Titã,Habilidade Ultimato,Ação,Ataque devastador massivo a um único alvo.,"Ultimato, Dano Pesado",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33,Perseverança Impiedosa,Passiva Exclusiva,–,Cura mínima por turno em combate corpo a corpo.,"Sustentabilidade, Autocura",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,Fúria do Redemoinho,Habilidade Ofensiva,Ação,"Gira com arma, atingindo todos os inimigos ao redor.","Área, Crowd Control",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45,A Ira é o Caminho,Passiva Exclusiva,–,Aumenta 20% de dano enquanto sob efeito de debuffs.,"Buff sob Debuff, Frenesi",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50,Encarnar a Fúria,Suporte/Habilidade Ultimato,Ação,"Transforma o Berserker com maior força, velocidade e resistência.","Ultimato, Transformação",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60,Carnificina Sem Fim,Habilidade Ultimato,Ação,"Cada inimigo derrotado aumenta a duração, dano e velocidade da habilidade.","Ultimato, Escalável, Sustentável",,,,,,,,,,,,,,,,,,,,,,,,,,,,,

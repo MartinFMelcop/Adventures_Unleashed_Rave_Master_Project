@@ -1,0 +1,9 @@
+GateFlag,Categoria,Unlock_Tipo,Unlock_Ref,Descricao,Observacao
+S_GUARDA_ACORDADO,PROGRESSÃO,Cutscene,CS-ATO1-03,Libera/alteração de acesso relacionada ao posto do guarda.,Usado em bloqueios de fronteira/controle.
+S_IMP_PONTE_VISTO,EVENTO1X,Cutscene,CS-ATO1-05,Setpiece 1x na ponte do Imp (evita repetição).,Geralmente não é bloqueio físico; usado como gate narrativo.
+S_PASSAGEM_MINIDUNGEON,INSTÂNCIA,Instância,IdInstancia (por aresta),Passagem mediada por MiniDungeon/Inner; sem atalho.,Usar o IdInstancia do EDGE_GATES (ex.: MD-SWAMP-02).
+S_PORTAO_FADAS_ABERTO,PROGRESSÃO,Cutscene,CS-ATO1-09,Portão do Reino das Fadas abre após progressão.,Referência explícita em 19S12→20S13.
+S_REI_GOBLIN_DERROTADO,PROGRESSÃO,Quest/Boss,QST-0010,Estado pós-boss do Forte Goblin (mudanças de rotas/hostilidade).,Derivado de SDQs com critério 'Após QST-0010'.
+S_REP_GATE,PROGRESSÃO,Reputação,RepGate_Min,Gate por reputação mínima (RepGate_Min/nota).,Usado quando o texto exige REP>=... (ex.: portões/cidade).
+S_ZOMBIE_MORTO,PROGRESSÃO,Cutscene,CS-ATO1-14,Condição pós-evento do zombie no pântano.,Normaliza gates de pântano/torre.
+S_TORRE_ACESSO_LIBERADO,PROGRESSÃO,Quest/Switch,QST-0024,"Libera o portão/ponte externa da torre, abrindo passagem nos arredores (loopback).",Flag citada no chunk 21V11 (Notas RMXP). SDQ-0018 (selos) pode reforçar o unlock.

@@ -1,0 +1,13 @@
+RuleID,Condicao,Classificacao,Exemplo_ItemID,Exemplo_Nome,Observacao
+R1,"Se Item tem efeito de uso (cura, buff, dano, scroll)",Classificar como CONSUMÍVEL,CON_POCAO_DE_CURA_PEQUENA_COMUM,Poção de Cura Pequena,Deve existir em ITENS_MASTER + CONSUMIVEIS_MASTER (+ AUX_CONSUMIVEIS se crafting).
+R2,Se Item é comida/bebida que recupera algo,CONSUMÍVEL (categoria=Outros),CON_PEIXE_DEFUMADO_COMUM,Peixe Defumado,Pode ser usado como ingrediente (uso duplo).
+R3,Se Item não é equipável nem consumível por padrão,MATERIAL,MAT_MADEIRA_BRUTA,Madeira Bruta,"Materiais: stackável, usado em receitas e/ou requisitos."
+R4,Se Item é refinado a partir de outro material (processo),MATERIAL (refinado),MAT_BARRA_FERRO_MARINHO,Barra de Ferro-Marinho,Output de forja; também entra como ingrediente.
+R5,Se Item é peça técnica para melhoria/reparo/upgrade,COMPONENTE,ITM_UPGRADE_SIMPLES,Upgrade Simples,Normalmente stack baixo; usado por serviço/forja.
+R6,Se Item é 'quest kit'/'projeto' usado por roteiro mas também craft,COMPONENTE + tag Quest,QIT_GOLEM_NUCLEO_BRUTO,Núcleo do Golem (Bruto),Deve estar no master e no AUX_COMPONENTES; uso controlado por quest/cutscene.
+R7,Se Item é ferramenta requerida (não consumida),COMPONENTE (Ferramenta),ITM_BOLSA_DE_FERRAMENTAS_COMUM,Bolsa de Ferramentas,Pode estar em AUX_COMPONENTES.
+R8,Uso duplo: item consumível também serve como ingrediente,Manter ID CON_ e permitir uso em Ingredientes,CON_ESSENCIA_ESPIRITUAL_COMUM,Essência Espiritual,Evitar duplicar MAT_ESSENCIA_...; sinalizar em Tags/Notas.
+R9,Se token aparece como MAT_... mas existe CON_ equivalente canônico,Substituir referência por CON_ canônico (alias),MAT_ESSENCIA_ESPIRITUAL,(alias),Aplicar patch de texto/ingredientes para apontar ao CON_ canônico.
+R10,Se item não existe e está em crafting (P0),Criar placeholder PROTÓTIPO,MAT_TINTA_ARCANA,Tinta Arcana,Criar no ITENS_MASTER + AUX correspondente; descrever como placeholder.
+R11,Se item é 'reagente' genérico usado para alquimia,MATERIAL,MAT_REAGENTE_SECO,Reagente Seco,Materiais alquímicos normalmente stackável.
+R12,Se item é consumível mas também craft output (novo),Criar no CONSUMIVEIS_MASTER + ITENS_MASTER,CON_ANTIDOTO_DO_BREJO_COMUM,Antídoto do Brejo,Garantir consistência e remover '(NOVO)'.

@@ -1,0 +1,28 @@
+IdNPC,Nome,TagRotina,PhaseMask,LocalPreferido,ChaveMapa_Base,Observacao
+NPC-0001,Líder da Vila (nome TBD),Unique,0|1|2|3|4,"praça@0,1,2; casa_lider@3,4 (INR-0101)",24S1,Cena inicial: praça com o filho. Cutscene controla posição. Boatos/informações centralizados aqui.
+NPC-0002,Guarda Novato (posto),Guard,0|1|2,"posto@0,1,2; casa@3,4",23S2,Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0003,Mercador de Vila Rose,Service,0|1|2,"loja@0,1,2; casa@3,4",24T2,Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0006,Agricultor(a) / Zelador do Celeiro,Worker,0|1|4,"pasto@0,4; casa@1,2,3",24U3,Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0007,Mago Louco,Unique,0|1|2|3|4,dentro(torre)@0-4,21V11,NPC importante: presença/posição pode ser controlada por quest/cutscene.
+NPC-0008,Assistente do Mago (apprentice),Unique,0|1|2|3|4,dentro(torre)@0-4,21V11,NPC importante: presença/posição pode ser controlada por quest/cutscene.
+NPC-0009,Mercador Élfico (caravana),Service,0|1|2,"rua/serviço@0,1,2; casa@3,4",16V18,Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0010,Batedor Élfico,Friendly,0|1|2,"rua@0,1,2; casa@3,4",17S20,
+NPC-0011,Jardineiro Élfico,Worker,0|1|4,"rua@0,4; casa@1,2,3",16U19,Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0012,Mestre de Música / Historiador (élfico),Friendly,0|1|2,"rua@0,1,2; casa@3,4",16V18,
+NPC-0013,Cartógrafo(a) / Comprador de Mapas,Service,0|1|2,"rua/serviço@0,1,2; casa@3,4",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest). Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0014,Devoto(a) dos Altares,Friendly,0|1|2,"rua@0,1,2; casa@3,4",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest).
+NPC-0015,Instrutor(a) de Acrobacias,Service,0|1|2,"rua/serviço@0,1,2; casa@3,4",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest). Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0016,Barqueiro/Carpinteiro do Brejo,Worker,0|1|4,"rua@0,4; casa@1,2,3",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest). Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0017,Pescador da Costa,Worker,0|1|4,"rua@0,4; casa@1,2,3",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest). Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0018,Estudioso(a) das Ruínas,Friendly,0|1|2,"rua@0,1,2; casa@3,4",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest).
+NPC-0019,Artesão/Ferreiro (comprador de minério),Service,0|1|2,"rua/serviço@0,1,2; casa@3,4",,Sem ChaveMapa fixo (spawn/posição definida por evento/quest). Heurística: fora da rua em fases 2–4 (exceto Night Start onde alguns podem aparecer).
+NPC-0020,Fada Calada,Fae,0|1|2,"rua(vilarejo fadas)@0,1,2; casa@3,4",20S13,Feérico: tende a sumir em Noite Pico (fase 3).
+NPC-0021,Guardiã do Santuário da Guardiã (placeholder),Fae,0|1|2,"dentro(santuário)@0,1,2; fechado@3,4",21S14,Feérico: tende a sumir em Noite Pico (fase 3).
+NPC-0023,Lenhador (pai da Rose),Worker,0|1|2|3|4,casa(lenhador);pátio,24R0_I,Evento inicial de chegada (QST-0001); entrega machado; oferece mentoria (SDQ-0042).
+NPC-0024,Mãe da Rose,Caretaker,0|1|2|3|4,casa(rose);pátio,24R0_I,Presente no evento inicial; permanece na casa da Rose; pode comentar sobre o filho e a líder da vila.
+NPC-0025,Irmãozinho da Rose (nome TBD),RoamingChild,0|1|2|3|4,"rua@0,1,2 (24R0_I↔24S1); casa@3,4 (24R0_I)",24R0_I,Roam APENAS 24R0_I↔24S1; não aparece na cena inicial do 24S1.
+NPC-0026,Filho da Líder (nome TBD),Unique,0|1|2|3|4,"praça@0,1,2; casa@3,4 (INR-0102)",24S1,Presente na cena inicial junto da Líder; papel futuro a definir.
+NPC-0027,Esposa do Filho da Líder (nome TBD),Citizen,0|1|2|3|4,"casa@0,1,2,3,4 (INR-0102)",24S1,Durante cena inicial permanece no interior; cuida das crianças.
+NPC-0028,Criança 1 (filho do Filho da Líder) (nome TBD),Child,0|1|2|3|4,"casa@0,1,2,3,4 (INR-0102)",24S1,NPC ambiente; inicialmente dentro de casa.
+NPC-0029,Criança 2 (filho do Filho da Líder) (nome TBD),Child,0|1|2|3|4,"casa@0,1,2,3,4 (INR-0102)",24S1,NPC ambiente; inicialmente dentro de casa.
+NPC-0030,Artífice do Acampamento,Worker,0|1|2|3|4,"acampamento@0,1,2; tenda@3,4",22P8,NPC criado p/ SDQ-0007; rotina simples (workday + descanso).

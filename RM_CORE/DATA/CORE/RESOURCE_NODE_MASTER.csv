@@ -1,0 +1,12 @@
+NodeID,Nome,ResourceKind,TierMin,TierMax,SkillID,ToolTierReq,RiskLevel,RespawnRuleID,MapKey,POI_ID,ZoneTag,Tags,Notes,Name,InteractionKey
+NODE_0001,Herbário Encharcado,HERB,1,3,10,0,1,RR_DAILY,23U4,,Pântano,Crafting|Route,Ervas comuns do brejo; early loop.,,
+NODE_0002,Líquens Luminosos,FUNGUS,2,3,10,0,1,RR_NIGHTLY,22X10,,Pântano,Crafting|Night,Fonte de fungos arcanos (noite).,,
+NODE_0003,Margem Longa (Madeira),WOOD,1,2,19,0,0,RR_DAILY,23X9,,Pântano,Crafting|Safe;woodcut,REVISADO: madeira usa perícia Lenharia (Madeira) (PericiaID=19).,,WOODCUT_NODE_TIER_1
+NODE_0004,Charco dos Líquens (Arcanos),FUNGUS,2,4,10,0,2,RR_WEEKLY,24W7,,Pântano,Crafting|Risk,Fungos + chance de fragmento rúnico (T4).,,
+NODE_0005,Vigia Goblin (Sucata),SCRAP,2,4,18,1,2,RR_DAILY,21Q10,,Ruínas,Crafting|Enemy,Sucata metal; risco hostil.,,
+NODE_0006,Desfiladeiro do Entulho (Pedra),STONE,1,3,18,1,2,RR_DAILY,21R11,,Ruínas,Crafting|Enemy,Pedra/ponta pedra; base de craft.,,
+NODE_0007,Passagem dos Totens (Rúnico),RUNIC,3,5,18,2,3,RR_WEEKLY,21P9,,Ruínas,Crafting|Risk|Runic,Pedra rúnica bruta; pode escalar até T5 com evento.,,
+NODE_0008,Portão do Forte Goblin (Fibra),FIBER,1,2,10,0,2,RR_DAILY,18R14,,Forte,Crafting|Enemy,Fibra/seda; drop extra em combate.,,
+NODE_0009,Campina da Tumba (Polen),HERB,1,2,10,0,0,RR_DAILY,22W9,,Pântano,Crafting|Calm,Polen/soro; área pacífica com evento 1x.,,
+NODE_0010,Fenda do Brejo (Véu),VEIL,5,7,3,0,3,RR_EVENT_ACTIVE,21W12,,Pântano,Calamity|Competitive,Nó competitivo: aparece em Active; eco sempre garante acesso.,,
+NODE_0011,Árvores Próximas da Casa do Lenhador (Tutorial),WOOD,1,1,19,0,0,RR_DAILY,24R0_I,,VILA_ROSE,tutorial;vila,Node de madeira para tutorial/mentoria; sem limitação semanal.,Árvores Próximas da Casa do Lenhador (Tutorial),WOODCUT_NODE_TIER_1

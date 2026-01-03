@@ -1,0 +1,8 @@
+SectionID,SectionTitle_EN,AnchorHeading,FirstPage,LastPage,ShortDesc_EN,SourceDocID,SourceRelPath,Notes_EN
+SEC_PROJECTS,Projects & project management,Projects,4,4,"Create/manage projects, configuration, and distribution basics.",LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_MAPS,Maps & tilesets,Maps,5,6,"Map editing workflow, tiles/tilesets, and map creation.",LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_EVENTS,Events & event commands,Events,7,9,Event system overview and how event commands drive gameplay.,LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_DATABASE,Database editor overview,Database,10,10,Database tabs overview (actors/classes/skills/items/etc.) and configuration.,LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_SCRIPTS,Script editor & RGSS integration,Script Editor,11,12,Script editor usage and where RGSS scripts live in the project.,LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_GRAPHICS,Graphics pipeline (assets/import),Graphics,13,15,"Graphics resources and asset pipeline basics (resolution, import, tilesets).",LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction
+SEC_AUDIO,Audio pipeline (BGM/SE/etc.),Audio,16,19,Audio playback and asset pipeline basics (BGM/BGS/ME/SE).,LEGACY_DOC_0002,LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf,metadata_only; no full-text reproduction

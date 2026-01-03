@@ -1,0 +1,31 @@
+IdNPC,Nome,FactionID,ArchetypeID,Axis_EMPATHY,Axis_ASSERTIVENESS,Axis_ORDER_NEED,Axis_NOVELTY,Axis_RISK,Axis_PATIENCE,Axis_VOLATILITY,Axis_BASE_TRUST,Axis_PRAGMATISM,Axis_DIRECTNESS,OutburstThreshold,OutburstCooldownTurns,OutburstGateTags,Notes
+NPC-0016,Barqueiro/Carpinteiro do Brejo,FAC_ROSE_VILLAGE,ARCH_TRADITIONALIST,50,55,85,30,30,75,30,55,80,40,0,0,,
+NPC-0017,Pescador da Costa,FAC_ROSE_VILLAGE,ARCH_STOIC,45,45,65,35,30,85,20,50,60,40,0,0,,
+NPC-0019,Artesão/Ferreiro (comprador de minério),FAC_ROSE_VILLAGE,ARCH_WARDEN,35,70,90,30,40,65,40,40,85,55,0,0,,
+NPC-0020,Fada Calada,,ARCH_PARANOID,25,55,60,40,35,55,60,10,50,60,0,0,,
+NPC-0015,Instrutor(a) de Acrobacias,FAC_ROSE_VILLAGE,ARCH_MERCENARY,30,65,55,45,60,45,55,40,30,65,0,0,,
+NPC-0009,Mercador Élfico (caravana),,ARCH_DIPLOMAT,65,45,60,50,35,75,30,60,55,25,0,0,,
+NPC-0010,Batedor Élfico,,ARCH_EXPLORER,45,50,35,85,65,55,45,55,35,60,0,0,,
+NPC-0011,Jardineiro Élfico,,ARCH_CARETAKER,80,35,60,45,25,80,25,65,70,30,0,0,,
+NPC-0012,Mestre de Música / Historiador (élfico),,ARCH_SCHOLAR,50,35,55,80,35,70,30,55,65,40,0,0,,
+NPC-0014,Devoto(a) dos Altares,FAC_ROSE_VILLAGE,ARCH_ZEALOT,40,70,75,35,60,45,65,35,85,70,0,0,,
+NPC-0018,Estudioso(a) das Ruínas,FAC_ROSE_VILLAGE,ARCH_VISIONARY,45,55,45,85,55,55,50,45,60,55,0,0,,
+NPC-0007,Mago Louco,FAC_UMBRAL_ORDER,ARCH_SCHOLAR,35,55,70,75,45,85,70,30,35,50,88,5,STAKES_HIGH|MANIPULATION_CONFIRMED|OBSESSION_TOPIC,"Pilot: inspirado no criador; raro surto (somente hyper importante), gatilho forte em mentira/manipulação."
+NPC-0008,Assistente do Mago (apprentice),FAC_UMBRAL_ORDER,ARCH_SCHOLAR,50,35,55,80,35,70,30,55,65,40,0,0,,
+NPC-0001,Líder da Vila Rose,FAC_ROSE_VILLAGE,ARCH_DIPLOMAT,65,45,60,50,35,75,30,60,55,25,0,0,,
+NPC-0002,Guarda Novato (posto),FAC_ROSE_VILLAGE,ARCH_TRADITIONALIST,50,55,85,30,30,75,30,55,80,40,0,0,,
+NPC-0003,Mercador de Vila Rose,FAC_ROSE_VILLAGE,ARCH_OPPORTUNIST,30,55,45,60,55,45,45,35,25,60,0,0,,
+NPC-0004,Curandeira de Rose,FAC_ROSE_VILLAGE,ARCH_CARETAKER,80,35,60,45,25,80,25,65,70,30,0,0,,REMOVIDO (legacy): NPC não existe no canon atual.
+NPC-0005,Taberneiro(a) de Rose,FAC_ROSE_VILLAGE,ARCH_DIPLOMAT,65,45,60,50,35,75,30,60,55,25,0,0,,REMOVIDO (legacy): NPC não existe no canon atual.
+NPC-0006,Agricultor(a) / Zelador do Celeiro,FAC_ROSE_VILLAGE,ARCH_GUARDIAN,70,55,75,40,35,70,35,55,70,40,0,0,,
+NPC-0013,Cartógrafo(a) / Comprador de Mapas,,ARCH_EXPLORER,45,50,35,85,65,55,45,55,35,60,0,0,,
+NPC-0021,Guardiã do Santuário da Guardiã (placeholder),FAC_ROSE_VILLAGE,ARCH_GUARDIAN,70,55,75,40,35,70,35,55,70,40,0,0,,
+NPC-0022,Rose (placeholder),FAC_ROSE_VILLAGE,ARCH_CARETAKER,80,35,60,45,25,80,25,65,70,30,0,0,,
+NPC-0023,Lenhador (pai da Rose),FAC_ROSE_VILLAGE,ARCH_TRADITIONALIST,45,60,70,35,25,75,20,55,80,65,0,0,,Placeholder perfil; ajustar após definir nome da vila e tom do NPC.
+NPC-0024,Mãe da Rose,FAC_ROSE_VILLAGE,ARCH_CARETAKER,75,40,65,35,20,85,15,60,70,45,0,0,,Placeholder perfil; cuidadora e fonte de contexto.
+NPC-0025,Irmãozinho da Rose (nome TBD),FAC_ROSE_VILLAGE,ARCH_EXPLORER,55,45,30,80,60,40,50,70,35,50,0,0,,Placeholder perfil; criança curiosa que perambula entre mapas.
+NPC-0026,Filho da Líder (nome TBD),VILA,Unique,55,50,50,45,35,55,25,50,55,45,70,3,,Papel futuro a definir. Presente na cena inicial.
+NPC-0027,Esposa do Filho da Líder (nome TBD),VILA,Citizen,65,35,60,40,30,65,25,50,55,45,70,3,,Cuida das crianças; inicialmente aparece no interior.
+NPC-0028,Criança 1 (nome TBD),VILA,Child,70,40,30,70,50,35,55,50,55,45,60,3,,NPC ambiente; criança.
+NPC-0029,Criança 2 (nome TBD),VILA,Child,70,40,30,70,50,35,55,50,55,45,60,3,,NPC ambiente; criança.
+NPC-0030,Artífice do Acampamento,FAC_ROSE_VILLAGE,ARCH_SCHOLAR,55,45,70,50,35,65,25,50,75,45,0,0,,Placeholder criado p/ SDQ-0007 (22P8).

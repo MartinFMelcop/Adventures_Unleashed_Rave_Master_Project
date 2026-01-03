@@ -1,0 +1,7 @@
+TestID,EFF,RES,BaseApplySkill,Expected_ApplyChance
+APPLY_001_eff0,0,100,1.0,0.05
+APPLY_002_res0,100,0,1.0,0.95
+APPLY_003_balanced,50,50,1.0,0.5
+APPLY_004_base0_8,50,50,0.8,0.4
+APPLY_005_tiny,1,999,1.0,0.05
+APPLY_006_high_clamp,999,1,1.0,0.95

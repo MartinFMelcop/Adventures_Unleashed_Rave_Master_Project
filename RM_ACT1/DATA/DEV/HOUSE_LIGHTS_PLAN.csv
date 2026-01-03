@@ -1,0 +1,10 @@
+ChaveMapa,Mapa,QtdeCasasAproximada,ComoImplementar,Observacao
+24S1,Vila (nome TBD) — Centro da Vila (Praça),8-12,Eventos de casa (3 páginas) por V_LUZ_CASAS (>=2 acesa; >=1 parcial; default apagada),Hub principal; usar parcial (fase 1) para 'entardecer'.
+24T2,Vila Rose — Loja do Mercador,2-4,Idem (3 páginas por V_LUZ_CASAS) + vitrine/lanterna do mercador em página >=1,Loja pode ficar acesa em 2 (noite popular).
+24U3,Vila Rose — Pasto das Galinhas e Lagoa de Pesca,2-3,Idem (3 páginas por V_LUZ_CASAS),Pasto/lagoa: poucas casas; foco em 1-2 janelas.
+23S2,Vila Rose — Posto do Guarda Novato,1-2,Eventos (3 páginas) por V_LUZ_CASAS: pág3 cond (>=2)=acesa; pág2 cond (>=1)=parcial; pág1 default=apagada. + Posto do guarda: luz própria em >=1 (lamparina/poste).,Posto: luz ligada em fases 1–2; apagada em 3.
+23R1,Vila Rose — Casa dos Aventureiros Caídos,1,Eventos (3 páginas) por V_LUZ_CASAS: pág3 cond (>=2)=acesa; pág2 cond (>=1)=parcial; pág1 default=apagada. + 1 casa/evento (aventureiros caídos) com janelas simples.,Usar parcial em fase 1 para clima.
+24R0_I,Vila Rose — Arredores do Lenhador,1,Eventos (3 páginas) por V_LUZ_CASAS: pág3 cond (>=2)=acesa; pág2 cond (>=1)=parcial; pág1 default=apagada. + Casa do lenhador (lamparina externa em >=1 opcional).,Opcional: lamparina externa em >=1.
+20S13,Reino das Fadas — Vilarejo (Entrada),1-2,Casas feéricas: 3 páginas por V_LUZ_CASAS; sprites mais mágicos,Em fase 2 (noite popular) manter V_LUZ_CASAS=2 (acesa).
+21S14,Reino das Fadas — Santuário da Guardiã,desconhecido,Eventos (3 páginas) por V_LUZ_CASAS: pág3 cond (>=2)=acesa; pág2 cond (>=1)=parcial; pág1 default=apagada. + Santuário: 1–2 fontes (velas/lamparinas) como eventos condicionais.,Aqui 'parcial' pode ser só velas acesas.
+16V18,Reino Élfico — Mercado Élfico,desconhecido,Eventos (3 páginas) por V_LUZ_CASAS: pág3 cond (>=2)=acesa; pág2 cond (>=1)=parcial; pág1 default=apagada. + Mercado: postes/barracas com variação (>=1) e brilho maior em (=2).,Pode ser sempre iluminado (override SAFE_ALWAYS).

@@ -1,0 +1,8 @@
+Status,Ordem,CamposObrigatorios,Descricao
+BACKLOG,1,AjusteID;Titulo;Descricao;Area;Prioridade;TipoMudanca;DataCriacaoUTC,Fora do planejamento. Pode faltar ETID.
+RASCUNHO,2,AjusteID;Titulo;Descricao;Area;Prioridade;TipoMudanca;WorkbooksImpactados;SheetsImpactadas,DEPRECATED/ALIAS: trate como BACKLOG (fila WSJF). Use BACKLOG.
+ANALISE,3,ImpactoResumo;Dependencias;Decisoes,"Impacto, dependências e decisões registradas."
+DESENVOLVIMENTO,4,PlanoImplementacao,Implementação em andamento.
+TESTES,5,PlanoTestes,Validações e critérios de teste.
+HOMOLOGAÇÃO,6,CriteriosAceite;Evidencias,Aceite final e evidências.
+CONCLUIDO,7,ResultadoConclusao;Evidencias,Finalizado; evidências registradas.

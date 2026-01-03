@@ -1,0 +1,749 @@
+IdQuest,Descrição Resumida,Localização,ChaveMapa,Critério de Aceite,DoR,Descrição Completa,Texto_UI,Notas_Dev,DoD,Canon,NotaCanon,Perícias,Recompensas,Recompensas_Validacao,TriggerTipo,TriggerValor,PreReq_QuestIDs,Bloqueia_QuestIDs,DC_Padrao,CapituloID,ChaveMapa_Valida,Localizacao_ChavesExtraidas,Pericia_1,Pericia_2,Pericia_3,Pericias_Normalizadas,NPC_IDs,CutsceneIDs,RepZona_Target,Rep_Min_Aceitar,Rep_Delta_Sucesso,Rep_Delta_Falha,Rep_Set_Sucesso,Rep_Set_Falha,Rep_Obs,FAE_Tags,Trace_Normalizacao,PericiaIDs,UnlockKeys_Required,Trace_PericiaFix,QuestTier
+QST-0001,Chegada à vila: sem retorno ao Sul; Lenhador e Mãe de Rose te abordam e te enviam ao Leste falar com a Líder.,Vila (nome TBD) — Arredores do Lenhador (24R0_I) / Centro da Vila (24S1) / Beira da Floresta (TBD),24R0_I,Automática ao iniciar campanha / ao entrar em Vila Rose.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Mapas de chegada e hub; 1 NPC que confirma o 'bloqueio'; variáveis de pânico/rumores inicializadas.","Chegada linear ao sandbox. O jogador entra pelo Sul e não consegue retornar. O evento inicial apresenta Lenhador e Mãe de Rose, e encaminha o jogador para a Líder no centro. O tutorial termina quando o jogador alcança a beira da floresta onde Rose desapareceu.","**Início:** ao cruzar o limiar da vila pelo Sul, o caminho de volta 'se fecha' (one-way).
+**Evento:** Lenhador + Mãe de Rose veem você chegando e te abordam; explicam o sumiço da filha do lenhador (Rose) e pedem ajuda.
+**Progressão:** (1) ir ao Leste falar com a Líder local (tudo ainda travado/linear);
+(2) receber direção para seguir até a beira da floresta onde Rose sumiu (**fim do tutorial**).
+**Obs:** liberdade/sandbox parcial só após liberar o primeiro pacote de flags do tutorial.",REVISADO: tutorial é linear até a beira da floresta. Não inventar nome da vila; manter 'Vila (nome TBD)'.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+S_HUB_ROSE_ATIVO=1; rotas iniciais marcadas; NPCs do hub liberados.",CANON,(Capítulos em construção),Investigação:9;Influência:14;Atenção:12,,,EnterArea,24R0_I,,,,CAP-0001,OK,24R0_I;24S1,9.0,14.0,12.0,9;14;12,NPC-0001,CS-ATO1-02,VILA_ROSE,,,,,,Set dinâmico: +1 ou -1 conforme antecedente (apresentação na praça).,,CAP-0001;OK;24R0_I;24S1,9;14;12,INVESTIGATE_BASIC;NEGOTIATE_BASIC;PERCEIVE_BASIC,,1
+QST-0002,Suba ao norte e investigue as casas isoladas para levantar pistas sobre sumiços e ataques.,Vila (nome TBD) — Arredores do Lenhador (24R0_I) / Casa dos Aventureiros Caídos (23R1),24R0_I,Após QST-0001; falar com morador no Centro da Vila.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1–2 encontros leves; 1 pista colecionável; marcador de 'área norte'.","**Início:** moradores relatam barulhos e luzes estranhas perto das casas isoladas.
+**Progressão:** (1) seguir trilha; (2) lidar com um pequeno obstáculo; (3) coletar pistas e voltar.
+**Saídas:** furtividade para evitar combate, ou combate rápido para limpar o caminho.
+**Conclusão/Recompensas:** pistas que apontam para a casa marcada por tragédia (QST-0003) e/ou para a trilha rumo às ruínas.","**Início (após tutorial):** moradores relatam barulhos e luzes estranhas perto das casas isoladas.
+**Progressão:** (1) seguir trilha; (2) lidar com obstáculo; (3) coletar pistas.
+**Nota:** esta quest estava aparecendo cedo demais; manter travada até QST-0001 concluir e revalidar se ela é necessária.",REVISAR EXISTÊNCIA/TIMING: não iniciar durante o tutorial linear. Só liberar após QST-0001 (fim do tutorial na beira da floresta). | Trigger normalizado: fala com NPC-0001 (Centro da Vila).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Pista_Norte>=1; QST-0003 liberada; reputação local ajustada.",CANON,(Capítulos em construção),Extração (Minério/Pedra/Cristais):18;Atenção:12;Sombra:17,,,Talk,NPC:NPC-0001,QST-0001,,,CAP-0002,OK,24R0_I;23R1,18.0,12.0,17.0,18;12;17,NPC-0001,,VILA_ROSE,,,,,,,,CAP-0002;OK;24R0_I;23R1,18;12;17,MINE_TIER_1;PERCEIVE_BASIC;STEALTH_BASIC,,1
+QST-0003,Explore a Casa dos Aventureiros (ausentes) e descubra pistas sobre onde estão.,Vila Rose — Casa dos Aventureiros Caídos (23R1),23R1,Após fim do prólogo (sandbox liberado); visitar 23R1.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Casa com 2–3 salas; 1 evento de lore; 1 encontro opcional (poltergeist menor/armadilha).","**Início:** a casa está quieta demais; sinais de luta e fuga.
+**Progressão:** (1) investigar cômodos; (2) juntar fragmentos de história; (3) escolher o que contar à vila.
+**Saídas:** contar tudo (vila em alerta), minimizar (menos pânico), ou distorcer (ganho social com facção específica).
+**Conclusão/Recompensas:** lore, item simples, e reforço do motivo de explorar ruínas/floresta.
+
+Nota canon: os mentores ainda estão vivos no início; a casa está vazia/ausente. Lápides só aparecem pós Rei Goblin.",Casa dos Aventureiros (vazia): procure pistas e anotações.,,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Lore_Casa=1; rumor atualizado; recompensa do morador entregue.",CANON,Mentores vivos no início; memorial/lápides só pós Rei Goblin.,Investigação:9;Leitura de Malícia:7;Trapaça:5,,,EnterArea,23R1,,,,CAP-0003,OK,23R1,9.0,7.0,5.0,9;7;5,,CS-ATO1-04,VILA_ROSE,,,,,,,,CAP-0003;OK;23R1,9;7;5,INVESTIGATE_BASIC;READ_LIE_BASIC;DECEIVE_BASIC,,1
+QST-0004,Ajude o guardinha novato a reforçar uma cerca e entenda o padrão de invasões.,Vila Rose — Posto do Guarda Novato (23S2),23S2,Após QST-0001; falar com o guardinha no posto.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Evento de reparo (mini skill-check); variável 'Segurança da Cerca'.","**Início:** o novato tenta segurar a linha com recursos ruins.
+**Progressão:** (1) coletar material (madeira/corda); (2) reparar; (3) observar marcas/pegadas.
+**Saídas:** consertar bem (menos ataques), improvisar (rápido, mas frágil), ou ignorar (a vila paga depois).
+**Conclusão/Recompensas:** confiança do guarda + dica sobre a ponte e as criaturas de treino.","**Início:** o novato tenta segurar a linha com recursos ruins.
+**Progressão:** (1) coletar material (madeira/corda); (2) reparar; (3) observar marcas/pegadas.
+**Saídas:** consertar bem (menos ataques), improvisar (rápido, mas frágil), ou ignorar (a vila paga depois).
+**Conclusão/Recompensas:** confiança do guarda + dica sobre a ponte e as criaturas de treino.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Cerca_Segura>=1; desconto/amizade com guarda; QST-0005 destacada.",CANON,(Capítulos em construção),Vigor & Carga:4;Extração (Minério/Pedra/Cristais):18;Atenção:12,,,Talk,NPC:NPC-0002,,,,CAP-0004,OK,23S2,4.0,18.0,12.0,4;18;12,NPC-0002,CS-ATO1-03,VILA_ROSE,,1.0,,,,Ajudar o guardinha melhora clima local.,,CAP-0004;OK;23S2,4;18;12,CARRY_LIGHT;MINE_TIER_1;PERCEIVE_BASIC,,1
+QST-0005,"Antes da ponte, treine contra criaturinhas e aprenda o ritmo do combate/loot.",Trilha das Ruínas — Ponte da Cachoeira (22S3),22S3,Após QST-0004 ou ao se aproximar da ponte da cachoeira.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Spawn de 'criaturinhas'; tutorial de loot; 1 nó de coleta opcional.","**Início:** área segura com inimigos fracos para aquecer.
+**Progressão:** (1) derrotar 2–3 grupos; (2) coletar itens; (3) aprender a recuar e curar.
+**Saídas:** grind repetível leve (opcional) ou seguir direto.
+**Conclusão/Recompensas:** itens simples, ouro, e desbloqueio da cutscene da ponte principal.","**Início:** área segura com inimigos fracos para aquecer.
+**Progressão:** (1) derrotar 2–3 grupos; (2) coletar itens; (3) aprender a recuar e curar.
+**Saídas:** grind repetível leve (opcional) ou seguir direto.
+**Conclusão/Recompensas:** itens simples, ouro, e desbloqueio da cutscene da ponte principal.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Treino_Concluido=1; QST-0006 liberada; tabela de drop ativa.",CANON,(Capítulos em construção),Atenção:12;Extração (Minério/Pedra/Cristais):18;Vigor & Carga:4,,,EnterArea,22S3,,,,CAP-0005,OK,22S3,12.0,18.0,4.0,12;18;4,,,GOBLINS,,,,,,,,CAP-0005;OK;22S3,12;18;4,PERCEIVE_BASIC;MINE_TIER_1;CARRY_LIGHT,,1
+QST-0006,"Na ponte principal, um Imp voador testa o jogador e anuncia a escalada de perigo.",Trilha das Ruínas — Ponte do Despenque (22R4),22R4,Após QST-0005; entrar na Ponte do Despenque.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Cutscene do Imp; 1 combate/evitação; flag de 'ameaça aérea'.","**Início:** o Imp provoca, mede força e foge.
+**Progressão:** (1) sobreviver ao encontro; (2) aprender padrão de ataques; (3) seguir pela trilha.
+**Saídas:** derrotar (raro), afugentar, ou apenas sobreviver.
+**Conclusão/Recompensas:** pista sobre a Fenda dos Imps e a rota para as ruínas.","**Início:** o Imp provoca, mede força e foge.
+**Progressão:** (1) sobreviver ao encontro; (2) aprender padrão de ataques; (3) seguir pela trilha.
+**Saídas:** derrotar (raro), afugentar, ou apenas sobreviver.
+**Conclusão/Recompensas:** pista sobre a Fenda dos Imps e a rota para as ruínas.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Ameaca_Imp=1; QST-0007 liberada.",CANON,(Capítulos em construção),Atenção:12;Sombra:17;Vigor & Carga:4,,,EnterArea,22R4,,,,CAP-0006,OK,22R4,12.0,17.0,4.0,12;17;4,,CS-ATO1-05,GOBLINS,,,,,,,,CAP-0006;OK;22R4,12;17;4,PERCEIVE_BASIC;STEALTH_BASIC;CARRY_LIGHT,,1
+QST-0007,Suba rumo às ruínas e feche a Fenda dos Imps para reduzir ataques na trilha.,Trilha das Ruínas — Fenda dos Imps (23Q6) / Trilha das Ruínas — Zigue-Zague dos Pinheiros (22Q5),23Q6,Após QST-0006; receber indicação de perigo na trilha.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Mapa de zigue-zague + fenda; 1 mini-desafio de travessia; 1 encontro de imps.","**Início:** a trilha fica mais íngreme e ventosa.
+**Progressão:** (1) atravessar o zigue-zague; (2) localizar a fenda; (3) derrotar/selar a origem.
+**Saídas:** combate direto, emboscada (Sombra), ou selar via Engenharia Rúnica (Waystones).
+**Conclusão/Recompensas:** trilha fica mais estável; recompensa de segurança; abre escopo da rota das ruínas.","**Início:** a trilha fica mais íngreme e ventosa.
+**Progressão:** (1) atravessar o zigue-zague; (2) localizar a fenda; (3) derrotar/selar a origem.
+**Saídas:** combate direto, emboscada (Sombra), ou selar via Engenharia Rúnica (Waystones).
+**Conclusão/Recompensas:** trilha fica mais estável; recompensa de segurança; abre escopo da rota das ruínas.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Fenda_Imps_Selada=1; encontros de imp reduzidos; QST-0008 destacada.",CANON,(Capítulos em construção),Sombra:17;Atenção:12;Engenharia Rúnica (Waystones):3,,,EnterArea,23Q6,,,,CAP-0007,OK,23Q6;22Q5,17.0,12.0,3.0,17;12;3,,,GOBLINS,,1.0,,,,Fechar portal de Imps reduz escalada do forte.,,CAP-0007;OK;23Q6;22Q5,17;12;3,STEALTH_BASIC;PERCEIVE_BASIC;WAYSTONE_SAFE_JUMP,,2
+QST-0008,Explore o escopo da rota das ruínas e identifique os principais pontos de perigo e avanço.,Ruínas — Passagem dos Totens (21P9) / Ruínas — Vigia Goblin (21Q10) / Ruínas — Desfiladeiro do Entulho (21R11),21P9,Após QST-0007; avançar pela trilha das ruínas.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+3 mapas de ruína externa; 2 pistas; 1 rota bloqueada por entulho.","**Início:** ruínas abertas, vigias goblins e gargalos.
+**Progressão:** (1) mapear caminhos; (2) lidar com vigias; (3) descobrir o acampamento dos mentores.
+**Saídas:** furtividade para evitar alarmes, ou combate para limpar o perímetro.
+**Conclusão/Recompensas:** acesso ao acampamento (QST-0009) e compreensão do 'teatro' de ídolos/mentores.","**Início:** ruínas abertas, vigias goblins e gargalos.
+**Progressão:** (1) mapear caminhos; (2) lidar com vigias; (3) descobrir o acampamento dos mentores.
+**Saídas:** furtividade para evitar alarmes, ou combate para limpar o perímetro.
+**Conclusão/Recompensas:** acesso ao acampamento (QST-0009) e compreensão do 'teatro' de ídolos/mentores.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Rota_Ruinas_Mapeada=1; QST-0009 liberada.",CANON,(Capítulos em construção),Atenção:12;Investigação:9;Sombra:17,,,EnterArea,21P9,,,,CAP-0008,OK,21P9;21Q10;21R11,12.0,9.0,17.0,12;9;17,,,GOBLINS,,,,,,,,CAP-0008;OK;21P9;21Q10;21R11,12;9;17,PERCEIVE_BASIC;INVESTIGATE_BASIC;STEALTH_BASIC,,2
+QST-0009,Participe do evento dos aventureiros (ídolos) e ganhe autorização para atacar o núcleo do forte.,Ruínas — Acampamento dos Mentores (22P8) / Ruínas — Duelo dos Mentores (23P7),22P8,Após QST-0008; chegar ao acampamento dos mentores.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+2 mentores com diálogo; 1 prova; 1 'ídolo' recebido/registrado.","**Início:** mentores testam o jogador e apresentam a lógica dos ídolos.
+**Progressão:** (1) conversar; (2) completar prova (combate ou perícia); (3) receber o ídolo/chave simbólica.
+**Saídas:** prova por combate, ou por perícia (Metalurgia/Leitura de Malícia/Investigação).
+**Conclusão/Recompensas:** ídolo habilita progressão para o núcleo e dá buff/insígnia social.","**Início:** mentores testam o jogador e apresentam a lógica dos ídolos.
+**Progressão:** (1) conversar; (2) completar prova (combate ou perícia); (3) receber o ídolo/chave simbólica.
+**Saídas:** prova por combate, ou por perícia (Metalurgia/Leitura de Malícia/Investigação).
+**Conclusão/Recompensas:** ídolo habilita progressão para o núcleo e dá buff/insígnia social.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Idolo_Obtido=1; QST-0010 liberada.",CANON,(Capítulos em construção),Influência:14;Metalurgia:13;Leitura de Malícia:7,,,EnterArea,22P8,,,,CAP-0009,OK,22P8;23P7,14.0,13.0,7.0,14;13;7,,CS-ATO1-06,GOBLINS,,1.0,,,,Evento dos aventureiros/autoridade para avançar no forte.,,CAP-0009;OK;22P8;23P7,14;13;7,NEGOTIATE_BASIC;SMITH_TIER_1;READ_LIE_BASIC,,2
+QST-0010,Infiltre-se no Núcleo do Clã e derrote o Goblin King para encerrar o arco do forte.,Forte — Portão do Forte Goblin (18R14) / Forte — Currais e Selas (18S15) / Forte — A Última Lição (18T16) / Forte — Boca do Núcleo do Clã (18U17),18R14,Após QST-0009; possuir o ídolo/autorização.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Dungeon em camadas; 1 mini-boss; 1 boss; loot de conclusão.","**Início:** entrada pelo Portão do Forte Goblin.
+**Progressão:** (1) atravessar currais/selas; (2) prova 'Última Lição'; (3) alcançar a Boca do Núcleo e enfrentar o Rei.
+**Saídas:** rota agressiva (mais loot/risco) ou rota furtiva (menos encontros).
+**Conclusão/Recompensas:** queda do Rei, redução de hostilidade nas ruínas e destrave do corredor pós-arco (estrada).","**Início:** entrada pelo Portão do Forte Goblin.
+**Progressão:** (1) atravessar currais/selas; (2) prova 'Última Lição'; (3) alcançar a Boca do Núcleo e enfrentar o Rei.
+**Saídas:** rota agressiva (mais loot/risco) ou rota furtiva (menos encontros).
+**Conclusão/Recompensas:** queda do Rei, redução de hostilidade nas ruínas e destrave do corredor pós-arco (estrada).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+GoblinKing_Derrotado=1; Hostilidade_Ruinas reduzida; QST-0027 (cap 27) habilitada no sentido de mundo aberto.",CANON,(Capítulos em construção),Sombra:17;Atenção:12;Vigor & Carga:4,,,EnterArea,18R14,,,,CAP-0010,OK,18R14;18S15;18T16;18U17,17.0,12.0,4.0,17;12;4,,CS-ATO1-07,GOBLINS,,,,-1.0,,Pós Rei Goblin: caça organizada termina; baseline vira -1 (caos).,,CAP-0010;OK;18R14;18S15;18T16;18U17,17;12;4,STEALTH_BASIC;PERCEIVE_BASIC;CARRY_LIGHT,,2
+QST-0011,Receba a missão principal no Centro da Vila: investigar o que prende Rose e estabilizar as rotas.,Vila (nome TBD) — Centro da Vila (Praça) (24S1),24S1,Após QST-0001; falar com a liderança da vila.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+NPC de liderança; registro de quests; flags de arco principal.","**Início:** a liderança formaliza a investigação.
+**Progressão:** (1) aceitar responsabilidades; (2) escolher qual frente priorizar (ruínas/floresta/brejo); (3) liberar pool de sidequests.
+**Saídas:** ordem de exploração muda encontros e reputações.
+**Conclusão/Recompensas:** desbloqueio oficial do Hub de quests e economia inicial.","**Início:** a liderança formaliza a investigação.
+**Progressão:** (1) aceitar responsabilidades; (2) escolher qual frente priorizar (ruínas/floresta/brejo); (3) liberar pool de sidequests.
+**Saídas:** ordem de exploração muda encontros e reputações.
+**Conclusão/Recompensas:** desbloqueio oficial do Hub de quests e economia inicial.",Cutscene: jogador sem controle até a borda da floresta; aqui é diálogo/briefing com a Líder.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+QuestLog_Rose=1; pool de sidequests ativo; preços base definidos.",CANON,(Capítulos em construção),Influência:14;Leitura de Malícia:7;Investigação:9,,,Talk,NPC:NPC-0001,,,,CAP-0011,OK,24S1,14.0,7.0,9.0,14;7;9,NPC-0001,,VILA_ROSE,,,,,,,,CAP-0011;OK;24S1,14;7;9,NEGOTIATE_BASIC;READ_LIE_BASIC;INVESTIGATE_BASIC,,2
+QST-0012,Destravar Loja do Mercador (Tier 0) para compra/venda no Ato 1.,Vila (nome TBD) — Loja do Mercador (24T2 / INR-0103),24T2,Após QST-0001 (fim do tutorial linear); falar com o Mercador.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Sistema de estoque; 1 entrega inicial; desconto por reputação.","**Objetivo:** voltar ao mercador depois do tutorial e abrir a loja (Tier 0).
+**Importante:** a cutscene da escolta apenas apresenta o NPC; não abre UI.
+**Efeito:** habilita compra/venda e libera bancada WKS-VR-WB-01 no inner INR-0103.",Volte ao Mercador (leste do centro) e abra a loja.,Quest de desbloqueio de sistema (Shop/Craft). Upgrades de estoque são SIDEQUESTS (contador MERCHANT_SDQ_DONE).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Loja_Mercador_Ativa=1; desconto calculado.",CANON,(Capítulos em construção),Influência:14;Trapaça:5;Postura:8,Habilitar ShopID=SHOP-VR-MERCADOR (Tier 0). Unlock Workstation WKS-VR-WB-01. +Ouro (pequeno).,,Talk,NPC:NPC-0003,QST-0001,,,CAP-0012,OK,24T2,14.0,5.0,8.0,14;5;8,NPC-0003,CS-ATO1-22,VILA_ROSE,,1.0,,,,Ajuda ao mercador: confiança leve.,,CAP-0012;OK;24T2,14;5;8,NEGOTIATE_BASIC;DECEIVE_BASIC;INTIMIDATE_BASIC,,2
+QST-0013,Chegue à Clareira de Âncora e destrave o sandbox (bonfire/respawn).,Floresta da Rose — Clareira de Âncora (23T3),23T3,Após QST-0011; avançar pela trilha ao norte do mercador até a clareira.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Sistema de respawn diário; 2 nós de coleta; 1 encontro leve.","**Início:** guiado pela Líder, você chega à Clareira de Âncora, um ponto pacífico na borda da floresta.
+**Momento-chave:** a Líder confirma que Rose sumiu seguindo para o norte, deseja boa sorte e retorna à vila.
+**Destrave:** o controle do jogador é liberado. A Lareira/Bonfire da clareira define respawn e permite descansar — ao descansar durante a noite, o tempo avança para o próximo dia (estilo Minecraft).
+**Fim:** a partir daqui, você pode explorar livremente: voltar ao sul (vila/mercador) ou seguir ao norte (22T4) para continuar a investigação.","**Início:** guiado pela Líder, você chega à Clareira de Âncora, um ponto pacífico na borda da floresta.
+**Momento-chave:** a Líder confirma que Rose sumiu seguindo para o norte, deseja boa sorte e retorna à vila.
+**Destrave:** o controle do jogador é liberado. A Lareira/Bonfire da clareira define respawn e permite descansar — ao descansar durante a noite, o tempo avança para o próximo dia (estilo Minecraft).
+**Fim:** a partir daqui, você pode explorar livremente: voltar ao sul (vila/mercador) ou seguir ao norte (22T4) para continuar a investigação.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Respawn_Floresta=1; QST-0014 liberada.",CANON,AJ_000345: destrave do loop e bonfire/respawn movidos para 23T3 (clareira).,Colheita (Ervas/Fungos/Fibras):10;Extração (Minério/Pedra/Cristais):18;Atenção:12,,,EnterArea,23T3,,,,CAP-0013,OK,22T4;19S12,10.0,18.0,12.0,10;18;12,,CS-ATO1-23,FADAS,,,,,,,FAE_SOCIAL,CAP-0013;OK;22T4;19S12,10;18;12,HARVEST_TIER_1;MINE_TIER_1;PERCEIVE_BASIC,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),2
+QST-0014,Avance no início da floresta: enfrente insetos e atravesse a MiniDungeon 1.,Floresta da Rose — Trilha do Pólen Brilhante (20U9) / Floresta da Rose — Bosque dos Ferrões (21T7) / Floresta da Rose — Saída do Túnel Feérico (19T11),20U9,Após QST-0013; seguir pela trilha do pólen/bosque.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+MiniDungeon 1 (entrada/saída); antídoto ainda não obrigatório; 2 encontros de inseto.","**Início:** insetos e pólen brilhante criam veneno leve.
+**Progressão:** (1) atravessar corredores; (2) lidar com veneno; (3) sair para o miolo.
+**Saídas:** combate ou evitação; coleta para antídoto futuro.
+**Conclusão/Recompensas:** acesso ao 'aríete alado' e à clareira do antídoto.","**Início:** insetos e pólen brilhante criam veneno leve.
+**Progressão:** (1) atravessar corredores; (2) lidar com veneno; (3) sair para o miolo.
+**Saídas:** combate ou evitação; coleta para antídoto futuro.
+**Conclusão/Recompensas:** acesso ao 'aríete alado' e à clareira do antídoto.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+MiniD1_Concluida=1; QST-0015 liberada.",CANON,(Capítulos em construção),Extração (Minério/Pedra/Cristais):18;Atenção:12;Sombra:17,,,EnterArea,20U9,,,,CAP-0014,OK,20U9;21T7;19T11,18.0,12.0,17.0,18;12;17,,,FADAS,,,,,,,FAE_SOCIAL,CAP-0014;OK;20U9;21T7;19T11,18;12;17,MINE_TIER_1;PERCEIVE_BASIC;STEALTH_BASIC,,2
+QST-0015,Enfrente o 'aríete alado' e crie um antídoto para avançar com segurança.,Floresta da Rose — Clareiras do Aríete Alado (22U5) / Floresta da Rose — Clareira do Antídoto (20T8),22U5,Após QST-0014; entrar nas clareiras internas.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Receita de antídoto; 1 ingrediente raro; 1 encontro com criatura alada.","**Início:** uma criatura agressiva patrulha clareiras e espalha toxinas.
+**Progressão:** (1) obter ingrediente; (2) craftar antídoto; (3) atravessar área.
+**Saídas:** Colheita (Ervas/Fungos/Fibras)/Alquimia do Pântano para craft, ou brute force com custo.
+**Conclusão/Recompensas:** antídoto habilita exploração profunda e reduz punições de veneno.","**Início:** uma criatura agressiva patrulha clareiras e espalha toxinas.
+**Progressão:** (1) obter ingrediente; (2) craftar antídoto; (3) atravessar área.
+**Saídas:** Colheita (Ervas/Fungos/Fibras)/Alquimia do Pântano para craft, ou brute force com custo.
+**Conclusão/Recompensas:** antídoto habilita exploração profunda e reduz punições de veneno.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Antidoto_Floresta=1; debuffs de veneno reduzidos; QST-0016 liberada.",CANON,(Capítulos em construção),Alquimia do Pântano:11;Colheita (Ervas/Fungos/Fibras):10;Extração (Minério/Pedra/Cristais):18,,,EnterArea,22U5,,,,CAP-0015,OK,22U5;20T8,11.0,10.0,18.0,11;10;18,,,FADAS,,,,,,,FAE_SOCIAL,CAP-0015;OK;22U5;20T8,11;10;18,ALCH_TIER_1;HARVEST_TIER_1;MINE_TIER_1,id_fix(Alquimia do Pântano:10->11)|id_fix(Colheita (Ervas/Fungos/Fibras):11->10),2
+QST-0016,Enfrente o primeiro Poltergeist (espada voadora) e descubra que a floresta guarda algo antigo.,Floresta da Rose — Corredores do Pothergeist (21U6),21U6,Após QST-0015; avançar para corredores assombrados.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1 encontro especial; 1 drop temático; 1 pista para o santuário.","**Início:** uma espada voadora ataca sem corpo.
+**Progressão:** (1) investigar a origem; (2) neutralizar; (3) coletar a pista.
+**Saídas:** Engenharia Rúnica (Waystones)/Ritos do Véu para enfraquecer; Atenção para prever golpes.
+**Conclusão/Recompensas:** item/fragmento e direção ao santuário da guardiã.","**Início:** uma espada voadora ataca sem corpo.
+**Progressão:** (1) investigar a origem; (2) neutralizar; (3) coletar a pista.
+**Saídas:** Engenharia Rúnica (Waystones)/Ritos do Véu para enfraquecer; Atenção para prever golpes.
+**Conclusão/Recompensas:** item/fragmento e direção ao santuário da guardiã.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Poltergeist_Vencido=1; QST-0017 destacada.",CANON,(Capítulos em construção),Engenharia Rúnica (Waystones):3;Ritos do Véu:15;Atenção:12,,,EnterArea,21U6,,,,CAP-0016,OK,21U6,3.0,15.0,12.0,3;15;12,,,FADAS,,,,,,,FAE_CORE_ARC;FAE_GUARDIAN;FAE_SANCTUARY;FAE_SOCIAL,CAP-0016;OK;21U6,3;15;12,WAYSTONE_SAFE_JUMP;RITE_MINOR;PERCEIVE_BASIC,,3
+QST-0017,"Descubra a verdade de Rose: fadas, a árvore guardiã e um Ent enlouquecido.",Reino das Fadas — Vilarejo (Entrada) (20S13) / Reino das Fadas — Santuário da Guardiã (21S14) / Floresta da Rose — Borda da Mata (Árvore Anciã) (22T4) / Floresta da Rose — Clareira de Âncora (23T3),20S13,Após QST-0016; seguir a pista até o santuário.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Evento de lore grande; 1 escolha moral; 1 boss/mini-boss (Ent).","**Início:** o santuário revela a relação entre Rose e o Reino das Fadas.
+**Progressão:** (1) conversar/observar; (2) decidir como lidar com a guardiã e o Ent; (3) resolver o conflito.
+**Saídas:** apaziguar (Influência/Leitura de Malícia/Ritos do Véu) vs combater; decisões afetam 'Ira das Fadas'.
+**Conclusão/Recompensas:** boon das fadas ou ganho material com repercussões; reforça a ponte para o arco do brejo/mago.","**Início:** o santuário revela a relação entre Rose e o Reino das Fadas.
+**Progressão:** (1) conversar/observar; (2) decidir como lidar com a guardiã e o Ent; (3) resolver o conflito.
+**Saídas:** apaziguar (Influência/Leitura de Malícia/Ritos do Véu) vs combater; decisões afetam 'Ira das Fadas'.
+**Conclusão/Recompensas:** boon das fadas ou ganho material com repercussões; reforça a ponte para o arco do brejo/mago.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Verdade_Rose=1; Ira_Fadas ajustada; recompensas entregues.",CANON,(Capítulos em construção),Influência:14;Leitura de Malícia:7;Ritos do Véu:15,,,Talk,NPC:NPC-0021,,,,CAP-0017,OK,20S13;21S14;22T4;23T3,14.0,7.0,15.0,14;7;15,NPC-0021;NPC-0022,CS-ATO1-08;CS-ATO1-09;CS-ATO1-10,FADAS,,,,1.0,,Rose explica a situação: muda frame e seta +1.,FAE_CORE_ARC;FAE_ENT;FAE_GUARDIAN;FAE_ROSE_ARC;FAE_SOCIAL,CAP-0017;OK;20S13;21S14;22T4;23T3,14;7;15,NEGOTIATE_BASIC;READ_LIE_BASIC;RITE_MINOR,,3
+QST-0018,Vida tranquila: cuide de galinhas/pesca e estabilize a economia/moral de Rose (intervalo e grind leve).,Vila Rose — Pasto das Galinhas e Lagoa de Pesca (24U3) / Vila (nome TBD) — Centro da Vila (Praça) (24S1),24U3,Após QST-0011; disponível a qualquer momento no Hub.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Nós de coleta/pesca; moral/despensa; recompensas pequenas repetíveis (se quiser).","**Início:** a vila precisa respirar.
+**Progressão:** (1) tarefas simples; (2) entregar; (3) ganhar moral/recursos.
+**Saídas:** fazer rápido ou grindar para recursos.
+**Conclusão/Recompensas:** descontos, comida, moral e um respiro narrativo.","**Início:** a vila precisa respirar.
+**Progressão:** (1) tarefas simples; (2) entregar; (3) ganhar moral/recursos.
+**Saídas:** fazer rápido ou grindar para recursos.
+**Conclusão/Recompensas:** descontos, comida, moral e um respiro narrativo.",nan | Gate: iniciar após QST-0012 para evitar ativação precoce.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Despensa_Rose ajustada; moral ajustada; recompensa entregue.",CANON,(Capítulos em construção),Vínculo (Criaturas & Goblins):2;Colheita (Ervas/Fungos/Fibras):10;Metalurgia:13,,,EnterArea,24U3,QST-0012,,,CAP-0018,OK,24U3;24S1,2.0,10.0,13.0,2;10;13,,,VILA_ROSE,,,,,,,,CAP-0018;OK;24U3;24S1,2;10;13,BOND_CALM;HARVEST_TIER_1;SMITH_TIER_1,id_fix(Colheita (Ervas/Fungos/Fibras):11->10),3
+QST-0019,"No Brejo, recupere pertences no lodo e encontre o gancho do Mago Louco.",Pântano — Borda Encharcada (Pertences no Lodo) (23U4) / Pântano — Último Mangue (20V14),23U4,Ao entrar em 23U4 (auto-start). Pode ser ignorado; a Cockatrice força a linha do brejo.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Entrada de pântano; 1 item de lore; 1 encontro ambiental.","**Início:** o brejo engole coisas — e memórias.
+**Progressão:** (1) vasculhar lodo; (2) achar pertences; (3) descobrir marca/nota do mago.
+**Saídas:** Extração (Minério/Pedra/Cristais) para navegar, Atenção para evitar sanguessugas.
+**Conclusão/Recompensas:** pista clara para a rota do pântano e a ameaça da cockatrice.","**Início:** o brejo engole coisas — e memórias.
+**Progressão:** (1) vasculhar lodo; (2) achar pertences; (3) descobrir marca/nota do mago.
+**Saídas:** Extração (Minério/Pedra/Cristais) para navegar, Atenção para evitar sanguessugas.
+**Conclusão/Recompensas:** pista clara para a rota do pântano e a ameaça da cockatrice.", | Ajuste: auto-start ao entrar no chunk; sem depender de QST-0011.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Pista_MagoLouco=1; QST-0020 liberada.",CANON,(Capítulos em construção),Extração (Minério/Pedra/Cristais):18;Atenção:12;Investigação:9,,,EnterArea,23U4,,,,CAP-0019,OK,23U4;20V14,18.0,12.0,9.0,18;12;9,,,BREJO,,,,-1.0,,Entrada no brejo: sintonia base -1.,,CAP-0019;OK;23U4;20V14,18;12;9,MINE_TIER_1;PERCEIVE_BASIC;INVESTIGATE_BASIC,,3
+QST-0020,Enfrente a Cockatrice (galinha endemoniada) e aprenda o custo do brejo.,Pântano — Bruma da Cockatrice (23V5),23V5,"Ao entrar em 23V5, evento força batalha contra a Cockatrice (não depende de QST-0019).","NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1 batalha obrigatória ao entrar; status/veneno; loot de criatura.","**Início:** a bruma revela olhos e penas.
+**Progressão:** (1) sobreviver ao primeiro contato; (2) entender o padrão; (3) derrotar.
+**Saídas:** preparar antídotos, usar terreno, ou recuar e voltar mais forte.
+**Conclusão/Recompensas:** item raro (pena/glândula) e desbloqueio de rotas mais profundas.","**Início:** a bruma revela olhos e penas.
+**Progressão:** (1) sobreviver ao primeiro contato; (2) entender o padrão; (3) derrotar.
+**Saídas:** preparar antídotos, usar terreno, ou recuar e voltar mais forte.
+**Conclusão/Recompensas:** item raro (pena/glândula) e desbloqueio de rotas mais profundas.", | Ajuste: forçado ao entrar; remove prereq QST-0019.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Cockatrice_Derrotada=1; QST-0021 liberada.",CANON,(Capítulos em construção),Alquimia do Pântano:11;Atenção:12;Extração (Minério/Pedra/Cristais):18,,,EnterArea,23V5,,,,CAP-0020,OK,23V5,11.0,12.0,18.0,11;12;18,,,BREJO,,,,,,,,CAP-0020;OK;23V5,11;12;18,ALCH_TIER_1;PERCEIVE_BASIC;MINE_TIER_1,id_fix(Alquimia do Pântano:10->11),3
+QST-0021,O Bagrezão anfíbio marca a ponte: vença a emboscada e avance pelo pântano hostil.,Pântano — Ponte da Emboscada (Bagre Bípedo) (24V6) / Pântano — Margem Longa (23X9),24V6,Após QST-0020; tentar cruzar para margens profundas.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Evento de emboscada; 1 batalha; check de travessia.","**Início:** o pântano 'se move' — e a ponte não é segura.
+**Progressão:** (1) detectar sinais; (2) lidar com emboscada; (3) atravessar.
+**Saídas:** Atenção evita surpresa; Vigor & Carga segura o chão; Sombra permite contornar.
+**Conclusão/Recompensas:** rota aberta para a MiniDungeon do brejo e para a trilha da torre.","**Início:** o pântano 'se move' — e a ponte não é segura.
+**Progressão:** (1) detectar sinais; (2) lidar com emboscada; (3) atravessar.
+**Saídas:** Atenção evita surpresa; Vigor & Carga segura o chão; Sombra permite contornar.
+**Conclusão/Recompensas:** rota aberta para a MiniDungeon do brejo e para a trilha da torre.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Ponte_Brejo_Liberada=1; QST-0022 liberada.",CANON,(Capítulos em construção),Atenção:12;Vigor & Carga:4;Sombra:17,,,EnterArea,24V6,,,,CAP-0021,OK,24V6;23X9,12.0,4.0,17.0,12;4;17,,,BREJO,,,,,,,,CAP-0021;OK;24V6;23X9,12;4;17,PERCEIVE_BASIC;CARRY_LIGHT;STEALTH_BASIC,,3
+QST-0022,Complete a MiniDungeon do pântano e encontre a rota direta para a Torre do Mago Louco.,Pântano — Campo dos Líquens Luminosos (22X10) / Pântano — Charco dos Líquens (24W7) / Pântano — Trilha da Torre (Pós-Mini Dungeon) (23W8),22X10,Após QST-0021; seguir marcas de líquens.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+MiniDungeon; 1 puzzle de luz; 1 saída para trilha da torre.","**Início:** líquens luminosos guiam (e enganam).
+**Progressão:** (1) seguir o brilho certo; (2) evitar atolamentos; (3) sair na trilha da torre.
+**Saídas:** Atenção/Investigação para decifrar; Extração (Minério/Pedra/Cristais) para navegar.
+**Conclusão/Recompensas:** acesso à Campina da Tumba e ao platô da torre.","**Início:** líquens luminosos guiam (e enganam).
+**Progressão:** (1) seguir o brilho certo; (2) evitar atolamentos; (3) sair na trilha da torre.
+**Saídas:** Atenção/Investigação para decifrar; Extração (Minério/Pedra/Cristais) para navegar.
+**Conclusão/Recompensas:** acesso à Campina da Tumba e ao platô da torre.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+MiniD_Brejo=1; QST-0023 liberada; QST-0024 destacada.",CANON,(Capítulos em construção),Atenção:12;Investigação:9;Extração (Minério/Pedra/Cristais):18,,,EnterArea,22X10,,,,CAP-0022,OK,22X10;24W7;23W8,12.0,9.0,18.0,12;9;18,,,BREJO,,,,,,,,CAP-0022;OK;22X10;24W7;23W8,12;9;18,PERCEIVE_BASIC;INVESTIGATE_BASIC;MINE_TIER_1,,3
+QST-0023,Explore a Tumba e enfrente o zombie 'Groot/Chewbacca' para conseguir passagem e loot.,Pântano — Campina da Tumba (22W9),22W9,Após QST-0022; entrar na Campina da Tumba (evento noturno 1ª vez).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+1 dungeon curta; 1 boss; loot temático.","**Início:** a tumba pulsa sob a campina.
+**Progressão:** (1) entrar; (2) resolver uma sala de pressão; (3) derrotar o guardião.
+**Saídas:** stealth para poupar recursos, ou combate para loot máximo.
+**Conclusão/Recompensas:** item-chave/atalho e narrativa que aponta para a torre.","**Início:** a tumba pulsa sob a campina.
+**Progressão:** (1) entrar; (2) resolver uma sala de pressão; (3) derrotar o guardião.
+**Saídas:** stealth para poupar recursos, ou combate para loot máximo.
+**Conclusão/Recompensas:** item-chave/atalho e narrativa que aponta para a torre.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Tumba_Concluida=1; QST-0024 liberada.",CANON,(Capítulos em construção),Sombra:17;Atenção:12;Ritos do Véu:15,,,EnterArea,22W9,,,,CAP-0023,OK,22W9,17.0,12.0,15.0,17;12;15,,,BREJO,,,,,,,,CAP-0023;OK;22W9,17;12;15,STEALTH_BASIC;PERCEIVE_BASIC;RITE_MINOR,,3
+QST-0024,Chegue ao platô e atravesse a porta da torre: o Inner do Mago Louco começa.,Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10) / Torre do Mago — Ponte e Portão Rangente (21V11),22V10,Após QST-0023; seguir a trilha pós-minidungeon até a torre.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Mapa de aproximação; gate multi-solução; acesso ao Inner (instância).","**Início:** o platô está calmo demais.
+**Progressão:** (1) encontrar o portão; (2) escolher método (força, chave, arcana, diálogo); (3) entrar.
+**Saídas:** Engenharia Rúnica (Waystones) para selos; Vigor & Carga para mecanismos; Influência/Trapaça com assistente/eco.
+**Conclusão/Recompensas:** destrava o Inner e prepara o experimento.","**Início:** o platô está calmo demais.
+**Progressão:** (1) encontrar o portão; (2) escolher método (força, chave, arcana, diálogo); (3) entrar.
+**Saídas:** Engenharia Rúnica (Waystones) para selos; Vigor & Carga para mecanismos; Influência/Trapaça com assistente/eco.
+**Conclusão/Recompensas:** destrava o Inner e prepara o experimento.",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Acesso_Inner_Torre=1; QST-0025 liberada.",CANON,(Capítulos em construção),Engenharia Rúnica (Waystones):3;Vigor & Carga:4;Influência:14,,,EnterArea,22V10,,,,CAP-0024,OK,22V10;21V11,3.0,4.0,14.0,3;4;14,,,BREJO,,,,,,,,CAP-0024;OK;22V10;21V11,3;4;14,WAYSTONE_SAFE_JUMP;CARRY_LIGHT;NEGOTIATE_BASIC,,3
+QST-0025,O experimento dá errado: fendas se abrem; retorne e enfrente o boss do demônio.,Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10) / Vila (nome TBD) — Centro da Vila (Praça) (24S1),22V10,Após QST-0024; avançar no Inner e ativar o experimento.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Boss + sequência de fuga; variável 'Pressão do Véu'; retorno ao Hub.","**Início:** o mago perde controle e rasga o véu.
+**Progressão:** (1) segurar a sala; (2) impedir propagação; (3) boss do demônio; (4) retorno ao hub.
+**Saídas:** selar (Engenharia Rúnica (Waystones)/Ritos do Véu) reduz dano; combate direto é possível, mas mais custoso.
+**Conclusão/Recompensas:** estabilização temporária e abertura para Waystone e projeto do Golem.","**Início:** o mago perde controle e rasga o véu.
+**Progressão:** (1) segurar a sala; (2) impedir propagação; (3) boss do demônio; (4) retorno ao hub.
+**Saídas:** selar (Engenharia Rúnica (Waystones)/Ritos do Véu) reduz dano; combate direto é possível, mas mais custoso.
+**Conclusão/Recompensas:** estabilização temporária e abertura para Waystone e projeto do Golem.",nan | VAR gatilho: V_QST_0025_EXPERIMENTO (definir/setar no evento do experimento).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Demonio_Derrotado=1; Pressao_Veu ajustada; QST-0026 liberada.",CANON,(Capítulos em construção),Engenharia Rúnica (Waystones):3;Ritos do Véu:15;Atenção:12,,,Var,VAR:V_QST_0025_EXPERIMENTO,,,,CAP-0025,OK,22V10;24S1,3.0,15.0,12.0,3;15;12,,,BREJO,,,,1.0,,Boss do demônio: virada e aceitação do brejo (+1).,,CAP-0025;OK;22V10;24S1,3;15;12,WAYSTONE_SAFE_JUMP;RITE_MINOR;PERCEIVE_BASIC,,4
+QST-0026,Waystone e teleporte: sincronize os marcos e inicie o projeto do Golem do Mago Louco.,Vila (nome TBD) — Centro da Vila (Praça) (24S1) / Torre do Mago — Ponte e Portão Rangente (21V11) / Torre do Mago Louco — Platô dos Marcos (Rampa Externa) (22V10),24S1,Após QST-0025; retornar ao Centro da Vila (Hub).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Waystone sincronizada (hub↔torre); blueprint do golem; lista de materiais.","**Início:** com a crise contida, o mago oferece uma solução pragmática: um Golem patrulheiro.
+**Progressão:** (1) sincronizar teleporte; (2) receber blueprint; (3) destravar etapa de coleta na serra/litoral.
+**Saídas:** aceitar (cadeia ativa), negociar preço, ou recusar (perde bônus, mas mantém liberdade).
+**Conclusão/Recompensas:** Waystone ativa, blueprint e primeiro favor do mago.","**Início:** com a crise contida, o mago oferece uma solução pragmática: um Golem patrulheiro.
+**Progressão:** (1) sincronizar teleporte; (2) receber blueprint; (3) destravar etapa de coleta na serra/litoral.
+**Saídas:** aceitar (cadeia ativa), negociar preço, ou recusar (perde bônus, mas mantém liberdade).
+**Conclusão/Recompensas:** Waystone ativa, blueprint e primeiro favor do mago.",NPC-0007 voice contract: lazy/playful baseline; becomes obsessed/focused on waystone + golem; reacts strongly to manipulation/lying in high-stakes. | Gate: Waystone na praça só ativa após arco do Mago Louco (QST-0025).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Waystone_Ativa=1; Projeto_Golem=1; QST-0027 liberada.",CANON,(Capítulos em construção),Engenharia Rúnica (Waystones):3;Investigação:9;Influência:14,,,Talk,NPC:NPC-0007,QST-0025,,,CAP-0026,OK,24S1;21V11;22V10,3.0,9.0,14.0,3;9;14,NPC-0007,CS-ATO1-15,VILA_ROSE,,2.0,,,,Waystone/Golem: feito marcante para cruzar confiança.,,CAP-0026;OK;24S1;21V11;22V10,3;9;14,WAYSTONE_SAFE_JUMP;INVESTIGATE_BASIC;NEGOTIATE_BASIC,,4
+QST-0027,Estrada para o litoral: atravesse a serra e explore a 'Caverna de Prova' para obter materiais do Golem.,Estrada — Reconstruída (17T19) / Serra — Trilha das Fendas (19W16) / Serra — Porta da Caverna de Prova (18X18) / Litoral — Marco do Litoral (19Y20),17T19,Após QST-0026; aceitar etapa 1 do projeto (ou seguir rumo ao mar).,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Corredor serra→litoral; entrada de dungeon opcional; 2–3 materiais 'Ferro-marinho/Âncora/Sal'.","**Início:** a rota pós-arco goblin abre o mundo.
+**Progressão:** (1) seguir pela Estrada Reconstruída; (2) passar pela Trilha das Fendas; (3) entrar na Porta da Caverna de Prova (dungeon opcional); (4) sair no Marco do Litoral.
+**Eventos:** deslizamentos, Morcegos de Fenda (EG024) e bandidos (usados depois na caravana).
+**Conclusão/Recompensas:** materiais para o golem e o primeiro contato com a fronteira élfica.","**Início:** a rota pós-arco goblin abre o mundo.
+**Progressão:** (1) seguir pela Estrada Reconstruída; (2) passar pela Trilha das Fendas; (3) entrar na Porta da Caverna de Prova (dungeon opcional); (4) sair no Marco do Litoral.
+**Eventos:** deslizamentos, Morcegos de Fenda (EG024) e bandidos (usados depois na caravana).
+**Conclusão/Recompensas:** materiais para o golem e o primeiro contato com a fronteira élfica.","Ensure dialogue options allow direct debate; reward honesty; if player attempts manipulation, mark flag and reduce access/favors from NPC-0007.","NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Golem_Mats_Etapa1>=1; rota litoral mapeada; QST-0028 (escolta) disponível ao encontrar o posto élfico.",CANON,(Capítulos em construção) + ajuste (dungeon de materiais alinhada ao WorldMap),Extração (Minério/Pedra/Cristais):18;Atenção:12;Vigor & Carga:4;Sombra:17,,,Talk,NPC:NPC-0007,,,,CAP-0027,OK,17T19;19W16;18X18;19Y20,18.0,12.0,4.0,18;12;4;17,NPC-0007;NPC-0019,CS-ATO1-17,REINO_ELFO,,,,,,,,CAP-0027;OK;17T19;19W16;18X18;19Y20,18;12;4;17,MINE_TIER_1;PERCEIVE_BASIC;CARRY_LIGHT;STEALTH_BASIC,,4
+QST-0028,Escolta do mercador élfico: proteja a caravana até o litoral e ganhe salvo-conduto para circular no Reino Élfico.,Reino Élfico — Portão de Folhas e Pedra (17V17) / Reino Élfico — Mercado Élfico (16V18) / Serra — Marco da Encruzilhada (19V15) / Litoral — Marco do Litoral (19Y20),17V17,Após QST-0027; chegar ao Portão de Folhas e Pedra e não ter reputação negativa com guardas.,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+Caravana com integridade 0–100; 3–4 nós de evento; recompensa social (salvo-conduto).","**Início:** o Reino Élfico mantém bloqueio social: sem ajuda, você não entra.
+**Progressão:** (1) negociar o contrato no Mercado Élfico; (2) escoltar pela serra até o Marco do Litoral; (3) resolver eventos (obstáculo, bandidos, Morcegos de Fenda (EG024)) sem destruir a carga.
+**Saídas:** pacificar bandidos (Influência), emboscar (Sombra), ou lutar.
+**Conclusão/Recompensas:** salvo-conduto, descontos, reputação e gancho para uma 'outra cidade' fora do mapa (futuro).","**Início:** o Reino Élfico mantém bloqueio social: sem ajuda, você não entra.
+**Progressão:** (1) negociar o contrato no Mercado Élfico; (2) escoltar pela serra até o Marco do Litoral; (3) resolver eventos (obstáculo, bandidos, Morcegos de Fenda (EG024)) sem destruir a carga.
+**Saídas:** pacificar bandidos (Influência), emboscar (Sombra), ou lutar.
+**Conclusão/Recompensas:** salvo-conduto, descontos, reputação e gancho para uma 'outra cidade' fora do mapa (futuro).",,"NPCs:
+- 
+Variáveis:
+- 
+Mapas:
+- 
+Assets:
+- 
+
+Resumo_Anterior:
+SalvoConduto_Elfico=1 OU Reputacao_Elfos ajustada; acesso a serviços do reino liberado.",CANON,"(main quest nova, mas 100% ancorada em mapas CANON)",Influência:14;Leitura de Malícia:7;Trapaça:5;Atenção:12,,,EnterArea,17V17,,,,CAP-0028,OK,17V17;16V18;19V15;19Y20,14.0,7.0,5.0,14;7;5;12,NPC-0009,CS-ATO1-16;CS-ATO1-19;CS-ATO1-20;CS-ATO1-21,REINO_ELFO,,,,1.0,,Salvar a carga: salvo-conduto. SET +1 (acesso ao reino).,,CAP-0028;OK;17V17;16V18;19V15;19Y20,14;7;5;12,NEGOTIATE_BASIC;READ_LIE_BASIC;DECEIVE_BASIC;PERCEIVE_BASIC,,4

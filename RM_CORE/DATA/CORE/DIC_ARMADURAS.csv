@@ -1,0 +1,61 @@
+ItemID,Nome,Categoria,Slot,Subtipo
+ARM_ARMADURA_ACOLCHOADA_COMUM,Armadura Acolchoada,Armadura,Armadura,
+ARM_ARMADURA_DE_COURO_LEVE_COMUM,Armadura de Couro Leve,Armadura,Armadura,
+ARM_ARMADURA_DE_COURO_REFORCADO_COMUM,Armadura de Couro Reforçado,Armadura,Armadura,
+ARM_ARMADURA_DE_FERRO_INCOMUM,Armadura de Ferro,Armadura,Armadura,Corpo
+ARM_ARMADURA_DE_MEIA_PLACA_SIMPLES_COMUM,Armadura de Meia-Placa Simples,Armadura,Armadura,
+ARM_ARMADURA_DE_PLACAS_SIMPLES_COMUM,Armadura de Placas Simples,Armadura,Armadura,
+LEG_BOTA_DE_PANO_COMUM,Bota de Pano,Leggins,Leggins,Bota
+ARM_BREASTPLATE_BASICO,Breastplate,Armadura,Armadura,Breastplate
+ARM_CAPA_DE_SEDA_COMUM,Capa de seda,Armadura,Armadura,Corpo
+ARM_CHAIN_MAIL_COMUM,Chain Mail,Armadura,Armadura,Chain Mail
+ARM_CHAIN_SHIRT_INCOMUM,Chain Shirt,Armadura,Armadura,Chain Shirt
+ARM_COLETE_DE_COURO_COMUM,Colete de couro,Armadura,Armadura,Corpo
+ARM_COTA_DE_MALHA_INCOMUM,Cota de Malha,Armadura,Armadura,Corpo
+LEG_COTURNO_DE_COURO_COMUM,Coturno de Couro,Leggins,Leggins,Bota
+ARM_ESCAMAS_DE_KARKOTAKA_UNIQUE,Escamas de Karkotaka,Armadura,Armadura,
+SHD_ESCUDO_DE_ACO_RARO,Escudo de Aço,Escudo,Mão Secundária,Escudo
+SHD_ESCUDO_DE_BRONZE_INCOMUM,Escudo de Bronze,Escudo,Mão Secundária,Escudo
+SHD_ESCUDO_DE_MADEIRA_COMUM,Escudo de Madeira,Escudo,Mão Secundária,Escudo
+SHD_ESCUDO_DE_MADEIRA_REFORCADO_COMUM,Escudo de Madeira Reforçado,Escudo,Item,
+SHD_ESCUDO_LEVE_DE_FERRO_COMUM,Escudo Leve de Ferro,Escudo,Mão Secundária,
+SHD_ESCUDO_LEVE_DE_MADEIRA_COMUM,Escudo Leve de Madeira,Escudo,Mão Secundária,
+ARM_ESTOLA_DAS_ALMAS_JULGADAS_UNIQUE,Estola das Almas Julgadas,Armadura,Armadura,
+SHD_FORCA_DE_VONTADE_COMUM,Força de Vontade,Escudo,Mão Secundária,Escudo
+SHD_FORCA_DE_VONTADE_INCOMUM,Força de Vontade+,Escudo,Mão Secundária,Escudo
+SHD_FORCA_DE_VONTADE_RARO_MITICO,Força de Vontade++,Escudo,Mão Secundária,Escudo
+SHD_FRATERNIDADE_COMUM,Fraternidade,Escudo,Mão Secundária,Escudo
+SHD_FRATERNIDADE_INCOMUM,Fraternidade+,Escudo,Mão Secundária,Escudo
+SHD_FRATERNIDADE_RARO,Fraternidade++,Escudo,Mão Secundária,Escudo
+SHD_GENEROSIDADE_RARO_MITICO,Generosidade,Escudo,Mão Secundária,Escudo
+SHD_GENEROSIDADE_RARO_LENDARIO,Generosidade+,Escudo,Mão Secundária,Escudo
+SHD_GENEROSIDADE_RARO_LENDARIO_F168,Generosidade++,Escudo,Mão Secundária,Escudo
+ARM_HALF_PLATE_BASICO,Half Plate,Armadura,Armadura,Half Plate
+ARM_HIDE_COMUM,Hide,Armadura,Armadura,Hide
+ARM_LEATHER_BASICO,Leather,Armadura,Armadura,Leather
+SHD_MODESTIA_COMUM,Modéstia,Escudo,Mão Secundária,Escudo
+SHD_MODESTIA_COMUM_F7E4,Modéstia+,Escudo,Mão Secundária,Escudo
+SHD_MODESTIA_INCOMUM,Modéstia++,Escudo,Mão Secundária,Escudo
+ARM_NUCLEO_DE_VAJRA_UNIQUE,Núcleo de Vajra,Armadura,Armadura,
+ARM_PADDED_BASICO,Padded,Armadura,Armadura,Padded
+LEG_PERNEIRAS_ACOLCHOADAS_COMUM,Perneiras Acolchoadas,Leggins,Leggins,
+LEG_PERNEIRAS_DE_COURO_LEVE_COMUM,Perneiras de Couro Leve,Leggins,Leggins,
+LEG_PERNEIRAS_DE_COURO_REFORCADO_COMUM,Perneiras de Couro Reforçado,Leggins,Leggins,
+LEG_PERNEIRAS_DE_MEIA_PLACA_SIMPLES_COMUM,Perneiras de Meia-Placa Simples,Leggins,Leggins,
+LEG_PERNEIRAS_DE_PLACAS_SIMPLES_COMUM,Perneiras de Placas Simples,Leggins,Leggins,
+ARM_PLATE_BASICO,Plate,Armadura,Armadura,Plate
+LEG_PLUMAS_DE_VAYU_UNIQUE,Plumas de Vāyu,Leggins,Leggins,
+ARM_RING_MAIL_COMUM,Ring Mail,Armadura,Armadura,Ring Mail
+LEG_SAPATO_DE_FERRO_COMUM,Sapato de Ferro,Leggins,Leggins,Bota
+ARM_SCALE_MAIL_BASICO,Scale Mail,Armadura,Armadura,Scale Mail
+SHD_SERENIDADE_COMUM,Serenidade,Escudo,Mão Secundária,Escudo
+SHD_SERENIDADE_INCOMUM,Serenidade+,Escudo,Mão Secundária,Escudo
+SHD_SERENIDADE_RARO,Serenidade++,Escudo,Mão Secundária,Escudo
+SHD_SIMPLICIDADE_COMUM,Simplicidade,Escudo,Mão Secundária,Escudo
+SHD_SIMPLICIDADE_COMUM_EF74,Simplicidade+,Escudo,Mão Secundária,Escudo
+SHD_SIMPLICIDADE_INCOMUM,Simplicidade++,Escudo,Mão Secundária,Escudo
+ARM_SPLINT_INCOMUM,Splint,Armadura,Armadura,Splint
+ARM_STUDDED_LEATHER_BASICO,Studded Leather,Armadura,Armadura,Studded Leather
+SHD_TEMPERANCA_COMUM,Temperança,Escudo,Mão Secundária,Escudo
+SHD_TEMPERANCA_RARO,Temperança+,Escudo,Mão Secundária,Escudo
+SHD_TEMPERANCA_RARO_MITICO,Temperança++,Escudo,Mão Secundária,Escudo

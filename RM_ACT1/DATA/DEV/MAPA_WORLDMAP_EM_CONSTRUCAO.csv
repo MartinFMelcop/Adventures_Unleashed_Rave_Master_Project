@@ -1,0 +1,3480 @@
+128,127,126,127,130,131,134,123,124,125,126,79,78,77,78,79,80_F,81,82,83,84,107,106,105,104,103,102,159,158,155,154,141,140,141
+129,126,125,128,129,132,133,122,85,84,127,80,75,76,77,78,79,80,81,86,85,108,97,98,99,100,101,160,157,156,153,142,139,138
+130,135,124,123,118,119,120,121,86,83,82,81,74,73,72,73,54,83,82,87,88,95,96,99,100,103,162,161,150,151,152,143,136,137
+131,134,121,122,117,116,105,104,87,88,67,68,69,70,71,74,75,84,87,90,89,94,97,170,101,102,163,164,149,148,145,144,135,134
+132,133,120,121,114,115,104,103,102,89,66,65,70,71,82,83,76,85,86,91,92,93,98,169,168,169,164,151,150,147,146,137,136,133
+133,118,119,118,113,112,105,62,101,90,91,64,63,62,81,78,77,86,87,48,47,48,99,100,167,166,165,152,163,162,161,160,161,132
+134,117,116,117,112,111,106,61,100,99,92,93,94,61,80,79,54,53,88,49,46,47,48,101,104,105,110,153,156,157,158,159,160,131
+80,81,115,114,113,110,107,60,59,98,97,96,95,60,59,56,55,52,51,50,45,46,47,102,103,106,109,154,155,156,159,128,129,130
+79,82,83,84,87,109,108,53,58,57,56,55,54,53,58,57,46,41,42,43,44,45,48,51,108,107,108,109,110,157,158,127,128,129
+78,54,53,85,86,50,51,52,43,42,41,42,51,52,47,46,45,40,39,32,31,30,49,50,109,110,111,112,123,124,125,126,127,130
+77,55,52,51,50,49,48,45,44,41,40,43,50,49,48,47,44,41,38,33,34,29,40,41,34,33,112,113,122,139,138,135,134,131
+76,77,78,80,51,52,47,46,45,40,39,38,51,52,53,54,43,42,37,36,35,28,39,42,35,32,115,114,121,140,137,136,133,132
+75,76,79,81,84,85,86,47,46,51,52,37,36,55,54,55,56,43,46,47,26,27,38,37,36,31,116,119,120,141,48,49,52,53
+74,73,72,82,83,88,87,48,49,50,55,56,35,34,59,58,57,44,45,48,25,26,27,28,29,30,117,118,45,46,47,50,51,52
+71,70,71,64,63,62,61,60,50,51,54,37,36,33,32,31,24,23,22,23,24,25,26,39,38,37,36,35,44,43,42,41,40,53
+72,69,70,65,66,57,58,59,53,52,53,38,39,40,41,30,25,22,21,"ChaveMapa: 16T20
+ChaveMapaOrigem: 16U19
+Cabeçalho
+
+Mapa: Reino Élfico — Portões do Castelo
+MapType: Castle
+Hostilidade: Pacífico
+Escopo: Marco do #20: entrada do Inner Castle (conteúdo grande depois), com clima de “novo capítulo” sem interromper o sandbox.
+Conexões
+Norte: bloqueado
+Leste: 16U19 — Jardins Nobres
+Sul: bloqueado
+Oeste: bloqueado
+
+Descrição Narrativa
+Os portões são imensos, mas não ameaçadores. O castelo não precisa provar força — ele existe. Aqui o jogador sente que chegou num “posto avançado” do mundo: de agora em diante, a escala sobe.
+
+POIs
+POI_01 — Portão Principal (Inner)
+Descrição: entrada do Inner Castle (entrada/saída no mesmo ponto).
+POI_02 — Placa de Avisos (Quests)
+Descrição: ótimo ponto pra “pool de quests” do reino.
+
+Perícias e Checks
+
+Crônicas do Mundo/Engenharia Rúnica (Waystones) (futuro): detalhes do castelo e seus selos (médio).
+
+Recompensas
+
+Acesso ao Inner Castle (quando implementado) + quests do reino.
+
+Notas RMXP
+
+Transferência para Inner Castle (quando existir).
+
+Flags futuras para “investigação da nobreza” (sangue demoníaco).","ChaveMapa: 16U19
+ChaveMapaOrigem: 16V18
+Cabeçalho
+
+Mapa: Reino Élfico — Jardins Nobres
+MapType: Castle Town
+Hostilidade: Pacífico
+Escopo: Distrito aristocrata (calmo), prepara o portão do castelo.
+Conexões
+Norte: bloqueado
+Leste: 16V18 — Mercado Élfico
+Sul: bloqueado
+Oeste: 16T20 — Portões do Castelo
+
+Descrição Narrativa
+O silêncio aqui é diferente: não é paz rural, é paz de controle. Jardins impecáveis e estátuas sugerem que tudo tem dono — e que o dono não gosta de bagunça.
+
+POIs
+POI_01 — Jardim Principal (Clima)
+Descrição: contraste forte com o começo do jogo.
+POI_02 — Entrada Secundária (Futuro)
+Descrição: ponto perfeito para futuras catacumbas (não agora).
+
+Perícias e Checks
+
+Atenção/Investigação: notar passagem “suspeita” (alto) — só foreshadow.
+
+Recompensas
+
+Nenhuma grande.
+
+Notas RMXP
+
+Marcar ponto de “entrada futura” para catacumbas (placeholder).","ChaveMapa: 16V18
+ChaveMapaOrigem: 17V17
+Cabeçalho
+
+Mapa: Reino Élfico — Mercado Élfico
+MapType: Castle Town
+Hostilidade: Pacífico (hub novo)
+Escopo: Novo hub (lojas/quests/pool social). Pistas sutis de “algo estranho na nobreza”, sem escancarar.
+Conexões
+Norte: bloqueado
+Leste: bloqueado
+Sul: 17V17 — Portão de Folhas e Pedra
+Oeste: 16U19 — Jardins Nobres
+
+Descrição Narrativa
+Um mercado bonito e organizado, que contrasta com a vila inicial. Aqui o jogador sente progressão: mais opções, mais serviços e mais “mundo”.
+
+POIs
+POI_01 — Praça do Mercado (Hub)
+Descrição: NPCs e serviços novos (definir depois).
+POI_02 — Conversa Interrompida (Foreshadow)
+Descrição: referência sutil a “hábitos estranhos” (sangue demoníaco, muito leve).
+
+Perícias e Checks
+
+Leitura de Malícia: notar nervosismo em um nobre (médio).
+
+Recompensas
+
+Acesso a serviços/quests do reino (em aberto).
+
+Notas RMXP
+
+Pode preparar flags para investigação interna futura.",27,40,39,40,33,34,45,48,49,50,39,54
+67,68,71,72,55,56,56,55,54,49,48,47,42,41,42,29,26,21,"ChaveMapa: 17S20
+ChaveMapaOrigem: 17T19
+Cabeçalho
+
+Mapa: Estrada — Marco da Fronteira
+MapType: Grassland
+Hostilidade: Pouco Hostil
+Escopo: Saída do arco goblin (foreshadow do mundo maior).
+Conexões
+Norte: bloqueado
+Leste: 17T19 — Estrada Reconstruída
+Sul: bloqueado
+Oeste: bloqueado
+
+Descrição Narrativa
+Um marco de pedra antigo com inscrições gastas. Ele não te dá respostas — te dá direção. Este é um “fim de capítulo”: o jogador entende que há mais mundo além do que foi visto até aqui.
+
+POIs
+POI_01 — Marco de Pedra (Lore)
+Descrição: inscrições/nomes de regiões futuras.
+
+Perícias e Checks
+
+Crônicas do Mundo: decifrar nomes (médio) — adiciona entradas no diário (lore).
+
+Recompensas
+
+Lore/diário.
+
+Notas RMXP
+
+Simples: evento “Examinar Marco”.","ChaveMapa: 17T19
+ChaveMapaOrigem: 17U18
+Cabeçalho
+
+Mapa: Estrada — Reconstruída
+MapType: Grassland
+Hostilidade: Pouco Hostil (dia) / Pouco Hostil (noite, raro)
+Escopo: Corredor de transição pós-arco goblin; reforça “você mudou o mundo”.
+Conexões
+Norte: bloqueado
+Leste: 17U18 — Praça do Novo Rei
+Sul: bloqueado
+Oeste: 17S20 — Marco da Fronteira
+
+Descrição Narrativa
+A grama volta a aparecer entre pedras e lixo antigo. Há sinais de limpeza e caminho refeito. É simples, mas comunica poder: a região respira melhor depois do rei cair.
+
+POIs
+POI_01 — Trecho Limpo (Conseqüência)
+Descrição: visual de reconstrução.
+POI_02 — Carroça Improvisada (Futuro)
+Descrição: foreshadow de logística/goblins trabalhando.
+
+Perícias e Checks
+
+Atenção: encontrar item enterrado (médio) — loot 1x pequeno.
+
+Recompensas
+
+Loot leve 1x (opcional): Poção de Cura Pequena.
+
+Notas RMXP
+
+Evento decorativo com goblins carregando caixas (pós-boss).","ChaveMapa: 17U18
+ChaveMapaOrigem: 18U17
+Cabeçalho
+
+Mapa: Forte — Praça do Novo Rei
+MapType: Fort
+Hostilidade: Pouco Hostil (pós-boss)
+Escopo: Mundo reagindo: começo da pacificação; abre futuro “goblins trabalhando/treinando”.
+Conexões
+Norte: bloqueado
+Leste: bloqueado
+Sul: 18U17 — Boca do Núcleo do Clã
+Oeste: 17T19 — Estrada Reconstruída
+
+Descrição Narrativa
+O forte muda de tom. Onde antes era ameaça constante, agora é desconfiança e curiosidade. Alguns goblins ainda rosnarão… mas outros observam como se estivessem esperando ordens — especialmente se o “rei antigo” caiu.
+
+POIs
+POI_01 — Totem Derrubado (Conseqüência)
+Descrição: símbolo do fim do reinado.
+POI_02 — Área de Trabalho (Futuro)
+Descrição: lugar para “goblins trabalhando” quando sistemas entrarem.
+
+Perícias e Checks
+
+Influência/Postura: primeira interação social (médio) — reputação inicial.
+
+Leitura de Malícia: notar facções internas (médio) — foreshadow.
+
+Recompensas
+
+Acesso futuro: treinar/contratar goblins (sistema posterior).
+
+Notas RMXP
+
+Condicionar NPCs amigáveis a S_REI_GOBLIN_DERROTADO.","ChaveMapa: 17V17
+ChaveMapaOrigem: 18V16
+Cabeçalho
+
+Mapa: Reino Élfico — Portão de Folhas e Pedra
+MapType: Castle Town
+Hostilidade: Pacífico
+Escopo: Primeiro contato social: guardas, etiqueta, “bem-vindo, mas se comporte”.
+Conexões
+Norte: 16V18 — Mercado Élfico
+Leste: bloqueado
+Sul: 18V16 — Estrada Branca
+Oeste: bloqueado
+
+Descrição Narrativa
+O portão não intimida por força — intimida por tradição. Guardas observam, mas sem hostilidade. O jogador entende: este reino é pacífico, porém atento.
+
+POIs
+POI_01 — Posto de Guarda (Social)
+Descrição: diálogo/checagens sociais.
+
+Perícias e Checks
+
+Influência: entrada elegante (médio).
+
+Leitura de Malícia: perceber tensão sutil (médio) — foreshadow da corrupção.
+
+Recompensas
+
+Acesso ao hub.
+
+Notas RMXP
+
+Diálogos podem variar conforme reputação/quests.",28,29,30,31,32,27,46,47,52,51,38,37
+66,65,76,73,54,53,51,50,49,48,47,46,45,42,43,28,27,"ChaveMapa: 18R14
+ChaveMapaOrigem: 19R13
+Cabeçalho
+
+Mapa: Forte — Portão do Forte Goblin
+MapType: Fort
+Hostilidade: Hostil (setpiece)
+Escopo: Marco visual do clã estabelecido; sensação de “passei do limite”.
+Conexões
+Norte: bloqueado (muralha/forte)
+Leste: 18S15 — Currais e Selas
+Sul: 19R13 — Pátio do Forte
+Oeste: bloqueado
+
+Descrição Narrativa
+Paliçadas, bandeiras e totens maiores. Agora parece um lugar “ocupado”. O som de passos e grunhidos não vem de todos os lados — vem de onde faz sentido, como num território vivo.
+
+POIs
+POI_01 — Portão Quebrado (Landmark)
+Descrição: ponto de decisão e transição.
+POI_02 — Bandeiras do Clã (Lore)
+Descrição: identidade visual do “rei”.
+
+Perícias e Checks
+
+Sombra: atravessar sem chamar o forte todo (alto).
+
+Atenção: notar armadilha de alerta (médio).
+
+Recompensas
+
+Nada grande: o prêmio é “chegar vivo”.
+
+Notas RMXP
+
+Pode ter um micro-evento “avisos” (placa/mentores).","ChaveMapa: 18S15
+
+ChaveMapaOrigem: 18R14
+Cabeçalho
+
+Mapa: Forte — Currais e Selas
+MapType: Fort
+Hostilidade: Hostil
+Escopo: Primeiro encontro marcante com jockey (assinatura do clã).
+Conexões
+Norte: bloqueado
+Leste: 18T16 — A Última Lição
+Sul: bloqueado
+Oeste: 18R14 — Portão do Forte Goblin
+
+Descrição Narrativa
+Aqui as bestas não são “selvagens”: são recursos. Você vê sela torta, couro, marcação. E então acontece: um goblin montado, rápido e agressivo, que muda o ritmo do combate.
+
+POIs
+POI_01 — Curral Principal (Clã)
+Descrição: onde bestas ficam presas/treinadas.
+POI_02 — Área de Patrulha Montada (Combate)
+Descrição: ponto para o primeiro jockey “inesquecível”.
+
+Perícias e Checks
+
+Vínculo (Criaturas & Goblins) (futuro): reconhecer treino/controle (médio) — lore.
+
+Atenção: prever investida (médio) — evita turno ruim.
+
+Recompensas
+
+Materiais (PROPOSTA): Couro de Sela / Fivela Tortas.
+
+Notas RMXP
+
+Se quiser, jockey como encounter “raro” (não farmável) antes do núcleo.","ChaveMapa: 18T16
+ChaveMapaOrigem: 18S15
+Cabeçalho
+
+Mapa: Forte — A Última Lição
+MapType: Fort
+Hostilidade: Hostil (evento obrigatório)
+Escopo: Setpiece trágico: morte dos mentores antes do núcleo.
+Conexões
+Norte: bloqueado
+Leste: 18U17 — Boca do Núcleo do Clã
+Sul: bloqueado
+Oeste: 18S15 — Currais e Selas
+
+Descrição Narrativa
+O jogador chega a tempo de ver o que não queria ver. Os mentores, que pareciam “maiores que o perigo”, são vencidos pelo peso real do clã. Não é só choque: é motivação — e também um aviso sobre o que espera lá dentro.
+
+POIs
+POI_01 — Local da Tragédia (Cena)
+Descrição: cutscene + mudança de estado do mundo.
+POI_02 — Pertences dos Mentores (Lore/Loot 1x)
+Descrição: item simbólico (sem virar item forte).
+
+Perícias e Checks
+
+Alquimia do Pântano: tentar “fazer algo” (baixo/médio) — falha narrativa, mas dá XP/lore.
+
+Leitura de Malícia: reforça juramento/vingança (diálogo).
+
+Recompensas
+
+Item simbólico (PROPOSTA): “Mapa Rasgado dos Mentores” (lore/quest).
+
+Notas RMXP
+
+Switch: S_MENTORES_MORTOS ON.
+
+Desligar eventos itinerantes dos mentores nos mapas anteriores (páginas condicionadas).","ChaveMapa: 18U17
+ChaveMapaOrigem: 18T16
+Cabeçalho
+
+Mapa: Forte — Boca do Núcleo do Clã
+MapType: Fort
+Hostilidade: Hostil
+Escopo: Entrada da Dungeon do Núcleo (Goblin King dentro). Dungeon começa/termina aqui.
+Conexões
+Norte: 17U18 — Praça do Novo Rei (pós)
+Leste: bloqueado
+Sul: bloqueado
+Oeste: 18T16 — A Última Lição
+
+Descrição Narrativa
+Uma entrada protegida, com marcas do “rei” e sinais de que ninguém entra sem pagar. É o ponto em que o jogador entende: daqui pra frente não é só trilha — é núcleo.
+
+POIs
+POI_01 — Entrada da Dungeon (Dungeon)
+Descrição: acesso ao subsolo do clã (boss lá dentro).
+POI_02 — Altar/Totem do Rei (Lore)
+Descrição: identidade do Goblin King.
+
+Perícias e Checks
+
+Investigação: achar fraqueza/atalho na entrada (médio) — vantagem no 1º combate da dungeon.
+
+Postura/Influência (futuro): opções pós-boss com goblins.
+
+Recompensas
+
+Flag principal: S_REI_GOBLIN_DERROTADO (ao vencer na dungeon).
+
+Notas RMXP
+
+Boss na dungeon: após vitória, ativar S_REI_GOBLIN_DERROTADO.
+
+No WorldMap, trocar tropas hostis por goblins neutros/amigáveis (páginas).","ChaveMapa: 18V16
+ChaveMapaOrigem: 19V15
+Cabeçalho
+
+Mapa: Reino Élfico — Estrada Branca
+MapType: Grassland
+Hostilidade: Pacífico
+Escopo: Transição estética e social: da serra/pântano para civilização limpa e ordenada.
+Conexões
+Norte: 17V17 — Portão de Folhas e Pedra
+Leste: bloqueado
+Sul: 19V15 — Marco da Encruzilhada
+Oeste: bloqueado
+
+Descrição Narrativa
+Pedra clara, trilha cuidada, árvores alinhadas. O jogador sente segurança e estrutura — e entende que este lugar tem “padrão” e regras.
+
+POIs
+POI_01 — Marco Élfico (Lore)
+Descrição: inscrições elegantes e antigas.
+
+Perícias e Checks
+
+Crônicas do Mundo: reconhecer símbolos (médio) — diário/lore.
+
+Recompensas
+
+Lore.
+
+Notas RMXP
+
+Mapa pacífico: sem encontros.","ChaveMapa: 18W17
+ChaveMapaOrigem: 19W16
+Cabeçalho
+
+Mapa: Serra — Mirante do Vento
+MapType: Mountain
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Mapa bonito com micro-desafios de travessia; prepara “primeira sensação de mar”.
+Conexões
+Norte: bloqueado
+Leste: 18X18 — Porta da Caverna de Prova
+Sul: 19W16 — Trilha das Fendas
+Oeste: bloqueado
+
+Descrição Narrativa
+Você ganha altura e o mundo abre. Um mirante natural te dá um “prêmio visual” por viajar. Ainda não é a praia — mas já dá pra sentir o vento mudando.
+
+POIs
+POI_01 — Mirante (Landmark)
+Descrição: vista ampla; foreshadow do litoral.
+POI_02 — Passagem Estreita (Travessia)
+Descrição: ponto de acrobacia/atletismo.
+
+Perícias e Checks
+
+Atenção: notar caminho alternativo (médio) — menos encontro noturno.
+
+Recompensas
+
+Nada grande (o prêmio é navegação + vista).
+
+Notas RMXP
+
+Se S_NOITE ON: encontros raros, para manter a rota “tranquila”.","ChaveMapa: 18X18
+ChaveMapaOrigem: 18W17
+Cabeçalho
+
+Mapa: Serra — Porta da Caverna de Prova
+MapType: Mountain
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Entrada de uma Dungeon-teste opcional (sem boss). Dungeon começa/termina aqui.
+Conexões
+Norte: 19X19 — Passo Final da Serra
+Leste: bloqueado
+Sul: bloqueado
+Oeste: 18W17 — Mirante do Vento
+
+Descrição Narrativa
+Um buraco na rocha parece mais antigo do que a trilha. Não é “principal”, mas chama quem gosta de explorar. Ótimo lugar para você testar um formato de dungeon curta sem boss, antes de usar isso em coisas maiores.
+
+POIs
+POI_01 — Entrada da Dungeon (Dungeon)
+Descrição: conteúdo opcional, recompensa moderada, sem chefe.
+
+Perícias e Checks
+
+Atenção: achar entrada “real” (baixo).
+
+Engenharia Rúnica (Waystones)/Investigação (dentro): pistas de magia residual (médio).
+
+Recompensas
+
+Materiais (PROPOSTA): Pedra Rúnica Bruta / Fragmento Metálico (para futuros crafts/golem).
+
+Notas RMXP
+
+Switch: S_DUNGEON_PROVA_CONCLUIDA (se quiser condicionar loot).",21,22,25,26,27,30,31,36,35,36
+63,64,75,74,55,63,52,53,54,55,46,45,44,43,44,45,48,"ChaveMapa: 19R13
+ChaveMapaOrigem: 20R12
+Cabeçalho
+
+Mapa: Forte — Pátio do Forte
+MapType: Fort
+Hostilidade: Hostil
+Escopo: Começa a guerra combinada: goblins + bestas (sem “jockey assinatura” ainda).
+Conexões
+Norte: 18R14 — Portão do Forte Goblin
+Leste: bloqueado
+Sul: 20R12 — Barricada dos Heróis (via de saída de Mini Dungeon)
+Oeste: bloqueado
+
+Descrição Narrativa
+A organização aparece: restos de currais, correntes e sinais de treino. Não é só um bando — é um clã com logística.
+
+POIs
+POI_01 — Curral Improvisado (Clã)
+Descrição: evidencia domesticação de bestas.
+POI_02 — Pátio de Treino (Combate)
+Descrição: bom ponto para encounters combinados.
+
+Perícias e Checks
+
+Atenção: detectar aproximação (médio) — evita surpresa.
+
+Extração (Minério/Pedra/Cristais): achar rota “menos patrulhada” (médio) — menos encontros.
+
+Recompensas
+
+Materiais (PROPOSTA): Couro Rústico / Cordas Gastas.
+
+Notas RMXP
+
+Troops aqui podem alternar “besta + goblin” por S_NOITE.","ChaveMapa: 19S12
+ChaveMapaOrigem: 19T11
+Cabeçalho
+
+Mapa: Floresta da Rose — Portão do Reino Encantado
+MapType: Woods
+Hostilidade: Pouco Hostil
+Escopo: Gate de narrativa: aqui existe o portão/porta que bloqueia a vila feérica. Não há atalhos laterais.
+Conexões
+Norte: 19T11 — Saída do Túnel Feérico
+Leste: bloqueado (mato/árvores densas)
+Sul: 20S13 — Vilarejo das Fadas (Entrada) (BLOQUEADO até S_PORTAO_FADAS_ABERTO)
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+O caminho termina num portão antigo, vivo de raízes e madeira, como se fosse parte da própria floresta. Ele não parece “trancado” por metal, mas por vontade. Dá pra ouvir água e risos distantes do outro lado — o suficiente pra saber que existe um lugar ali, mas não o bastante para entrar.
+
+POIs
+POI_01 — Portão Vivo (Gate)
+Descrição: fecha a passagem até a alavanca ser acionada na MiniDungeon2.
+POI_02 — Placa/Rabisco (Lore)
+Descrição: uma marca feérica sutil (pista de “há mecanismo”).
+
+Perícias e Checks
+
+Investigação: notar ranhuras de mecanismo (médio) — sugere “alavanca escondida”.
+
+Engenharia Rúnica (Waystones): sentir trava feérica (médio) — reforça que é magia, não força bruta.
+
+Recompensas
+
+Progresso: atualização de objetivo (“encontrar forma de abrir o portão”).
+
+Notas RMXP
+
+Switch: S_PORTAO_FADAS_ABERTO (ON pela alavanca na MiniDungeon2).
+
+Evento do portão: Página 1 bloqueia; Página 2 libera transferência para 20S13.","ChaveMapa: 19T11
+ChaveMapaOrigem: 19U10
+Cabeçalho
+
+Mapa: Floresta da Rose — Saída do Túnel Feérico
+MapType: Woods
+Hostilidade: Pouco Hostil (dia) / Pouco Hostil (noite, mais incômodo)
+Escopo: Pós-MiniDungeon2: introduz plantas-monstro e “presença de fadas” sem ainda liberar a vila.
+Conexões
+Norte: bloqueado (mato/árvores densas)
+Leste: 19U10 — Borda do Túnel Feérico (via MiniDungeon2)
+Sul: 19S12 — Portão do Reino Encantado
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+Ao sair do túnel, o mundo parece o mesmo… mas não é. A luz fica mais “doce”, o ar mais perfumado, e o chão tem plantas que parecem reagir ao passo do aventureiro. Não é um perigo bruto: é um perigo travesso, como se a floresta estivesse testando quem passa.
+
+POIs
+POI_01 — Tapete de Flores Soníferas (Risco)
+Descrição: introduz flor-monstro (sono/paralisia) como ameaça nova.
+POI_02 — Estacas de Pólen (Clima)
+Descrição: pequenas “fagulhas” no ar (fadas mais presentes).
+
+Perícias e Checks
+
+Colheita (Ervas/Fungos/Fibras): reconhecer flor perigosa (médio) — evita status no 1º contato.
+
+Alquimia do Pântano: tratar sono/paralisia (médio) — cura parcial/mitiga.
+
+Sombra: atravessar sem provocar (médio/alto) — reduz encontros.
+
+Recompensas
+
+Materiais (PROPOSTA): Pólen Feérico (baixo valor; alto uso futuro).
+
+Notas RMXP
+
+Tabela de encontros: incluir “planta-sonífera” como mob raro.
+
+S_NOITE: chance levemente maior de encontro.","ChaveMapa: 19U10
+ChaveMapaOrigem: 20U9
+Cabeçalho
+
+Mapa: Floresta da Rose — Borda do Túnel Feérico
+MapType: Woods
+Hostilidade: Pouco Hostil (tendendo a Hostil dentro da MiniDungeon)
+Escopo: Porta de transição: marca a entrada da MiniDungeon2 (tema fadas + plantas).
+Conexões
+Norte: bloqueado (mato/árvores densas)
+Leste: 19T11 — Saída do Túnel Feérico (via MiniDungeon2)
+Sul: 20U9 — Trilha do Pólen Brilhante
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+A vegetação muda: menos trilha, mais “passagem escondida”. Um tronco oco, uma fenda entre raízes ou um corredor de folhas forma um convite perigoso. Quem entra ali dentro sente o ar mudar, como se estivesse atravessando uma fronteira invisível.
+
+POIs
+POI_01 — Entrada MiniDungeon2 (Transição)
+Descrição: entrada está no lado do “próximo mapa” (sentido 19T11).
+POI_02 — Raízes Marcadas (Lore)
+Descrição: marcas estranhas (não-goblins), sugerindo presença feérica.
+
+Perícias e Checks
+
+Atenção: achar a entrada mais “segura” (médio) — bônus dentro da MiniDungeon2.
+
+Engenharia Rúnica (Waystones): sentir que há “algo mágico” (baixo/médio) — adiciona pista no diário.
+
+Extração (Minério/Pedra/Cristais): preparar consumíveis antes de entrar (médio) — sugestão/tip ao jogador.
+
+Recompensas
+
+Marco de progressão: acesso à MiniDungeon2.
+
+Notas RMXP
+
+Transição para MiniDungeon2 por evento de transferência.
+
+Switch recomendado: S_MINID2_ENTROU (anti-repetição de tutorial/diálogo).","ChaveMapa: 19V15
+ChaveMapaOrigem: 20V14
+Cabeçalho
+
+Mapa: Serra — Marco da Encruzilhada
+MapType: Mountain
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Fork principal: segue para reino élfico (N) ou trilha litorânea (Leste).
+Conexões
+Norte: 18V16 — Estrada Branca (Reino)
+Leste: 19W16 — Trilha das Fendas (Litoral)
+Sul: 20V14 — Último Mangue
+Oeste: bloqueado
+
+Descrição Narrativa
+Um marco antigo indica duas direções com a mesma frieza: “civilização” e “viagem”. A estrada para o reino parece mais limpa e segura para carga. A trilha litorânea é mais estreita, mais bonita e mais solitária.
+
+POIs
+POI_01 — Marco/Placa Antiga (Lore)
+Descrição: nomes de regiões e sensação de mundo maior.
+
+Perícias e Checks
+
+Crônicas do Mundo: decifrar inscrições (médio) — diário/lore.
+
+Recompensas
+
+Lore.
+
+Notas RMXP
+
+Excelente ponto para tutorial leve “rotas alternativas”.","ChaveMapa: 19W16
+
+ChaveMapaOrigem: 19V15
+Cabeçalho
+
+Mapa: Serra — Trilha das Fendas
+MapType: Mountain
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Começo da trilha para o litoral: fendas, vento, penhascos.
+Conexões
+Norte: 18W17 — Mirante do Vento
+Leste: bloqueado
+Sul: bloqueado
+Oeste: 19V15 — Marco da Encruzilhada
+
+Descrição Narrativa
+A trilha não é perigosa por “monstros”: é perigosa por ser estreita. O jogo começa a te mostrar travessia como desafio. De dia, lindo. À noite, barulhos de pedra e vento.
+
+POIs
+POI_01 — Fenda Principal (Landmark)
+Descrição: gargalo do mapa.
+POI_02 — Pedras Soltas (Risco)
+Descrição: clima/pequeno obstáculo.
+
+Perícias e Checks
+
+Vigor & Carga: subir trecho íngreme (médio).
+
+Mobilidade: salto curto em fenda (médio).
+
+Recompensas
+
+XP de perícia (primeira vez).
+
+Notas RMXP
+
+Obstáculos simples com “Show Text” + escolha (subir/pular).","ChaveMapa: 19X19
+ChaveMapaOrigem: 18X18
+Cabeçalho
+
+Mapa: Serra — Passo Final
+MapType: Mountain
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Corredor final antes do litoral; dá sensação de “bioma trocando”.
+Conexões
+Norte: bloqueado
+Leste: 19Y20 — Marco do Litoral
+Sul: 18X18 — Porta da Caverna de Prova
+Oeste: bloqueado
+
+Descrição Narrativa
+O ar fica mais seco e salgado. A luz parece mais clara. É aquele mapa onde o jogador já “sabe” que está chegando em outro lugar.
+
+POIs
+POI_01 — Fenda com Vento Salgado (Clima)
+Descrição: assinatura do litoral se aproximando.
+
+Perícias e Checks
+
+Extração (Minério/Pedra/Cristais): achar rota menos escorregadia (médio).
+
+Recompensas
+
+Nenhuma grande.
+
+Notas RMXP
+
+Tranquilo: encontros raros, só para não virar corredor morto.","ChaveMapa: 19Y20
+ChaveMapaOrigem: 19X19
+Cabeçalho
+
+Mapa: Litoral — Marco do Litoral
+MapType: Beach
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Chegada ao “tema mar”: início da trilha para a cidade litorânea (a cidade fica mais adiante, fora do escopo 0–20).
+Conexões
+Norte: bloqueado
+Leste: bloqueado
+Sul: bloqueado
+Oeste: 19X19 — Passo Final
+
+Descrição Narrativa
+O som do mar entra antes do mar aparecer inteiro. O jogador ganha a primeira cena costeira: areia, rocha, vento — e a promessa de arquipélagos e cavernas submersas no futuro.
+
+POIs
+POI_01 — Mirante da Praia (Landmark)
+Descrição: vista e foreshadow marítimo.
+
+Perícias e Checks
+
+Atenção: achar item perdido na areia (médio) — loot 1x opcional.
+
+Recompensas
+
+Loot 1x opcional: Poção de Cura Pequena (ou item leve de craft, PROPOSTA: Concha Estranha).
+
+Notas RMXP
+
+Boa âncora para “futuro teleporte/waystone”, se quiser só preparar visualmente.",23,24,27,28,29,32,33,34,35
+62,61,60,57,56,62,59,58,57,56,57,46,45,48,47,46,47,"ChaveMapa: 20R12
+ChaveMapaOrigem: 21R11
+Cabeçalho
+
+Mapa: Forte — Barricada dos Heróis
+MapType: Fort
+Hostilidade: Hostil (respiro tenso)
+Escopo: Último ponto “com gente” e conversa antes da tragédia; prepara o jogador para o núcleo.
+Conexões
+Norte: 19R13 — Pátio do Forte (via entrada de Mini dungeon)
+Leste: bloqueado
+Sul: 21R11 — Desfiladeiro do Entulho
+Oeste: bloqueado
+
+Descrição Narrativa
+Barricadas improvisadas e um “limite” claro do forte. Os mentores param aqui, falam menos piada e mais sério. É o tipo de mapa onde o jogador naturalmente checa inventário, poções e equipamento.
+
+POIs
+POI_01 — Barricada (Defesa)
+Descrição: ponto de diálogo/briefing.
+POI_02 — Cache de Preparação (Loot 1x)
+Descrição: pequena ajuda antes da escalada.
+
+Perícias e Checks
+
+Alquimia do Pântano: preparar kit básico (médio) — bônus de cura leve (1x).
+
+Leitura de Malícia: perceber que “algo vai dar ruim” (médio) — reforça narrativa.
+
+Recompensas
+
+Poção de Cura Pequena (1x) ou Poção de Mana Pequena (1x).
+
+Notas RMXP
+
+Switch: S_MENTORES_BRIEFING_FEITO.","ChaveMapa: 20S13
+ChaveMapaOrigem: 19S12
+Cabeçalho
+
+Mapa: Reino das Fadas — Vilarejo (Entrada)
+MapType: Woods
+Hostilidade: Pacífico (após abrir o portão)
+Escopo: Hub feérico inicial: recepção, conversa, Rose presente, explicação do sequestro/missão da árvore guardiã.
+Conexões
+Norte: 19S12 — Portão do Reino Encantado
+Leste: bloqueado (mata densa/sem trilha)
+Sul: 21S14 — Santuário da Guardiã (Ent) (acesso guiado por cena)
+Oeste: bloqueado (mata densa/sem trilha)
+
+Descrição Narrativa
+Do outro lado do portão, a floresta parece mais limpa e harmoniosa. Pequenas luzes flutuam como vaga-lumes conscientes. Um líder feérico (ou ancião) recebe o aventureiro com cautela — e ali, viva, está Rose. Ela explica: não foi “sequestro por maldade”, e sim desespero por uma árvore guardiã morrendo.
+
+POIs
+POI_01 — Pátio de Recepção (Cena)
+Descrição: cutscene + exposição do problema da árvore.
+POI_02 — Bancada Feérica (Craft)
+Descrição: introdução ao craft místico (limitado, por enquanto).
+POI_03 — Casinhas (Inner opcional)
+Descrição: se couber, 1–2 casas como Inner (entrada/saída no mesmo ponto).
+
+Perícias e Checks
+
+Leitura de Malícia: perceber que fadas estão com medo (médio) — opções de diálogo melhores.
+
+Influência: ganhar confiança inicial (médio) — reduz hostilidade em mapas seguintes (flag).
+
+Recompensas
+
+Marco narrativo: Rose encontrada + “missão da árvore”.
+
+Receita (PROPOSTA): “Essência Feérica (básica)” para craft futuro.
+
+Notas RMXP
+
+Cutscene: ao entrar (Player Touch) se S_ROSE_ENCONTRADA OFF.
+
+Após cena: destravar saída sul para 21S14 (ou liberar via evento “siga-me”).","ChaveMapa: 20T8
+ChaveMapaOrigem: 21T7
+Cabeçalho
+
+Mapa: Floresta da Rose — Clareira do Antídoto
+MapType: Woods
+Hostilidade: Pouco Hostil (dia tranquilo; risco leve à noite)
+Escopo: Mapa para ensinar “veneno é inconveniente” e introduzir o motivo de buscar/produzir antídoto (mesmo antes do mercador ensinar a receita).
+Conexões
+Norte: 20U9 — Trilha do Pólen Brilhante
+Leste: bloqueado (mato/árvores densas)
+Sul: 21T7 — Bosque dos Ferrões
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+Uma clareira abre o caminho e dá respiro. O silêncio dura pouco: volta e meia um zumbido passa perto demais. Aqui o jogador sente que “dá pra ficar”, colher coisas e pensar, mas se ficar tempo demais (especialmente à noite) os insetos fazem o lugar parecer um território deles.
+
+Pontos de Interesse (POIs)
+POI_01 — Lago Raso (Coleta/Pesca)
+Descrição: pesca simples; bom para reforçar o loop “coletar → voltar ao hub”.
+POI_02 — Flores Antídoto (Craft)
+Descrição: flor base para antídoto (em combinação com loot de insetos).
+POI_03 — Tronco Caído (Lenha)
+Descrição: ponto óbvio de woodcutting (Runescape vibe).
+
+Perícias e Checks
+
+Colheita (Ervas/Fungos/Fibras): colher flores sem estragar (baixo/médio) — +1 unidade.
+
+Alquimia do Pântano: preparar mistura básica (médio) — cria Antídoto Fraco (PROPOSTA) 1x.
+
+Extração (Minério/Pedra/Cristais): montar “descanso rápido” sem atrair insetos (médio) — reduz chance de evento noturno.
+
+Recompensas
+
+Materiais (PROPOSTA): Flor Antídoto, Seiva Clara.
+
+Antídoto Fraco (PROPOSTA, 1x) ou “receita anotada” (PROPOSTA) para o mercador reconhecer depois.
+
+Notas de Implementação (RPG Maker XP)
+
+Evento de coleta com contagem diária (V_DIA).
+
+Se S_NOITE ON: aumentar Encounter Rate apenas levemente (clima “um pouco tranquilo”).","ChaveMapa: 20U9
+ChaveMapaOrigem: 20T8
+Cabeçalho
+
+Mapa: Floresta da Rose — Trilha do Pólen Brilhante
+MapType: Woods
+Hostilidade: Pouco Hostil
+Escopo: Mapa-pista: ainda é “rota de insetos”, mas com sinais sutis do feérico (sem revelar a vila ainda).
+Conexões
+Norte: 19U10 — Borda do Túnel Feérico
+Leste: bloqueado (mato/árvores densas)
+Sul: 20T8 — Clareira do Antídoto
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+O caminho volta a afunilar e o chão fica marcado por pequenas manchas de pólen que brilham quando a luz bate de lado. Não dá pra dizer se é magia ou só natureza… mas o efeito é o mesmo: uma sensação de que alguém está observando.
+
+POIs
+POI_01 — Rastro Sutil (Investigação)
+Descrição: um fio de tecido/pegada leve (primeiras pistas da Rose, sutis).
+POI_02 — Arbustos de Pólen (Clima)
+Descrição: reforça que “tem algo diferente” nessa floresta.
+POI_03 — Galhos Baixos (Travessia)
+Descrição: gargalo que facilita emboscada (principalmente à noite).
+
+Perícias e Checks
+
+Investigação: confirmar que o tecido é “humano/recente” (médio) — atualiza diário/quest.
+
+Atenção: perceber movimento antes do combate (médio) — evita turno inicial ruim.
+
+Sombra: passar sem chamar atenção (médio/alto, melhor à noite) — reduz encontros.
+
+Recompensas
+
+Progresso de investigação (flag/diário).
+
+Materiais leves (PROPOSTA): Pólen Brilhante (usado mais tarde em crafts feéricos).
+
+Notas RMXP
+
+Variável/Quest: V_ROSE_PISTAS += 1 (ao identificar o rastro).
+
+S_NOITE: encontros um pouco mais frequentes.","ChaveMapa: 20V14
+ChaveMapaOrigem: 20W13
+Cabeçalho
+
+Mapa: Pântano — Último Mangue
+MapType: Swamp
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Último mapa realmente “lama + água”; prepara o início da subida.
+Conexões
+Norte: 19V15 — Marco da Encruzilhada
+Leste: 20W13 — Saída da Ruína Alagada
+Sul: bloqueado
+Oeste: bloqueado
+
+Descrição Narrativa
+O pântano dá seu último suspiro: raízes de mangue, água rasa, neblina baixa. Ao fundo, o terreno sobe. A sensação é clara: você está saindo de um ambiente que isola e entrando num que conecta.
+
+POIs
+POI_01 — Raízes do Mangue (Landmark)
+Descrição: assinatura final do pântano.
+POI_02 — Vaga de Subida (Progresso)
+Descrição: aponta a mudança de bioma.
+
+Perícias e Checks
+
+Extração (Minério/Pedra/Cristais): escolher caminho seco (médio) — menos encontro noturno.
+
+Recompensas
+
+Nada grande.
+
+Notas RMXP
+
+S_NOITE: encontros raros, clima “um pouco tranquilo”.","ChaveMapa: 20W13
+ChaveMapaOrigem: 21W12
+Cabeçalho
+
+Mapa: Pântano — Saída da Ruína Alagada
+MapType: Swamp
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Saída do túnel + loot único 1x.
+Conexões
+Norte: bloqueado
+Leste: bloqueado
+Sul: 21W12 — Fenda do Brejo (via MiniDungeon)
+Oeste: 20V14 — Último Mangue
+
+Descrição Narrativa
+O ar volta a abrir. Você sai num trecho de pântano menos fundo, onde a lama já não puxa tanto. Parece um “alívio” — e é. O jogo te dá uma recompensa pequena por ter atravessado o túnel.
+
+POIs
+POI_01 — Pilha de Detritos (Loot 1x)
+Descrição: recompensa simples (sem farm).
+
+Perícias e Checks
+
+Investigação: encontrar o loot (baixo/médio).
+
+Recompensas
+
+Loot 1x: Poção de Cura Pequena (ou item de craft, PROPOSTA: Pedra Porosa).
+
+Notas RMXP
+
+Switch: S_LOOT_ESTUARIO_COLETADO (anti-farm).",26,25,24,57,58,59,60,33,40,35,36
+63,64,59,58,62,61,60,73,74,75,58,47,50,49,48,"ChaveMapa: 21P9
+ChaveMapaOrigem: 22P8
+Cabeçalho
+
+Mapa: Ruínas — Passagem dos Totens
+MapType: Ruins
+Hostilidade: Pouco Hostil → Hostil (mais fundo)
+Escopo: Transição clara para domínio goblin (marcas, pequenos alarmes, armadilhas simples).
+Conexões
+Norte: bloqueado (ruínas fechadas)
+Leste: 21Q10 — Vigia Goblin
+Sul: 22P8 — Acampamento dos Mentores
+Oeste: bloqueado (entulho)
+
+Descrição Narrativa
+Os totens aparecem em série. Não são grandes, mas são muitos. Há ossos pequenos, trapos, e uma sensação de “você está sendo medido”. Ainda não é o forte — é a borda de um território que começa a se comportar como território.
+
+POIs
+POI_01 — Totens e Marcas (Território)
+Descrição: marca visual do “daqui pra frente muda”.
+POI_02 — Armadilha Simples (Tutorial)
+Descrição: corda/alarme/poço raso (não punitivo demais).
+
+Perícias e Checks
+
+Atenção: detectar armadilha (médio) — evita dano/alerta.
+
+Gambiarra (Ferramentas/Trancas/Armadilhas): desarmar “fino” (médio) — recompensa pequena.
+
+Recompensas
+
+Materiais (PROPOSTA): Sucata Goblin / Tecido Rasgado.
+
+Notas RMXP
+
+Se S_NOITE ON: aumentar chance de patrulha leve.","ChaveMapa: 21Q10
+ChaveMapaOrigem: 21P9
+Cabeçalho
+
+Mapa: Ruínas — Vigia Goblin
+MapType: Ruins
+Hostilidade: Hostil
+Escopo: Primeiro mapa de patrulha “de verdade”; stealth/observação começam a valer muito.
+Conexões
+Norte: bloqueado (ruína quebrada)
+Leste: 21R11 — Desfiladeiro do Entulho
+Sul: bloqueado (ruína fechada)
+Oeste: 21P9 — Passagem dos Totens
+
+Descrição Narrativa
+Aqui a ruína vira posto. Você vê sinais de rotina: pontos de vigia, caminhos batidos, lixo organizado. A impressão é clara: tem alguém morando aqui, e não quer visita.
+
+POIs
+POI_01 — Torre Quebrada (Vigia)
+Descrição: ponto de visão para patrulhas.
+POI_02 — Trilhas de Patrulha (Sombra)
+Descrição: rotas previsíveis (aprendível pelo jogador).
+
+Perícias e Checks
+
+Sombra: atravessar sem combate (médio/alto, melhor à noite).
+
+Atenção: ler a rota da patrulha (médio) — reduz encontro.
+
+Recompensas
+
+Progresso: “entender patrulhas” (flag/diário).
+
+Notas RMXP
+
+Patrulhas por evento (rota) condicionadas a S_NOITE para variar.","ChaveMapa: 21R11
+ChaveMapaOrigem: 21Q10
+Cabeçalho
+
+Mapa: Ruínas — Desfiladeiro do Entulho
+MapType: Ruins
+Hostilidade: Hostil
+Escopo: Mapa técnico: rota segura (longa) vs atalho (perícia).
+Conexões
+Norte: 20R12 — Barricada dos Heróis
+Leste: bloqueado (paredão)
+Sul: bloqueado (entulho)
+Oeste: 21Q10 — Vigia Goblin
+
+Descrição Narrativa
+Um gargalo natural de pedra e ruína colapsada. O jogador sente que esse mapa não é “sobre matar”: é sobre passar. E como passar, decide quanto você sofre.
+
+POIs
+POI_01 — Rota Segura (Travessia)
+Descrição: mais longa, mais chance de encontro.
+POI_02 — Atalho pelo Entulho (Perícia)
+Descrição: salto/escalada para evitar patrulha.
+
+Perícias e Checks
+
+Vigor & Carga: escalada pesada (médio) — atalho seguro.
+
+Mobilidade: salto rápido (médio/alto) — atalho mais curto.
+
+Recompensas
+
+XP de perícia por primeira travessia (anti-farm).
+
+Notas RMXP
+
+Evento “choice”: escolher rota segura ou atalho (transferência dentro do mapa).","ChaveMapa: 21S14
+ChaveMapaOrigem: 20S13
+Cabeçalho
+
+Mapa: Reino das Fadas — Santuário da Guardiã
+MapType: Forest
+Hostilidade: Hostil (evento do Ent) → Pacífico (pós-boss)
+Escopo: Arena do miniboss Ent enlouquecido, libertação das fadas, plantio da semente e consolidação do hub feérico (metade “vila”, metade “santuário”).
+Conexões
+Norte: 20S13 — Vilarejo (Entrada)
+Leste: bloqueado (floresta densa)
+Sul: bloqueado (floresta densa)
+Oeste: bloqueado (floresta densa)
+
+Descrição Narrativa
+O coração do bosque feérico é uma clareira sagrada com raízes antigas. A árvore guardiã, em vez de ser um símbolo de vida, pulsa com uma raiva descontrolada — e as fadas, presas à influência dela, alternam entre medo e agressividade. Ao derrotar o Ent, o lugar “respira” de novo: a maldição some e uma nova semente é plantada na base.
+
+POIs
+POI_01 — Clareira da Guardiã (Boss)
+Descrição: arena do Ent enlouquecido.
+POI_02 — Base da Árvore (Pós-boss)
+Descrição: plantio da semente (cena final).
+POI_03 — Passarela Feérica (Hub)
+Descrição: extensão do vilarejo no próprio santuário.
+
+Perícias e Checks
+
+Engenharia Rúnica (Waystones): identificar “corrupção mágica” (médio) — lore/diário.
+
+Alquimia do Pântano/Colheita (Ervas/Fungos/Fibras): ajudar no plantio (médio) — bônus de reputação (flag).
+
+Recompensas
+
+Flag: S_ENT_DERROTADO ON; fadas ficam aliadas.
+
+Acesso: crafts místicos / upgrades feéricos (futuro).
+
+Notas RMXP
+
+Boss: Battle Processing condicionado a S_ENT_DERROTADO OFF.
+
+Pós-boss: trocar eventos agressivos por NPCs amigáveis (Página 2).","ChaveMapa: 21T7
+ChaveMapaOrigem: 21U6
+Cabeçalho
+
+Mapa: Floresta da Rose — Bosque dos Ferrões
+MapType: Woods
+Hostilidade: Pouco Hostil (dia tranquilo; risco leve à noite)
+Escopo: Primeiro “miolo” de floresta de verdade: insetos rápidos/venenosos + coleta (lenha/ervas) e sensação de “agora estou fora da vila”.
+Conexões
+Norte: 20T8 — Clareira do Antídoto
+Leste: 21U6 — (mapa já descrito)
+Sul: bloqueado (mato/árvores densas)
+Oeste: bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+O caminho afunila entre troncos e arbustos, e a floresta parece “respirar” em volta do aventureiro. O ar tem cheiro de seiva e pólen. De dia é um bosque vivo e bonito; à noite, o mesmo lugar vira um corredor de zumbidos e sombras rápidas, onde um veneno acumulado atrapalha mais do que machuca.
+
+Pontos de Interesse (POIs)
+POI_01 — Clareira de Coleta (Coleta)
+Descrição: nós de lenha e ervas simples para introduzir coleta/craft.
+POI_02 — Arbustos de Pólen (Lore/Clima)
+Descrição: folhas com brilho sutil (foreshadow das fadas, bem discreto).
+POI_03 — “Ninho” de Insetos (Risco)
+Descrição: ponto onde pode spawnar o inseto venenoso (principalmente à noite).
+
+Perícias e Checks
+
+Colheita (Ervas/Fungos/Fibras): identificar ervas úteis (baixo) — +1 coleta/uso mais eficiente.
+
+Extração (Minério/Pedra/Cristais): rastrear trilha sem se perder (médio) — reduz encontros noturnos (flag).
+
+Atenção: notar ninho antes da emboscada (médio) — evita veneno inicial.
+
+Recompensas
+
+Materiais de craft (PROPOSTA): Erva Amarga / Pólen Seco.
+
+Consumo leve (se precisar): Poção de Cura Pequena (1x, raro).
+
+Notas de Implementação (RPG Maker XP)
+
+Switch: S_NOITE para controlar “Troops noturnos” e/ou eventos de emboscada.
+
+Eventos: nós de coleta com respawn por dia (variável V_DIA).","ChaveMapa: 21U6
+ChaveMapaOrigem: 22U5
+Cabeçalho
+
+Mapa: Floresta da Rose — Corredores do Pothergeist
+
+MapType: Woods
+
+Hostilidade: Pouco Hostil
+
+Escopo: Trecho de floresta densa e “claustrofóbica” que introduz, via evento obrigatório de história, o primeiro Pothergeist (Espada Voadora). A partir daqui a investigação do sumiço da Rose ganha um tom mais estranho (não é só bicho e trilha: tem “coisa” acontecendo).
+
+Conexões
+
+Sul: volta para Clareiras do Aríete Alado (mapa anterior)
+
+Oeste (esquerda): continua a sequência de mapas da floresta (progressão)
+
+Norte: bloqueado (mato/árvores densas)
+
+Leste (direita): bloqueado (mato/árvores densas)
+
+Descrição Narrativa
+
+A mata fecha de vez. O caminho vira um corredor verde, onde cada passo parece abafado por folhas e sombra. É o tipo de lugar onde a floresta não “mostra” o que tem — ela só deixa você passar, devagar, como se quisesse medir sua coragem.
+
+Depois de perambular um pouco, o jogo quebra a lógica: uma espada aparece flutuando e parte pra cima. Não é susto: é combate obrigatório, um marco da história que faz o jogador questionar o que realmente está movendo as peças nesse sumiço. A princípio, ninguém entende que aquela espada não voa sozinha — que existe algo (fadas) por trás disso. E por um tempo, esse tipo de ameaça some, virando um presságio do que o jogador só vai enxergar de verdade mais adiante (outros “objetos vivos”).
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Sul (retorno): saída segura pro mapa anterior.
+
+POI_02 — Corredores de Mata Densa: “labirinto leve” que força o jogador a explorar antes do evento.
+
+POI_03 — Trecho do Evento (gatilho do Pothergeist): área ideal para disparar cutscene + combate.
+
+POI_04 — Pontos de Investigação (rastros sutis): cantos do corredor com marcas/indícios sobre a Rose (pegadas, tecido preso, galho quebrado, arranhões).
+
+Encontros e Hostilidade
+
+Dia: poucos encontros comuns.
+
+Noite: mais atividade (mais mobs), mas o evento da espada acontece quando o jogador atingir o gatilho — independente de horário.
+
+Evento assinatura: Pothergeist — Espada Voadora (tipo físico)
+
+Função: primeiro “choque sobrenatural” da floresta.
+
+Progressão futura dos Pothergeists (setup)
+
+Espada = físico (rápida/cortante) (introduz aqui)
+
+Boneca = mágico (maldição/ilusões) (aparece mais fundo)
+
+Escudo/Barril = tank (defesa/impacto) (aparece mais fundo)
+
+Investigação da Rose
+
+Este mapa já entra no “modo investigação”:
+
+Pistas sutis (não inegáveis): rastro interrompido, folhas amassadas, tecido mínimo, marcas de arrasto, sinal de luta leve.
+
+Serve para manter o jogador “caçando” mesmo quando não encontra nada definitivo.
+
+Notas de Implementação (RPG Maker XP)
+
+Gatilho do evento obrigatório: por passos (V_PASSOS_MAPA) ou por Region ID em POI_03.
+
+Execução: travar player → breve diálogo/estranhamento → spawn da espada → batalha obrigatória → espada some → ligar S_POTHERGEIST_ESPADA_VISTO.
+
+Reaparecimento mais tarde: manter Pothergeists raros/ausentes por alguns mapas e só liberar a “família” completa com um switch de progressão (ex.: S_POTHERGEISTS_ATIVOS).","ChaveMapa: 21V11
+ChaveMapaOrigem: 22V10
+Cabeçalho
+
+Mapa: Torre do Mago — Ponte e Portão Rangente
+MapType: Tower
+Hostilidade: Pacífico
+Escopo: Gate multi-solução para entrar no Inner da torre + loot único em parafernálias externas.
+Conexões
+Norte: bloqueado (torre no centro)
+Leste: bloqueado
+Sul: 22V10 — (mapa já descrito, tumba/zombie)
+Oeste: bloqueado
+
+Descrição Narrativa
+A torre domina o horizonte. O portão de madeira parece banal… até você perceber que ele está “trancado por capricho”. Caixas, tralhas e aparatos arcanos estão largados na ponte, como se o mago tivesse decidido que o lado de fora é o depósito oficial.
+
+POIs
+POI_01 — Portão da Torre (Gate)
+Descrição: múltiplas formas de entrada.
+POI_02 — Parafernálias Externas (Loot 1x)
+Descrição: reagente + nota sobre dobra/teleporte.
+
+Perícias e Checks
+
+Engenharia Rúnica (Waystones): abrir “por milagre” (médio/alto).
+
+Vigor & Carga/Mobilidade: escalar janela (médio/alto).
+
+Se S_ZUMBI_MORTO ON: mago pode abrir (evento).
+
+Recompensas
+
+Loot único: Poção de Mana Pequena (1x) + reagente (PROPOSTA: Núcleo Arcano Fraco).
+
+Notas RMXP
+
+Switch: S_LOOT_TORRE_COLETADO (anti-farm).
+
+Switch: S_TORRE_ACESSO_LIBERADO (quando qualquer método funcionar).","ChaveMapa: 21W12
+ChaveMapaOrigem: 21X11
+Cabeçalho
+
+Mapa: Pântano — Fenda do Brejo
+MapType: Swamp
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Porta para MiniDungeon curta de estuário (túnel).
+Conexões
+Norte: 20W13 — Saída da Ruína Alagada (via MiniDungeon)
+Leste: 21X11 — Rochedo do Estuário
+Sul: bloqueado
+Oeste: bloqueado
+
+Descrição Narrativa
+Uma fenda escura entre pedras úmidas — estreita demais para parecer “caminho”, mas óbvia demais para ser só natureza. É o tipo de passagem que o jogador atravessa por curiosidade… e sai do outro lado entendendo que o mundo tem atalhos.
+
+POIs
+POI_01 — Entrada MiniDungeon (Transição)
+Descrição: entrada no lado Norte (sentido do próximo mapa).
+
+Perícias e Checks
+
+Atenção: notar perigo de escorregão (médio).
+
+Vigor & Carga: atravessar trecho pesado (médio) — evita dano.
+
+Recompensas
+
+Marco: acesso ao “túnel”.
+
+Notas RMXP
+
+Transferência para MiniDungeon (túnel) e saída em 20W13.","ChaveMapa: 21X11
+ChaveMapaOrigem: 22X10
+Cabeçalho
+
+Mapa: Pântano — Rochedo do Estuário
+MapType: Swamp
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Transição do “lama” para “rocha + água corrente”; prepara mini-dungeon #12–#13.
+Conexões
+Norte: bloqueado
+Leste: bloqueado
+Sul: 22X10 — Campo dos Líquens
+Oeste: 21W12 — Fenda do Brejo
+
+Descrição Narrativa
+A água corre mais forte e a lama perde domínio. O som muda: em vez de “ploc” de brejo, você ouve correnteza. Isso é um aviso: tem uma passagem escondida por perto.
+
+POIs
+POI_01 — Barranco de Pedra (Landmark)
+Descrição: primeiro “chão firme” depois do brejo.
+POI_02 — Som de Água na Fenda (Foreshadow)
+Descrição: pista da mini-dungeon.
+
+Perícias e Checks
+
+Atenção: achar entrada da fenda mais segura (médio) — bônus dentro da mini-dungeon.
+
+Recompensas
+
+Nenhuma grande; é mapa de ponte.
+
+Notas RMXP
+
+Se quiser: tutorial leve “mini-dungeon adiante”.",58,57,56,55,54,61,34,39,38,37
+73,72,65,64,63,64,71,72,61,60,59,48,51,52,49,"ChaveMapa: 22P8
+ChaveMapaOrigem: 23P7
+Cabeçalho
+
+Mapa: Ruínas — Acampamento dos Mentores
+MapType: Ruins
+Hostilidade: Pouco Hostil
+Escopo: Ponto humano: diálogos, dicas, preparo. Os mentores podem reaparecer depois como NPCs itinerantes (até o evento trágico).
+Conexões
+Norte: 21P9 — Passagem dos Totens
+Leste: bloqueado (ruínas fechadas)
+Sul: 23P7 — Duelo dos Mentores
+Oeste: bloqueado (entulho)
+
+Descrição Narrativa
+Um acampamento simples entre pedras quebradas: fogueira, mapa amassado, e gente que encara o perigo com normalidade. Eles não são “quest-givers” clássicos — são professores de mundo: falam de armadilhas, de como goblins se organizam, de como bestas viram armas quando alguém aprende a usá-las.
+
+POIs
+POI_01 — Fogueira (Social)
+Descrição: diálogo + dicas.
+POI_02 — Mapa Rabiscado (Lore)
+Descrição: foreshadow do “núcleo” e do rei.
+POI_03 — Cache de Suprimentos (Loot 1x)
+Descrição: recompensa pequena por investigar.
+
+Perícias e Checks
+
+Leitura de Malícia: perceber medo escondido (médio) — reforça drama futuro.
+
+Influência: ganhar confiança (médio) — dicas melhores.
+
+Recompensas
+
+Loot 1x: Poção de Cura Pequena ou Poção de Mana Pequena.
+
+Notas RMXP
+
+Switch: S_MENTORES_CONHECIDOS ON.
+
+Eventos de diálogo podem mudar após S_MENTORES_MORTOS.","ChaveMapa: 22Q5
+ChaveMapaOrigem: 22R4
+Cabeçalho
+
+Mapa: Trilha das Ruínas — Zigue-Zague dos Pinheiros
+
+MapType: Mountain
+
+Hostilidade: Pouco Hostil (principalmente à noite)
+
+Escopo: Trecho de travessia logo após a ponte; corredor montanhoso com floresta densa, bom para “sentir” que o jogador saiu da zona segura da vila. Serve como mapa complementar e pode ganhar importância dependendo de quests.
+
+Conexões: Norte=Bloqueado (penhasco/mata fechada), Leste=Trilha das Ruínas — Ponte do Despenque (entrada), Sul=Próximo trecho da trilha (saída no nível inferior), Oeste=Bloqueado (penhasco/mata)
+
+Descrição Narrativa
+
+Assim que o jogador sai da ponte, a trilha muda de cara: pinheiros fechados, desníveis de pedra e um caminho que obriga a descer em zigue-zague, como se a montanha estivesse guiando os passos. O ar é mais frio, o som da água some ao fundo e a floresta toma o lugar do “conforto” da vila.
+
+De dia dá para atravessar com relativa calma. À noite, porém, a mesma trilha vira território de goblinoides, bestas e do mesmo tipo de Imp voador — alguns aparecem de longe, outros surgem de surpresa, dependendo do cuidado (ou da pressa) do aventureiro ao passar por ali.
+
+Pontos de Interesse (POIs)
+
+POI: POI_01 — Entrada Leste do Trecho (transição)
+
+Descrição: Chegada vinda da ponte; marca clara da mudança de zona.
+
+POI: POI_02 — Curva Alta do Zigue-Zague (trilha)
+
+Descrição: Primeira virada do caminho entre pinheiros fechados, boa para patrulhas/emboscadas leves.
+
+POI: POI_03 — “Guarda-corpo” Simples (segurança)
+
+Descrição: Cercadinho/grade baixa para evitar queda — mais psicológico do que protetivo.
+
+POI: POI_04 — Pinheiros Mortos (sinal)
+
+Descrição: Árvores secas que podem ser só estética ou virar pista conforme quest.
+
+POI: POI_05 — Tronco Caído (marco)
+
+Descrição: Ponto fácil de usar como referência de caminho, esconderijo de item ou pista.
+
+POI: POI_06 — Clareira Pequena no Meio do Caminho (respiro)
+
+Descrição: Um “miolo” mais aberto na trilha, bom para encontros visíveis ou para o jogador tentar passar furtivo.
+
+POI: POI_07 — Saída Sul no Nível Inferior (progressão)
+
+Descrição: Fim do zigue-zague; conduz ao próximo trecho rumo às ruínas.
+
+Perícias e Checks
+
+Sombra/Furtividade: atravessar a trilha à noite — (baixo) evita 1 patrulha visível | (médio) reduz chance de encontro surpresa | (alto) atravessa “limpo” e ainda percebe por onde os inimigos circulam (PROPOSTA).
+
+Atenção: perto do tronco/pinheiros mortos — (baixo) nota movimento | (médio) identifica se é goblinoide/besta | (alto) percebe o Imp “vindo de cima” antes de ele descer.
+
+Extração (Minério/Pedra/Cristais): ler o zigue-zague — (baixo) escolhe caminho mais seguro | (médio) encontra pegadas | (alto) descobre “rota de patrulha” e ganha vantagem em encounter (PROPOSTA).
+
+Investigação: usar POIs como ganchos de quest — (médio/alto) acha pista/objeto apenas quando a quest estiver ativa.
+
+Itens e Recompensas
+
+Base (recomendado): manter sem loot fixo para não “premiar travessia”.
+
+Se precisar de achado pontual (1x, discreto): Poção de Cura Pequena (bem escondida) — ou amarrada a quest/Atenção.
+
+Qualquer item novo aqui eu deixaria como PROPOSTA e só ativaria quando uma quest pedir.
+
+Notas de Implementação (RPG Maker XP)
+
+Encontros noturnos (Pouco Hostil):
+
+Opção A (simples): Encounter Rate baixo + Troops noturnos (goblinoides/bestas/imp) condicionados por S_NOITE.
+
+Opção B (mais “stealth”): 1–2 patrulhas visíveis (Move Route) + checagem ao entrar em “zonas” (Region ID) para decidir se há emboscada.
+
+Imp “vem de cima”: evento com trajetória diagonal/vertical (Move Route) iniciando fora da tela, sem precisar pousar no chão.
+
+Variáveis/switches sugeridos: S_NOITE, V_STEALTH_SCORE (PROPOSTA), S_POI_TRONCO_USADO_QUESTX (PROPOSTA).","ChaveMapa: 22R4
+ChaveMapaOrigem: 22S3
+Cabeçalho
+
+Mapa: Trilha das Ruínas — Ponte do Despenque
+
+MapType: Mountain
+
+Hostilidade: Pouco Hostil (seguro de dia; risco leve à noite)
+
+Escopo: Mapa-cenário de travessia e contemplação: ponte longa sobre a cachoeira, com cutscene no meio apresentando um Imp voador. À noite, pode virar um corredor de encontros leves.
+
+Conexões:
+
+Leste (direita): retorno para o mapa anterior de treinamento (Ponte da Cachoeira / toca dos bichos)
+
+Oeste (esquerda): continuação da trilha para as Ruínas Abandonadas
+
+Descrição Narrativa
+
+A ponte se estende como uma faixa de madeira suspensa sobre o despenque, com a cachoeira rugindo por baixo em quedas intermináveis. De dia, é um lugar feito pra respirar: névoa d’água, vento frio e uma vista que deixa claro que a vila ficou para trás.
+
+No meio da travessia, o cenário ganha vida. Um Imp voador vinha acompanhando o rio lá em cima, sobrevoando o abismo com a confiança de quem conhece cada corrente de ar… até dar de cara com o aventureiro. O encontro é rápido — mais surpresa do que ameaça — mas serve como aviso: na direção das ruínas, até o céu pode ter olhos.
+
+Quando a noite cai, a ponte muda de tom. O som da água fica mais pesado e, às vezes, goblinoides, bestas ou até imps podem aparecer patrulhando/curiando o caminho, transformando a travessia bonita num risco controlado.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Leste da Ponte (retorno)
+
+Vindo do mapa de treino; início da travessia.
+
+POI_02 — Meio da Ponte (cutscene do Imp)
+
+Gatilho do evento principal.
+
+POI_03 — Mirante da Cachoeira (vista)
+
+Área para contemplação/ambientação (som, névoa, altura).
+
+POI_04 — Saída Oeste da Ponte (progressão)
+
+Fim da travessia e entrada no caminho para as ruínas.
+
+Evento Principal
+
+Cutscene: “Imp no Vento”
+
+Condição: primeira vez que o jogador pisa no meio da ponte (preferencialmente de dia, se existir ciclo).
+
+Cena: Imp sobrevoando o rio → percebe tarde demais → susto/quase colisão → ele recua, dá uma volta no ar e some.
+
+Função narrativa: apresentar o Imp sem forçar combate e marcar a transição para a zona montanhosa mais perigosa.
+
+Encontros e Hostilidade (noite)
+
+De dia: sem encontros (ou extremamente raros).
+
+À noite (pouco hostil): chance baixa/média de encontros com:
+
+Goblinoides (batedores/curiosos)
+
+Bestas (animais selvagens da montanha)
+
+Imps (um deles pode ser o mesmo “tipo” da cutscene)
+
+Tom: encontros curtos, mais “incômodo” do que punição — para não transformar a ponte em dungeon.
+
+Recompensas (opcional, leve)
+
+Principal: flag de mundo/primeiro contato com imps na trilha.
+
+Opcional (PROPOSTA): item de lore/craft simples se rolar encontro noturno com imp (ex.: Pena Escura / Fragmento de Asa), sem valor alto.
+
+Notas de Implementação (RPG Maker XP)
+
+Gatilho da cutscene: evento invisível no tile do meio (Player Touch).
+
+Anti-repetição: S_IMP_PONTE_VISTO (ON após a cena).
+
+Ciclo dia/noite: usar uma variável V_TEMPO_DIA (ou switch S_NOITE) pra controlar encontros.
+
+Encontros noturnos:
+
+Se usar encounter padrão do RMXP: configurar a ponte com Encounter Rate baixo e Troops noturnos condicionados por S_NOITE.
+
+Se usar eventos: spawns simples com chance ao entrar no mapa quando S_NOITE ON (evitar paralelos constantes).
+
+Cutscene + noite: se S_NOITE estiver ON e você quiser, dá pra trocar o diálogo do Imp pra algo mais “arisco” na primeira vez.","ChaveMapa: 22S3
+ChaveMapaOrigem: 23S2
+Cabeçalho
+
+Mapa: Trilha das Ruínas — Ponte da Cachoeira
+
+MapType: Mountain
+
+Hostilidade: Pacífico (com treino amistoso)
+
+Escopo: Área logo após o posto do guarda, marcada pela ponte sobre a queda d’água e por um buraco/toca de animais; funciona como “buffer” antes das ruínas e como campo de treinamento leve.
+
+Conexões:
+
+Sul: Vila Rose — Posto do Guarda Novato
+
+Oeste (ponte): continuação do caminho rumo às Ruínas Abandonadas (próximo mapa)
+
+Norte: bloqueado (montanhas)
+
+Leste: bloqueado (montanhas)
+
+Descrição Narrativa
+
+A cachoeira domina o canto esquerdo do mapa: barulho constante, água fria e um vento úmido que corta a clareira. Uma ponte de madeira atravessa o desnível e marca, de verdade, o limite do “seguro” — é daqui pra frente que o guarda jura proteger a vila.
+
+Apesar disso, o lugar não tem clima de guerra. Entre pinheiros, tocos e pedras, pequenos bichos circulam como se o mundo não estivesse acabando. No paredão à direita há um buraco escuro, estreito demais para gente: é toca, ninho, entrada de algum animal curioso. Com o tempo, o jogador percebe que esses bichos não são ameaça… e sim um tipo de “ringue” natural: uma brincadeira de lutinha que vira treino pro guarda e pro aventureiro.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Ponte da Cachoeira (progressão)
+
+Travessia obrigatória para seguir rumo às ruínas (saída oeste).
+
+POI_02 — Queda d’Água / Margem (ambientação)
+
+Som e visual fortes; ótimo ponto pra aviso/placa/lore curto.
+
+POI_03 — Clareira do Treino (arena amistosa)
+
+Espaço aberto no centro; onde rolam as “lutinhas” com os bichos.
+
+POI_04 — Toca no Paredão (ninho)
+
+Buraco pequeno, não acessível ao jogador; gatilho do encontro/treino.
+
+POI_05 — Parede Montanhosa Norte (bloqueio)
+
+“Impassável”: reforça que o caminho é pela ponte, não pela escalada.
+
+POI_06 — Parede Montanhosa Leste (bloqueio)
+
+Mesma função: limite natural.
+
+POI_07 — Troncos e Árvores Secas (pistas/recursos)
+
+Ambientação + possível ponto de coleta leve (madeira/graveto), se você quiser.
+
+NPCs e Interações
+
+Bichos da trilha (neutros): andam pelo mapa; com o tempo o jogador entende “onde eles moram” (toca) e como interagir sem assustar.
+
+Bicho da toca (sparring): sai pra brincar de luta; pode ser “do bem”/curioso, com comportamento de treino (não mata, recua, para quando alguém cai).
+
+Guarda novato (participação variável): pode aparecer aqui em etapas futuras do treinamento (especialmente na linha de evoluir pra Knight).
+
+Quests e Progressão
+
+Side (tutorial/recorrente): “Lutinha da Toca”
+
+Etapa 1: ver os bichos pela primeira vez (só observação).
+
+Etapa 2: interagir com a toca → o bicho aparece → treino curto (sem risco).
+
+Etapa 3: treino repetível (cooldown/limite diário) e passa a contribuir pro “Treino do Novato”.
+
+Conexão com a classe Knight: vitórias/participações no sparring podem aumentar uma variável de confiança/treino do guarda, servindo como requisito suave pra evolução.
+
+Perícias e Checks (sugestões)
+
+Atenção/Colheita (Ervas/Fungos/Fibras): perceber que os bichos não atacam de verdade (padrão de “brincadeira”).
+
+Vínculo (Criaturas & Goblins)/Carisma (se existir): reduzir o tempo até o bicho aceitar treinar com o jogador.
+
+Vigor & Carga/Combat: desempenho no treino (pode virar bônus de confiança pro guarda).
+
+Recompensas (sem quebrar balance)
+
+Treino amistoso: pouco ou nenhum XP, mas:
+
++1 em V_TREINO_GUARDA (quando ele participa) ou
+
+item leve temático (PROPOSTA): “Pelo Macio”, “Osso Liso”, “Erva da Encosta” (craft/quest).
+
+Notas de Implementação (RPG Maker XP)
+
+Bloqueios norte/leste: colisão + evento opcional com mensagem (“As montanhas são íngremes demais.”).
+
+Bichos andando: eventos com Move Route: Random (sem Parallel Process).
+
+Toca (evento principal):
+
+Página 1: toca “quieta” (Action Button) → mensagem/observação.
+
+Página 2 (condição: S_TREINO_TOCA_LIBERADO): chama encontro/treino.
+
+Treino sem risco (modelos):
+
+Batalha real “amistosa”: Troop com bicho fraco + recompensa 0 XP/0 gold; no fim liga Self Switch A (“bicho satisfeito”).
+
+Minijogo por escolhas: comandos “Defender / Atacar leve / Recuar” com variável de acerto; termina em empate/“bom treino”.
+
+Progressão “com o tempo”: variável V_FAMILIARIDADE_BIXOS sobe a cada interação; em certos marcos libera treino, falas novas e participação do guarda.
+
+PROPOSTA: 3 opções rápidas pro “bicho da toca”
+
+Tatu-da-encosta (tanque brincalhão, empurra/roda)
+
+Raposa-pinhão (rápida, provoca e recua)
+
+Texugo-das-pedras (briguento de brincadeira, mas leal)
+
+Se você me disser qual dessas 3 “vibe” combina mais (fofo / esperto / brutinho), eu já amarro: nome do bicho, padrão de treino e recompensa perfeita pra não desbalancear.","ChaveMapa: 22T4
+ChaveMapaOrigem: 23T3
+Cabeçalho
+
+Mapa: Floresta da Rose — Borda da Mata (Árvore Anciã)
+
+MapType: Woods
+
+Hostilidade: Pouco Hostil (poucos encontros de dia; bem mais à noite)
+
+Escopo: Primeiro passo “real” dentro da floresta após o acampamento. Serve como introdução de clima e mecânicas (principalmente veneno e mobilidade/stealth) e como acesso à Mini Dungeon dos Insetos (à direita), onde fica a primeira pista inegável da Rose.
+
+Conexões
+
+Sul: Floresta da Rose — Clareira de Âncora (acampamento/respawn)
+
+Leste: Mini Dungeon — Rota dos Insetos (MapType: Forest; conecta a um ponto mais interno da floresta)
+
+Norte/Oeste: bloqueados por mata fechada (apenas árvores)
+
+Descrição Narrativa
+
+A partir daqui, a floresta começa a “fechar”. O caminho ainda existe, mas as copas e arbustos criam corredores estreitos, e a sensação é de que a mata não é cenário — é território. A árvore gigantesca no centro vira referência natural, um marco para o jogador não se perder tão cedo.
+
+O perigo ainda é controlado, mas já é diferente do que vinha antes: surgem insetos voadores rápidos, irritantes, que atacam em investidas e às vezes deixam veneno. Nem sempre pega — mas quando pega em sequência, atrapalha bastante no meio de uma exploração mais longa.
+
+O mapa não entrega a grande pista da Rose: ele só coloca o jogador no tom certo. A certeza vem na mini dungeon à direita.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Sul (da Clareira de Âncora): volta rápida ao ponto seguro.
+
+POI_02 — Árvore Anciã (centro): marco de orientação (bom para eventos leves/ambientais).
+
+POI_03 — Corredores de Mata (labirinto leve): caminho “segurando o jogador pela mão”, mas já com sensação de perda.
+
+POI_04 — Capim/Vegetação densa: zona perfeita para encontros e sustos (principalmente à noite).
+
+POI_05 — Troncos/Tocos (canto inferior): estética e gancho para craft/quest futura, se precisar.
+
+POI_06 — Entrada da Mini Dungeon (leste): o “verdadeiro avanço” da investigação.
+
+Encontros e Hostilidade
+
+Dia: poucos encontros (chance baixa) — mais para ensinar “atenção” do que punir.
+
+Noite: mais encontros e maior chance de insecto aparecer.
+
+Assinatura do mapa: inseto/voador venenoso (rápido, chato, estilo “mergulha e recua”).
+
+Veneno (como você descreveu)
+
+Nem sempre aplica, mas quando o jogador entra em sequência ruim e acumula stacks, atrapalha muito.
+
+Esse design conversa bem com o acampamento: descanso cura geral, mas não “apaga tudo” (dependendo de como você tratar estados pesados).
+
+Notas de Implementação (RPG Maker XP)
+
+Dia/noite: S_NOITE aumenta encounter rate e adiciona mais insetos no troop pool.
+
+Inseto rápido: AGI alta + skill de veneno com chance moderada (pra “nem sempre pegar”, mas ser perigoso quando pega).
+
+Capim alto: usar Region ID pra zonas com chance extra de encontro (principalmente à noite).
+
+Sem pista grande aqui: manter apenas ambientação/presságio; a primeira pista inegável fica dentro da mini dungeon.
+
+Mini Dungeon à direita (teaser de escopo)
+
+Nome sugerido: Mini Dungeon — Rota dos Insetos
+
+MapType: Forest
+
+Função: conecta este mapa a um ponto mais interno da floresta.
+
+Conteúdo: muitos recursos naturais bons para craft (plantas/resinas/fibras etc.) + combate com insetos + primeira pista inegável da Rose (item pessoal/objeto que não deixa dúvida).","ChaveMapa: 22U5
+ChaveMapaOrigem: 22T4
+Cabeçalho
+
+Mapa: Floresta da Rose — Clareiras do Aríete Alado
+
+MapType: Woods
+
+Hostilidade: Pouco Hostil (dia: poucos encontros; noite: bem mais)
+
+Escopo: Área do “outro lado” da Mini Dungeon — Rota dos Insetos. Introduz um novo inimigo (inseto voador tanque, que ataca na cabeçada/investida), mas mantém também a presença do inseto venenoso rápido. Aqui o jogador começa a ter acesso a um craft comum de aventureiros: antídoto feito com flores locais + loot das abelhas.
+
+Conexões
+
+Oeste: retorno para a Mini Dungeon — Rota dos Insetos
+
+Norte: continuação para mais floresta a dentro
+
+Leste/Sul: mata fechada (apenas árvores; sem passagem)
+
+Descrição Narrativa
+
+Ao sair da rota apertada dos insetos, a floresta “respira” em corredores de capim e clareiras pequenas — ainda densa, mas com espaço suficiente para sentir que você avançou. O silêncio aqui é enganoso: não é ausência de vida, é vida grande demais para ficar zumbindo o tempo todo.
+
+Os insetos venenosos continuam rondando (rápidos, irritantes, difíceis de acertar), mas agora há algo novo no ar: um inseto alado de múltiplas asas, pesado, resistente, que não precisa de veneno para incomodar. Ele entra como um aríete: recua um passo… e volta com uma cabeçada que tenta quebrar sua postura.
+
+E no meio disso, a floresta dá uma “resposta” prática: flores específicas crescem por aqui, e com o ferrão/soro das abelhas dá pra fazer um antídoto simples. É crafting de campo, do tipo que qualquer aventureiro aprende — e por isso o mercador da vila conhece a receita.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Saída Oeste (da Mini Dungeon): chegada/retorno; transição clara de “dungeon curta” para mata aberta.
+
+POI_02 — Corredores de Capim Alto: zonas perfeitas para encontro surpresa, especialmente à noite.
+
+POI_03 — Clareira da Árvore Grande (noroeste): marco visual e bom “território” do inseto aríete.
+
+POI_04 — Trilha Norte (progressão): puxa o jogador para a floresta mais interna.
+
+POI_05 — Manchas de Flores (coleta): nós de coleta para a receita de antídoto.
+
+POI_06 — Troncos/Tocos: ambientação e gancho fácil para futuras quests/pistas.
+
+Encontros e Hostilidade
+
+Dia: poucos encontros; os dois tipos de inseto podem aparecer, mas o aríete é raro.
+
+Noite: mais encontros; aumenta a frequência de insetos e a chance de “cadeia ruim” (veneno acumulando).
+
+Inimigos do mapa
+
+Inseto Venenoso Rápido: aplica veneno às vezes; quando stacka, atrapalha muito a exploração.
+
+Inseto Aríete Alado (novo): tanque, agressivo por impacto; “investida/cabeçada”.
+
+Bestas da floresta: apoio de variedade (especialmente à noite).
+
+Craft e Materiais
+Receita: Antídoto de Campo (comum)
+
+Ingredientes-base:
+
+Flores locais (colhidas aqui)
+
+Ferrão/Soro dos insetos/abelhas (loot do inimigo)
+
+Resultado: Antídoto (remove veneno; não precisa ser “cura geral”).
+
+Lore: o mercador ensina porque é craft básico de aventureiro — útil justamente por causa desses insetos.
+
+Sugestão de nomes de materiais (pra padronizar):
+
+Flor: Flor Amarga / Flor-de-Resina / Erva Antídoto
+
+Loot: Ferrão de Vespa / Soro de Abelha
+
+Quests e Ganchos
+
+Side (tutorial de craft): “Antídoto de Aventureiro”
+
+Gancho: depois de sofrer veneno 1x (ou achar flores), o jogador pode levar o material ao mercador.
+
+Objetivo: coletar X flores + X ferrões/soro → aprender a receita.
+
+Recompensa: receita desbloqueada + 1–2 antídotos de brinde (opcional).
+
+Progressão: o mapa “ensina” o loop: explorar → lidar com veneno → craftar → avançar ao norte.
+
+Perícias e Checks (opcionais)
+
+Colheita (Ervas/Fungos/Fibras): identificar as flores corretas (melhora taxa de coleta / reduz coleta “inútil”).
+
+Atenção: notar inseto aríete antes da investida (reduz emboscada).
+
+Sombra: atravessar capim alto à noite evitando 1 encontro.
+
+Notas de Implementação (RPG Maker XP)
+
+Dia/noite: S_NOITE aumenta encounter rate e adiciona mais chances dos dois insetos (principalmente venenos).
+
+Inseto aríete: stats de HP/DEF maiores; skill “Investida” com chance de stun curto (se você usar status).
+
+Flores (coleta): eventos de coleta com Self Switch A (colhido) + reset diário (se existir ciclo) ou reset ao descansar longo no acampamento.
+
+Receita: S_RECEITA_ANTIDOTO habilita um Common Event de crafting (no acampamento ou via menu do mercador).
+","ChaveMapa: 22V10
+ChaveMapaOrigem: 22W9
+Cabeçalho
+
+Mapa: Torre do Mago Louco — Platô dos Marcos (Rampa Externa)
+
+MapType: Tower
+
+Hostilidade: Pacífico (sem encontros em nenhum horário)
+
+Escopo: Área externa de aproximação da torre. Apesar do pântano ao redor, este platô já é “território da torre”: chão mais firme, marcos antigos preservados e um silêncio proposital que prepara o jogador para o mapa do portão/ponte logo ao norte.
+
+Conexões
+
+Norte: Entrada da Torre (próximo mapa: pontezinha + portão de madeira trancado)
+
+Direita (leste): retorno para o caminho de onde viemos (Campina da Tumba / rota do pântano)
+
+Esquerda/Oeste: sem conexão
+
+Sul: sem conexão
+
+Descrição Narrativa
+
+O pântano ainda cerca tudo, mas aqui ele recua. O terreno fica mais “organizado” e firme, como se a torre estivesse impondo regras na paisagem. Espalhados pelo platô, marcos antigos se erguem como peças de um sistema maior — velhos demais para serem do Mago Louco, mas conservados demais para estarem abandonados.
+
+A sensação é de antecâmara: nada te ataca, nada te distrai. Só a presença da torre logo acima e a impressão de que esses pilares funcionam como receptores/âncoras de alguma coisa que você ainda não entende.
+
+Depois que certos progressos acontecem, este vazio ganha vida: o Mago Louco às vezes aparece aqui, passeando como se fosse seu quintal, observando estrelas, mexendo nos marcos ou testando “maluquices” discretas.
+
+Pontos de Interesse
+
+POI_01 — Rampa natural (funil para o norte): conduz ao mapa do portão/ponte.
+
+POI_02 — Marcos antigos (pilares): sugerem rede mágica/atributo de receptor da torre.
+
+POI_03 — Centro vazio: ótimo palco para aparições raras do mago e microcenas.
+
+POI_04 — Bordas sem saída: reforça que é um “corredor de aproximação”.
+
+Notas RMXP
+
+Encounter rate = 0.
+
+Aparição do mago em páginas condicionadas (ex.: S_TORRE_DESBLOQUEADA), com variações por horário.","ChaveMapa: 22W9
+ChaveMapaOrigem: 23W8
+Cabeçalho
+
+Mapa: Pântano — Campina da Tumba
+
+MapType: Swamp
+
+Hostilidade: Pacífico (com evento noturno de história, 1ª vez)
+
+Escopo: Um trecho aberto do brejo, usado como foreshadow do Mago Louco. De dia é só “estranho”. À noite, enquanto o caminho principal ainda estiver travado, pode acontecer o evento do zombie de estimação saindo da tumba.
+
+Conexões
+
+Sul: volta para a beira do brejo (mapa anterior)
+
+Oeste (esquerda): continua o caminho para a torre do Mago Louco
+
+Norte: água (sem passagem)
+
+Leste: sem conexão
+
+Descrição Narrativa
+
+O pântano abre numa campina úmida e silenciosa, cercada de água e árvores pesadas. No meio, uma tumba isolada parece fora do lugar — velha, torta, mas firme o bastante para dizer que alguém já tentou “marcar território” no brejo.
+
+De dia, dá pra inspecionar e sentir que a terra está fofa demais, às vezes com um movimento sutil por baixo, como algo dormindo ali. À noite, a campina fica mais sufocante, e a tumba vira ameaça: se o jogador estiver passando por aqui no momento certo, o chão pode ceder e um zombie grande, resistente e muito acima do nível surge… não exatamente para brigar, mas como se estivesse procurando uma ordem, um nome, ou uma direção.
+
+Ele passa turnos balbuciando e encarando o vazio. Só que, se o jogador insistir em bater muito, ele pode se irritar e começar a lutar de verdade. Se morrer, não trava a história — mas muda o futuro: esse zombie às vezes apareceria ao lado do mago, “conversando” do jeito dele, como um Groot/Chewbacca que só o Mago Louco entende.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Sul: retorno seguro ao trecho anterior.
+
+POI_02 — Trilha Oeste: continuação rumo à torre.
+
+POI_03 — Tumba do Brejo: coração do mapa (inspeção de dia + evento à noite).
+
+POI_04 — Marcas no terreno / lama revirada: clima e pista de que algo “saiu e voltou”.
+
+POI_05 — Borda d’água ao norte: bloqueio natural + sensação de isolamento.
+
+Evento de História
+“O Zombie da Tumba”
+
+Condição: noite + caminho principal ainda travado (estado de quest/ponte trancada).
+
+Frequência: deve acontecer uma única vez (primeiro trigger). Depois disso, o zombie fica passivo (se tiver sobrevivido) ou morto (se o jogador conseguiu matar).
+
+Comportamento em combate:
+
+Inicialmente: ele não parece interessado em lutar (balbucia/aguenta/defende).
+
+Se provocado demais: entra em “modo irritado” e começa a atacar de verdade (CON alta, HP alto).
+
+Interação diurna
+
+Inspecionar a tumba: texto curto + “terra fofa” +, às vezes, uma sensação de movimento se o zombie ainda estiver lá (bom pra gerar paranoia sem combate).
+
+Notas de Implementação (RPG Maker XP)
+
+Switches/flags sugeridos:
+
+S_CAMINHO_TORRE_TRAVADO (ou similar) – controla se o evento ainda pode ocorrer
+
+S_EVENTO_ZOMBIE_FEITO – impede repetição
+
+S_ZOMBIE_MORTO – altera cenas futuras com o Mago Louco
+
+S_ZOMBIE_PASSIVO – caso sobreviva, aparece/é citado sem agressão
+
+“Irritação” em combate (simples):
+
+variável V_IRRITACAO_ZOMBIE sobe quando o jogador causa dano → ao passar de um limite, liga S_ZOMBIE_IRRITADO (AI mais agressiva)","ChaveMapa: 22X10
+ChaveMapaOrigem: 23X9
+Cabeçalho
+
+Mapa: Pântano — Campo dos Líquens Luminosos
+MapType: Swamp
+Hostilidade: Pouco Hostil (noite rara)
+Escopo: Mapa contemplativo, “bonito”, para transição lenta.
+Conexões
+Norte: 21X11 — Rochedo do Estuário
+Leste: bloqueado (água)
+Sul: 23X9 — Margem Longa
+Oeste: bloqueado (água/vegetação)
+
+Descrição Narrativa
+Uma das raras partes do pântano que parecem quase mágicas — não por fadas, mas por biologia: brilho fraco nos líquens e reflexos que fazem o caminho parecer maior do que é.
+
+POIs
+POI_01 — Campo Luminoso (Landmark)
+Descrição: assinatura visual do ramo.
+POI_02 — Pedras Secas (Travessia)
+Descrição: mini “puzzle” de caminhar sem afundar.
+
+Perícias e Checks
+
+Mobilidade: atravessar sem cair na lama (baixo/médio).
+
+Recompensas
+
+Materiais (PROPOSTA): Líquen Luminoso (2–3).
+
+Notas RMXP
+
+Eventos de coleta simples (com respawn por dia).",53,52,51,52,53,62,35,36,39,40
+74,71,70,69,66,65,70,67,66,61,62,49,50,51,50,"ChaveMapa: 23P7
+ChaveMapaOrigem: 23Q6
+Cabeçalho
+
+Mapa: Ruínas — Duelo dos Mentores
+MapType: Ruins
+Hostilidade: Pouco Hostil (evento obrigatório 1x)
+Escopo: Setpiece de tutorial: aventureiros lutando mini-horda (ordem dos turnos, status, foco de alvo).
+Conexões
+Norte: 22P8 — Acampamento dos Mentores
+Leste: 23Q6 — (mapa já descrito)
+Sul: bloqueado (ruínas fechadas)
+Oeste: bloqueado (ruínas/entulho)
+
+Descrição Narrativa
+Antes mesmo de você “entrar” no território goblin, vê uma cena que muda seu ritmo: aventureiros experientes enfrentando uma pequena horda com calma e técnica. Você assiste, aprende, e o mundo ganha um padrão — “essas pessoas sabem o que fazem”. Isso cola no jogador: viram ídolos e referência.
+
+POIs
+POI_01 — Área do Confronto (Cena/Tutorial)
+Descrição: combate assistido (ou controlado em parte, se quiser).
+POI_02 — Totem Rasgado (Sinal Goblin)
+Descrição: marca de território (primeiro aviso).
+POI_03 — Caminho Norte (Progresso)
+Descrição: leva ao acampamento e dá continuidade.
+
+Perícias e Checks
+
+Atenção: notar detalhe do inimigo (baixo) — dica de fraqueza/tática.
+
+Investigação: achar pista no pós-combate (médio) — loot/lore.
+
+Recompensas
+
+Flag: S_TUTORIAL_RUINAS_VISTO ON.
+
+Loot leve 1x: Poção de Cura Pequena (ou consumível simples).
+
+Notas RMXP
+
+Cutscene: Player Touch na área do confronto.
+
+Anti-repetição: S_TUTORIAL_RUINAS_VISTO.","ChaveMapa: 23Q6
+ChaveMapaOrigem: 22Q5
+Cabeçalho
+
+Mapa: Trilha das Ruínas — Fenda dos Imps
+
+MapType: Mountain
+
+Hostilidade: Pouco Hostil
+
+Escopo: Travessia montanhosa com fenda central (imps mais presentes). Caminho serpenteia do norte e termina no leste, levando ao Início das Ruínas. Inclui atalho opcional de Agility para cruzar a fenda.
+
+Conexões: Norte=Zigue-Zague dos Pinheiros, Leste=Início das Ruínas, Sul/Oeste=Bloqueados (paredão/abismo)
+
+Descrição Narrativa
+
+O caminho entra pelo norte e desce contornando uma grande fenda escura que corta a montanha. A trilha é estreita, com trechos de cerca improvisada “pra não cair”, árvores secas espalhadas e um vento diferente perto do vazio — como se o terreno puxasse o som para dentro dele.
+
+Aqui o risco já é real, mas controlado: goblinoides e bestas rondam as curvas (principalmente à noite). E, diferente dos trechos anteriores, imps são vistos com frequência descansando nas bordas da fenda — não como curiosos, e sim como donos do lugar. Eles são sempre hostis; a leitura correta é simples: não mexe.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Norte da Trilha: chegada do trecho anterior; clima “fora da vila”.
+
+POI_02 — Curva Alta do Serpenteado: ponto bom para patrulhas/emboscadas leves.
+
+POI_03 — Escadaria/Desnível Central: mudança de altura que dá ritmo ao caminho.
+
+POI_04 — Guarda-corpo Improvisado: proteção simbólica contra queda (ambientação).
+
+POI_05 — A Grande Fenda: área de presença mais comum de imps (vigilância/descanso).
+
+POI_06 — Mirante da Fenda: ponto seguro de observação; ótimo para indicar “zona perigosa”.
+
+POI_07 — Ponto do Salto (Atalho Agility): trecho onde a fenda fica “saltável” por um risco calculado.
+
+POI_08 — Agarras de Escalada (rota alternativa): trecho de rocha com “pegas” para cruzar mais lento/seguro.
+
+POI_09 — Tronco Caído / Árvores Secas: marcos que podem virar pista/quest quando necessário.
+
+POI_10 — Saída Leste: término do mapa; entrada no Início das Ruínas.
+
+NPCs e Interações
+
+Imp da Fenda (hostil, comum): costuma ficar pousado/descansando perto do abismo; reage rápido ao jogador.
+
+Imp Voador (hostil): aparece “de cima”, sobrevoando a fenda; bom para encontros noturnos e pressão.
+
+Batedor Goblinoide (hostil): patrulha em curva; pode estar visível ou em emboscada.
+
+Besta da Montanha (hostil): encontro curto e direto; recua ou persegue pouco.
+
+(PROPOSTA) Sentinela Imp: um imp “mais velho” que aparece só se o jogador insistir em mexer na fenda (punição leve, sem virar boss).
+
+Quests sugeridas
+
+Main (progressão): Chegar ao Início das Ruínas pela saída leste (sem evento obrigatório).
+
+Side (mapa/sistema): “Cortar Caminho na Fenda” — desbloquear/usar o atalho de Agility para atravessar o trecho com menos tempo e menos rolagem de encontros.
+
+Side (opcional): “Patrulha Noturna” — atravessar à noite sem ser visto (stealth) ou eliminando 1 patrulha.
+
+Side (plugável): “Pista no Tronco” — ativada só quando alguma quest precisar usar o POI_09 como evidência/objeto.
+
+Perícias e checks
+
+Perícia principal do atalho: Mobilidade (Agility)  beneficia o salto/parkour sobre a fenda.
+
+Atalho Agility (POI_07): check de Mobilidade para saltar a parte estreita e cair do outro lado.
+
+Falha recomendada: o jogador escorrega e recua para o ponto anterior (ou toma dano leve + “barulho” que aumenta chance de encounter).
+
+Escalada (rota alternativa): Vigor & Carga  beneficia escalada mais pesada/segura.
+
+Rota de Escalada (POI_08): check de Vigor & Carga para descer/subir por agarras; mais lenta, mas com menor chance de encontro surpresa.
+
+Sombra (travessia noturna): reduzir chance de encontro visível/emboscada ao cortar caminho.
+
+Atenção: perceber imp pousado antes dele reagir; identificar patrulha goblinoide na curva.
+
+Ideias de itens/loot
+
+Recomendação base: sem loot fixo (evita “rota de farm”).
+
+Se precisar recompensar o atalho (1ª vez): Poção de Cura Pequena (x1) ou Flechas Simples (x10) (discreto, 1x, anti-farm via switch).
+
+Notas de implementação RMXP
+
+Atalho Agility (POI_07):
+
+Evento (Action Button) com escolha: Tentar Saltar | Voltar.
+
+Condição simples: V_SKILL_ACROBATICS >= DC → Transfer/Move para o outro lado + XP de perícia (1ª vez).
+
+Falha: mensagem + empurra 1–2 tiles para trás ou dano leve + chance de encounter (sem travar fluxo).
+
+Anti-farm: S_ATALHO_ACROBATICS_1X para XP/loot só na primeira execução curta.
+
+Rota de Escalada (POI_08):
+
+Evento com check V_SKILL_ATHLETICS >= DC → travessia “lenta” (simular com waits/move route) e saída do outro lado.
+
+Imps mais comuns na fenda:
+
+Use Region ID perto da fenda para aumentar chance de encounter noturno com imp.
+
+Spawns visíveis opcionais (Move Route) apenas em horários/noturno (S_NOITE).
+
+Hostilidade pouco hostil: encounter rate baixo/médio; imps concentrados em regiões específicas (não no mapa inteiro).
+
+PROPOSTAS
+
+DCs sugeridos (se usar níveis de perícia): Mobilidade DC 1–2 (cedo), Vigor & Carga DC 1 (rota segura). Ajustar conforme a curva do jogo.
+
+Consequência “boa” de falha: queda parcial (dano leve) + “vibração/berro” que chama 1 encontro — mantém tensão sem punir demais.
+
+Atalho permanente: após 1 sucesso, liberar uma “tábua/corda” visual (novo tile/evento) para atravessar sem check nas próximas vezes.","ChaveMapa: 23R1
+ChaveMapaOrigem: 24R0_I
+Cabeçalho
+
+Mapa: Vila Rose — Casa dos Aventureiros Caídos
+
+MapType: Farm Village
+
+Hostilidade: Pacífico (confirmado em conversa)
+
+Escopo: Trecho intermediário rumo às ruínas; inclui uma casa abandonada que pode virar moradia do jogador mais adiante.
+
+Conexões: Norte=Sem saída (clareira/memorial), Leste=Casa do Guarda (última casa antes do caminho às ruínas), Sul=Vila Rose — Arredores do Lenhador, Oeste=Limite do terreno (sem travessia)
+
+Descrição Narrativa
+
+O caminho se abre numa clareira silenciosa. Uma casa isolada, já sem sinais de vida recente, observa a passagem de quem segue para o norte — e, logo acima, três cruzes simples lembram que nem todo aventureiro volta das trilhas adiante.
+
+É um lugar calmo, mas pesado: o tipo de calmaria que não consola, só avisa. Para o jogador, a casa é um marco — hoje, ruína e memória; amanhã, potencial abrigo, se ele fizer por merecer.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Escadaria Sul (Saída/Retorno)
+
+Descrição: Ligação direta de volta aos arredores do lenhador.
+
+POI_02 — Trilha Leste (Progressão)
+
+Descrição: Continuação do caminho para a casa do guarda e, depois, a rota das ruínas.
+
+POI_03 — Casa dos Aventureiros Caídos (Residência/Narrativa)
+
+Descrição: Casa abandonada; no futuro, pode se tornar a moradia do jogador após progresso em quests.
+
+POI_04 — Entrada da Casa (Interação)
+
+Descrição: Porta e área frontal; bom ponto para placa, “tranca”, ou condição de acesso.
+
+POI_05 — Baú/Arca Enferrujada (Loot/História)
+
+Descrição: Contêiner isolado no gramado; sugere que algo foi deixado às pressas.
+
+POI_06 — Túmulos dos Aventureiros (Memorial)
+
+Descrição: Três cruzes simples; espaço de lore e gatilhos de narrativa.
+
+POI_07 — Clareira do Memorial (Cena)
+
+Descrição: Área aberta e “quieta” para diálogos, flashbacks ou avisos sobre as ruínas.
+
+POI_08 — Área de Tocos/Desmate (Ambientação)
+
+Descrição: Tocos e chão marcado indicam corte recente de árvores (ou reaproveitamento de madeira).
+
+NPCs e Interações
+
+Estado inicial do mapa: sem NPCs fixos confirmados; o foco é em interações por objetos (túmulos, casa, baú) e passagem rumo ao leste.
+
+Interações-chave:
+
+Ler/inspecionar as cruzes (lore).
+
+Testar a porta da casa (gancho de futura moradia).
+
+Abrir/registrar o baú (loot ou item narrativo).
+
+Quests sugeridas
+
+Main (etapa de progresso): “Rumo às Ruínas” — seguir para Leste e falar com o guarda antes de continuar. (ver PROPOSTAS para detalhamento)
+
+Side: “Honrar os Caídos” — interagir com os 3 túmulos para desbloquear pistas/diálogo. (PROPOSTA)
+
+Side: “A Casa Vazia” — iniciar a linha de aquisição da casa como moradia (reparo/posse). (PROPOSTA)
+
+Side: “Baú Lacrado” — abrir via check ou chave (e decidir o que fazer com o conteúdo). (PROPOSTA)
+
+Perícias e Checks
+
+Investigação: no baú e na entrada da casa — (baixo) notar sinais de abandono | (médio) achar detalhe útil | (alto) revelar pista/“prova de posse”. (PROPOSTA)
+
+Atenção: perto dos túmulos e do gramado — (baixo) perceber marcas | (médio) identificar direção/tempo | (alto) descobrir algo oculto (ex.: objeto enterrado). (PROPOSTA)
+
+Crônicas do Mundo / Ritos do Véu: nas cruzes — (baixo) leitura simples | (médio) contexto dos aventureiros | (alto) conexão com as ruínas. (PROPOSTA)
+
+Itens e Recompensas
+
+Conteúdo do baú ainda não definido (ver sugestões no bloco PROPOSTAS).
+
+Recompensas “seguras” para início: consumíveis simples (ex.: Poção de Cura Pequena, Poção de Mana Pequena, Flechas Simples) conforme balanceamento.
+
+Notas de Implementação (RPG Maker XP)
+
+Saídas:
+
+EV_Exit_S (Player Touch) → volta para “Arredores do Lenhador”.
+
+EV_Exit_E (Player Touch) → “Casa do Guarda”.
+
+Casa (moradia futura):
+
+EV_Door_Aventureiros (Action Button)
+
+Página 1: bloqueado (mensagem curta / condição).
+
+Página 2: liberar entrada quando S_CASA_AVENTUREIROS_LIBERADA = ON.
+
+Túmulos (3 eventos):
+
+EV_Grave_01..03 (Action Button) → textos curtos + opcional variável de progresso V_MEMORIAL_LIDO.
+
+Baú:
+
+EV_Chest_Aventureiros (Action Button)
+
+Self Switch A para “aberto”.
+
+Se usar trava: condição por switch/variável/check (Common Event de skill, se existir).
+
+PROPOSTAS
+Sugestões de conteúdo para o baú (escolha 1 linha)
+
+Kit de Sobrevivência (consumíveis): Poção de Cura Pequena (x2) + Poção de Mana Pequena (x1).
+
+Rota de arqueiro: Flechas Simples (x10–15) + Poção de Cura Pequena (x1).
+
+Memória dos Caídos (narrativo): “Diário Rasgado” (item de quest) que aponta para o guarda/ruínas + Poção de Mana Pequena (x1).
+
+Gancho da moradia: “Chave Enferrujada” (item de quest) que inicia/antecipa a linha de liberar a casa + consumível pequeno (x1).
+
+Risco-controlado (equip leve): 1 arma simples comum (ex.: Machado de Mão/Arco Curto), se você quiser um pico de recompensa cedo.
+
+NPCs opcionais para dar vida ao lugar (sem combate)
+
+Guarda em patrulha (cameo): passa pela trilha leste e comenta dos aventureiros.
+
+Carpinteiro/Marceneira: oferece “reparos” para a casa (linha de moradia).
+
+Evento-eco (não hostil): uma “lembrança”/sombra breve perto dos túmulos para reforçar clima.
+
+Linha de quest para liberar a casa (resumo)
+
+Requisitos em etapas: conversar com o guarda → coletar madeira/ferramentas → limpar a casa → “registrar” posse (via NPC/autoridade local).","ChaveMapa: 23S2
+ChaveMapaOrigem: 23R1
+Cabeçalho
+
+Mapa: Vila Rose — Posto do Guarda Novato
+
+MapID: PROPOSTA (a definir)
+
+MapType: Farm Village
+
+Hostilidade: Pacífico
+
+Escopo: Transição entre o Centro da Vila (nível inferior) e a trilha que segue ao norte para as Ruínas Abandonadas; área do guarda novo e sua casa.
+
+Conexões: Norte=Subida da trilha para as Ruínas Abandonadas, Leste=Sem saída (borda), Sul=Centro da Vila Rose (outro mapa/nível inferior), Oeste=Vila Rose — Casa dos Aventureiros Caídos
+
+Descrição Narrativa
+
+A trilha cruza uma área aberta e gramada, com desníveis de pedra marcando a separação entre o centro da vila (lá embaixo) e o caminho que sobe ao norte. A casa do guarda fica à direita, perto do limite do vilarejo — um posto simples, mais simbólico do que realmente defensável, cercado por árvores e um cercadinho que tenta impor ordem ao terreno.
+
+Aqui a vila termina e começa a incerteza: além da ponte (mais adiante, na direção norte), é onde “o que vem de cima” pode aparecer. O novo guarda assumiu o posto após o sumiço do pai — mas, na primeira vez que o jogador o encontra, ele está largado no gramado, dormindo com o cachorro ao lado… e só acorda depois de um tempo.
+
+Pontos de Interesse (POIs)
+
+POI: POI_01 — Casa do Guarda (residência)
+
+Descrição: Casa grande na borda da vila; base do guarda e ponto de diálogo/quests.
+
+POI: POI_02 — Gramado da Soneca (cena)
+
+Descrição: Local do primeiro encontro: guarda dormindo no chão com o cachorro.
+
+POI: POI_03 — Cão do Guarda (companheiro)
+
+Descrição: Animal de apoio na cena inicial; pode reagir ao jogador e servir como “gatilho” de evento.
+
+POI: POI_04 — Cercadinho de Delimitação (barreira leve)
+
+Descrição: Cerca simples para marcar a fronteira/limite da vila (proteção mais moral do que real).
+
+POI: POI_05 — Subida Norte (progressão)
+
+Descrição: Escadaria e trilha que continuam para as Ruínas Abandonadas.
+
+POI: POI_06 — Desnível Sul (retorno à vila)
+
+Descrição: Borda de pedra que separa o nível superior do mapa do centro da vila (saída sul para outro mapa).
+
+POI: POI_07 — Margem/Canal d’Água (ambientação)
+
+Descrição: Faixa de água no lado oeste/noroeste; reforça a geografia que leva à ponte mais adiante.
+
+NPCs e Interações
+
+NPC: Guarda novato (sem nome definido)
+
+Gancho: assumiu o posto após o sumiço do pai; desconfia de aventureiros por inexperiência.
+
+Interação-chave: primeiro encontro com ele dormindo; depois acorda e conversa.
+
+Evolução: pode virar aliado com o tempo e entrar em uma linha de treinamento para classe Knight (conforme quests).
+
+NPC: Cachorro do guarda
+
+Gancho: protege o dono; pode “avaliar” o jogador.
+
+Uso: reação/latido como feedback de perigo, humor ou condição de evento (ex.: acordar o guarda mais cedo).
+
+NPCs móveis (contexto): o guarda pode estar fora, dentro da casa, no alto da trilha ou na vila dependendo do estágio do jogo (controle por switches/variáveis).
+
+Quests sugeridas
+
+Main: Primeiro Contato — “O Guarda Adormecido”
+
+Gancho: o jogador chega ao posto e encontra o guarda dormindo.
+
+Objetivos: aguardar até ele acordar → falar com ele → destravar orientação básica para seguir ao norte.
+
+Recompensa: informação/flag de progresso (switch de “guarda conhecido”) + Poção de Cura Pequena (x1) ou nada (se quiser manter só narrativa). PROPOSTA recompensa.
+
+Side: Treino do Novato
+
+Gancho: o guarda quer ajudar, mas é cru e inseguro.
+
+Objetivos: pequenas etapas de treino (ex.: 1–3 sessões) → checks de perícia/combate simulado → avanço de confiança.
+
+Recompensa: unlock gradual de aliado e, no longo prazo, trilha para Knight (classe). (Classe como destino é canon pela conversa; detalhes do sistema de unlock ficam PROPOSTA.)
+
+Side: O Posto sem Dono
+
+Gancho: o sumiço do pai do guarda deixa pontas soltas.
+
+Objetivos: levantar pistas (diálogo/itens/observações) → levar algo ao guarda → abrir próxima etapa de história.
+
+Recompensa: confiança + item simples (ex.: Poção de Mana Pequena x1). PROPOSTA.
+
+Perícias e Checks
+
+Atenção: perto do cercadinho e trilha norte — (baixo) notar marcas na grama; (médio) reconhecer direção; (alto) distinguir “velho vs recente” e ganhar pista sobre “além da ponte”. PROPOSTA
+
+Investigação: em volta da casa/gramado — (baixo) achar detalhe da rotina; (médio) encontrar algo do pai (pista); (alto) desbloquear etapa da quest “O Posto sem Dono”. PROPOSTA
+
+Influência/Charisma: ao falar com o guarda acordado — (baixo) acalmar; (médio) conseguir ajuda futura; (alto) abrir treino mais cedo. PROPOSTA
+
+Vigor & Carga: em treino — (baixo/médio/alto) melhora de desempenho e confiança do guarda (variável). PROPOSTA
+
+Itens e Recompensas
+
+Garantidos/seguros (itens já existentes): Poção de Cura Pequena, Poção de Mana Pequena (em pequenas quantidades, via quest/diálogo).
+
+PROPOSTA (item de treino): “Espada de Treino” (equipável comum, sem stats altos) para evitar dar power spike cedo.
+
+Notas de Implementação (RPG Maker XP)
+
+Eventos de saída (Transfer Player):
+
+EV_Exit_W (Player Touch) → “Casa dos Aventureiros Caídos”
+
+EV_Exit_S (Player Touch) → “Centro da Vila Rose”
+
+EV_Exit_N (Player Touch) → “Trilha para Ruínas Abandonadas”
+
+Leste: sem saída (bloqueio por colisão)
+
+Cena do guarda dormindo (primeira visita):
+
+EV_Guarda + EV_Cachorro
+
+Página 1 (condição: S_GUARDA_CONHECIDO OFF): gráfico dormindo; interação “ronco”.
+
+Timer sem travar: Parallel Process somente enquanto S_GUARDA_ACORDADO OFF, com Wait alto (ex.: 120–300 frames) incrementando V_TEMPO_SONECA; ao atingir limite → ligar S_GUARDA_ACORDADO e parar o paralelo (trocar página/condição).
+
+Página 2 (condição: S_GUARDA_ACORDADO ON): diálogo + liga S_GUARDA_CONHECIDO.
+
+Localização variável do guarda (opcional):
+
+V_LOCAL_GUARDA (0=posto, 1=em casa, 2=na subida, 3=na vila)
+
+Em cada mapa relevante, uma instância do guarda com páginas condicionais por essa variável.
+
+Switches/Variáveis sugeridos:
+
+S_GUARDA_ACORDADO
+
+S_GUARDA_CONHECIDO
+
+V_TEMPO_SONECA
+
+V_CONFIANCA_GUARDA (PROPOSTA, para trilha de aliado/treino)
+
+PROPOSTAS
+
+Nome do guarda e do cachorro (se você quiser, eu proponho 3 opções alinhadas ao tom do jogo).
+
+Estrutura exata do unlock de “aliado” e da progressão para Knight (quantas etapas, requisitos e recompensas).
+
+Sistema de pistas sobre o pai (item específico, local de descoberta, e como isso aponta para as ruínas).","ChaveMapa: 23T3
+ChaveMapaOrigem: 24T2
+Cabeçalho
+
+Mapa: Floresta da Rose — Clareira de Âncora
+
+MapType: Woods
+
+Hostilidade: Pacífico
+
+Escopo: Primeiro mapa na borda da floresta. Funciona como ponto de acampamento e âncora de respawn para a exploração da região onde Rose sumiu. É aqui que a “fase de apresentação” termina e o jogo começa de verdade.
+
+Conexões
+
+Sul: Vila Rose — Loja do Mercador
+
+Norte: Floresta da Rose (interior / investigação do desaparecimento)
+
+Leste/Oeste: sem saídas (limites naturais)
+
+Descrição Narrativa
+
+A trilha que sai da vila não entra de uma vez na escuridão da mata: ela desemboca primeiro numa clareira estável, com árvores antigas e espaço suficiente para parar, respirar e se preparar. É um lugar seguro — um último “ponto civilizado” antes do verde fechar e as pistas virarem silêncio.
+
+Aqui o jogador aprende o hábito mais importante dessa região: ancorar o retorno. Montar acampamento, reorganizar o que tem, marcar o local como referência… e então seguir para o norte. É o momento em que as conversas e cinemáticas da vila ficam para trás e começa a sensação de: “ok… agora vai.”
+
+Pontos de Interesse
+
+POI_01 — Trilha Central (N↕S): caminho limpo guiando entre vila e floresta.
+
+POI_02 — Clareira do Acampamento (Âncora): ponto principal do mapa (descanso + respawn).
+
+POI_03 — Troncos/Madeiras Soltas: ambientação e gancho fácil para craft/quest futura.
+
+POI_04 — Mancha de Capim/Vegetação: ótimo lugar para forragear ou esconder pistas quando uma quest pedir.
+
+POI_05 — Árvores Anciãs: marco visual que torna o mapa memorável (e “seguro”).
+
+Sistema de Acampamento
+
+Descanso curto: recupera totalmente (HP/MP/recursos), não remove debuffs pesados (ex.: envenenamento/sangramento).
+
+Descanso longo: recupera totalmente e pode encerrar fadiga/exaustão (sem mexer em debuffs pesados). (se você usa ciclo de tempo, aqui é onde faz sentido avançar para manhã/noite)
+
+Âncora de respawn: ao acampar, o jogador define este ponto como retorno/respawn durante a exploração da floresta (não é fast travel).
+
+Notas de Implementação (RPG Maker XP)
+
+Evento do acampamento (EV_CAMP_ANCHOR) (Action Button) com menu:
+
+Descanso curto / Descanso longo / Cancelar
+
+Ao confirmar descanso:
+
+Setar âncora: V_ANCORA_MAPID, V_ANCORA_X, V_ANCORA_Y (ou switches fixos, se preferir simples)
+
+Curar recursos do jogador
+
+Não limpar estados “pesados” (Poison/Bleed etc.)
+
+Limpar fadiga/exaustão (no descanso longo)
+
+Marcar fim da introdução: no primeiro acampamento ligar S_INTRO_FINALIZADA (ou equivalente) para encerrar a sequência de apresentação e liberar o “loop” do jogo.","ChaveMapa: 23U4
+ChaveMapaOrigem: 24U3
+Cabeçalho
+
+Mapa: Pântano — Borda Encharcada (Pertences no Lodo)
+
+MapType: Swamp
+
+Hostilidade: Pacífico
+
+Escopo: Primeiro mapa do pântano (transição da vila). Foca em ambientação, pesca mais difícil (quase sempre exige isca) e no gatilho inicial da quest do Mago Louco via pertences abandonados no lodo.
+
+Conexões
+
+Sul: Vila Rose — Pasto das Galinhas e Lagoa de Pesca
+
+Leste: Pântano a dentro (saída pela beirada direita do mapa)
+
+Oeste (água): bloqueado
+
+Norte (água): bloqueado
+
+Descrição Narrativa
+
+O chão deixa de ser chão: vira um tapete úmido que cede sob o peso, com poças paradas e um cheiro de brejo que gruda na roupa. A vila ficou para trás — aqui tudo parece mais lento, mais pesado, como se a própria natureza estivesse tentando engolir o caminho.
+
+No meio desse verde doente, o jogador encontra algo fora do lugar: restos de vestimentas e pertences pessoais, largados como se alguém tivesse “saído correndo”… mas sem rastro coerente. É estranho o suficiente para virar pergunta na vila — e, com pistas certas, a líder pode ligar isso ao Mago Louco, que mora mais adiante seguindo o pântano.
+
+A água também muda: ainda dá pra pescar, mas é um tipo de pesca “inconveniente” — peixes mais escassos, mais ariscos e mais difíceis. Isca aqui vira quase obrigatória.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Sul (da vila): marco de transição para o brejo.
+
+POI_02 — Trilha Encharcada Central: caminho principal rumo ao leste.
+
+POI_03 — Margem Oeste (água turva): zona de pesca do pântano (sem travessia).
+
+POI_04 — Água ao Norte (banhado): bloqueio natural e reforço de bioma.
+
+POI_05 — Pertences no Lodo (evento de quest): roupas/itens largados de forma abrupta.
+
+POI_06 — Árvores Mortas e Tocos: clima + pontos bons para sinais/rumores e futuros eventos.
+
+POI_07 — Nó de Coleta do Brejo: juncos/fungos/ervas úmidas (craft básico).
+
+Pesca do Pântano
+
+Padrão do bioma (daqui em diante): peixes mais estranhos e mais difíceis.
+
+Isca: quase obrigatória (sem isca, chance baixa ou “só lixo/peixe miúdo”).
+
+Teaser de drops (PROPOSTA): Enguia do Brejo / Bagre Pálido / Peixe-Lodo (com pesos diferentes).
+
+Quest
+Linha do Mago Louco — Início
+
+Gatilho: investigar o POI_05 e obter um “pacote” de evidências.
+
+Próximo passo orgânico: perguntar sobre as roupas/pertences na vila (moradores acham estranho).
+
+Ponte com a líder da vila: se o jogador apresentar pistas o suficiente, a líder sugere a possibilidade do Mago Louco e indica que ele vive mais adiante no pântano.
+
+Revelação futura (canon): os pertences eram de um zombie de estimação do mago; o experimento de teleporte separou o corpo e os itens.
+
+Perícias e Checks (opcionais)
+
+Investigação: notar que o abandono é “incompatível” com uma fuga normal.
+
+Atenção: rastro interrompido / ausência de pegadas coerentes.
+
+Engenharia Rúnica (Waystones)/Lore (se existir): sensação de “falha de teleporte” (coisas chegando incompletas).
+
+Notas de Implementação (RPG Maker XP)
+
+Evento do POI_05 (Action Button):
+
+1ª vez: mensagem + obter Item de Quest: Pertences Encharcados → ligar S_MAGOLOUCO_QUEST_INICIADA
+
+Self Switch A: “já vasculhado” (muda gráfico/descrição).
+
+Encaminhamento com a vila:
+
+Ao falar com NPCs: diálogos curtos de estranheza.
+
+Na líder: se S_MAGOLOUCO_QUEST_INICIADA ON e V_PISTAS_MAGO >= X, ela menciona o Mago Louco e marca o rumo no pântano.
+
+Pesca (dificuldade maior):
+
+V_TEM_ISCA (ou item Isca) aumenta drasticamente chance de sucesso.
+
+Region ID nas margens (POI_03/POI_04) para permitir pescar só onde faz sentido.","ChaveMapa: 23V5
+ChaveMapaOrigem: 23U4
+Cabeçalho
+
+Mapa: Pântano — Bruma da Cockatrice
+
+MapType: Swamp
+
+Hostilidade: Pacífico (com 1 batalha obrigatória ao entrar)
+
+Escopo: Mapa de transição e tensão. Ao entrar, rola cutscene + batalha obrigatória contra uma Cockatrice (galinha endemoniada). Depois disso, o mapa fica sem encontros (inclusive à noite), mantendo só o clima de “tem coisa pior mais à frente”.
+
+Conexões
+
+Oeste: Pântano — Borda Encharcada (Pertences no Lodo)
+
+Sul: Próximo mapa (continuação do pântano)
+
+Norte/Leste: água com neblina densa, sem passagem
+
+Descrição Narrativa
+
+A névoa aqui engole distância e abafa som. O brejo continua, mas o lugar parece “quieto demais”, como se o pântano estivesse esperando alguém pisar errado. Logo na chegada, uma cena chama atenção: uma galinha cisca o chão, insistente… até o jogador notar que ela está revirando ossos.
+
+Quando o aventureiro se aproxima, a criatura levanta a cabeça do jeito errado. Aquilo não é uma galinha comum: é uma Cockatrice, resultado de algo que não deveria existir ali. O confronto é inevitável — um choque rápido, sujo e marcante. E depois… silêncio. Silêncio demais. O mapa segue pacífico, mas com aquele gosto de que você acabou de ver só o “primeiro erro” do que mora no pântano.
+
+Mais tarde, a explicação fecha o nó: o Mago Louco pegou uma galinha e injetou sangue demoníaco num experimento. O resultado é essa aberração.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Oeste (gatilho do evento): chegada do mapa anterior; dispara a cena.
+
+POI_02 — Ossos no Barro (“ninho”): local onde a galinha é vista ciscando.
+
+POI_03 — Passarela de Madeira: caminho seguro sobre o lodo, levando ao sul.
+
+POI_04 — Árvores Mortas / manchas escuras: reforçam a sensação de área “contaminada”.
+
+POI_05 — Borda de Bruma (N/L): água fechada com névoa densa; isola e pressiona.
+
+Evento Principal
+Cutscene + Batalha obrigatória: “A Galinha nos Ossos”
+
+Condição: primeira entrada no mapa.
+
+Cena: galinha ciscando → jogador percebe os ossos → aproximação → revelação/ataque → batalha obrigatória.
+
+Função narrativa: dar “cara” ao arco do Mago Louco no pântano e plantar medo do que vem depois.
+
+Kit de combate da Cockatrice
+
+Grito Estridente: ataque/ação que pode aplicar Medo (chance moderada).
+
+Bicada Fervorosa: dano físico + chance de Sangramento (mais raro, mas perigoso quando pega).
+
+Olhar Petrificante: chance baixa de Petrificação curta (1–2 turnos, ou um stun equivalente), como “pico de risco” do minibicho.
+
+Pós-batalha
+
+Mapa fica sem monstros: nada de encounters/spawns, mesmo à noite.
+
+Clima continua pesado: a neblina e o vazio funcionam como aviso psicológico.
+
+Quest do Mago Louco
+
+Integração: se o jogador levar os pertences no lodo + o relato da galinha endemoniada para a líder da vila, ela pode:
+
+achar tudo muito estranho,
+
+juntar as peças,
+
+e apontar o Mago Louco como possível origem, dizendo que ele mora mais à frente no pântano (destravando o rumo).
+
+Notas de Implementação (RPG Maker XP)
+
+Gatilho: Autorun ao entrar ou evento invisível (Player Touch) na entrada oeste.
+
+Anti-repetição: S_COCKATRICE_DERROTADA:
+
+OFF → cutscene + batalha
+
+ON → mapa normal (sem evento)
+
+Sem encounters após a luta: encounter rate do mapa = 0 (ou condicionado a S_COCKATRICE_DERROTADA).
+
+Status: se não existir “petrificação” no seu sistema, tratar como Stun/Paralyze curto.","ChaveMapa: 23W8
+ChaveMapaOrigem: 24W7
+Cabeçalho
+
+Mapa: Pântano — Trilha da Torre (Pós-Mini Dungeon)
+
+MapType: Swamp
+
+Hostilidade: Pouco Hostil (encontros raros)
+
+Escopo: Mapa “ponte” depois da Mini Dungeon do Pântano. Dá um respiro, reintroduz o terreno aberto do brejo e aponta dois vetores grandes:
+
+Norte = começo da rota que leva à Torre do Mago Louco (ainda faltam 3 mapas até o inner).
+
+Leste = um ramo longo do pântano que leva a novos lugares e bifurcações.
+
+Conexões
+
+Sul: saída da Mini Dungeon do Pântano (de onde o jogador vem)
+
+Norte: sequência rumo à Torre do Mago Louco (3 mapas até o interior)
+
+Leste: continuação ampla do pântano (rota longa, com novos ramos)
+
+Oeste: sem conexão (limites/terreno)
+
+Descrição Narrativa
+
+Você sai do sufoco da mini dungeon e volta ao “ar livre” do pântano — o que não significa conforto. Aqui o brejo dá espaço, mas mantém o aviso: árvores mortas como placas, poças negras como olhos e trilhas encharcadas que parecem mudar de lugar quando você não está olhando.
+
+O mapa funciona como corredor de decisão. Seguir ao norte é escolher encarar o problema de frente: a presença do Mago Louco começa a “puxar” o ambiente. Ir ao leste é aceitar que o pântano é maior do que parece — e que ele guarda caminhos que vão longe, para outros pontos do mundo.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Saída Sul (retorno da mini dungeon): transição clara e segura.
+
+POI_02 — Trilha Central Encharcada: guia visual do mapa, sem complicar navegação.
+
+POI_03 — Ilhas de Lama e Poças Rasas: bons pontos para pesca difícil e encontros raros.
+
+POI_04 — Árvores Mortas / manchas escuras: reforço de clima (sem precisar de combate).
+
+POI_05 — Saída Norte (rota da torre): “seta natural” do objetivo principal.
+
+POI_06 — Saída Leste (rota longa): sensação de expansão; convite para exploração futura.
+
+Encontros e Hostilidade
+
+Dia: muito raro.
+
+Noite: um pouco mais provável, mas ainda controlado.
+
+Monstros possíveis:
+
+Bagrezão / Peixe-bolha (anfíbio tanque): tapas + bolha que flincha; fraco a elétrico, resiste fogo; pode mergulhar para apagar burn/escapar.
+
+Rapipeixe: skirmisher rápido, “aparece e some”.
+
+Craft/Coleta (leve)
+
+Sem virar mapa de farm, ele pode manter “restos do brejo” para o jogador não sair seco da dungeon:
+
+Flores úmidas, líquens, juncos, fungos (pequenos nós de coleta, com reset por descanso/tempo).
+
+Notas RMXP (implementação)
+
+Encounter rate baixo; S_NOITE aumenta levemente.
+
+Um evento ambiental 1x perto da saída norte pode reforçar a torre (som distante, brilho estranho no nevoeiro, “cheiro de ozônio”).
+
+Próximos passos da rota da Torre (escopo dos 3 mapas externos)
+
+Você disse que são 3 mapas até o inner da torre — então eu sugiro esta progressão de sensação:
+
+Pântano — Caminho dos Degraus Afundados (Swamp | Pouco Hostil)
+Travessias curtas (pontes/tablados), mais sinais de “obra humana” aparecendo no brejo.
+
+Pântano — Bruma Carregada (Swamp | Pouco Hostil → Hostil leve à noite)
+Começa a “interferência arcana”: coisas fora do lugar, água borbulhando em pontos, fauna reagindo estranho (sem revelar tudo).
+
+Pântano — Sombra da Torre (Swamp | Pouco Hostil, clima pesado)
+A torre finalmente aparece no horizonte (silhueta), e o mapa prepara a entrada: menos encontros, mais tensão.
+
+Torre do Mago Louco — Interior (dungeon)
+Aí sim entram os loops do mago: teleporte “quebrado”, experimentos, e a progressão que vai bater na praça-teleporte depois.
+
+Sobre o ramo Leste (rota longa)
+
+Esse “leste vai longe” é perfeito para virar rota de exploração com bifurcações:
+
+atalhos de retorno (atalhos desbloqueáveis),
+
+novos pontos de pesca estranhos,
+
+e lugares que conectam com outros biomas/rotas do jogo quando você decidir.","ChaveMapa: 23X9
+ChaveMapaOrigem: 23W8
+Cabeçalho
+
+Mapa: Pântano — Margem Longa
+MapType: Swamp
+Hostilidade: Pouco Hostil (dia; à noite encontros raros)
+Escopo: Início do ramo “vai longe”: pântano bonito, coleta e pesca estranha.
+Conexões
+Norte: 22X10 — Campo dos Líquens
+Leste: bloqueado (água/névoa)
+Sul: bloqueado (água/névoa)
+Oeste: 23W8 — (mapa já descrito)
+
+Descrição Narrativa
+O brejo abre espaço e vira paisagem. A névoa aqui é mais estética que ameaça, e o jogador sente que entrou numa rota “de viagem”. Ainda assim, à noite o pântano lembra que é pântano: barulhos na água, sombras que somem.
+
+POIs
+POI_01 — Rochedos com Líquens (Craft)
+Descrição: lichens/fungos para reagentes (PROPOSTA).
+POI_02 — Poça Profunda (Pesca Difícil)
+Descrição: peixes “estranhos” e raros.
+
+Perícias e Checks
+
+Colheita (Ervas/Fungos/Fibras): colher líquen sem estragar (médio).
+
+Extração (Minério/Pedra/Cristais): achar ponto seco pra atravessar (médio) — reduz encontro.
+
+Recompensas
+
+Materiais (PROPOSTA): Líquen Luminoso / Lama Salobra.
+
+Notas RMXP
+
+S_NOITE: encontros raros (taxa baixa).",54,55,50,49,48,47,48,37,36,41
+75,76,77,68,67,66,69,68,65,64,63,52,51,52,53,54,55,"ChaveMapa: 24R0_I
+Cabeçalho
+
+Mapa: Vila Rose — Arredores do Lenhador
+
+MapType: Farm Village
+
+Hostilidade: Pacífico
+
+Escopo: Recorte exterior do vilarejo (casa do lenhador + casa da Rose + roça) e transição entre a chegada do jogador e o centro da vila.
+
+Conexões: Norte=Trilha das Ruínas (via trecho intermediário com “Casa dos aventureiros mortos” + “Casa do guardinha”), Leste=Centro da Vila Rose, Sul=Estrada de onde o jogador veio (bloqueada; sem retorno), Oeste=Margem do riozinho (sem travessia aqui; ponte existe mais ao norte).
+
+Descrição Narrativa
+
+O caminho de terra corta um gramado bem cuidado e leva a duas casas simples, de telhado amarelo, cercadas por árvores altas e o som constante do rio à esquerda. Do lado do lenhador, a rotina é visível: toras empilhadas, um pátio de trabalho e a roça logo adiante, como se o lugar tentasse se manter normal apesar do peso que ronda a vila.
+
+Mais ao norte, a trilha sobe por uma escadaria no barranco e promete deixar para trás o conforto do cotidiano. É uma passagem “de ida” — ao sul, o caminho por onde o jogador chegou já não é uma opção — e a sensação é de que a vila empurra, devagar, qualquer curioso na direção das ruínas.
+
+Pontos de Interesse (POIs)
+
+POI: POI_01 — Casa do Lenhador (residência)
+
+Descrição: Casa com chaminé e pátio cercado; centro das interações de trabalho/recados.
+
+Variações: Atenção pode notar detalhes úteis no pátio (cordas, marcas de arrasto).
+
+POI: POI_02 — Pátio de Corte e Lenha (trabalho)
+
+Descrição: Área com toras, tocos e ferramentas; bom lugar para pistas “do dia a dia”.
+
+Variações: Investigação encontra sinais recentes (ex.: algo foi mexido/levado).
+
+POI: POI_03 — Roça do Lenhador / Mãe da Rose (colheita)
+
+Descrição: Canteiros organizados; ponto natural de tutorial de coleta/rotina.
+
+Variações: Colheita (Ervas/Fungos/Fibras) identifica cultivo/estado do solo e sugere o que falta (água, adubo, praga).
+
+POI: POI_04 — Casa da Rose (residência)
+
+Descrição: Casa cercada e mais arrumada, com flores na janela; local emocionalmente importante para a narrativa.
+
+Variações: Leitura de Malícia (se houver cena) capta tensão no tom dos moradores quando o assunto é “Rose”.
+
+POI: POI_05 — Encruzilhada do Caminho (navegação)
+
+Descrição: Cruzamento que orienta o jogador entre centro da vila (leste) e subida para o norte.
+
+Variações: Extração (Minério/Pedra/Cristais) indica que a travessia do rio será mais segura adiante (ponte ao norte).
+
+POI: POI_06 — Escadaria do Barranco (saída norte)
+
+Descrição: Subida que marca a transição para a Trilha das Ruínas.
+
+Variações: Atenção pode perceber que o caminho “fica mais fechado” e sugere cautela, mesmo sem combate aqui.
+
+POI: POI_07 — Margem do Riozinho (barreira natural)
+
+Descrição: Borda oeste do mapa; som de água e vegetação ribeirinha, sem travessia neste trecho.
+
+Variações: Investigação/Atenção pode render um pequeno achado próximo à margem (PROPOSTA).
+
+Perícias e Checks
+
+Atenção: notar pegadas/marcas leves na grama perto das casas — (baixo) dica de direção; (médio) identifica se há mais de uma pessoa; (alto) diferencia “rastro antigo vs recente” (PROPOSTA).
+
+Investigação: vasculhar pátio do lenhador (baixo/médio) para achar item simples esquecido; (alto) encontrar um bilhete/pista conectando ao centro da vila (PROPOSTA).
+
+Colheita (Ervas/Fungos/Fibras): avaliar a roça (baixo) estado saudável; (médio) prever colheita/necessidade; (alto) suspeitar de praga/contaminação e liberar side-quest (PROPOSTA).
+
+Extração (Minério/Pedra/Cristais): orientar o jogador sobre o melhor caminho para a ponte ao norte (baixo) “siga pela trilha”; (médio/alto) atalho/observação sobre terreno (PROPOSTA).
+
+Itens e Recompensas
+
+Achados simples (1x por mapa): Poção de Cura Pequena | Poção de Mana Pequena (escondidas/entregues em diálogo, conforme evento).
+
+Recompensa de tarefa curta (PROPOSTA): Flechas Simples (Qtd pequena) se o jogador ajudar com entrega/colheita.
+
+Material de ambientação (PROPOSTA): “Lenha Seca” (material) — usado futuramente em craft/fogueira.
+
+Notas de Implementação (RPG Maker XP)
+
+Eventos de saída (Transfer Player):
+
+Norte: EV_Exit_N (Player Touch) → mapa “Trecho Norte (casas extras)” → depois “Trilha das Ruínas”.
+
+Leste: EV_Exit_E (Player Touch) → “Centro da Vila Rose”.
+
+Sul bloqueado: EV_Block_S (Player Touch) com mensagem curta (“Não dá para voltar agora.”) e sem transferência.
+
+Portas das casas: eventos EV_Door_Lenhador e EV_Door_Rose (Action Button) → interiores.
+
+Roça (coleta): eventos por canteiro ou um evento por “região” (para reduzir contagem), usando:
+
+Self Switch A para marcar colhido;
+
+Variável V_COLHEITA_ROCA (opcional) se quiser contabilizar progresso de quest.
+
+Switches sugeridos:
+
+S_BLOQUEIO_SUL_ON (padrão ON)
+
+S_PISTA_ROSE_01 (ativado ao interagir com POI_04/POI_02, se usar pista)
+
+Boas práticas: manter o mapa leve (sem Parallel Process constante); preferir gatilhos por Action Button/Player Touch.","ChaveMapa: 24S1
+ChaveMapaOrigem: 24R0_I
+Cabeçalho
+
+Mapa: Vila (nome TBD) — Centro da Vila (Praça)
+
+MapType: Farm Village
+
+Hostilidade: Pacífico
+
+Escopo: Hub principal de narrativa e quests. Aqui rolam muitas cutscenes ligadas à quest principal (caso do sumiço da Rose) e vários ganchos secundários. A praça central vira, mais adiante, um ponto de teleporte após a linha de quests do Mago Louco.
+
+Conexões:
+
+Oeste (esquerda): retorno para os arredores (casas do Lenhador e da Rose)
+
+Leste (direita): Casa do Mercador (próximo mapa)
+
+Demais bordas: cercas/limites da vila (sem saída jogável neste recorte)
+
+Descrição Narrativa
+
+O centro da Vila Rose é limpo, cercado e vivo: caminhos bem marcados, árvores espaçadas e uma área aberta feita para encontros importantes. No meio, um grande círculo de pedra serve como praça de eventos, onde decisões são anunciadas e histórias começam a se amarrar.
+
+A líder da vila (nome ainda em aberto) recebe o aventureiro com calma e paciência — um jeito maternal de quem tenta manter a comunidade firme mesmo quando algo está errado. É aqui que o jogador descobre a verdade incômoda: ele foi contratado para procurar a Rose e resolver o caso do desaparecimento. A vila parece tranquila… mas a tranquilidade é só a superfície.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Casa da Líder (noroeste)
+
+Centro de informação, cutscenes e encaminhamento da quest principal.
+
+POI_02 — Casa do Filho da Líder (leste)
+
+Núcleo de assuntos de mineração/refino (materiais, dicas, upgrades).
+
+POI_03 — Praça da Pedra (círculo central)
+
+Palco de eventos e cenas; mais tarde vira teleporte após quests do Mago Louco.
+
+POI_04 — Poço (próximo ao topo/centro-esquerda)
+
+Ambientação e ponto ótimo para rumores/fofocas de NPCs.
+
+POI_05 — Horta/linhas de cultivo (topo)
+
+Sinal de vila funcional; pode servir de gancho de quest (PROPOSTA).
+
+POI_06 — Cercas e caminhos internos
+
+Delimitam segurança e “ordem” do hub; reforçam que aqui é zona civilizada.
+
+POI_07 — Área aberta sul (respiro)
+
+Espaço para NPCs circulando, cenas de reunião e eventos sazonais.
+
+NPCs e Funções
+
+Líder da Vila (nome TBD)
+
+Perfil: calma, paciente, maternal.
+
+Função: orientar o jogador, entregar contexto regional e empurrar a quest principal (Rose).
+
+Filho da Líder + família
+
+Função: mineração/refinaria (explicar materiais, refino, possivelmente upgrades/serviços).
+
+Moradores circulando
+
+Função: dar vida ao hub; espalhar rumores e pistas leves; aparecer em horários/eventos.
+
+Cutscenes e Gatilhos
+
+Cutscene de chegada (principal): “O Contrato da Rose”
+
+Quando: primeira entrada no mapa pelo oeste.
+
+O que acontece: a líder conversa com o jogador e explica que ele foi contratado para procurar Rose e investigar o sumiço.
+
+Resultado: destrava o estado “hub ativo” (NPCs e quests aparecem com mais clareza).
+
+Evolução futura (sistema): Praça como Teleporte
+
+Condição: completar um conjunto de quests do Mago Louco.
+
+Efeito: a praça ganha função de teleport para pontos espalhados pelo mundo (por switch/variável).
+
+Quests e Ganchos
+
+Main: “Procurar Rose”
+
+Recebida/confirmada aqui pela líder; hub vira base de informações.
+
+Side (serviço): “Materiais e Refino”
+
+Linha do filho da líder: introduz mineração, refino, e progressão de materiais.
+
+Side (hub): “Rumores da Praça”
+
+NPCs perambulando podem soltar pistas que destravam micro-objetivos (PROPOSTA).
+
+Side (meta-sistema): “A Praça Desperta”
+
+Linha do Mago Louco que transforma a praça em teleporte (já canon pela conversa).
+
+Perícias e Checks (sugestões)
+
+Leitura de Malícia/Empatia: ler o tom da líder (medo contido vs firmeza) e liberar falas alternativas.
+
+Influência/Carisma: extrair mais informação/regalias (sem quebrar narrativa).
+
+Investigação: observar a praça (marcas antigas, símbolo no centro) para antecipar o teleporte (PROPOSTA).
+
+Lore/Engenharia Rúnica (Waystones) (se existir): reconhecer que a praça tem “estrutura” para magia antiga (PROPOSTA).
+
+Notas de Implementação (RPG Maker XP)
+
+Cutscene 1ª visita: evento “Player Touch” logo na entrada oeste → move player até a praça ou até a líder → diálogo → liga S_HUB_CENTRO_LIBERADO.
+
+Controle de estados do hub:
+
+S_MAIN_ROSE_INICIADA (após conversa com a líder)
+
+S_PRACA_TELEPORTE_ATIVA (após quests do Mago Louco)
+
+Praça Teleporte (quando ativa):
+
+Evento na POI_03 com menu: “Teleportar” → lista de destinos (condicionados por switches de descoberta).
+
+NPCs andando: rotas aleatórias com limites por região; variações por hora (PROPOSTA) ou por progresso de história.
+
+PROPOSTAS
+
+Nomes (se quiser já fixar):
+
+Líder: Matriarca Elara | Dona Mirna | Helena da Roseira
+
+Filho: Tomas | Bran | Ciro
+
+Praça/teleporte (feedback visual):
+
+Antes: só pedra comum.
+
+Depois: runas discretas + SE ambiente leve ao aproximar (sem exagerar).","ChaveMapa: 24T2
+ChaveMapaOrigem: 24S1
+Cabeçalho
+
+Mapa: Vila Rose — Loja do Mercador
+
+MapType: Farm Village
+
+Hostilidade: Pacífico
+
+Escopo: Hub de serviços do início do jogo (compra/venda) + ganchos de quests do mercador. Também funciona como “portal” da vila: ao norte começa a rota para a floresta onde Rose sumiu; a leste fica um finalzinho de vila com galinhas e a transição rumo ao pântano.
+
+Conexões:
+
+Oeste (esquerda): Centro da Vila (Praça da Pedra)
+
+Norte: trilha para a Floresta do Desaparecimento da Rose
+
+Leste (direita): fim da vila (galinhas) → caminho para o Pântano
+
+Sul: sem saída (limite do recorte)
+
+Descrição Narrativa
+
+A trilha principal da vila se alarga aqui, como se desse espaço para o vai-e-vem de mercadoria. A casa do mercador é também sua loja — prática, cheia de barris e caixas do lado de fora, e com um anexo alto de pedra que serve como depósito. É o tipo de lugar que “segura” o começo da aventura: onde você compra o básico, vende o que sobrou e escuta o que está faltando no mundo.
+
+Mesmo sem alarde, o mapa tem peso: pelo norte fica a floresta onde Rose desapareceu, e o mercador é um dos poucos que realmente quer ajudar a encontrá-la — não por dever, mas por um sentimento teimoso (e platônico) que ele não esconde tão bem quanto imagina. De noite, porém, a vida civilizada fecha a porta: a loja encerra o expediente e a vila volta a ser só silêncio e vento nas árvores.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Loja/Casa do Mercador
+
+Entrada principal e balcão de atendimento (loja + residência).
+
+POI_02 — Depósito/Torre de Pedra
+
+Armazém do mercador (visual forte; não é para o jogador mexer no estoque).
+
+POI_03 — Pilha de Caixas e Barris
+
+Interação “tentadora”: o jogador pode cutucar, mas é propriedade do mercador.
+
+POI_04 — Caminho Norte (porta da floresta)
+
+Saída clara para a região do desaparecimento da Rose.
+
+POI_05 — Cantinho Leste (galinhas perdidas / fim da vila)
+
+Área de transição com vida “simples” e humor leve antes do pântano.
+
+POI_06 — Cercas do Limite
+
+Delimitação da vila; marca o “fim do seguro” antes dos arredores.
+
+NPCs e Rotina
+
+Mercador (nome em aberto)
+
+Perfil: importante no início; quer casar com Rose, mas vive o “amor platônico”.
+
+Rotina: fica dentro durante o horário de trabalho; fecha à noite.
+
+Função: compra/venda + quests para expandir rotas e melhorar estoque.
+
+Galinhas (leste)
+
+Ambientação e gancho de quest leve (capturar/recuperar).
+
+Serviços do Mercador
+
+Loja inicial: itens básicos de início de jogo (consumíveis, utilidades, munição simples, etc.).
+
+Compra e venda: padrão.
+
+Progressão de estoque: melhora com progresso da história e com quests do mercador (rotas de troca, melhores materiais, logística).
+
+Fechamento noturno: loja indisponível à noite (porta trancada / “volte amanhã”).
+
+Quests sugeridas (a partir do mercador)
+
+Side: “Rotas de Troca”
+
+Ajudar o mercador a abrir/segurar uma rota (entregas seguras, recuperar caixa perdida, negociar com alguém).
+
+Recompensa: upgrade de “Tier” do estoque (mais itens/mais quantidade).
+
+Side: “Caixas que Não São Suas”
+
+Se o jogador mexer nas caixas, pode virar uma conversa/cutscene curta (limite moral + humor).
+
+Pode render: confiança/desconto pequeno se o jogador recuar ou se desculpar.
+
+Side: “Galinhas no Fim da Vila”
+
+Recuperar 1–3 galinhas perdidas (ou guiá-las) antes que sigam para o lado do pântano.
+
+Recompensa: consumível simples ou “crédito” com o mercador.
+
+Main (apoio): “Pistas da Rose”
+
+Não é ele que inicia a quest principal (isso vem da líder), mas ele pode destravar dicas, itens úteis e atalhos logísticos para a busca.
+
+Perícias e Checks (opcionais)
+
+Influência/Carisma: melhorar preços/desbloquear diálogo extra (desconto leve, 1x por tier).
+
+Leitura de Malícia/Empatia: perceber o quanto ele está afetado pelo sumiço da Rose e extrair informação real (não só romance).
+
+Investigação/Atenção: notar marcação de caixas “para o norte” (gancho de entrega) ou “para o leste” (pântano).
+
+Notas de Implementação (RPG Maker XP)
+
+Loja aberta/fechada por horário:
+
+Switch S_NOITE (ou variável de tempo) controla páginas:
+
+Dia: Shop Processing disponível.
+
+Noite: porta fechada + mensagem (“Estamos fechados. Volte de manhã.”).
+
+Progressão do estoque:
+
+Variável V_TIER_MERCADOR (0,1,2…) para trocar a lista de itens da loja.
+
+Quests do mercador aumentam esse tier.
+
+Caixas/barris:
+
+Evento nas caixas com escolhas (mexer / recuar).
+
+Se mexer: mensagem + possível S_MERCADOR_DESCONFIADO (leve, reversível).
+
+Entrada norte (floresta):
+
+Transfer Player claro, com texto de transição (“O ar muda. A floresta começa aqui.”) opcional.
+
+PROPOSTAS
+
+Nome do mercador (3 opções): Dario / Enzo / Baltazar
+
+Upgrade de loja por tier (bem simples):
+
+Tier 0: poções pequenas, antídoto, corda simples, munição básica
+
+Tier 1: versões melhores + 1 item utilitário (ex.: kit de camping)
+
+Tier 2: materiais melhores/mais variedade (pós-ruínas iniciais)","ChaveMapa: 24U3
+ChaveMapaOrigem: 24T2
+Cabeçalho
+
+Mapa: Vila Rose — Pasto das Galinhas e Lagoa de Pesca
+
+MapType: Farm Village
+
+Hostilidade: Pacífico
+
+Escopo: Área de vivência ao lado da loja do mercador: galinhas soltas (sem dono), coleta leve de recursos e um ponto ótimo de pesca. Serve para preparar o jogador antes do pântano (que começa pacífico no próximo mapa e depois vai escalando).
+
+Conexões:
+
+Oeste: Vila Rose — Loja do Mercador
+
+Norte: Início do Pântano (ainda pacífico)
+
+Leste/Sul: sem conexão
+
+Descrição Narrativa
+
+Aqui a vila desacelera. O caminho de terra cruza um gramado aberto, com árvores antigas fazendo sombra e uma água parada no canto, coberta por vitórias-régias — convite perfeito pra parar um minuto. Galinhas sem dono andam soltas, bicando o chão, revirando folhas e “achando” coisas que ninguém lembrava que existiam.
+
+É um mapa feito pra viver: testar a vara comprada com o mercador, improvisar isca com o que as galinhas desenterram, juntar recursos simples… e então seguir para o norte, onde o chão começa a ficar úmido e a vila vai ficando para trás.
+
+Pontos de Interesse
+
+POI_01 — Trilha Principal: liga mercador ↔ borda do pântano.
+
+POI_02 — Lagoa com Vitórias-régias: ponto de pesca e “calma antes do pântano”.
+
+POI_03 — Pasto das Galinhas (sem dono): área viva; galinhas funcionam como “detector de isca”.
+
+POI_04 — Nós de Forrageio: ervas, gravetos, penas e achados simples.
+
+POI_05 — Marco de Transição (Norte): entrada do pântano (no próximo mapa ainda é pacífico).
+
+Sistemas e Loops
+Pesca (início do jogo)
+
+Pré-requisito: Vara de Pesca (mercador).
+
+Isca: encontrada por forrageio e/ou seguindo as galinhas (minhocas/larvas).
+
+Recompensa (variável, como você definiu):
+
+Alguns peixes servem mais para comida/venda.
+
+Outros podem entrar em craft (ex.: óleo, escamas, “essência” simples). (PROPOSTA de classificação por tipo de peixe)
+
+Galinhas (sem dono)
+
+Podem deixar penas e ocasionalmente “revelar” pontos de isca ao bicar.
+
+Como não têm dono, qualquer interação é “do mundo”, sem culpa moral — o limite aqui é só o balance do jogo.
+
+Quests sugeridas (leves)
+
+Side: “Primeira Pescaria” — comprar vara → pescar 1 peixe (recompensa pequena/ensinamento).
+
+Side: “Isca do Pasto” — achar X larvas/minhocas seguindo as galinhas (tutorial de loop).
+
+Side (PROPOSTA): “O Peixe Certo” — o mercador pede um tipo específico (abre craft ou melhora estoque bem de leve).
+
+Notas de Implementação (RMXP)
+
+Galinhas: Move Route: Random + chance de spawnar “Minhoca/Larva” perto quando “bicam”.
+
+Pesca: evento na beira d’água (Action Button) checando V_TEM_VARA e consumindo isca (opcional).
+
+Transição do pântano: próximo mapa pacífico; mapas seguintes começam pouco hostis e vão escalando (controlar por MapID/variável de região).","ChaveMapa: 24V6
+ChaveMapaOrigem: 24U3
+Cabeçalho
+
+Mapa: Pântano — Ponte da Emboscada (Bagre Bípedo)
+
+MapType: Swamp
+
+Hostilidade: Pouco Hostil (com 1 emboscada/batalha obrigatória no primeiro acesso)
+
+Escopo: Primeiro mapa do pântano onde o jogo “morde de volta”: uma travessia curta com pontezinha e emboscada scriptada. Depois do evento, o mapa continua com encontros normais (raros de dia, mais possíveis à noite), mantendo o anfíbio como ameaça recorrente.
+
+Conexões
+
+Norte: Pântano — Bruma da Cockatrice
+
+Leste: Pântano mais denso (próximo trecho)
+
+Oeste/Sul: água (sem conexão)
+
+Descrição Narrativa
+
+O caminho afunila e força o aventureiro a atravessar uma ponte estreita sobre água escura. É o tipo de lugar em que o pântano parece “parar” e observar… até que algo pesado rompe a superfície: um peixe gordo, de duas patas, com corpo anfíbio e postura de dono do brejo.
+
+Ele não precisa correr para ser perigoso. Ele segura espaço, dá tapas fortes e solta um poder de bolha que pode quebrar o ritmo do jogador (flinch/atordoamento curto). E, pior: ele conhece o terreno. Se estiver queimando, ele pode mergulhar para apagar burn. Se estiver perto de cair, pode usar a água para fugir e te deixar com a sensação de que você só passou no teste… por enquanto.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Norte: chegada do mapa da cockatrice.
+
+POI_02 — Ponte da Emboscada (gatilho): local do evento obrigatório.
+
+POI_03 — Margens Encharcadas: bom lugar para encontros noturnos “saindo da água”.
+
+POI_04 — Passagem para o Leste: avanço rumo ao pântano mais denso.
+
+POI_05 — Água Profunda (Oeste/Sul): bloqueio natural e clima.
+
+Evento Principal
+Batalha obrigatória: “O Salto do Brejo”
+
+Condição: primeiro acesso ao mapa (ao pisar no meio da ponte).
+
+Cena: água mexe → criatura surge bloqueando a travessia → batalha obrigatória.
+
+Depois: o evento não se repete; o mapa segue com encounters normais.
+
+Monstro assinatura
+
+Nome (proposta): Bagre Bípedo / Sapo-Bagre / Gordofin do Brejo
+
+Papel: tanque anfíbio (controle de espaço)
+
+Fraquezas/Resistências:
+
+Fraco a dano elétrico
+
+Resiste a fogo
+
+Pode mergulhar para apagar burn (e/ou usar como “escape” em HP baixo)
+
+Kit (combate):
+
+Tapa Pesado (físico)
+
+Bolha Impactante (água; chance de flinch/stun curto)
+
+Mergulho (remove burn; opcionalmente “some”/troca de fase)
+
+Encontros após o evento
+
+Dia: chance bem baixa do Bagre Bípedo.
+
+Noite: chance maior (mas ainda controlada) + clima mais opressivo.
+
+Importante: não virar “spam”; ele deve continuar com cara de emboscador do brejo.
+
+Notas de Implementação (RPG Maker XP)
+
+Gatilho: evento invisível (Player Touch) em 1–2 tiles centrais da ponte.
+
+Anti-repetição: S_ANFIBIO_EMBOSCADA_FEITA ON após a batalha.
+
+Mergulho (simulação simples):
+
+Se usar evento/batalha com switch/variável: ao cair abaixo de X% HP, executar skill “Mergulho” que aplica Remove Burn e (opcional) dá “evade/escape” via estado.
+
+Alternativa simples: só implementar “Remove Burn” e manter ele em combate (sem troca de fase).
+
+Teaser do próximo trecho (pântano mais denso)
+
+A partir da saída leste, entram mais ameaças do “ecossistema peixe”:
+
+Peixe rápido (skirmisher, pressão e hit-and-run)
+
+Peixe “torreta” à distância (estilo Kog’Maw AP: projéteis/bolhas/ácido)
+
+Mais à frente: espectro/fantasma gelado, com magia de gelo e quase imune a golpes físicos (por ser espectro)","ChaveMapa: 24W7
+ChaveMapaOrigem: 24V6
+Cabeçalho
+
+Mapa: Pântano — Charco dos Líquens
+
+MapType: Swamp
+
+Hostilidade: Pouco Hostil
+
+Escopo: Trecho mais encharcado do pântano que serve como “ante-sala” da Mini Dungeon do Pântano (entrada ao norte). Aqui já aparecem monstros do bioma (principalmente o Bagrezão/Bagre Bípedo e um peixe rápido) e o mapa introduz recursos locais de craft: flores úmidas e rochas com líquens.
+
+Conexões
+
+Oeste: Pântano — Ponte da Emboscada (mapa anterior)
+
+Norte: Entrada da Mini Dungeon do Pântano (loot, caminhos escondidos, mais peixes; chance rara do espectro se der azar)
+
+Sul/Leste: água (sem conexão)
+
+Descrição Narrativa
+
+Aqui o pântano vence no volume: o chão vira ilhas pequenas cercadas por água escura, e o caminho é um “costurado” de barro e grama que parece afundar com o tempo. Ainda não é uma zona brutal, mas já dá pra sentir que a lama está mais funda e que a natureza está menos tolerante.
+
+Ao mesmo tempo, é um mapa útil. As flores resistentes do brejo e as pedras cobertas de líquen são ingredientes perfeitos pra soluções de aventureiro — tanto para pesca e iscas quanto para consumíveis simples de combate. E no topo, a entrada da mini dungeon fica como promessa e ameaça: mais recursos, mais rotas escondidas… e a possibilidade de algo “errado” aparecer se o azar bater forte.
+
+Pontos de Interesse (POIs)
+
+POI_01 — Entrada Oeste (retorno): volta para o mapa da ponte/emboscada.
+
+POI_02 — Ilha Central (respiro): área boa pra o jogador explorar e decidir se sobe ou farma recursos.
+
+POI_03 — Rochas com Líquen (coleta): nós de coleta do líquen (craft).
+
+POI_04 — Manchas de Flores do Brejo (coleta): flores úteis (craft).
+
+POI_05 — Margens Encharcadas: pontos bons para encontros noturnos “saindo da água”.
+
+POI_06 — Entrada Norte da Mini Dungeon: transição clara e “presságio” de zona mais perigosa.
+
+Encontros e Hostilidade
+
+Dia: encontros raros.
+
+Noite: mais chance de encounter.
+
+Monstros presentes:
+
+Bagrezão / Bagre Bípedo (seu “peixe-bola”): tanque anfíbio; tapa, bolha que pode flinchar; resiste a fogo, fraco a elétrico; pode mergulhar pra apagar burn/fugir.
+
+Peixe rápido: pressão e hit-and-run (mais comum à noite).
+
+A mini dungeon ao norte aumenta o risco: mais variedade de peixes, caminhos escondidos e chance rara do espectro gelado.
+
+Craft e Materiais
+Recursos do mapa
+
+Líquen de Rocha: ingrediente-base do brejo (cura/craft/isca).
+
+Flores do Brejo: ingrediente versátil (pesca, reagentes, misturas).
+
+Usos em aberto (como você pediu)
+
+Linha “pesca/isco”: flor + líquen → isca melhorada do pântano (peixes mais estranhos/difíceis).
+
+Linha “combate/consumo”: flor + líquen → pomada/cataplasma simples (resistência leve, recuperação pequena, ou utilitário de exploração).
+
+Notas de Implementação (RMXP)
+
+Coleta (flores/líquen): eventos com Self Switch A e reset por descanso longo/virada de dia.
+
+Encontros: taxa baixa/média; S_NOITE aumenta chance e reforça peixe rápido.
+
+Entrada da dungeon: transfer no topo; opcional texto 1x avisando que é “mais perigoso que o charco”.",58,57,56,51,52,53,46,45,44,43,42

@@ -1,0 +1,12 @@
+Fonte_Row,ItemID,Nome,Tipo,Categoria,Slot,Subtipo,Raridade,StackMax,DescricaoCurta,Efeito_Texto,Duracao_Turnos,Tags,FonteTipo,FonteDetalhe,Nome_EN
+2,ITM_BOLSA_DE_FERRAMENTAS_COMUM,Bolsa de Ferramentas,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+3,ITM_BUSSOLA_RUSTICA_COMUM,Bússola Rústica,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+4,ITM_CAPA_DE_TRILHA_COMUM,Capa de Trilha,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+5,ITM_LIVRO_NATURALISTA_COMUM,Livro Naturalista,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+6,ITM_LIVRO_DE_ORACOES_COMUM,Livro de Orações,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+7,ITM_MANUAL_DE_DISCIPLINA_COMUM,Manual de Disciplina,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+8,ITM_MASCARA_DE_PALCO_COMUM,Máscara de Palco,Equipável,Item,Item,,Comum,1,,efeito narrativo,,Antecedente,,MD:ItensIniciais_Detalhado,
+9,ITM_REGISTRO_DE_COMPRAS_COMUM,Registro de Compras,Equipável,Item,Item,,Comum,1,,,,Antecedente,,MD:ItensIniciais_Detalhado,
+10,ITM_FITA_DE_TREINAMENTO_DO_GELO_UNIQUE,Fita de Treinamento do Gelo,Equipável,Item,Item,,UNIQUE,1,,1x/combate,,,,,
+,ITM_UPGRADE_SIMPLES,Upgrade Simples,Equipável,Item,,,Comum,10,Upgrade Simples. Componente/peça técnica (criado no T4 para fechar integridade do crafting).,,,Crafting|Componente,T4,Auto-criado para fechar integridade do crafting,
+,QIT_GOLEM_NUCLEO_BRUTO,Núcleo do Golem (Bruto),Equipável,Item,,,UNIQUE,1,Núcleo do Golem (Bruto). Componente/peça técnica (criado no T4 para fechar integridade do crafting).,,,Crafting|Componente|Quest,T4,Auto-criado para fechar integridade do crafting,

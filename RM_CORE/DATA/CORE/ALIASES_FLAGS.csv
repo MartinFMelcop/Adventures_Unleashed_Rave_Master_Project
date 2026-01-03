@@ -1,0 +1,3 @@
+alias,canonico,Tipo,motivo,ocorrencias_alias,onde_aparece_alias
+S_PROGRESSAO_GERAL,S_TORRE_ACESSO_LIBERADO,Switch,T2.2.1: gate específico baseado em flag existente no chunk 21V11 (Notas RMXP),0,
+S_GOBLIN_KING_DERROTADO,S_REI_GOBLIN_DERROTADO,Switch,Duplicidade EN/PT — padronizar PT-BR.,0,

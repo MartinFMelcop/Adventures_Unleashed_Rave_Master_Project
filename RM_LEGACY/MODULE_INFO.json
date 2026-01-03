@@ -1,0 +1,8 @@
+{
+  "depends_on": [],
+  "generated_utc": "2026-01-02T17:41:03Z",
+  "last_update_utc": "2026-01-02T21:21:08Z",
+  "module_id": "RM_LEGACY",
+  "notes": "AJ_000350: backlog + READMEs (canon vs draft, 4 linhas, sessão batch, âncora de respawn). Módulo=LEGACY.\nAJ_000355: Sync de origens/direções de chunks a partir do HUMAN_VIEW_CHUNK_GRID (Legacy). | Build AJ_000360 (2026-01-01T23:10:12Z). | Build AJ_000362 (2026-01-02T02:17:24Z) | Updates: AJ_000358/AJ_000359 | Build AJ_000363 (2026-01-01T00:00:00Z)\nBuild AJ_000364.",
+  "version_aj": "AJ_000368"
+}

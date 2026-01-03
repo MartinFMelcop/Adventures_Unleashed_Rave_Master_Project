@@ -1,0 +1,7 @@
+RepValor,Estrelas,Cor,NomeCurto,Descricao
+-3,★★★,Preta,Inimigo,"Inimigo público. Hostilidade máxima, sem serviços."
+-2,★★,Preta,Caçado,"Caçado/desprezado. Serviços bloqueados, suborno possível."
+-1,★,Preta,Desconfiado,Quase nulo (negativo). Tolerado sob desconfiança.
+1,★,Branca,Aceito,Quase nulo (positivo). Interações básicas liberadas.
+2,★★,Branca,Confiável,Confiança real. Serviços/atalhos/quests melhores.
+3,★★★,Branca,Campeão,Prestígio máximo. Acesso VIP e conteúdos de alto nível.

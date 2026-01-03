@@ -1,0 +1,181 @@
+Level,Phase,MainStatPoints,HP_Gain,SP_Gain,BudgetModel,Notes
+1,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+2,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+3,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+4,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+5,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+6,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+7,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+8,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+9,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+10,EARLY_GROWTH,8,30,12,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth starter band (fast power-up).
+11,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+12,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+13,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+14,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+15,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+16,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+17,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+18,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+19,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+20,EARLY_GROWTH,8,26,11,STEP_BANDS (align 1–80 strong; 80–180 diminishing),High growth continues; stabilizes early builds.
+21,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+22,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+23,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+24,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+25,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+26,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+27,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+28,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+29,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+30,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+31,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+32,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+33,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+34,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+35,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+36,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+37,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+38,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+39,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+40,EARLY_GROWTH,7,22,10,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Still strong; encourages exploration/quests.
+41,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+42,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+43,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+44,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+45,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+46,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+47,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+48,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+49,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+50,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+51,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+52,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+53,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+54,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+55,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+56,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+57,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+58,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+59,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+60,EARLY_GROWTH,6,18,9,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper begins; power still climbing.
+61,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+62,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+63,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+64,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+65,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+66,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+67,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+68,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+69,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+70,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+71,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+72,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+73,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+74,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+75,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+76,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+77,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+78,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+79,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+80,EARLY_GROWTH,5,14,8,STEP_BANDS (align 1–80 strong; 80–180 diminishing),End of high-growth era (target: common arena T3→T4).
+81,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+82,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+83,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+84,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+85,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+86,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+87,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+88,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+89,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+90,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+91,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+92,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+93,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+94,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+95,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+96,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+97,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+98,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+99,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+100,MID_TAPER,4,12,7,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 1 (toward T4 baseline).
+101,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+102,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+103,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+104,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+105,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+106,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+107,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+108,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+109,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+110,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+111,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+112,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+113,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+114,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+115,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+116,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+117,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+118,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+119,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+120,MID_TAPER,4,10,6,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Taper band 2 (smooth to meta).
+121,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+122,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+123,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+124,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+125,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+126,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+127,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+128,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+129,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+130,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+131,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+132,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+133,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+134,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+135,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+136,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+137,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+138,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+139,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+140,MID_TAPER,3,8,5,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Late taper (build optimization).
+141,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+142,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+143,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+144,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+145,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+146,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+147,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+148,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+149,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+150,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+151,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+152,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+153,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+154,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+155,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+156,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+157,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+158,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+159,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+160,MID_TAPER,3,7,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),Meta plateau (T5 baseline).
+161,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+162,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+163,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+164,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+165,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+166,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+167,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+168,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+169,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+170,ENDGAME,2,6,4,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 1 (T6 chase, sidegrade)."
+171,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+172,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+173,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+174,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+175,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+176,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+177,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+178,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+179,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."
+180,ENDGAME,2,5,3,STEP_BANDS (align 1–80 strong; 80–180 diminishing),"Endgame band 2 (T7 chase, options)."

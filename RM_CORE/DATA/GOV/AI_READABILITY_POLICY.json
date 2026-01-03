@@ -1,0 +1,89 @@
+{
+  "policy_id": "AI_READABILITY_POLICY_v2",
+  "audience": "ai_only",
+  "human_mode": "read_only",
+  "scope": {
+    "canonical_root": "DATA/",
+    "human_view_root": "HUMAN/",
+    "legacy_root": "LEGACY/"
+  },
+  "file_rules": {
+    "canonical_allowed_extensions": [
+      ".csv",
+      ".json"
+    ],
+    "canonical_derived_allowed_extensions": [
+      ".jsonl"
+    ],
+    "documentation_allowed_paths": [
+      "README_RM_MAIN.md"
+    ],
+    "integrity_allowed_paths": [
+      "manifest.json",
+      "checksums.sha256"
+    ],
+    "human_view_exceptions": [
+      "HUMAN/**"
+    ],
+    "legacy_allowed_patterns": [
+      "LEGACY/**",
+      "LEGACY/EXTERNAL/*.zip"
+    ]
+  },
+  "directives": [
+    "MUST treat DATA/* as the only source of truth for game/system data.",
+    "MUST NOT encode canonical facts only in README; write them to DATA first, then mirror.",
+    "MUST keep HUMAN/* unchanged unless a HUMAN_VIEW-specific AJ explicitly requests changes.",
+    "MUST keep LEGACY/* as reference only; any migration into DATA must be explicit and logged (AJ).",
+    "MUST prefer structured outputs (CSV/JSON) for any new artifacts; avoid free-form docs under DATA/."
+  ],
+  "qa_reports": {
+    "ai_readiness_report": "DATA/QA/RPT_AI_READINESS.csv",
+    "gdd_legacy_docs_index": "DATA/QA/GDD_LEGACY_DOCS.csv",
+    "gdd_legacy_sections": "DATA/QA/GDD_LEGACY_SECTIONS.jsonl",
+    "gdd_migration_map": "DATA/QA/GDD_MIGRATION_MAP.csv"
+  },
+  "build_utc": "2025-12-24T10:25:37Z",
+  "delivery_roadmap_ai": "DATA/GOV/RM_DELIVERY_ROADMAP_AI.json",
+  "process_requirements": {
+    "analysis_phase_must": {
+      "capture_future_improvements": true,
+      "capture_location": [
+        "LOG_AJUSTES.FuturasMelhorias",
+        "new AJ backlog items (Status=BACKLOG)"
+      ],
+      "active_reading": {
+        "must_reason_about_intent": true,
+        "must_classify_truthiness": [
+          "Provavel verdade",
+          "Pode se tornar verdade",
+          "Parece alucinacao"
+        ],
+        "must_cross_check_tables": true,
+        "must_raise_questions_when_missing": true
+      },
+      "scope_guards": {
+        "act1_level_cap_default": 20,
+        "calamities_min_level": 60,
+        "forbid_weekly_time_gating_in_act1": true
+      }
+    },
+    "homologation_phase_must": {
+      "create_at_least_one_new_ajuste": true,
+      "reprioritize_open_pool_with_wsjf": true,
+      "update_artifacts": [
+        "DATA/QA/LOG_AJUSTES.csv",
+        "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv"
+      ]
+    },
+    "delivery_chain": [
+      "MER_AI_FRIENDLY",
+      "SPEC_FUNC_AI_FRIENDLY",
+      "SPEC_TEC_AI_FRIENDLY",
+      "GAME_DEVELOPMENT_RMXP",
+      "LOCAL_EXECUTABLE_TESTS_ACT_1",
+      "STEAM_PUBLICATION_ACT_4",
+      "POST_LAUNCH_IMPROVEMENTS"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+module_id,version_aj,zip_filename,zip_sha256,size_bytes,required_order,has_manifest_json,has_checksums_sha256,has_module_info,validation_notes,traceability_status,traceability_diff_count,traceability_validation_report
+RM_CORE,AJ_000228,RM_CORE_AJ_000228.zip,fe4ac40b74b158158cbab2578d7f2dbed24ee6f8b572ad13c4b64efb91deefb5,282225.0,1,Y,Y,Y,OK,PASS,0.0,DATA/QA/RPT_TRACEABILITY_ENFORCEMENT.csv
+RM_ACT1,AJ_000228,RM_ACT1_AJ_000228.zip,129880fba5acbb703d86dcb1342f88ed5a2f170379a481f1068347a89436a655,347585.0,2,Y,Y,Y,OK,PASS,,
+RM_QA,AJ_000228,RM_QA_AJ_000228.zip,,,3,Y,Y,Y,OK (self-hash omitted),PASS,,
+RM_LEGACY,AJ_000202,RM_LEGACY_AJ_000202.zip,9a9299f9ab033eb9b40f6efada0e25d2b5c0362672ad58dc86a89f338aaa983c,4791096.0,4,Y,Y,Y,OK,,,

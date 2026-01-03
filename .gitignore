@@ -1,0 +1,23 @@
+# Sistema / editor
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+
+# Builds/exportações
+/Build/
+/Dist/
+/Release/
+/Debug/
+
+# Backups comuns
+*.bak
+*.old
+*.orig
+
+# Ferramentas de editor
+.vscode/
+.idea/
+
+# RPG Maker XP possíveis artefatos externos
+/Game.rgssad

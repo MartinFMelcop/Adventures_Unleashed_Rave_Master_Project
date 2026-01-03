@@ -1,0 +1,4 @@
+BundleID,ProjectFolder,HasGameExe,HasScriptsRxdata,ScriptsRxdataSizeBytes,BackupScriptsCount,BackupScriptsMaxSizeBytes,MapsCount,DataFiles,GraphicsFiles,AudioFiles,Recommendation,Notes
+LEGACY_BUNDLE_0001,RPG_ExperimentalIAAPP_LEGADO,True,True,2446,2,109458,46,61,47,0,CANDIDATO_PRINCIPAL,Tem Graphics parciais; Scripts.rxdata principal estava stub (~2KB) mas há backups completos (~109KB).
+LEGACY_BUNDLE_0001,RPG_Experimental_ExtremeBackup_LEGADO,True,True,2449,2,109458,47,62,0,0,BACKUP,Estrutura semelhante ao IAAPP mas sem Graphics; mantém backups de Scripts.
+LEGACY_BUNDLE_0001,RPG_Experimental_LEGADO,True,True,109458,0,0,24,39,0,0,ALTERNATIVO,"Scripts.rxdata principal ~109KB (completo), porém menos mapas e sem Graphics."

@@ -1,0 +1,33 @@
+CapituloID,CapituloNome,ThreadID_Sugerido,OrdemNoThread_Sugerida,Justificativa
+CAP-0001,1) Chegada à Vila Rose,,,
+CAP-0002,2) Rota Leste: Casa dos Aventureiros,,,
+CAP-0003,3) A Casa dos Aventureiros (ausentes),,,
+CAP-0004,4) O Guardinha Novato e a Cerca “mais ou menos”,,,
+CAP-0005,5) Antes da Ponte: Treino com as Criaturinhas,,,
+CAP-0006,6) A Ponte e o Imp Voador,,,
+CAP-0007,7) Subindo rumo às Ruínas (Fenda dos Imps),,,
+CAP-0008,8) Escopo da Rota das Ruínas,,,
+CAP-0009,9) O Evento dos Aventureiros (ídolos),TH_RUINAS,1.0,Inferido via THREAD_MILESTONES_MASTER (quests vinculadas a milestones).
+CAP-0010,10) Dungeon do Núcleo e Goblin King,,,
+CAP-0011,11) Centro da Vila (Hub e Quest Principal),TH_ROSE,1.0,Inferido via THREAD_MILESTONES_MASTER (quests vinculadas a milestones).
+CAP-0012,12) O Mercador (loja e upgrades),,,
+CAP-0013,13) Bordas da Floresta: Respawn e “o jogo começa”,,,
+CAP-0014,14) Início da Floresta: insetos e a MiniDungeon 1,,,
+CAP-0015,15) Floresta interna: o “aríete alado” e craft de antídoto,,,
+CAP-0016,16) O primeiro Poltergeist (Espada voadora),,,
+CAP-0017,"17) Verdade da Rose: fadas, árvore guardiã e Ent enlouquecido",,,
+CAP-0018,18) Galinhas e vida tranquila,,,
+CAP-0019,19) Pântano: roupas no lodo e o início do Mago Louco,TH_MAGO,1.0,Inferido via THREAD_MILESTONES_MASTER (quests vinculadas a milestones).
+CAP-0020,20) Cockatrice (galinha endemoniada),TH_MAGO,2.0,Inferido via THREAD_MILESTONES_MASTER (quests vinculadas a milestones).
+CAP-0021,21) Bagrezão anfíbio e o pântano hostil,,,
+CAP-0022,22) MiniDungeon do pântano e a rota para a torre,,,
+CAP-0023,23) A tumba e o zombie “Groot/Chewbacca”,,,
+CAP-0024,24) A porta da torre e o Inner do Mago Louco,,,
+CAP-0025,"25) O experimento dá errado: fendas, retorno e boss do demônio",,,
+CAP-0026,"26) Waystone, teleporte e o projeto do Golem",,,
+CAP-0027,27) Estrada para o litoral e Reino Élfico,,,
+CAP-0028,28) Região Costeira & Reino Élfico — Introdução (opcional),TH_MAGO,9.0,Extensão opcional do arco do mago para litoral/reino élfico (mercador/viagem).
+CAP-0029,29) Exploração — Cartografia e rotas (rascunho),TH_VILA,,Rascunho de cartografia/rotas; pode virar atividade de vila/exploração. Thread a revisar caso a caso.
+CAP-0030,30) Comércio — Serviço cinza do mercador (protótipo),TH_MAGO,10.0,Serviço 'cinza' do mercador; ligado ao contato externo/reino élfico.
+CAP-0031,31) Vila — Altares e oferendas (opcional),TH_VILA,,Conteúdo social leve em mapa de vila; encaixa em vida na vila.
+CAP-0032,32) Exploração — Desafios de mobilidade (opcional),TH_VILA,,Desafios de mobilidade/treino; sidecontent geral ligado à exploração do entorno da vila.

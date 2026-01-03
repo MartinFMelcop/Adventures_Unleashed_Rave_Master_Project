@@ -1,0 +1,11 @@
+ClassKey,DisplayName,UI_Order,SourceClassSheet,Status,Notes
+KNIGHT,KNIGHT,1,KNIGHT (Em Construção),ACT1_CANON,
+WARRIOR,WARRIOR,2,WARRIOR (Em Construção),ACT1_CANON,
+BERSERKER,BERSERKER,3,BERSERKER (Em Construção),ACT1_CANON,
+ROGUE,Rogue,4,ROGUE (MALE) (Em Construção),ACT1_CANON,Canon key; DEV possui variantes (MALE/FEMALE).
+RANGER,RANGER,5,RANGER (Em Construção),ACT1_CANON,
+PYROMANCER,Pyromancer,6,Pyromancer (Em Construção),ACT1_CANON,
+CRYOMANCER,Cryomancer,7,Cryomancer (Em Construção),ACT1_CANON,
+DRUID,Druid,8,Druid (Em Construção),ACT1_CANON,
+CLERIC,Cleric,9,Cleric (Em Construção),ACT1_CANON,DisplayName do sheet (Cleric).
+SHAMAN,Shaman,10,Shaman (Em Construção),ACT1_CANON,

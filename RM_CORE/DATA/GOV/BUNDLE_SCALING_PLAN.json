@@ -1,0 +1,100 @@
+{
+  "policy_version": 1,
+  "purpose": "Prevent snapshot ZIP bloat and chat/tooling failures by splitting delivery into deterministic modules.",
+  "canonical_truth_rule": "DATA/* is source of truth. README is guidance only.",
+  "triggers": [
+    {
+      "type": "zip_size_bytes_gt",
+      "value": 40000000,
+      "note": "Switch to multi-bundle modules when snapshot ZIP grows beyond this."
+    },
+    {
+      "type": "file_count_gt",
+      "value": 1000,
+      "note": "File count threshold to keep manifest/checksum operations fast."
+    },
+    {
+      "type": "legacy_asset_size_bytes_gt",
+      "value": 10000000,
+      "note": "Large references should move to legacy bundles."
+    },
+    {
+      "type": "chat_transfer_unreliable",
+      "value": true,
+      "note": "If uploads/downloads fail, split bundles immediately."
+    },
+    {
+      "type": "act_isolation_required",
+      "value": true,
+      "note": "Act packaging needs clean boundaries for playtest gates."
+    }
+  ],
+  "module_layout": [
+    {
+      "module_id": "RM_CORE",
+      "scope": [
+        "DATA/CORE",
+        "DATA/GOV",
+        "README_RM_MAIN.md"
+      ],
+      "exclude": [
+        "LEGACY/**",
+        "DATA/QA/**"
+      ],
+      "notes": "Core rules, entities, specs."
+    },
+    {
+      "module_id": "RM_ACT1",
+      "scope": [
+        "DATA/DEV/**",
+        "DATA/CORE/**"
+      ],
+      "include_tags": [
+        "ACT_1"
+      ],
+      "notes": "Act 1 content subset; prefer explicit allowlist export lists."
+    },
+    {
+      "module_id": "RM_QA",
+      "scope": [
+        "DATA/QA/**"
+      ],
+      "notes": "Reports and logs (append-only)."
+    },
+    {
+      "module_id": "RM_LEGACY",
+      "scope": [
+        "LEGACY/**",
+        "HUMAN/**"
+      ],
+      "notes": "Reference docs/media and AI digests. Can be external via LEGACY_BUNDLES registry."
+    }
+  ],
+  "assembly_rules": {
+    "each_module_has_manifest_and_checksums": true,
+    "root_manifest_modules_file": "manifest_modules.json",
+    "root_manifest_modules_schema": [
+      "module_id",
+      "version_aj",
+      "zip_sha256",
+      "size_bytes",
+      "required_order"
+    ],
+    "minimal_change_rule": "Only rebuild modules affected by an adjustment.",
+    "auditability": "If legacy assets are removed, keep pointer + SHA256 in LEGACY_BUNDLES registry."
+  },
+  "operations": {
+    "when_triggered": [
+      "Create module ZIPs per layout.",
+      "Generate manifest_modules.json at root.",
+      "Update README with pointers to modules and assembly order.",
+      "Update QA: LOG_AJUSTES entry recording the split decision."
+    ],
+    "chris_sawyer_mode": [
+      "Deduplicate long narrative into legacy digests; keep DATA as pointers/tags.",
+      "Prefer short stable IDs and shared dictionaries.",
+      "Prune deprecated legacy assets by reference, not by deleting history."
+    ]
+  },
+  "updated_utc": "2025-12-25T11:35:55Z"
+}

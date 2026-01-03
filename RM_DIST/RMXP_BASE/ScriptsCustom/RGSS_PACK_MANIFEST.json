@@ -1,0 +1,172 @@
+{
+  "rm_rgss_pack_spec": 1,
+  "generated_utc": "2026-01-03T00:18:29Z",
+  "source_module": "RM_ACT1",
+  "source_path": "RMXP_BASE/ScriptsCustom",
+  "target_project": "RM_DIST/RMXP_BASE",
+  "insertion_point": {
+    "before_script_name": "Main"
+  },
+  "scripts": [
+    {
+      "order": 1,
+      "name": "RM_SAVE_MIGRATION_RUNTIME",
+      "file": "RM_SAVE_MIGRATION_RUNTIME.rb",
+      "sha256": "fbeaa6582bd8299ca0e80d0d217b428c39c549e3ba7ba10f3030fa3bf64e3d6e",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 2,
+      "name": "RM_WORLD_CONTEXT_RUNTIME",
+      "file": "RM_WORLD_CONTEXT_RUNTIME.rb",
+      "sha256": "73982905d94fb9a549728a31a69f3f6c6751639536df73f18d4828c93534b96f",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 3,
+      "name": "RM_FLAGS_EVENTS_RUNTIME",
+      "file": "RM_FLAGS_EVENTS_RUNTIME.rb",
+      "sha256": "e10b541388fe9d2a1f1aa1aefcb054241ffb58ecf4a4815c5e833f3501366525",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 4,
+      "name": "RM_REPUTATION_RUNTIME",
+      "file": "RM_REPUTATION_RUNTIME.rb",
+      "sha256": "fe9d3c65b77e1d9812cf555cbca12d794a7f52e8d63743e7d8bed49cf5213c45",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 5,
+      "name": "RM_COMBAT_RUNTIME",
+      "file": "RM_COMBAT_RUNTIME.rb",
+      "sha256": "60f1489f5dcfc3f92a112a369b6cefe66b5fb52be3ee2086c6cbe1e7f9ea87a6",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 6,
+      "name": "RM_PLAYER_LEVEL_RUNTIME",
+      "file": "RM_PLAYER_LEVEL_RUNTIME.rb",
+      "sha256": "4a4876721a614a535b015a2688aafc587101b2cc71ddeb2c808efa3c121f62ed",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 7,
+      "name": "RM_PLAYER_LEVEL_HOOKS",
+      "file": "RM_PLAYER_LEVEL_HOOKS.rb",
+      "sha256": "4e5c8b305faa25f92edbde1021900539e67c5e0d46523a25ae245fc0d9232037",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 8,
+      "name": "RM_PERICIA_XP_RUNTIME",
+      "file": "RM_PERICIA_XP_RUNTIME.rb",
+      "sha256": "7056f9462e8da5b365236ac81f3930eaa28e5aa9396f35740604c9b246a6b866",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 9,
+      "name": "RM_DIALOGUE_SCORING_RUNTIME",
+      "file": "RM_DIALOGUE_SCORING_RUNTIME.rb",
+      "sha256": "07682a3205ea2850d748e4f3ffeef7febe51df1ddb10d5e8689bef7d26d1a735",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 10,
+      "name": "RM_MOVEMENT_RUN_RUNTIME",
+      "file": "RM_MOVEMENT_RUN_RUNTIME.rb",
+      "sha256": "f5e28cde37d0c0c979025e1f4960ccef57ca52c8012a4da1fa0892cb00a4089b",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 11,
+      "name": "RM_TIME_RUNTIME",
+      "file": "RM_TIME_RUNTIME.rb",
+      "sha256": "083e2d73142f47143288282c639461639699ef75c74cd43e776aecbc1ecbe246",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 12,
+      "name": "RM_DAYNIGHT_TONE_RUNTIME",
+      "file": "RM_DAYNIGHT_TONE_RUNTIME.rb",
+      "sha256": "68bff52ed3b4f946d4d711347dfcedebbd32f0fe5331195b8b39131710197fc5",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 13,
+      "name": "RM_LIGHTING_RUNTIME",
+      "file": "RM_LIGHTING_RUNTIME.rb",
+      "sha256": "3dfedb7388d1352041caeacfca4498b100d1e120e6cd3e4368fcaace5d7131da",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 14,
+      "name": "RM_ENCOUNTERS_RUNTIME",
+      "file": "RM_ENCOUNTERS_RUNTIME.rb",
+      "sha256": "287989ce94369c187e80b6504881451f77cd0aa01f7f3e8599c6a789fefe3c80",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 15,
+      "name": "RM_LOOT_RUNTIME",
+      "file": "RM_LOOT_RUNTIME.rb",
+      "sha256": "6108aff7c9b235cd6ffc5b39978e79e4e100ee6d7454dc9bf161748505e298a5",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 16,
+      "name": "RM_UI_PASSIVE_EQUIP_RUNTIME",
+      "file": "RM_UI_PASSIVE_EQUIP_RUNTIME.rb",
+      "sha256": "241d84cef46c9bee830c0f217919df6832d112de8a42f9e61eb71e743807a639",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 17,
+      "name": "RM_UI_SKILL_EQUIP_RUNTIME",
+      "file": "RM_UI_SKILL_EQUIP_RUNTIME.rb",
+      "sha256": "b31e13dc55f2b25b05f4d5b040a25e23343d58c1a04ec465f9b6fde061240d7d",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 18,
+      "name": "RM_UI_QUEST_JOURNAL_RUNTIME",
+      "file": "RM_UI_QUEST_JOURNAL_RUNTIME.rb",
+      "sha256": "32db12a3f8070fa1f5c5ffeabbaaa6687d8743c2c114c702d544ac3f8871fe9e",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 19,
+      "name": "RM_DEBUG_HOTKEYS_RUNTIME",
+      "file": "RM_DEBUG_HOTKEYS_RUNTIME.rb",
+      "sha256": "bc87691b826b56564fd1f47369449f952b033d3581c403651099083eabfce490",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "order": 20,
+      "name": "RM_CHARACTER_CREATE_RUNTIME",
+      "file": "RM_CHARACTER_CREATE_RUNTIME.rb",
+      "sha256": "2585a36bff2ebd5afd2f786355a74e3f655d1ae665d316e30c5e1a83b4ffb79f",
+      "required": true,
+      "notes": ""
+    }
+  ]
+}

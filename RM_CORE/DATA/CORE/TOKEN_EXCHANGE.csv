@@ -1,0 +1,5 @@
+ExchangeID,TokenID,TargetID,TargetType,TargetName,TokenCost,Notes
+TX_0001,TOK_VEIL_SHARD,MAT_ESSENCIA_VEU_T5,ITEM,Essência do Véu (T5),50,Compra garantida: 1 essência T5.
+TX_0002,TOK_VEIL_SHARD,MAT_ESSENCIA_VEU_T6,ITEM,Essência do Véu (T6),120,Compra garantida: 1 essência T6.
+TX_0003,TOK_VEIL_SHARD,MAT_ESSENCIA_VEU_T7,ITEM,Essência do Véu (T7),250,Compra garantida: 1 essência T7.
+TX_0004,TOK_VEIL_SHARD,MAT_SELO_ARCANO,ITEM,Selo Arcano,30,Compra garantida: 1 Selo Arcano (T5).

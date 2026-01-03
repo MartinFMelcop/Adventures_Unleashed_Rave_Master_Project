@@ -1,0 +1,7 @@
+CheckID,Area,Descricao,Nivel,Status,Evidencia,Owner,Notes
+CHK_ACT1_CANON_01,DATA,Os 27 capítulos estão listados em ACT1_STORY_CANON (sem lacunas),MUST,PENDING,,,
+CHK_ACT1_CANON_02,MILESTONES,Os 3 minibosses MB001/MB002/MB003 estão em ACT1_MILESTONES_CANON com ChapterID,MUST,PENDING,,,
+CHK_ACT1_CANON_03,GATES,Gates de reputação (chunks+quests) registrados em ACT1_GATES_CANON,MUST,PENDING,,,
+CHK_ACT1_CANON_04,TAGS,ACT_ENTITY_TAGS contém ACT_1;EXPORT_ACT1 para CAPITULO/QUEST/SIDEQUEST/CHUNK/MONSTER,SHOULD,PENDING,,,
+CHK_ACT1_CANON_05,BUILD,RM_DIST build consegue exportar/rodar sem depender dos CSVs (script fallback ok),SHOULD,PENDING,,,
+CHK_ACT1_CANON_06,QA,LOG_AJUSTES marca AJ_000279 como concluído com evidências e link de arquivos,MUST,PENDING,,,

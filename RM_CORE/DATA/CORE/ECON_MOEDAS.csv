@@ -1,0 +1,9 @@
+Seção,Codigo,Nome,De,Para,Multiplicador,Texto/Origem
+CODIGO,B,Bronze,,,,B=Bronze; S=Silver; G=Gold; P=Platinum
+CODIGO,S,Silver,,,,B=Bronze; S=Silver; G=Gold; P=Platinum
+CODIGO,G,Gold,,,,B=Bronze; S=Silver; G=Gold; P=Platinum
+CODIGO,P,Platinum,,,,B=Bronze; S=Silver; G=Gold; P=Platinum
+CONVERSAO,,,S,B,100,1 S = 100 B
+CONVERSAO,,,G,S,100,1 G = 100 S
+CONVERSAO,,,P,G,100,1 P = 100 G
+DIRETRIZ,,,,,,Gold é raro; nível 5 inicia normalmente em S/B

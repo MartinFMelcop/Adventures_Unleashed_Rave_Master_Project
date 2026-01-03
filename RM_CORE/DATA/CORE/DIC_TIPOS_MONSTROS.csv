@@ -1,0 +1,12 @@
+TipoMonstroID,Nome,Natureza,Polaridade,Observação,% Early-game,% Mid-game,% Late-game,Soma%,DefaultSentience,DefaultCanSpeak
+6,Besta,Taxonomia,Natural,"Fauna ‘comum’ do mundo (lobos, ursos, etc.); tipo base para encontros naturais e caça.",27.5,TBD,TBD,,ANIMAL,FALSE
+5,Aquático,Habitat,Natural,Tag de habitat: criaturas adaptadas à água; pode coexistir com outros tipos (ex.: Besta Aquática).,18.5,TBD,TBD,,INHERIT,INHERIT
+8,Voador,Traço,Variável,"Tag de locomoção: indica voo real; deve coexistir com outros tipos (ex.: Inseto Voador). Use para regras de terreno/alcance, não como biologia.",13.0,TBD,TBD,,INHERIT,INHERIT
+10,Celestial,Plano,Divino,Entidades do plano celeste; bom para temas sagrados/julgamento; pode ser aliado ou inimigo conforme narrativa.,13.0,TBD,TBD,,SAPIENT,TRUE
+3,Golem,Origem,Artificial,Construtos (pedra/metal/argila etc.); costuma ter resistência a perfuração/corte e fraqueza a impacto (se você usar esse clichê).,12.5,TBD,TBD,,MINDLESS,FALSE
+1,Inseto,Taxonomia,Natural,"Criaturas pequenas/médias com exoesqueleto; comum em enxames, venenos e padrões de comportamento simples.",9.0,TBD,TBD,,MINDLESS,FALSE
+2,Planta,Taxonomia,Natural,"Entidades vegetais; podem ser passivas ou agressivas; bom para temas de cura, veneno e fogo como ameaça ambiental.",9.0,TBD,TBD,,MINDLESS,FALSE
+9,Sub-mundo,Plano,Profano,"Entidades ligadas ao submundo/ruína; ótimo para zonas corrompidas, pactos e presença opressiva.",3.5,TBD,TBD,,SAPIENT,TRUE
+7,Goblinoide,Taxonomia,Variável,"Humanoides tribais (goblins etc.); pode ser cultura/facção mais do que biologia; bom para loot, emboscadas e acampamentos.",3.0,TBD,TBD,,SAPIENT,TRUE
+4,Morto-vivo,Origem,Profano,Animados por necromancia/ruína; perfeito para maldições e temas necróticos; pode ser imune a algumas condições biológicas (quando definido).,2.5,TBD,TBD,,VARIES,VARIES
+11,Dragão,Origem,Variável,Tipo ‘ancestral’/primordial; recomendo tratar resistências por subvariante (Dragão Ígneo/Gélido etc.) em vez de fixar tudo no tipo base.,2.5,TBD,TBD,,SAPIENT,TRUE

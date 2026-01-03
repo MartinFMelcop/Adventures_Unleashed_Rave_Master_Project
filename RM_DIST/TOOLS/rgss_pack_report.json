@@ -1,0 +1,61 @@
+{
+  "rm_rgss_pack_spec": 1,
+  "packed_into": "/mnt/data/work/dist267/RMXP_BASE/Data/Scripts.rxdata",
+  "project_dir": "/mnt/data/work/dist267/RMXP_BASE",
+  "scripts_dir": "/mnt/data/work/act1/DATA/DEV/RGSS",
+  "manifest": "/mnt/data/work/act1/DATA/DEV/RGSS/RGSS_PACK_MANIFEST.json",
+  "removed": [
+    "RM_FLAGS_EVENTS_RUNTIME",
+    "RM_PLAYER_LEVEL_RUNTIME",
+    "RM_PLAYER_LEVEL_HOOKS",
+    "RM_PERICIA_XP_RUNTIME",
+    "RM_DIALOGUE_SCORING_RUNTIME",
+    "RM_MOVEMENT_RUN_RUNTIME",
+    "RM_CHARACTER_CREATE_RUNTIME"
+  ],
+  "changes": [
+    {
+      "action": "move_update",
+      "name": "RM_FLAGS_EVENTS_RUNTIME",
+      "file": "RM_FLAGS_EVENTS_RUNTIME.rb",
+      "sha256": "e10b541388fe9d2a1f1aa1aefcb054241ffb58ecf4a4815c5e833f3501366525"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_PLAYER_LEVEL_RUNTIME",
+      "file": "RM_PLAYER_LEVEL_RUNTIME.rb",
+      "sha256": "4a4876721a614a535b015a2688aafc587101b2cc71ddeb2c808efa3c121f62ed"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_PLAYER_LEVEL_HOOKS",
+      "file": "RM_PLAYER_LEVEL_HOOKS.rb",
+      "sha256": "4e5c8b305faa25f92edbde1021900539e67c5e0d46523a25ae245fc0d9232037"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_PERICIA_XP_RUNTIME",
+      "file": "RM_PERICIA_XP_RUNTIME.rb",
+      "sha256": "7056f9462e8da5b365236ac81f3930eaa28e5aa9396f35740604c9b246a6b866"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_DIALOGUE_SCORING_RUNTIME",
+      "file": "RM_DIALOGUE_SCORING_RUNTIME.rb",
+      "sha256": "07682a3205ea2850d748e4f3ffeef7febe51df1ddb10d5e8689bef7d26d1a735"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_MOVEMENT_RUN_RUNTIME",
+      "file": "RM_MOVEMENT_RUN_RUNTIME.rb",
+      "sha256": "a0425279ed807a106d72a88ae01b03c690dbbe92d4a806848cd93ecc0f679e82"
+    },
+    {
+      "action": "move_update",
+      "name": "RM_CHARACTER_CREATE_RUNTIME",
+      "file": "RM_CHARACTER_CREATE_RUNTIME.rb",
+      "sha256": "8413aff490f8819f675beb1645712f1b3600e17735bd79dc6148fedb24696c91"
+    }
+  ],
+  "script_count": 97
+}

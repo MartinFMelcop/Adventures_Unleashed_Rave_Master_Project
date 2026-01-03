@@ -1,0 +1,8 @@
+Topico,Chave,Valor,,Etapa 8: Conteúdo reorganizado em ECON_MOEDAS / ECON_DURACOES / ECON_DIRETRIZES / ECON_PRECIFICACAO.
+Moeda,Conversao,1 S = 100 B,,
+Moeda,Conversao,1 G = 100 S,,
+Moeda,Conversao,1 P = 100 G,,
+Moeda,Diretriz,Gold é raro; nível 5 inicia normalmente em S/B,,
+Duracao,Curto,2 turnos,,
+Duracao,Curto (muito efetivo),3 turnos,,
+Moeda,Codigos,B=Bronze; S=Silver; G=Gold; P=Platinum,,

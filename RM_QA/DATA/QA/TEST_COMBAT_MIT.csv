@@ -1,0 +1,6 @@
+TestID,RawDamage,DEF_or_MDEF,LvlDef,Expected_MitigatedDamage
+MIT_001_def0,100.0,0,10,100
+MIT_002_half,100.0,200,10,50
+MIT_003_rounding,99.0,101,1,52
+MIT_004_small,1.0,999,20,0
+MIT_005_large_raw,543.21,321,15,238

@@ -1,0 +1,5 @@
+Flag,DescricaoFlag,Chunks,Evidencia
+S_MAIN_ROSE_INICIADA,Main Rose Iniciada,24S1,DEV::Mapa_WorldMap (Em Construção)::cell::R24C19
+S_PISTA_ROSE_01,Pista Rose 01,,DEV::Mapa_WorldMap (Em Construção)::cell::R24C18
+S_ROSE_ENCONTRADA,Rose Encontrada,19S12|20S13|21S14,DEV::Mapa_WorldMap (Em Construção)::cell::R20C19
+V_ROSE_PISTAS,Rose Pistas,19U10|20T8|20U9,DEV::Mapa_WorldMap (Em Construção)::cell::R20C21

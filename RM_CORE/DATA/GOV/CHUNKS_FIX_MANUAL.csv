@@ -1,0 +1,11 @@
+ChaveMapa,Direcao,Acao,Novo_Ref,Novo_Status,Nota
+21U6,Sul,Definir Ref,22U5,OK,volta para Clareiras do Aríete Alado (mapa anterior) — inferido como 22U5
+22U5,Norte,Definir Ref,21U6,OK,continuação para mais floresta a dentro — inferido retorno para 21U6
+22U5,Oeste,Reclassificar,,NOTE,retorno para a Mini Dungeon — Rota dos Insetos
+22V10,Sul,Reclassificar,,BLOCKED,sem conexão
+22W9,Leste,Reclassificar,,BLOCKED,sem conexão
+22W9,Sul,Reclassificar,,NOTE,volta para a beira do brejo (mapa anterior)
+23S2,Leste,Reclassificar,,BLOCKED,sem saída (bloqueio por colisão)
+23W8,Oeste,Reclassificar,,BLOCKED,sem conexão (limites/terreno)
+24T2,Sul,Reclassificar,,BLOCKED,sem saída (limite do recorte)
+18V16,Leste,Reclassificar,,BLOCKED,Usuário confirmou que 18V16 e 18W17 NÃO se conectam. Ajustar view humana: RM_HUMAN_VIEWS_MAIN.xlsx > HUMAN_VIEW_CHUNK_GRID > célula H7 (Chunk: 18V16) trocar linha 'E - 18W17' por 'E - Blocked (Terrain)'.

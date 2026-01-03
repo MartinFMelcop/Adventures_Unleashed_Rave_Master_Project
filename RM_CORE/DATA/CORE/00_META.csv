@@ -1,0 +1,23 @@
+key,value
+project,Rave Masters
+file_role,CORE
+track,MAIN
+release_id,RM_20251223_R01
+build_utc,2025-12-27T20:55:32Z
+source_filename,db_RPG_CORE_PATCH_RM_20251223_R01.xlsx
+source_sha256,087f28d3af8696eb6467f87f097a18202d74c7a4c44ced13f61edf162ab61739
+versioning_note,A versão detalhada fica aqui (00_META). O nome do arquivo é curto e estável.
+origin_hash,1708d7eabffd04764aff19bc8c698cbd75a80ecfc0d9d1f2e451edc3ded1815a
+patch_notes,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomenclatura legada de track/release (ex.: MAIN/RM_20251223_R01). Novo track=MAIN, release_id=RM_20251223_R01. Mantidos aliases apenas como histórico em source_filename.
+2025-12-23T05:05:38Z: AJ_000168 — renomear relatórios removendo sufixo ET5 + aliases (QA).
+2025-12-23T15:27:24Z: BUILD17 — cadastra AJ_000172..AJ_000177 em BACKLOG (P0) (primeira etapa solicitada pelo Design).
+2025-12-23T15:39:34Z: AJ_000172 — Reconfigurar pacote para pastas HUMAN/DATA/LEGACY (execução).
+2025-12-23T15:49:51Z: AJ_000175 — LOG_AJUSTES exportado para DATA/QA/LOG_AJUSTES.csv (fonte da verdade).
+2025-12-23T15:59:36Z — AJ_000173: HUMAN_VIEW_CHUNK_GRID + HUMAN_VIEW_INDEX gerados em HUMAN/RM_HUMAN_VIEWS_MAIN.xlsx.
+2025-12-23T16:33:01Z — Decomposição do AJ_000176 em AJ_000178..AJ_000183 (execução incremental).
+2025-12-25T20:29:04Z: AJ_000215 — atualizar doc de diálogo (ConditionsExpr + SW 902 + QA harness).
+2025-12-25T21:00:11Z: AJ_000226 — Docs: VIT/WIS mapping + respec script calls.
+2025-12-25T21:15:13Z: AJ_000203 — traceability contract + act/stage map.
+2025-12-26T20:49:12Z: AJ_000235 — build sync (metadados) + QA prepack gate disponível no módulo RM_QA.
+2025-12-26T21:37:12Z: AJ_000234 — add ART_IMAGE_ASSET_INDEX (empty scaffold) + ART_PIPELINE_POLICY.md; indices/map updated."

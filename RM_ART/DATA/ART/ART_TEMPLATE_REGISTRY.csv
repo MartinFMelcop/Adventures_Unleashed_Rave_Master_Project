@@ -1,0 +1,10 @@
+TemplateID,Category,Filename,Overlay,Width,Height,CellW,CellH,Descricao
+TILESET_256x256,TILESET,TEMPLATES/template_tileset_256x256.png,OVERLAYS/overlay_tileset_256x256.png,256,256,32,32,Tileset template (8x8 tiles)
+TILESET_256x1024,TILESET,TEMPLATES/template_tileset_256x1024.png,OVERLAYS/overlay_tileset_256x1024.png,256,1024,32,32,Tileset template (8x32 tiles)
+CHARSET_SINGLE_128x192,CHARSET,TEMPLATES/template_charset_single_128x192.png,OVERLAYS/overlay_charset_single_128x192.png,128,192,32,48,Single character sheet (4x4 frames)
+AUTOTILE_BLOCK_96x128,AUTOTILE,TEMPLATES/template_autotile_block_96x128.png,OVERLAYS/overlay_autotile_block_96x128.png,96,128,32,32,Autotile block (3x4 tiles) single frame
+AUTOTILE_ANIM_384x128,AUTOTILE,TEMPLATES/template_autotile_anim_384x128.png,OVERLAYS/overlay_autotile_anim_384x128.png,384,128,32,32,Autotile animated (4 frames horizontally)
+WINDOWSKIN_192x128,WINDOWSKIN,TEMPLATES/template_windowskin_192x128.png,OVERLAYS/overlay_windowskin_192x128.png,192,128,16,16,Windowskin canvas (RMXP)
+ICON_SHEET_240x240,ICON,TEMPLATES/template_icon_sheet_240x240.png,OVERLAYS/overlay_icon_sheet_240x240.png,240,240,24,24,Icon sheet (10x10 icons of 24x24)
+TITLE_640x480,TITLE,TEMPLATES/template_title_640x480.png,OVERLAYS/overlay_title_640x480.png,640,480,32,32,Title screen canvas
+BATTLEBACK_640x320,BATTLEBACK,TEMPLATES/template_battleback_640x320.png,OVERLAYS/overlay_battleback_640x320.png,640,320,32,32,Battleback canvas

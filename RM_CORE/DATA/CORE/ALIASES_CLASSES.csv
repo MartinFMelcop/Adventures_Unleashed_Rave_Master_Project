@@ -1,0 +1,3 @@
+alias,canonico,Tipo,motivo,ocorrencias_alias,onde_aparece_alias
+ROGUE_MALE,ROGUE,ClassKey,Variante de classe (Ato 1): unificar consultas/validações em ClassKey canônico.,14,DATA/QA/EXPORT_CLASS_SKILLS.csv;DATA/QA/EXPORT_CLASS_PASSIVES.csv
+ROGUE_FEMALE,ROGUE,ClassKey,Variante de classe (Ato 1): unificar consultas/validações em ClassKey canônico.,30,DATA/QA/EXPORT_CLASS_SKILLS.csv;DATA/QA/EXPORT_CLASS_PASSIVES.csv

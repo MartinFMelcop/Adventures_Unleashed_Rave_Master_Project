@@ -1,0 +1,54 @@
+AntecedenteID,Antecedente,Regra_Efeito_Oficial,Observacoes,Unnamed: 4,Classe,Antecedente_Permitido
+1.0,Erudito,Modifica apenas equipamentos/consumíveis/dinheiro,,,KNIGHT,Soldado
+2.0,Cultista,Modifica apenas equipamentos/consumíveis/dinheiro,,,KNIGHT,Guardião
+3.0,Acólito,Modifica apenas equipamentos/consumíveis/dinheiro,,,KNIGHT,Acólito
+4.0,Soldado,Modifica apenas equipamentos/consumíveis/dinheiro,,,KNIGHT,Erudito
+5.0,Guardião,Modifica apenas equipamentos/consumíveis/dinheiro,,,KNIGHT,Sobrevivente
+7.0,Batedor,Modifica apenas equipamentos/consumíveis/dinheiro,,,WARRIOR,Guardião
+8.0,Criminoso,Modifica apenas equipamentos/consumíveis/dinheiro,,,WARRIOR,Criminoso
+9.0,Artífice/Comerciante,Modifica apenas equipamentos/consumíveis/dinheiro,,,WARRIOR,Caçador
+10.0,Artista,Modifica apenas equipamentos/consumíveis/dinheiro,,,WARRIOR,Criminoso
+11.0,Caçador,Modifica apenas equipamentos/consumíveis/dinheiro,,,WARRIOR,Sobrevivente
+12.0,Sobrevivente,Modifica apenas equipamentos/consumíveis/dinheiro,,,BERSERKER,Sobrevivente
+,,,,,BERSERKER,Caçador
+,,,,,BERSERKER,Soldado
+,,,,,BERSERKER,Criminoso
+,,,,,BERSERKER,Cultista
+,,,,,BERSERKER,Sobrevivente
+,,,,,ROGUE (MALE),Criminoso
+,,,,,ROGUE (MALE),Batedor
+,,,,,ROGUE (MALE),Artista
+,,,,,ROGUE (MALE),Artífice/Comerciante
+,,,,,ROGUE (MALE),Caçador
+,,,,,ROGUE (MALE),Sobrevivente
+,,,,,RANGER,Caçador
+,,,,,RANGER,Batedor
+,,,,,RANGER,Guardião
+,,,,,RANGER,Soldado
+,,,,,RANGER,Sobrevivente
+,,,,,PYROMANCER,Erudito
+,,,,,PYROMANCER,Cultista
+,,,,,PYROMANCER,Acólito
+,,,,,PYROMANCER,Soldado
+,,,,,PYROMANCER,Sobrevivente
+,,,,,CRYOMANCER,Soldado
+,,,,,CRYOMANCER,Guardião
+,,,,,CRYOMANCER,Erudito
+,,,,,CRYOMANCER,Acólito
+,,,,,CRYOMANCER,Sobrevivente
+,,,,,DRUID,Caçador
+,,,,,DRUID,Batedor
+,,,,,DRUID,Acólito
+,,,,,DRUID,Erudito
+,,,,,DRUID,Sobrevivente
+,,,,,CLERIC,Acólito
+,,,,,CLERIC,Erudito
+,,,,,CLERIC,Guardião
+,,,,,CLERIC,Artífice/Comerciante
+,,,,,CLERIC,Cultista
+,,,,,CLERIC,Sobrevivente
+,,,,,SHAMAN,Caçador
+,,,,,SHAMAN,Batedor
+,,,,,SHAMAN,Cultista
+,,,,,SHAMAN,Acólito
+,,,,,SHAMAN,Sobrevivente

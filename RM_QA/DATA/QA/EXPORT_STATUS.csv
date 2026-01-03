@@ -1,0 +1,11 @@
+StatusID,Status_EN,Nome_PT,Type,Category
+POISON,POISON,Envenenado,Debuff,Leve
+BLEED,BLEED,Sangramento,Debuff,Leve
+BURN,BURN,Queimadura,Debuff,Leve
+ROOT,ROOT,Enraizado,Debuff,Leve
+SILENCE,SILENCE,Silêncio,Debuff,Leve
+CONFUSION,CONFUSION,Confusão,Debuff,Leve
+PARALYSIS,PARALYSIS,Paralisia,Debuff,Não-leve
+SLEEP,SLEEP,Sono,Debuff,Não-leve
+FREEZE,FREEZE,Congelamento,Debuff,Não-leve
+STUN,STUN,Atordoamento,Debuff,Não-leve

@@ -1,0 +1,167 @@
+{
+  "spec": "RM_DELIVERY_ROADMAP_AI",
+  "version": 1,
+  "timezone": "UTC",
+  "created_utc": "2025-12-24T10:25:37Z",
+  "goal": "Ship an RPG Maker XP RPG with best-in-class quality: AI-friendly MER -> Functional Spec -> Technical Spec -> Development -> Local executable tests (Act 1) -> Steam publication (Act 4) -> Post-launch improvements.",
+  "principles": [
+    "Data first: canonical sources live in DATA/; README is operational guidance only.",
+    "Each adjustment must move the project forward along the delivery chain (MER -> Specs -> Dev -> Build/Test -> Release).",
+    "Prefer AI-parsable artifacts (CSV/JSON/YAML) for governance and specs; keep HUMAN views as read-only."
+  ],
+  "acts": {
+    "ACT_1": {
+      "name": "Local executable for tests",
+      "milestone_gate": "A playable local build exists; core loop validated; content baseline for Act 1 complete."
+    },
+    "ACT_4": {
+      "name": "Steam publication",
+      "milestone_gate": "Release candidate shipped to Steam; store assets complete; QA checklist passed; legal/IP checks completed."
+    }
+  },
+  "stages": [
+    {
+      "id": "S1_MER_AI",
+      "name": "MER ai-friendly",
+      "purpose": "Define the Minimal Executable Requirements (MER) as atomic, testable, AI-parsable requirements.",
+      "artifacts": [
+        "DATA/GOV/MER_AI.csv",
+        "DATA/GOV/MER_AI.md"
+      ],
+      "inputs": [
+        "DATA/QA/LOG_AJUSTES.csv",
+        "DATA/QA/RMXP_KNOWLEDGE_BASE_CSV.csv"
+      ],
+      "outputs": [
+        "Prioritized MER backlog for Act 1 scope",
+        "Traceable MER identifiers referenced by specs"
+      ],
+      "gate": "MER items for the next scope (e.g., Act 1) are defined, ranked, and traceable."
+    },
+    {
+      "id": "S2_SPEC_FUNC_AI",
+      "name": "Functional specification ai-friendly",
+      "purpose": "Translate MER items into player-facing behaviors, UX flows, rules, and acceptance tests.",
+      "artifacts": [
+        "DATA/GOV/SPEC_FUNC_AI.csv",
+        "DATA/GOV/SPEC_FUNC_AI.md"
+      ],
+      "inputs": [
+        "DATA/GOV/MER_AI.csv"
+      ],
+      "outputs": [
+        "Functional requirements per MER item",
+        "Acceptance criteria and edge cases"
+      ],
+      "gate": "Functional spec covers all in-scope MER items and defines measurable acceptance criteria."
+    },
+    {
+      "id": "S3_SPEC_TEC_AI",
+      "name": "Technical specification ai-friendly",
+      "purpose": "Map functional specs into RGSS/Ruby implementation tasks, data changes, and test hooks.",
+      "artifacts": [
+        "DATA/GOV/SPEC_TEC_AI.csv",
+        "DATA/GOV/SPEC_TEC_AI.md"
+      ],
+      "inputs": [
+        "DATA/GOV/SPEC_FUNC_AI.csv",
+        "DATA/QA/RMXP_KNOWLEDGE_BASE_CSV.csv"
+      ],
+      "outputs": [
+        "Implementation plan per MER item",
+        "Data tables affected; scripts/modules; performance constraints"
+      ],
+      "gate": "Technical spec provides enough detail to implement without ambiguity and lists impacted data artifacts."
+    },
+    {
+      "id": "S4_DEV_RMXP",
+      "name": "Game development",
+      "purpose": "Implement RGSS + data changes; integrate assets; iterate with test builds.",
+      "artifacts": [
+        "(outside this bundle) RMXP project source",
+        "DATA/* exports snapshots"
+      ],
+      "inputs": [
+        "DATA/GOV/SPEC_TEC_AI.csv"
+      ],
+      "outputs": [
+        "Working game features",
+        "Updated data snapshots and logs"
+      ],
+      "gate": "Features pass local tests and match acceptance criteria."
+    },
+    {
+      "id": "S5_BUILD_LOCAL_ACT1",
+      "name": "Local executable build (Act 1 tests)",
+      "purpose": "Generate a local playable build to validate the core loop and content baseline for Act 1.",
+      "artifacts": [
+        "(outside this bundle) build artifacts",
+        "DATA/QA/CHANGE_LOG.csv",
+        "DATA/QA/LOG_AJUSTES.csv"
+      ],
+      "inputs": [
+        "S4_DEV_RMXP outputs"
+      ],
+      "outputs": [
+        "Playable local build",
+        "Test notes and issues logged"
+      ],
+      "gate": "Act 1 local build exists and is validated against MER + specs."
+    },
+    {
+      "id": "S6_PUBLISH_STEAM_ACT4",
+      "name": "Steam publication (Act 4)",
+      "purpose": "Ship the game to Steam with store assets, QA sign-off, and compliance checks.",
+      "artifacts": [
+        "(outside this bundle) Steam release pipeline",
+        "DATA/QA/CHANGE_LOG.csv"
+      ],
+      "inputs": [
+        "S5 outputs",
+        "QA/Compliance checklists"
+      ],
+      "outputs": [
+        "Steam release live",
+        "Post-release monitoring plan"
+      ],
+      "gate": "Act 4 publication completed; post-launch backlog created."
+    },
+    {
+      "id": "S7_POST_LAUNCH",
+      "name": "Post-launch improvements",
+      "purpose": "Prioritize and deliver improvements and content updates after release.",
+      "artifacts": [
+        "DATA/QA/LOG_AJUSTES.csv",
+        "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv"
+      ],
+      "inputs": [
+        "player feedback",
+        "telemetry",
+        "QA reports"
+      ],
+      "outputs": [
+        "WSJF-ranked improvement backlog",
+        "iterative updates"
+      ],
+      "gate": "Continuous; each iteration produces at least one new improvement item."
+    }
+  ],
+  "process_requirements": {
+    "analysis_phase_must": {
+      "capture_future_improvements": true,
+      "capture_location": "LOG_AJUSTES.FuturasMelhorias and/or new AJ backlog items"
+    },
+    "homologation_phase_must": {
+      "create_at_least_one_new_ajuste": true,
+      "reprioritize_open_pool_with_wsjf": true,
+      "artifacts_to_update": [
+        "DATA/QA/LOG_AJUSTES.csv",
+        "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv"
+      ]
+    }
+  },
+  "notes": [
+    "This roadmap is governance; implementation artifacts (RGSS scripts, RMXP project files, executables) may live outside this data bundle.",
+    "External reference PDFs/EPUBs are temporary: extract AI-only text and keep only reusable images long-term."
+  ]
+}

@@ -1,0 +1,6 @@
+CheckID,CheckName,Status,Notes
+C001,SchemaFilesPresent,PASS,MEMORY_FLAGS.csv and RECENT_EVENTS.csv exist in DATA/DEV.
+C002,RuntimeScriptPresent,PASS,RM_FLAGS_EVENTS_RUNTIME.rb added to DATA/DEV/RGSS.
+C003,DialogueRuntimeUsesFlagsFor,PASS,RM_DIALOGUE_SCORING_RUNTIME.rb now prefers rm_flags_for(npc_id).
+C004,DialogueVariantsSupportClearFlags,PASS,DIALOGUE_VARIANTS.csv now includes ClearFlags column; RM_DIALOGUE_SCORING_RUNTIME.apply_deltas! clears flags via RM_Flags.clear and updates local flags hash.
+C005,DialogueVariantsSupportTtlOverride,PASS,"DIALOGUE_VARIANTS.csv now includes AddFlags_TTL_Turns / AddRecentEvent_TTL_Turns plus per-token TTL override via @TTL (e.g., FLAG_A@3, EVT_X@2). RM_DIALOGUE_SCORING_RUNTIME passes TTL to RM_Flags.set / RM_RecentEvents.push."

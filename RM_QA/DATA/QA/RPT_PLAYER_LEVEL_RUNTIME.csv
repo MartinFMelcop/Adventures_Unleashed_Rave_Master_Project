@@ -1,0 +1,10 @@
+TestID,Result,ObservedLevel,ObservedTotalXP,ObservedLevelUps,ObservedUnspentMainStatPoints,ObservedBonusHP,ObservedBonusSP,ExpectedLevel,ExpectedTotalXP,Notes
+T001,PASS,2,262,1,8,30,12,2,262,Gain one level from 1->2
+T002,PASS,10,7470,9,72,270,108,10,7470,Jump to Lv10 (exact threshold)
+T003,PASS,80,2183560,1,5,14,8,80,2183560,Exact jump 79->80
+T004,PASS,160,16898520,159,792,2350,1198,160,16898520,Jump to Lv160
+T005,PASS,161,17209868,1,2,6,4,161,17209868,160->161
+T006,PASS,160,16898520,1,3,7,4,160,16898520,159->160 using XPToNext
+T007,PASS,180,1033797041,179,832,2460,1268,180,1033797041,Overcap should clamp to 180
+T008,PASS,6,2410,5,40,150,60,6,2410,Multiple grants across thresholds
+T009,PASS,81,2264560,2,9,26,15,81,2264560,"Budget sums for two levels (80,81)"

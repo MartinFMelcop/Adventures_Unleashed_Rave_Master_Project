@@ -1,0 +1,12 @@
+Status,Tipo,Categoria,StatusID,Nome_PT
+POISON,Debuff,Leve,POISON,Envenenado
+BLEED,Debuff,Leve,BLEED,Sangramento
+BURN,Debuff,Leve,BURN,Queimadura
+ROOT,Debuff,Leve,ROOT,Enraizado
+SILENCE,Debuff,Leve,SILENCE,Silêncio
+CONFUSION,Debuff,Leve,CONFUSION,Confusão
+PARALYSIS,Debuff,Não-leve,PARALYSIS,Paralisia
+SLEEP,Debuff,Não-leve,SLEEP,Sono
+FREEZE,Debuff,Não-leve,FREEZE,Congelamento
+STUN,Debuff,Não-leve,STUN,Atordoamento
+DISARM,Debuff,Não-leve,DISARM,Desarme

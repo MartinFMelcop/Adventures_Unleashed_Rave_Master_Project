@@ -1,0 +1,8 @@
+MilestoneID,ThreadID,Ordem,Nome,Descricao,TriggerTipo,TriggerRef,ChaveMapa,QuestID,CutsceneID,FlagsReq,FlagsSet,Notas
+MS_ROSE_00,TH_ROSE,0,Sandbox liberado,Fim do prólogo on-rails; Âncora de Respawn setada em 23T3.,PROLOGO_END,23T3,23T3,,,,,Ponto oficial onde o jogador ganha controle e pode escolher linhas.
+MS_ROSE_01,TH_ROSE,1,Missão principal disponível,A investigação do sumiço da Rose fica oficialmente disponível (hub).,TALK_NPC,NPC-0001@24S1,24S1,QST-0011,CS-ATO1-02,,,Conversar com a líder pode também iniciar a linha VILA.
+MS_VILA_01,TH_VILA,1,Vida na Vila desbloqueada,"A líder apresenta serviços, reputação e rotinas.",TALK_NPC,NPC-0001@24S1,24S1,,,,,"Ativa serviços (comércio, crafting básico, dicas de NPCs)."
+MS_MAGO_01,TH_MAGO,1,Pertences no lodo,Entrada no brejo inicia o gancho; pode ser ignorado sem travar a linha.,ENTER_CHUNK,23U4,23U4,QST-0019,,,,Auto-start ao entrar (sem interação).
+MS_MAGO_02,TH_MAGO,2,Cockatrice forçada,Evento forçado: batalha contra a Cockatrice endemoniada.,FORCED_BATTLE,23V5:EV004,23V5,QST-0020,,,,Não depende de QST-0019. Garante que o jogador “veja” o brejo.
+MS_RUINAS_01,TH_RUINAS,1,Batalha tutorial dos mentores,"Cena estilo Wally: Sentinel defende, Ranger levanta, Shaman cai e é reerguida.",ENTER_CHUNK,23P7:CS-ATO1-06,23P7,QST-0009,CS-ATO1-06,,,Mentores vivos; aparecem na vila em momentos específicos enquanto investigam.
+MS_RUINAS_99,TH_RUINAS,99,Queda dos mentores (pós Rei Goblin),"Após enfrentar/derrotar o Rei Goblin, os 3 mentores morrem.",POST_BOSS,BOSS:GOBLIN_KING,,,CS-ATO1-07,S_REI_GOBLIN_DERROTADO=ON,S_MENTORES_MORTOS=ON,Motivação emocional. Memorial/lápides surgem em 23R1 (CS-ATO1-04).

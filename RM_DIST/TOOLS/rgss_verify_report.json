@@ -1,0 +1,38 @@
+{
+  "rm_rgss_pack_spec": 1,
+  "scripts_rxdata": "/mnt/data/work_aj267/dist/RMXP_BASE/Data/Scripts.rxdata",
+  "manifest": "/mnt/data/work_aj267/act1/DATA/DEV/RGSS/RGSS_PACK_MANIFEST.json",
+  "ok": [
+    {
+      "name": "RM_FLAGS_EVENTS_RUNTIME",
+      "sha256": "e10b541388fe9d2a1f1aa1aefcb054241ffb58ecf4a4815c5e833f3501366525"
+    },
+    {
+      "name": "RM_PLAYER_LEVEL_RUNTIME",
+      "sha256": "4a4876721a614a535b015a2688aafc587101b2cc71ddeb2c808efa3c121f62ed"
+    },
+    {
+      "name": "RM_PLAYER_LEVEL_HOOKS",
+      "sha256": "4e5c8b305faa25f92edbde1021900539e67c5e0d46523a25ae245fc0d9232037"
+    },
+    {
+      "name": "RM_PERICIA_XP_RUNTIME",
+      "sha256": "7056f9462e8da5b365236ac81f3930eaa28e5aa9396f35740604c9b246a6b866"
+    },
+    {
+      "name": "RM_DIALOGUE_SCORING_RUNTIME",
+      "sha256": "07682a3205ea2850d748e4f3ffeef7febe51df1ddb10d5e8689bef7d26d1a735"
+    },
+    {
+      "name": "RM_MOVEMENT_RUN_RUNTIME",
+      "sha256": "f5e28cde37d0c0c979025e1f4960ccef57ca52c8012a4da1fa0892cb00a4089b"
+    },
+    {
+      "name": "RM_CHARACTER_CREATE_RUNTIME",
+      "sha256": "8413aff490f8819f675beb1645712f1b3600e17735bd79dc6148fedb24696c91"
+    }
+  ],
+  "fails": [
+
+  ]
+}

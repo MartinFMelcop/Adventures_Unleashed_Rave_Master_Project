@@ -1,0 +1,210 @@
+ChaveMapa,Direcao,Old,New,Motivo
+16T20,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+16U19,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+16V18,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+17S20,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+17T19,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+17U18,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+17V17,Norte,16V18 — Mercado Élfico,16V18,normalize:OK
+18R14,Norte,bloqueado (muralha/forte),BLOCKED,normalize:BLOCKED
+18S15,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+18T16,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+18U17,Norte,17U18 — Praça do Novo Rei (pós),17U18,normalize:OK
+18V16,Norte,17V17 — Portão de Folhas e Pedra,17V17,normalize:OK
+18W17,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+18X18,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+19R13,Norte,18R14 — Portão do Forte Goblin,18R14,normalize:OK
+19S12,Norte,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19T11,Norte,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19U10,Norte,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19V15,Norte,18V16 — Estrada Branca (Reino),18V16,normalize:OK
+19W16,Norte,18W17 — Mirante do Vento,18W17,normalize:OK
+19X19,Norte,18X18 — Porta da Caverna de Prova,18X18,normalize:OK
+19Y20,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+20R12,Norte,19R13 — Pátio do Forte (via entrada de Mini dungeon),19R13,normalize:OK
+20S13,Norte,19S12 — Portão do Reino Encantado,19S12,normalize:OK
+20T8,Norte,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+20U9,Norte,19U10 — Borda do Túnel Feérico,19U10,normalize:OK
+20V14,Norte,19V15 — Marco da Encruzilhada,19V15,normalize:OK
+20W13,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+21P9,Norte,bloqueado (ruínas fechadas),BLOCKED,normalize:BLOCKED
+21Q10,Norte,bloqueado (ruína quebrada),BLOCKED,normalize:BLOCKED
+21R11,Norte,20R12 — Barricada dos Heróis,20R12,normalize:OK
+21S14,Norte,20S13 — Vilarejo (Entrada),20S13,normalize:OK
+21T7,Norte,20T8 — Clareira do Antídoto,20T8,normalize:OK
+21U6,Norte,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+21V11,Norte,bloqueado (torre no centro),BLOCKED,normalize:BLOCKED
+21W12,Norte,20W13 — Saída da Ruína Alagada (via MiniDungeon),20W13,normalize:OK
+21X11,Norte,bloqueado,BLOCKED,normalize:BLOCKED
+22P8,Norte,21P9 — Passagem dos Totens,21P9,normalize:OK
+22S3,Norte,bloqueado (montanhas),BLOCKED,normalize:BLOCKED
+22U5,Norte,continuação para mais floresta a dentro,,normalize:NOTE
+22V10,Norte,Entrada da Torre (próximo mapa: pontezinha + portão de madeira trancado),,normalize:NOTE
+22W9,Norte,água (sem passagem),,normalize:NOTE
+22X10,Norte,21X11 — Rochedo do Estuário,21X11,normalize:OK
+23P7,Norte,22P8 — Acampamento dos Mentores,22P8,normalize:OK
+23T3,Norte,Floresta da Rose (interior / investigação do desaparecimento),,normalize:NOTE
+23W8,Norte,sequência rumo à Torre do Mago Louco (3 mapas até o interior),,normalize:NOTE
+23X9,Norte,22X10 — Campo dos Líquens,22X10,normalize:OK
+24R0_I,Norte,EV_Exit_N (Player Touch) → mapa “Trecho Norte (casas extras)” → depois “Trilha das Ruínas”.,,normalize:EVENT
+24T2,Norte,trilha para a Floresta do Desaparecimento da Rose,,normalize:NOTE
+24U3,Norte,Início do Pântano (ainda pacífico),,normalize:NOTE
+24V6,Norte,23V5 — Pântano — Bruma da Cockatrice,23V5,normalize:OK
+24W7,Norte,"Entrada da Mini Dungeon do Pântano (loot, caminhos escondidos, mais peixes; chance rara do espectro se der azar)",,normalize:NOTE
+16T20,Leste,16U19 — Jardins Nobres,16U19,normalize:OK
+16U19,Leste,16V18 — Mercado Élfico,16V18,normalize:OK
+16V18,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+17S20,Leste,17T19 — Estrada Reconstruída,17T19,normalize:OK
+17T19,Leste,17U18 — Praça do Novo Rei,17U18,normalize:OK
+17U18,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+17V17,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+18R14,Leste,18S15 — Currais e Selas,18S15,normalize:OK
+18S15,Leste,18T16 — A Última Lição,18T16,normalize:OK
+18T16,Leste,18U17 — Boca do Núcleo do Clã,18U17,normalize:OK
+18U17,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+18V16,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+18W17,Leste,18X18 — Porta da Caverna de Prova,18X18,normalize:OK
+18X18,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+19R13,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+19S12,Leste,19T11 — Saída do Túnel Feérico,19T11,normalize:OK
+19T11,Leste,19U10 — Borda do Túnel Feérico (via MiniDungeon2),19U10,normalize:OK
+19U10,Leste,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19V15,Leste,19W16 — Trilha das Fendas (Litoral),19W16,normalize:OK
+19W16,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+19X19,Leste,19Y20 — Marco do Litoral,19Y20,normalize:OK
+19Y20,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+20R12,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+20S13,Leste,bloqueado (mata densa/sem trilha),BLOCKED,normalize:BLOCKED
+20T8,Leste,20U9 — Trilha do Pólen Brilhante,20U9,normalize:OK
+20U9,Leste,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+20V14,Leste,20W13 — Saída da Ruína Alagada,20W13,normalize:OK
+20W13,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+21P9,Leste,21Q10 — Vigia Goblin,21Q10,normalize:OK
+21Q10,Leste,21R11 — Desfiladeiro do Entulho,21R11,normalize:OK
+21R11,Leste,bloqueado (paredão),BLOCKED,normalize:BLOCKED
+21S14,Leste,bloqueado (floresta densa),BLOCKED,normalize:BLOCKED
+21T7,Leste,21U6 — (mapa já descrito),21U6,normalize:OK
+21V11,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+21W12,Leste,21X11 — Rochedo do Estuário,21X11,normalize:OK
+21X11,Leste,bloqueado,BLOCKED,normalize:BLOCKED
+22P8,Leste,bloqueado (ruínas fechadas),BLOCKED,normalize:BLOCKED
+22S3,Leste,bloqueado (montanhas),BLOCKED,normalize:BLOCKED
+22T4,Leste,Mini Dungeon — Rota dos Insetos (MapType: Forest; conecta a um ponto mais interno da floresta),,normalize:NOTE
+22W9,Leste,sem conexão,BLOCKED,normalize:BLOCKED
+22X10,Leste,bloqueado (água),BLOCKED,normalize:BLOCKED
+23P7,Leste,23Q6 — (mapa já descrito),23Q6,normalize:OK
+23S2,Leste,sem saída (bloqueio por colisão),BLOCKED,normalize:BLOCKED
+23U4,Leste,Pântano a dentro (saída pela beirada direita do mapa),,normalize:NOTE
+23W8,Leste,"continuação ampla do pântano (rota longa, com novos ramos)",,normalize:NOTE
+23X9,Leste,bloqueado (água/névoa),BLOCKED,normalize:BLOCKED
+24R0_I,Leste,EV_Exit_E (Player Touch) → “Centro da Vila Rose”.,,normalize:EVENT
+24V6,Leste,Pântano mais denso (próximo trecho),,normalize:NOTE
+16T20,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+16U19,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+16V18,Sul,17V17 — Portão de Folhas e Pedra,17V17,normalize:OK
+17S20,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+17T19,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+17U18,Sul,18U17 — Boca do Núcleo do Clã,18U17,normalize:OK
+17V17,Sul,18V16 — Estrada Branca,18V16,normalize:OK
+18R14,Sul,19R13 — Pátio do Forte,19R13,normalize:OK
+18S15,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+18T16,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+18U17,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+18V16,Sul,19V15 — Marco da Encruzilhada,19V15,normalize:OK
+18W17,Sul,19W16 — Trilha das Fendas,19W16,normalize:OK
+18X18,Sul,19X19 — Passo Final da Serra,19X19,normalize:OK
+19R13,Sul,20R12 — Barricada dos Heróis (via de saída de Mini Dungeon),20R12,normalize:OK
+19S12,Sul,20S13 — Vilarejo das Fadas (Entrada) (BLOQUEADO até S_PORTAO_FADAS_ABERTO),BLOCKED,normalize:BLOCKED
+19T11,Sul,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19U10,Sul,20U9 — Trilha do Pólen Brilhante,20U9,normalize:OK
+19V15,Sul,20V14 — Último Mangue,20V14,normalize:OK
+19W16,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+19X19,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+19Y20,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+20R12,Sul,21R11 — Desfiladeiro do Entulho,21R11,normalize:OK
+20S13,Sul,21S14 — Santuário da Guardiã (Ent) (acesso guiado por cena),21S14,normalize:OK
+20T8,Sul,21T7 — Bosque dos Ferrões,21T7,normalize:OK
+20U9,Sul,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+20V14,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+20W13,Sul,21W12 — Fenda do Brejo (via MiniDungeon),21W12,normalize:OK
+21P9,Sul,22P8 — Acampamento dos Mentores,22P8,normalize:OK
+21Q10,Sul,bloqueado (ruína fechada),BLOCKED,normalize:BLOCKED
+21R11,Sul,bloqueado (entulho),BLOCKED,normalize:BLOCKED
+21S14,Sul,bloqueado (floresta densa),BLOCKED,normalize:BLOCKED
+21T7,Sul,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+21U6,Sul,volta para Clareiras do Aríete Alado (mapa anterior),,normalize:NOTE
+21V11,Sul,"22V10 — (mapa já descrito, tumba/zombie)",22V10,normalize:OK
+21W12,Sul,bloqueado,BLOCKED,normalize:BLOCKED
+21X11,Sul,22X10 — Campo dos Líquens,22X10,normalize:OK
+22P8,Sul,23P7 — Duelo dos Mentores,23P7,normalize:OK
+22S3,Sul,23S2 — Vila Rose — Posto do Guarda Novato,23S2,normalize:OK
+22T4,Sul,23T3 — Floresta da Rose — Clareira de Âncora (acampamento/respawn),23T3,normalize:OK
+22V10,Sul,sem conexão,BLOCKED,normalize:BLOCKED
+22W9,Sul,volta para a beira do brejo (mapa anterior),,normalize:NOTE
+22X10,Sul,23X9 — Margem Longa,23X9,normalize:OK
+23P7,Sul,bloqueado (ruínas fechadas),BLOCKED,normalize:BLOCKED
+23T3,Sul,24T2 — Vila Rose — Loja do Mercador,24T2,normalize:OK
+23U4,Sul,24U3 — Vila Rose — Pasto das Galinhas e Lagoa de Pesca,24U3,normalize:OK
+23V5,Sul,Próximo mapa (continuação do pântano),,normalize:NOTE
+23W8,Sul,saída da Mini Dungeon do Pântano (de onde o jogador vem),,normalize:NOTE
+23X9,Sul,bloqueado (água/névoa),BLOCKED,normalize:BLOCKED
+24T2,Sul,sem saída (limite do recorte),BLOCKED,normalize:BLOCKED
+16T20,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+16U19,Oeste,16T20 — Portões do Castelo,16T20,normalize:OK
+16V18,Oeste,16U19 — Jardins Nobres,16U19,normalize:OK
+17S20,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+17T19,Oeste,17S20 — Marco da Fronteira,17S20,normalize:OK
+17U18,Oeste,17T19 — Estrada Reconstruída,17T19,normalize:OK
+17V17,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+18R14,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+18S15,Oeste,18R14 — Portão do Forte Goblin,18R14,normalize:OK
+18T16,Oeste,18S15 — Currais e Selas,18S15,normalize:OK
+18U17,Oeste,18T16 — A Última Lição,18T16,normalize:OK
+18V16,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+18W17,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+18X18,Oeste,18W17 — Mirante do Vento,18W17,normalize:OK
+19R13,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+19S12,Oeste,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+19T11,Oeste,19S12 — Portão do Reino Encantado,19S12,normalize:OK
+19U10,Oeste,19T11 — Saída do Túnel Feérico (via MiniDungeon2),19T11,normalize:OK
+19V15,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+19W16,Oeste,19V15 — Marco da Encruzilhada,19V15,normalize:OK
+19X19,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+19Y20,Oeste,19X19 — Passo Final,19X19,normalize:OK
+20R12,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+20S13,Oeste,bloqueado (mata densa/sem trilha),BLOCKED,normalize:BLOCKED
+20T8,Oeste,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+20U9,Oeste,20T8 — Clareira do Antídoto,20T8,normalize:OK
+20V14,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+20W13,Oeste,20V14 — Último Mangue,20V14,normalize:OK
+21P9,Oeste,bloqueado (entulho),BLOCKED,normalize:BLOCKED
+21Q10,Oeste,21P9 — Passagem dos Totens,21P9,normalize:OK
+21R11,Oeste,21Q10 — Vigia Goblin,21Q10,normalize:OK
+21S14,Oeste,bloqueado (floresta densa),BLOCKED,normalize:BLOCKED
+21T7,Oeste,bloqueado (mato/árvores densas),BLOCKED,normalize:BLOCKED
+21V11,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+21W12,Oeste,bloqueado,BLOCKED,normalize:BLOCKED
+21X11,Oeste,21W12 — Fenda do Brejo,21W12,normalize:OK
+22P8,Oeste,bloqueado (entulho),BLOCKED,normalize:BLOCKED
+22U5,Oeste,retorno para a Mini Dungeon — Rota dos Insetos,,normalize:NOTE
+22X10,Oeste,bloqueado (água/vegetação),BLOCKED,normalize:BLOCKED
+23P7,Oeste,bloqueado (ruínas/entulho),BLOCKED,normalize:BLOCKED
+23V5,Oeste,23U4 — Pântano — Borda Encharcada (Pertences no Lodo),23U4,normalize:OK
+23W8,Oeste,sem conexão (limites/terreno),BLOCKED,normalize:BLOCKED
+23X9,Oeste,23W8 — (mapa já descrito),23W8,normalize:OK
+24U3,Oeste,24T2 — Vila Rose — Loja do Mercador,24T2,normalize:OK
+24W7,Oeste,Pântano — Ponte da Emboscada (mapa anterior),,normalize:NOTE
+21U6,Oeste,,21T7,auto_fix_reciprocal from 21T7.Leste
+22V10,Norte,,21V11,auto_fix_reciprocal from 21V11.Sul
+23S2,Norte,,22S3,auto_fix_reciprocal from 22S3.Sul
+23T3,Norte,,22T4,auto_fix_reciprocal from 22T4.Sul
+23Q6,Oeste,,23P7,auto_fix_reciprocal from 23P7.Leste
+24T2,Norte,,23T3,auto_fix_reciprocal from 23T3.Sul
+24U3,Norte,,23U4,auto_fix_reciprocal from 23U4.Sul
+23U4,Leste,,23V5,auto_fix_reciprocal from 23V5.Oeste
+23W8,Leste,,23X9,auto_fix_reciprocal from 23X9.Oeste
+24T2,Leste,,24U3,auto_fix_reciprocal from 24U3.Oeste
+23V5,Sul,,24V6,auto_fix_reciprocal from 24V6.Norte
+24T2,Oeste,,24S1,AJ_000341: fix_reciprocal com 24S1.Leste (centro ↔ mercador).
+23T3,Leste,,,AJ_000345: canon — sem passagem (remover conexão lateral).
+23T3,Oeste,,,AJ_000345: canon — sem passagem (remover conexão lateral).

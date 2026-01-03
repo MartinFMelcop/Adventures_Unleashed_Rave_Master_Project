@@ -1,0 +1,71 @@
+Act,RefType,RefID,ChapterID,RepZona_Target,Rep_Min_Aceitar,Rep_Delta_Sucesso,Rep_Delta_Falha,Rep_Set_Sucesso,Rep_Set_Falha,Rep_Obs,ChapterName,HasReputation
+ACT_1,QUEST,QST-0001,CAP-0001,VILA_ROSE,,,,,,Set dinâmico: +1 ou -1 conforme antecedente (apresentação na praça).,1) Chegada à Vila Rose,1
+ACT_1,QUEST,QST-0002,CAP-0002,VILA_ROSE,,,,,,,2) O Caminho do Norte (casas isoladas),1
+ACT_1,QUEST,QST-0003,CAP-0003,VILA_ROSE,,,,,,,3) A Casa dos Aventureiros Mortos,1
+ACT_1,QUEST,QST-0004,CAP-0004,VILA_ROSE,,1.0,,,,Ajudar o guardinha melhora clima local.,4) O Guardinha Novato e a Cerca “mais ou menos”,1
+ACT_1,QUEST,QST-0005,CAP-0005,GOBLINS,,,,,,,5) Antes da Ponte: Treino com as Criaturinhas,1
+ACT_1,QUEST,QST-0006,CAP-0006,GOBLINS,,,,,,,6) A Ponte e o Imp Voador,1
+ACT_1,QUEST,QST-0007,CAP-0007,GOBLINS,,1.0,,,,Fechar portal de Imps reduz escalada do forte.,7) Subindo rumo às Ruínas (Fenda dos Imps),1
+ACT_1,QUEST,QST-0008,CAP-0008,GOBLINS,,,,,,,8) Escopo da Rota das Ruínas,1
+ACT_1,QUEST,QST-0009,CAP-0009,GOBLINS,,1.0,,,,Evento dos aventureiros/autoridade para avançar no forte.,9) O Evento dos Aventureiros (ídolos),1
+ACT_1,QUEST,QST-0010,CAP-0010,GOBLINS,,,,-1.0,,Pós Rei Goblin: caça organizada termina; baseline vira -1 (caos).,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,QUEST,QST-0011,CAP-0011,VILA_ROSE,,,,,,,11) Centro da Vila (Hub e Quest Principal),1
+ACT_1,QUEST,QST-0012,CAP-0012,VILA_ROSE,,1.0,,,,Ajuda ao mercador: confiança leve.,12) O Mercador (loja viva),1
+ACT_1,QUEST,QST-0013,CAP-0013,FADAS,,,,,,,13) Bordas da Floresta: Respawn e “o jogo começa”,1
+ACT_1,QUEST,QST-0014,CAP-0014,FADAS,,,,,,,14) Início da Floresta: insetos e a MiniDungeon 1,1
+ACT_1,QUEST,QST-0015,CAP-0015,FADAS,,,,,,,15) Floresta interna: o “aríete alado” e craft de antídoto,1
+ACT_1,QUEST,QST-0016,CAP-0016,FADAS,,,,,,,16) O primeiro Poltergeist (Espada voadora),1
+ACT_1,QUEST,QST-0017,CAP-0017,FADAS,,,,1.0,,Rose explica a situação: muda frame e seta +1.,"17) Verdade da Rose: fadas, árvore guardiã e Ent enlouquecido",1
+ACT_1,QUEST,QST-0018,CAP-0018,VILA_ROSE,,,,,,,18) Galinhas e vida tranquila,1
+ACT_1,QUEST,QST-0019,CAP-0019,BREJO,,,,-1.0,,Entrada no brejo: sintonia base -1.,19) Pântano: roupas no lodo e o início do Mago Louco,1
+ACT_1,QUEST,QST-0020,CAP-0020,BREJO,,,,,,,20) Cockatrice (galinha endemoniada),1
+ACT_1,QUEST,QST-0021,CAP-0021,BREJO,,,,,,,21) Bagrezão anfíbio e o pântano hostil,1
+ACT_1,QUEST,QST-0022,CAP-0022,BREJO,,,,,,,22) MiniDungeon do pântano e a rota para a torre,1
+ACT_1,QUEST,QST-0023,CAP-0023,BREJO,,,,,,,23) A tumba e o zombie “Groot/Chewbacca”,1
+ACT_1,QUEST,QST-0024,CAP-0024,BREJO,,,,,,,24) A porta da torre e o Inner do Mago Louco,1
+ACT_1,QUEST,QST-0025,CAP-0025,BREJO,,,,1.0,,Boss do demônio: virada e aceitação do brejo (+1).,"25) O experimento dá errado: fendas, retorno e boss do demônio",1
+ACT_1,QUEST,QST-0026,CAP-0026,VILA_ROSE,,2.0,,,,Waystone/Golem: feito marcante para cruzar confiança.,"26) Waystone, teleporte e o projeto do Golem",1
+ACT_1,QUEST,QST-0027,CAP-0027,REINO_ELFO,,,,,,,27) Estrada para o litoral e Reino Élfico,1
+ACT_1,QUEST,QST-0028,CAP-0028,REINO_ELFO,,,,1.0,,Salvar a carga: salvo-conduto. SET +1 (acesso ao reino).,,1
+ACT_1,SIDEQUEST,SDQ-0001,CAP-0001,VILA_ROSE,-1.0,1.0,,,,Ajudas básicas à enfermaria.,1) Chegada à Vila Rose,1
+ACT_1,SIDEQUEST,SDQ-0002,CAP-0002,VILA_ROSE,2.0,1.0,,,,Evento social; requer confiança.,2) O Caminho do Norte (casas isoladas),1
+ACT_1,SIDEQUEST,SDQ-0003,CAP-0003,VILA_ROSE,2.0,1.0,,,,Quest delicada; requer confiança.,3) A Casa dos Aventureiros Mortos,1
+ACT_1,SIDEQUEST,SDQ-0004,CAP-0004,VILA_ROSE,-1.0,1.0,,,,Trabalho comunitário.,4) O Guardinha Novato e a Cerca “mais ou menos”,1
+ACT_1,SIDEQUEST,SDQ-0005,CAP-0005,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,5) Antes da Ponte: Treino com as Criaturinhas,1
+ACT_1,SIDEQUEST,SDQ-0006,CAP-0006,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,6) A Ponte e o Imp Voador,1
+ACT_1,SIDEQUEST,SDQ-0007,CAP-0007,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,7) Subindo rumo às Ruínas (Fenda dos Imps),1
+ACT_1,SIDEQUEST,SDQ-0008,CAP-0008,GOBLINS,-3.0,1.0,,,,Pré-Rei: tarefas de estabilização/levantamento nas ruínas.,8) Escopo da Rota das Ruínas,1
+ACT_1,SIDEQUEST,SDQ-0009,CAP-0009,FADAS,1.0,0.0,,,,"Depois de Rose, coleta ritual; sem rep farm.",9) O Evento dos Aventureiros (ídolos),1
+ACT_1,SIDEQUEST,SDQ-0010,CAP-0010,FADAS,2.0,1.0,,,,Confiança maior com fadas.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0011,CAP-0011,FADAS,3.0,0.0,,,,Capstone feérico.,11) Centro da Vila (Hub e Quest Principal),1
+ACT_1,SIDEQUEST,SDQ-0012,CAP-0012,FADAS,1.0,0.0,,,,Craft/coleta; sem rep farm.,12) O Mercador (loja viva),1
+ACT_1,SIDEQUEST,SDQ-0013,CAP-0013,BREJO,-1.0,1.0,,,,Coleta medicinal para surtos.,13) Bordas da Floresta: Respawn e “o jogo começa”,1
+ACT_1,SIDEQUEST,SDQ-0014,CAP-0014,BREJO,-1.0,0.0,,,,Evento do brejo; sem rep farm.,14) Início da Floresta: insetos e a MiniDungeon 1,1
+ACT_1,SIDEQUEST,SDQ-0015,CAP-0015,BREJO,-1.0,0.0,,,,Caça pontual; sem rep farm.,15) Floresta interna: o “aríete alado” e craft de antídoto,1
+ACT_1,SIDEQUEST,SDQ-0016,CAP-0016,BREJO,1.0,1.0,,,,Atalho: barqueiro/carpinteiro te aceita.,16) O primeiro Poltergeist (Espada voadora),1
+ACT_1,SIDEQUEST,SDQ-0017,CAP-0017,BREJO,2.0,1.0,,,,Serviços do Mago: exige confiança.,"17) Verdade da Rose: fadas, árvore guardiã e Ent enlouquecido",1
+ACT_1,SIDEQUEST,SDQ-0018,CAP-0018,BREJO,2.0,1.0,,,,Runa perigosa: confiança alta.,18) Galinhas e vida tranquila,1
+ACT_1,SIDEQUEST,SDQ-0019,CAP-0019,VILA_ROSE,3.0,0.0,,,,Capstone: demanda prestígio máximo na vila.,19) Pântano: roupas no lodo e o início do Mago Louco,1
+ACT_1,SIDEQUEST,SDQ-0020,CAP-0020,BREJO,3.0,0.0,,,,Treino avançado; sem rep farm.,20) Cockatrice (galinha endemoniada),1
+ACT_1,SIDEQUEST,SDQ-0021,CAP-0021,REINO_ELFO,2.0,0.0,,,,Prestígio cultural; sem rep farm.,21) Bagrezão anfíbio e o pântano hostil,1
+ACT_1,SIDEQUEST,SDQ-0022,CAP-0022,REINO_ELFO,1.0,1.0,,,,Patrulha de fronteira; confiança básica.,22) MiniDungeon do pântano e a rota para a torre,1
+ACT_1,SIDEQUEST,SDQ-0023,CAP-0023,REINO_ELFO,2.0,1.0,,,,Rito de fronteira; confiança alta.,23) A tumba e o zombie “Groot/Chewbacca”,1
+ACT_1,SIDEQUEST,SDQ-0024,CAP-0024,REINO_ELFO,1.0,0.0,,,,Viveiro/mudas; sem rep farm.,24) A porta da torre e o Inner do Mago Louco,1
+ACT_1,SIDEQUEST,SDQ-0025,CAP-0025,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,"25) O experimento dá errado: fendas, retorno e boss do demônio",1
+ACT_1,SIDEQUEST,SDQ-0026,CAP-0026,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,"26) Waystone, teleporte e o projeto do Golem",1
+ACT_1,SIDEQUEST,SDQ-0027,CAP-0027,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,27) Estrada para o litoral e Reino Élfico,1
+ACT_1,SIDEQUEST,SDQ-0028,CAP-0028,REINO_ELFO,-1.0,0.0,,,,Estrada: tasks gerais. Sem rep farm.,,1
+ACT_1,SIDEQUEST,SDQ-0029,CAP-0029,VILA_ROSE,2.0,0.0,,,,"Serviço de cartografia; libera conteúdo/loja, sem farm de rep.",,1
+ACT_1,SIDEQUEST,SDQ-0030,CAP-0030,VILA_ROSE,2.0,0.0,,,,Contrabando: requer confiança do mercador; sem farm de rep.,,1
+ACT_1,SIDEQUEST,SDQ-0031,CAP-0031,REINO_ELFO,-1.0,0.0,,,,Altares na rota; sem rep farm.,,1
+ACT_1,SIDEQUEST,SDQ-0032,CAP-0032,GOBLINS,-1.0,0.0,,,,Desafio de mobilidade; desbloqueia atalhos. Sem rep farm.,,1
+ACT_1,SIDEQUEST,SDQ-0033,CAP-0016,FADAS,1.0,1.0,,,,Terapia do Pothergeist: comédia + confiança leve.,16) O primeiro Poltergeist (Espada voadora),1
+ACT_1,SIDEQUEST,SDQ-0034,CAP-0010,GOBLINS,-1.0,1.0,,,,Recomendado pós QST-0010: goblins confusos buscam mediação.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0035,CAP-0021,BREJO,-1.0,1.0,,,,Bagre diretor: comédia; melhora sintonia.,21) Bagrezão anfíbio e o pântano hostil,1
+ACT_1,SIDEQUEST,SDQ-0036,CAP-0010,GOBLINS,-1.0,2.0,,,,Marco: -1 → +1 (delta +2) se rota Reconstrução. Rota Purga pode aplicar delta negativo no evento.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0037,CAP-0010,GOBLINS,1.0,1.0,,,,Formaliza conselho; +1 (vira +2).,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0038,CAP-0010,GOBLINS,1.0,1.0,,,,Treino e atribuição de função; +1.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0039,CAP-0010,GOBLINS,2.0,1.0,,,,Reforma do portão; +1 (vira +3).,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0040,CAP-0010,GOBLINS,2.0,0.0,,,,Loop repetível de recursos; sem rep farm.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,SIDEQUEST,SDQ-0041,CAP-0010,GOBLINS,2.0,0.0,,,,Desbloqueia loja goblin (estoque por tier); sem rep farm.,10) Dungeon do Núcleo e Goblin King,1
+ACT_1,QUEST,QST-0017,CAP-0017,VILA_ROSE,,1.0,,,,Investigar o sumiço da Rose melhora confiança na vila (+1).,"17) Verdade da Rose: fadas, árvore guardiã e Ent enlouquecido",1

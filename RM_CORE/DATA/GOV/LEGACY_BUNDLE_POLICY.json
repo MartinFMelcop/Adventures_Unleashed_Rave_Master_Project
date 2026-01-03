@@ -1,0 +1,34 @@
+{
+  "policy_version": 1,
+  "purpose": "Define deterministic handling of large/legacy reference bundles (external versioning + hash pointers + retention/discard policy).",
+  "thresholds": {
+    "embed_in_snapshot_max_bytes": 104857600,
+    "prefer_external_pointer_above_bytes": 104857600
+  },
+  "storage_modes": {
+    "IN_SNAPSHOT": "Bundle is stored inside RM_project_files/ (kept small).",
+    "EXTERNAL_POINTER": "Bundle is stored outside this snapshot; snapshot stores pointer record only."
+  },
+  "immutability": {
+    "bundles_are_immutable": true,
+    "rule": "Any content change requires a new BundleID and SHA256. Never overwrite existing records."
+  },
+  "verification": {
+    "required": true,
+    "algorithm": "sha256",
+    "registry_file": "DATA/QA/LEGACY_BUNDLES.csv",
+    "how": [
+      "Compute sha256(zip) locally.",
+      "Compare to LEGACY_BUNDLES.SHA256 for the BundleID.",
+      "If mismatch: do not process; treat as a different bundle version."
+    ]
+  },
+  "retention_and_discard": {
+    "retain_until": "All AjusteIDs listed in LEGACY_BUNDLES.RetainUntilAjustes are CONCLUIDO AND required AI-only extracts exist in-bundle.",
+    "after_retain_until": "Mark as DISCARD_CANDIDATE. Physical deletion happens outside this snapshot (external storage governance)."
+  },
+  "ai_extracts": {
+    "principle": "Commit only derived lightweight artifacts into the bundle (indices, summaries, glossaries). Never commit full copyrighted source texts.",
+    "default_output_dir": "DATA/QA/AI_EXTRACTS/"
+  }
+}

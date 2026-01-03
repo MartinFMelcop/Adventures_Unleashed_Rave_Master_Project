@@ -1,0 +1,27 @@
+Sistema,Qtd_Regras,Primeiro_RuleID,Exemplo_Nome
+Boss,8,BBR-001,Imune a CC antes do break
+Buff,6,BUF-001,Potência de buff
+Custos,4,CST-001,Custo no cast
+DOT,6,DOT-001,Tick no fim da rodada
+Dano,5,DMG-001,Fórmula de acerto (ACC vs EVA)
+Debuff,8,DBF-001,Hit-check ACC vs EVA
+Defender,4,DEF-001,Dura até próximo turno
+Downstate,6,DWN-001,Entrada em down
+Enemy Line,3,ENL-001,Avanço para atacar atrás
+Fluxo,5,FLW-001,Início do combate
+Formação,5,FOR-001,Linhas
+Fuga,1,ESC-001,Fuga em WorldMap/MiniDungeon
+Iniciativa,5,INI-001,Recalcular por rodada
+Intercept,6,INT-001,Intercept antes do hit roll
+Itens,4,ITM-001,Consumível consome turno
+Meta,3,META-001,Versão das Regras de Combate
+Objetivos,1,OBJ-001,Objetivos alternativos
+Online,3,ONL-001,Tempo por turno
+Recursos,4,SP-001,Regen leve no fim da rodada
+Resistências,5,RES-001,Matriz por DanoID
+Silence,3,SIL-001,Impede skills; itens funcionam
+Slots,6,SLT-001,Suporte obrigatório
+Stack,8,STK-001,Ação entra na pilha
+Status,7,STS-001,Status positivos vs negativos
+Targeting,6,TGT-001,Mira retaguarda permitida
+Traps,12,TRP-001,Set consome turno

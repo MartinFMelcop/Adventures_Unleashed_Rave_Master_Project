@@ -1,0 +1,10 @@
+CheckID,Status,Metric,Value,Details,BuildUTC
+SKL_COUNT,PASS,skills_rows,166,10 classes/variants em ACT1_COMBAT_SKILLS_CANON.,2025-12-28T00:00:26Z
+SKL_UNIQUE_ID,PASS,duplicate_skill_ids,0,SkillID deve ser único.,2025-12-28T00:00:26Z
+SKL_SCALE_COEF,PASS,missing_escala_coef,0,EscalaCoef via DIC_ESCALA_SKILL.,2025-12-28T00:00:26Z
+PAS_COUNT,PASS,passives_rows,77,10 classes/variants em ACT1_PASSIVES_CANON.,2025-12-28T00:00:26Z
+PAS_UNIQUE_ID,PASS,duplicate_passive_ids,0,PassiveID deve ser único.,2025-12-28T00:00:26Z
+PAS_SCALE_COEF,PASS,missing_escala_coef,0,EscalaCoef via DIC_ESCALA_SKILL.,2025-12-28T00:00:26Z
+CLASSKEY_VALID_SKILLS,PASS,invalid_classkey_skills,0,ClassKey deve existir em ACT1_CLASSES_CANON.,2025-12-28T00:00:26Z
+CLASSKEY_VALID_PASSIVES,PASS,invalid_classkey_passives,0,ClassKey deve existir em ACT1_CLASSES_CANON.,2025-12-28T00:00:26Z
+ALIASES_CLASSES,PASS,aliases_classes_rows,2,ALIASES_CLASSES preenchido para variantes Rogue (consulta/validação).,2025-12-28T00:00:26Z

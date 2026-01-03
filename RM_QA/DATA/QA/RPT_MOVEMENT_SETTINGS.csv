@@ -1,0 +1,7 @@
+key,default_value,purpose,runtime_target,dist_path,notes
+run_mode,HOLD,HOLD while pressed or TOGGLE press-once,RM_RunMovement::HOLD_TO_RUN / TOGGLE_RUN,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,TOGGLE enables @rm_run_toggled behavior.
+run_key,SHIFT,Run key binding (accessibility remap),RM_RunMovement.key_const,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,SHIFT maps to Input::A if SHIFT const missing.
+run_speed_delta,1,Adds to base walk speed,RM_RunMovement::RUN_SPEED_DELTA,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,Keep small (0-2).
+run_sprite_suffix,_run,Suffix for optional run sprites,RM_RunMovement::RUN_SPRITE_SUFFIX,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,Sprite swaps only if file exists.
+use_run_sprites,true,Enable run sprite swap if available,RM_RunMovement::USE_RUN_SPRITES_IF_AVAILABLE,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,"If false, always uses base sprite."
+play_footsteps,false,Enable SE footsteps if present,RM_RunMovement::PLAY_FOOTSTEPS,RMXP_BASE/Data/RM_CSV/SETTINGS_MOVEMENT.csv,Requires Audio/SE files.

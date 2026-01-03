@@ -1,0 +1,61 @@
+Entidade,Workbook_Fonte,Sheet_Fonte,TipoAba,Owner,RegraDeSync,Observacoes
+GOVERNANCA,RM_GOV_MAIN.xlsx,00_GOVERNANCA,QA,PM/Tech Lead,Manual (alterar só com revisão),Tabela central: Entidade→Fonte da verdade→regras.
+LOG_AJUSTES,RM_QA_MAIN.xlsx,LOG_AJUSTES,LOG,QA/PM,Escrita contínua; cada mudança relevante gera linha,Status sugerido: PROPOSTA→EM ANDAMENTO→TESTES→CONCLUIDO.
+CHANGE_LOG,RM_QA_MAIN.xlsx,CHANGE_LOG,LOG,QA/PM,Append-only (não editar linhas antigas),Resumo de releases/patches.
+VALIDACOES,RM_QA_MAIN.xlsx,VALIDACOES,QA,QA,Gerado a partir de checagens; não é fonte da verdade,Ideal criar QA_ACHADOS tabular.
+FLAGS,RM_CORE_MAIN.xlsx,FLAGS_MASTER,DB,Game Design,Atualiza ALIASES_FLAGS e exports dependentes,IDs estáveis; não reaproveitar; deprecar via status.
+ALIASES_FLAGS,RM_CORE_MAIN.xlsx,ALIASES_FLAGS,DB,Game Design,"Sempre que renomear flags, adicionar alias",Evita quebra de scripts/quests.
+TIME_PHASES,RM_CORE_MAIN.xlsx,TIME_PHASES_MASTER,DB,Game Design,DEV pode referenciar PhaseMask; manter PhaseID estável,UTC como padrão para horários.
+TIME_FLAGS,RM_CORE_MAIN.xlsx,TIME_FLAGS,DB,Game Design,Sincroniza com CHUNK_TIME_OVERRIDES e HOUSE_LIGHTS_PLAN,Switches/vars de tempo.
+STATUS,RM_CORE_MAIN.xlsx,Status Categoria e Tipo,DB,Game Design,EXPORT_STATUS deriva daqui,Sugestão: renomear sheet p/ STATUS_MASTER e manter alias no índice.
+GATES,RM_CORE_MAIN.xlsx,GATES_MASTER_v2_REF,DB,Game Design/Lore,Usado por chunks/quests como requisitos; manter GateFlag estável,
+REPUTACAO_REGIOES,RM_CORE_MAIN.xlsx,DIC_REPUTACAO_REGIOES,DB,Game Design/Lore,Quests/NPCs referenciam RepZona_Target e variáveis,
+REPUTACAO_NIVEIS,RM_CORE_MAIN.xlsx,DIC_REPUTACAO_NIVEIS,DB,Game Design/Lore,Regras de acesso e rewards; manter IDs estáveis,
+REPUTACAO_REGRAS,RM_CORE_MAIN.xlsx,REP_REGRAS,DB,Game Design,Documenta mecânicas; pode gerar validações,
+ECONOMIA_PRECIFICACAO,RM_CORE_MAIN.xlsx,ECON_PRECIFICACAO,DB,Game Design,Pode alimentar preço base e multiplicadores,Sheet está vazia (TODO).
+PERICIAS_SOFTSKILLS,RM_CORE_MAIN.xlsx,PERICIAS_SOFTSKILLS,DB,Game Design,Quests/NPCs referenciam Perícias; manter PericiaID,
+ITENS,RM_CORE_MAIN.xlsx,ITENS_MASTER,DB,Game Design,DEV (Itens Em Construção) deve espelhar/validar contra ItemID,Fonte da verdade de ItemID/slots/raridade etc.
+CONSUMIVEIS,RM_CORE_MAIN.xlsx,CONSUMIVEIS_MASTER,DB,Game Design,Derivado/ligado a ITENS_MASTER; ItemID comum,
+MONSTROS,RM_CORE_MAIN.xlsx,MONSTROS_STATS,DB,Game Design,DEV DIC_MONSTROS (Em Construção) é WIP e deve convergir aqui,Tipos em DIC_TIPOS_MONSTROS.
+TIPOS_DANO,RM_CORE_MAIN.xlsx,DIC_TIPOS_DANO,REF,Game Design,Referenciado por skills/itens/monstros,
+TIPOS_MONSTROS,RM_CORE_MAIN.xlsx,DIC_TIPOS_MONSTROS,REF,Game Design,Referenciado por MONSTROS_STATS,
+FAE_TAGS_DICTIONARY,RM_CORE_MAIN.xlsx,FAE_TAGS_DICTIONARY,DB,Lore/Conteúdo,DEV mantém espelho somente-leitura (ou remover duplicata),Duplicado idêntico no DEV hoje.
+FAE_TAG_ASSIGNMENTS,RM_CORE_MAIN.xlsx,FAE_TAG_ASSIGNMENTS,DB,Lore/Conteúdo,DEV mantém espelho somente-leitura (ou remover duplicata),Duplicado idêntico no DEV hoje.
+CHUNKS,RM_DEV_MAIN.xlsx,DIC_Chunks (Em Construção),REF,Conteúdo/Level Design,Exporta para RMXP/Evento; valida N/L/S/O contra ChaveMapa,Normalizar conexões (refs vs notas).
+CHUNK_TIME_OVERRIDES,RM_DEV_MAIN.xlsx,CHUNK_TIME_OVERRIDES,DB,Level Design,Deve usar PhaseMask conforme TIME_PHASES_MASTER,
+HOUSE_LIGHTS_PLAN,RM_DEV_MAIN.xlsx,HOUSE_LIGHTS_PLAN,DB,Level Design,Depende de TIME_PHASES/TIME_FLAGS; validações no META_QA,
+NPCS,RM_DEV_MAIN.xlsx,DIC_NPCs (Em Construção),REF,Narrativa/Conteúdo,Referenciam RepZona/PhaseMask e Quests; export futuro,Validar IdNPC e ScheduleRuleID.
+NPC_SCHEDULE_RULES,RM_DEV_MAIN.xlsx,NPC_SCHEDULE_RULES,DB,Narrativa/Conteúdo,IdNPC deve existir em NPCS; PhaseMask válido,"Sugestão: IdNPC único, ScheduleRuleID opcional."
+QUESTS,RM_DEV_MAIN.xlsx,Quests (Em Construção),DB,Narrativa/Conteúdo,IdQuest estável; requisitos em REL (futuro) e exports,
+SIDEQUESTS,RM_DEV_MAIN.xlsx,Sidequests (Em Construção),DB,Narrativa/Conteúdo,"IdQuest estável; se repetível, controlar flags",
+EXPORTS_SKILLS_STATUS,RM_QA_MAIN.xlsx,EXPORT_SKILLS,EXPORT,QA/Build,Gerado; não editar manualmente,EXPORT não é fonte da verdade (README). [EXPAND:auto:QA export sheets]
+EXPORTS_SKILLS_STATUS,RM_QA_MAIN.xlsx,EXPORT_STATUS,EXPORT,QA/Build,Gerado; não editar manualmente,EXPORT não é fonte da verdade (README). [EXPAND:auto:QA export sheets]
+EXPORTS_SKILLS_STATUS,RM_QA_MAIN.xlsx,EXPORT_CLASS_SKILLS,EXPORT,QA/Build,Derivado: RM_DEV_MAIN.xlsx/CLASS_SKILLS_MASTER (BUILD Step 4),Derivado do master canônico de classes (não editar manualmente).
+EXPORTS_SKILLS_STATUS,RM_QA_MAIN.xlsx,EXPORT_CLASS_PASSIVES,EXPORT,QA/Build,Derivado: RM_DEV_MAIN.xlsx/CLASS_PASSIVES_MASTER (BUILD Step 4),Derivado do master canônico de classes (não editar manualmente).
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,SOLDIER (Backlog ATO 4),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,DRAGON SLAYER (Backlog ATO 4),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,ROGUE (MALE) (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,ROGUE (FEMALE) (Backlog),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,KNIGHT (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,BERSERKER (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,RANGER (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,MONK (Backlog),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,WARRIOR (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Alchemist (Backlog),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Cryomancer (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Necromancer (Backlog),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Battlemage (Backlog ATO 2),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Esper (Backlog),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Darkmage (Backlog ATO 2),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Pyromancer (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Druid (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Shaman (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Sentinel (Backlog ATO 2),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Cleric (Em Construção),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SHEETS_TEMPLATE,RM_DEV_MAIN.xlsx,Bard (Backlog ATO 3),TEMPLATE,Game Design,Extrair para CLASS_SKILLS_MASTER / CLASS_PASSIVES_MASTER,Aba de classe (board/template). Não é fonte da verdade; usar masters normalizados.
+CLASS_SKILLS_MASTER,RM_DEV_MAIN.xlsx,CLASS_SKILLS_MASTER,DB,Game Design,Fonte da verdade (alimentar exports em QA futuramente),DB normalizada extraída das abas TEMPLATE de classes.
+CLASS_PASSIVES_MASTER,RM_DEV_MAIN.xlsx,CLASS_PASSIVES_MASTER,DB,Game Design,Fonte da verdade (alimentar exports em QA futuramente),DB normalizada extraída das abas TEMPLATE de classes.
+CLASS_PERICIAS_MASTER,RM_DEV_MAIN.xlsx,CLASS_PERICIAS_MASTER,DB,Design,espelho_de_RM_GOV_MAIN.xlsx/00_GOVERNANCA,Espelho. Fonte oficial em RM_GOV_MAIN.xlsx.
+DIC_ESCALA_TO_LEARNLEVEL,RM_CORE_MAIN.xlsx,DIC_ESCALA_TO_LEARNLEVEL,REF,Design/Balanceamento,manual,Espelho (fonte oficial no GOV). Escala→learn_level.
+DIC_STATUS_AJUSTES,RM_QA_MAIN.xlsx,DIC_STATUS_AJUSTES,REF,QA,manual,Lista de status permitidos e campos obrigatórios por fase do LOG_AJUSTES; usada em validação e relatórios.
+DIC_SHEET_ALIASES,RM_QA_MAIN.xlsx,DIC_SHEET_ALIASES,REF,QA,manual,Tabela de aliases para renomeio/limpeza de nomes de abas (ex.: remover sufixos ETx).

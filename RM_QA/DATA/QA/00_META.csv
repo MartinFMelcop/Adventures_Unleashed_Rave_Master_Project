@@ -1,0 +1,34 @@
+key,value
+project,Rave Masters
+file_role,QA
+track,MAIN
+release_id,RM_20251223_R01
+build_utc,2025-12-27T22:10:46Z
+source_filename,db_RPG_META_QA_PATCH_RM_20251223_R01_PATCHED.xlsx
+source_sha256,04201762db04d59452ab8e0519a043f205f5c9efd329f391f4530c9c2b7c3679
+versioning_note,A versão detalhada fica aqui (00_META). O nome do arquivo é curto e estável.
+origin_hash,1708d7eabffd04764aff19bc8c698cbd75a80ecfc0d9d1f2e451edc3ded1815a
+patch_notes,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomenclatura legada de track/release (ex.: MAIN/RM_20251223_R01). Novo track=MAIN, release_id=RM_20251223_R01. Mantidos aliases apenas como histórico em source_filename.
+2025-12-23T05:05:38Z: AJ_000168 — renomear relatórios removendo sufixo ET5 + criar DIC_SHEET_ALIASES.
+2025-12-23T15:27:24Z: BUILD17 — cadastra AJ_000172..AJ_000177 em BACKLOG (P0) (primeira etapa solicitada pelo Design).
+2025-12-23T15:39:34Z: AJ_000172 — Reconfigurar pacote para pastas HUMAN/DATA/LEGACY (execução).
+2025-12-23T15:49:51Z: AJ_000175 — LOG_AJUSTES exportado para DATA/QA/LOG_AJUSTES.csv (fonte da verdade).
+2025-12-23T15:59:36Z — AJ_000173: HUMAN_VIEW_CHUNK_GRID + HUMAN_VIEW_INDEX gerados em HUMAN/RM_HUMAN_VIEWS_MAIN.xlsx.
+2025-12-23T16:33:01Z — Decomposição do AJ_000176 em AJ_000178..AJ_000183 (execução incremental).
+2025-12-24T01:23:11Z: AJ_000145 — legacy GDD extraction (docs/sections/facts/map), AI_READABILITY_POLICY_v1, README AI-only.
+2025-12-25T17:20:45Z: AJ_000223 — aplicar allocated_main_stats + bonus HP/SP em params RMXP (DEV/RGSS).
+2025-12-25T17:40:17Z: AJ_000227 — migrar Status RASCUNHO→BACKLOG (fila WSJF).
+2025-12-25T18:00:10Z: AJ_000225 — conclude allowlist bootstrap (LOG update + new RPT_ACT1_COVERAGE + updated WSJF report).
+2025-12-25T20:29:04Z: AJ_000215 — ConditionsExpr determinístico + debug trace (SW 902) + repriorização WSJF.
+2025-12-25T20:46:40Z: AJ_000224 — DIALOGUE_VARIANTS persiste AddFlags/AddRecentEvent via stores.
+2025-12-25T21:00:11Z: AJ_000226 — VIT/WIS->HP/SP (4/2) + respec.
+2025-12-25T21:15:13Z: AJ_000203 — traceability validation report + WSJF refresh.
+2025-12-25T22:07:29Z: AJ_000202 — deprecated PDFs/EPUBs from snapshot after AI digest; legacy refs moved to external pointers.
+2025-12-26T10:54:26Z: AJ_000232 — enforce traceability contract on every build (generator+validator, module report integration).
+2025-12-26T11:25:08Z: AJ_000229 — expand dialogue tests (parentheses/false) + fix TEST_SCENARIOS_DIALOGUE schema/steps.
+2025-12-26T11:52:23Z: AJ_000228 — fecha ajuste; adiciona checks de coverage por IDs (ACT_ENTITY_TAGS) e atualiza validações.
+2025-12-26T19:19:47Z: AJ_000237 — implementa AJ_000231 + adiciona AJ_000238; refresh WSJF report.
+2025-12-26T20:49:12Z: AJ_000235 — prepack gate (manifest/checksums/DATA_INDEX/sheet_name_map + enforcement reports).
+2025-12-26T21:37:12Z: AJ_000234 — add RPT_ART_ASSET_INDEX_VALIDATION; LOG/WSJF/CHANGE_LOG updated; create AJ_000241 follow-up.
+2025-12-27T22:10:46Z: AJ_000265 — Digest legado vs RM_DIST (reports + reuse plan; LQ_0004 resolved; LQ_0011 created)."

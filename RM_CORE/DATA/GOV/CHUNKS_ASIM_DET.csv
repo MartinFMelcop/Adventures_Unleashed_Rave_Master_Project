@@ -1,0 +1,12 @@
+De,De_Mapa,Direcao,Para,Para_Mapa,De_Status,De_Nota,Para_Oposto,Para_BackRef,Para_BackStatus,Para_BackNota
+21T7,Floresta da Rose — Bosque dos Ferrões,Leste,21U6,Floresta da Rose — Corredores do Pothergeist,OK,mapa já descrito,Oeste,,EMPTY,
+21V11,Torre do Mago — Ponte e Portão Rangente,Sul,22V10,Torre do Mago Louco — Platô dos Marcos (Rampa Externa),OK,"mapa já descrito, tumba/zombie",Norte,,NOTE,Entrada da Torre (próximo mapa: pontezinha + portão de madeira trancado)
+22S3,Trilha das Ruínas — Ponte da Cachoeira,Sul,23S2,Vila Rose — Posto do Guarda Novato,OK,Vila Rose — Posto do Guarda Novato,Norte,,EMPTY,
+22T4,Floresta da Rose — Borda da Mata (Árvore Anciã),Sul,23T3,Floresta da Rose — Clareira de Âncora,OK,Floresta da Rose — Clareira de Âncora (acampamento/respawn,Norte,,NOTE,Floresta da Rose (interior / investigação do desaparecimento)
+23P7,Ruínas — Duelo dos Mentores,Leste,23Q6,Trilha das Ruínas — Fenda dos Imps,OK,mapa já descrito,Oeste,,EMPTY,
+23T3,Floresta da Rose — Clareira de Âncora,Sul,24T2,Vila Rose — Loja do Mercador,OK,Vila Rose — Loja do Mercador,Norte,,NOTE,trilha para a Floresta do Desaparecimento da Rose
+23U4,Pântano — Borda Encharcada (Pertences no Lodo),Sul,24U3,Vila Rose — Pasto das Galinhas e Lagoa de Pesca,OK,Vila Rose — Pasto das Galinhas e Lagoa de Pesca,Norte,,NOTE,Início do Pântano (ainda pacífico)
+23V5,Pântano — Bruma da Cockatrice,Oeste,23U4,Pântano — Borda Encharcada (Pertences no Lodo),OK,Pântano — Borda Encharcada (Pertences no Lodo,Leste,,NOTE,Pântano a dentro (saída pela beirada direita do mapa)
+23X9,Pântano — Margem Longa,Oeste,23W8,Pântano — Trilha da Torre (Pós-Mini Dungeon),OK,mapa já descrito,Leste,,NOTE,"continuação ampla do pântano (rota longa, com novos ramos)"
+24U3,Vila Rose — Pasto das Galinhas e Lagoa de Pesca,Oeste,24T2,Vila Rose — Loja do Mercador,OK,Vila Rose — Loja do Mercador,Leste,,EMPTY,
+24V6,Pântano — Ponte da Emboscada (Bagre Bípedo),Norte,23V5,Pântano — Bruma da Cockatrice,OK,Pântano — Bruma da Cockatrice,Sul,,NOTE,Próximo mapa (continuação do pântano)

@@ -1,0 +1,17 @@
+SummonID,Name,SummonKind,IsAllyDefault,StatModel,EntityRefType,EntityRefID,DefaultDurationTurns,DefaultCount,HasInventory,Notes
+SUM-0001,Companheiro Animal,COMPANION,TRUE,USE_SUMMONER_SCALED,NONE,,0,1,TRUE,Companheiro do Ranger. Entidade aliada persistente (por mapa) ou temporária (por combate) conforme implementação RGSS.
+SUM-0002,Animal Espiritual,COMPANION,TRUE,USE_SUMMONER_SCALED,NONE,,0,1,TRUE,Companheiro espiritual do Druida. Pode alternar modo ataque/apoio via parâmetros futuros.
+SUM-0003,Totem Ritual,TOTEM,TRUE,USE_SUMMONER_SCALED,NONE,,4,1,FALSE,Totem do Shaman. Pode buffar aliados e/ou debuffar inimigos próximos (a lógica fica no runtime).
+SUM-0004,Guia Ancestral,TEMP_SUMMON,TRUE,USE_SUMMONER_SCALED,NONE,,4,1,FALSE,Espírito ancestral que fortalece aliados. Não é 'pet' controlável; é efeito com presença.
+SUM-0005,Espírito Flamejante,TEMP_SUMMON,TRUE,USE_SUMMONER_SCALED,NONE,,3,1,FALSE,Espírito de fogo ofensivo. Deve aplicar vulnerabilidade/amp de dano como efeito.
+SUM-0006,Guardião da Colheita (Ervas/Fungos/Fibras)za,GUARDIAN,TRUE,USE_SUMMONER_SCALED,NONE,,3,1,FALSE,Guardião espiritual protetor. Foco: absorver parte do dano do alvo.
+SUM-0007,Espectro Invocado,TEMP_SUMMON,TRUE,USE_SUMMONER_SCALED,NONE,,3,1,FALSE,Espectro do Necromante. Ataca automaticamente e pode causar medo.
+SUM-0008,Exército Fantasma,ILLUSION,TRUE,USE_SUMMONER_SCALED,NONE,,3,3,FALSE,Ilusões/phantoms do Necromante que confundem e absorvem ataques. Não deve dropar loot.
+SUM-0009,Enxame de Espíritos,SWARM,FALSE,USE_SUMMONER_SCALED,NONE,,3,1,FALSE,Enxame de espíritos: ataque/drain. Modelar como entidade de efeito (swarm) ou múltiplos hits.
+SUM-0010,Isco Ilusório (Rogue),ILLUSION,TRUE,USE_SUMMONER_SCALED,NONE,,2,1,FALSE,Cópia ilusória que atrai ataques por alguns turnos.
+SUM-0011,Cópia Ilusória (Rogue),ILLUSION,TRUE,USE_SUMMONER_SCALED,NONE,,2,1,FALSE,Cópia ilusória para distrair inimigos e facilitar ataques surpresa.
+SUM-0012,Isco Ilusório (Esper),ILLUSION,TRUE,USE_SUMMONER_SCALED,NONE,,2,1,FALSE,"Cópia ilusória do Esper, distraindo inimigos e desviando ataques."
+SUM-0013,Ópera Fantasma,ILLUSION,TRUE,USE_SUMMONER_SCALED,NONE,,2,1,FALSE,Ilusões musicais do Bardo para confundir/distrair inimigos.
+SUM-0014,Fenda Dimensional,HAZARD,FALSE,FIXED_TEMPLATE,NONE,,3,1,FALSE,Portal/fenda persistente no campo. NÃO é aliado; é hazard de área.
+SUM-0015,Portal do Submundo,HAZARD,FALSE,FIXED_TEMPLATE,NONE,,3,1,FALSE,Fenda do Darkmage com dano contínuo em área.
+SUM-0016,Sombra Voraz,HAZARD,FALSE,FIXED_TEMPLATE,NONE,,3,1,FALSE,Sombra invocada que reduz atributos e causa dano leve ao longo do tempo.

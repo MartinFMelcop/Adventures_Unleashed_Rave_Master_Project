@@ -1,0 +1,11 @@
+trace_id,mer_id,func_id,tec_spec_id,stage_id,act_gate,notes
+TR_TSPEC_0001,BundleArtifacts,FUNC_BUILD_SNAPSHOT,TSPEC_0001,S3_SPEC_TEC_AI,ACT_1;ACT_4,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0002,Governance,FUNC_AI_READ_ORDER,TSPEC_0002,S3_SPEC_TEC_AI,ACT_1;ACT_4,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0003,RMXP_Taxonomy,FUNC_RGSS_ARCH,TSPEC_0003,S3_SPEC_TEC_AI,ACT_1;ACT_4,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0004,NarrativeReferences,FUNC_NARRATIVE_REFERENCE,TSPEC_0004,S3_SPEC_TEC_AI,ACT_1;ACT_4,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0005,AudioMood,FUNC_AUDIO_MOOD,TSPEC_0005,S3_SPEC_TEC_AI,ACT_1;ACT_4,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0006,ReleaseMilestones,FUNC_ACT1_LOCAL_BUILD,TSPEC_0006,S3_SPEC_TEC_AI,ACT_1,Derived from SPEC_TEC_AI.trace_mer/trace_func (AJ_000203).
+TR_TSPEC_0007,RMXP_InputBindings,FUNC_MOVEMENT_RUN_SF_1200,TSPEC_0007,S3_SPEC_TEC_AI,ACT_1,Derived from SPEC_TEC_AI.trace_mer/trace_func (run movement).
+TR_TSPEC_0008,RMXP_SaveDataSchema,FUNC_CHARACTER_CREATE_SF_1210,TSPEC_0008,S3_SPEC_TEC_AI,ACT_1,Derived from SPEC_TEC_AI.trace_mer/trace_func (character creation + save keys).
+TR_TSPEC_0009,Act1ScopeFreeze,FUNC_ACT1_SCOPE_FREEZE_SF_0007,TSPEC_0009,S3_SPEC_TEC_AI,ACT_1,Added by AJ_000257 (scope freeze gate + QA validator).
+TR_TSPEC_0010,RMXP_MovementSettings,FUNC_MOVEMENT_SETTINGS_SF_1220,TSPEC_0010,S3_SPEC_TEC_AI,ACT_1,Derived from SPEC_TEC_AI.trace_mer/trace_func and created by AJ_000280.

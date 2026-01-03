@@ -1,0 +1,31 @@
+SourceID,ActionKey,PericiaID,BaseXP,CooldownUnit,CooldownValue,CooldownScope,FirstTimeBonusXP,FirstTimeScope,CapPerDay,Tags,Notes,StackRule
+PX_0001,HARVEST_NODE_TIER_1,10,25,DAY,1,PER_KEY,50,PER_KEY,,tier:1;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0002,HARVEST_NODE_TIER_2,10,40,DAY,1,PER_KEY,80,PER_KEY,,tier:2;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0003,HARVEST_NODE_TIER_3,10,60,DAY,1,PER_KEY,120,PER_KEY,,tier:3;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0004,HARVEST_NODE_TIER_4,10,90,DAY,1,PER_KEY,180,PER_KEY,,tier:4;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0005,HARVEST_NODE_TIER_5,10,130,DAY,1,PER_KEY,260,PER_KEY,,tier:5;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0006,HARVEST_NODE_TIER_6,10,170,DAY,1,PER_KEY,340,PER_KEY,,tier:6;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0007,HARVEST_NODE_TIER_7,10,220,DAY,1,PER_KEY,440,PER_KEY,,tier:7;node;gather,XP for harvesting a resource node (per-node daily cooldown).,
+PX_0008,EXTRACT_NODE_TIER_1,18,30,DAY,1,PER_KEY,60,PER_KEY,,tier:1;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0009,EXTRACT_NODE_TIER_2,18,50,DAY,1,PER_KEY,100,PER_KEY,,tier:2;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0010,EXTRACT_NODE_TIER_3,18,75,DAY,1,PER_KEY,150,PER_KEY,,tier:3;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0011,EXTRACT_NODE_TIER_4,18,110,DAY,1,PER_KEY,220,PER_KEY,,tier:4;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0012,EXTRACT_NODE_TIER_5,18,155,DAY,1,PER_KEY,310,PER_KEY,,tier:5;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0013,EXTRACT_NODE_TIER_6,18,200,DAY,1,PER_KEY,400,PER_KEY,,tier:6;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0014,EXTRACT_NODE_TIER_7,18,260,DAY,1,PER_KEY,520,PER_KEY,,tier:7;node;gather,XP for extracting a mining node (per-node daily cooldown).,
+PX_0015,ALCHEMY_BREW_TIER_3,11,120,DAY,1,PER_KEY,120,PER_KEY,,tier:3;craft;alchemy,XP for brewing a Tier 3 alchemy recipe (per-recipe daily).,
+PX_0016,ALCHEMY_BREW_TIER_5,11,220,DAY,1,PER_KEY,220,PER_KEY,,tier:5;craft;alchemy,XP for brewing a Tier 5 alchemy recipe (per-recipe daily).,
+PX_0017,ALCHEMY_BREW_TIER_7,11,380,DAY,1,PER_KEY,380,PER_KEY,,tier:7;craft;alchemy,XP for brewing a Tier 7 alchemy recipe (per-recipe daily).,
+PX_0018,SMITH_FORGE_TIER_4,13,160,DAY,1,PER_KEY,160,PER_KEY,,tier:4;craft;smith,XP for forging a Tier 4 item (per-recipe daily).,
+PX_0019,SMITH_FORGE_TIER_5,13,240,DAY,1,PER_KEY,240,PER_KEY,,tier:5;craft;smith,XP for forging a Tier 5 item (per-recipe daily).,
+PX_0020,SMITH_FORGE_TIER_7,13,420,DAY,1,PER_KEY,420,PER_KEY,,tier:7;craft;smith,XP for forging a Tier 7 item (per-recipe daily).,
+PX_0021,WAYSTONE_CALIBRATE,3,180,CHAPTER,1,PER_KEY,300,PER_KEY,,waystone;veil;eco,XP for calibrating a Waystone (per-stone per-chapter).,
+PX_0022,BOND_RECRUIT_GOBLIN,2,150,DAY,1,PER_KEY,250,PER_KEY,,social;goblin;bond,XP for recruiting a goblin (per-target daily).,
+PX_0023,TRICKERY_FORGE_PASS,5,140,DAY,1,PER_KEY,200,PER_KEY,,social;deception,XP for forging a pass / con (per-situation daily).,
+PX_0024,WOODCUT_NODE_TIER_1,19,25,DAY,1,,,,,tier:1;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0025,WOODCUT_NODE_TIER_2,19,40,DAY,1,,,,,tier:2;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0026,WOODCUT_NODE_TIER_3,19,60,DAY,1,,,,,tier:3;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0027,WOODCUT_NODE_TIER_4,19,90,DAY,1,,,,,tier:4;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0028,WOODCUT_NODE_TIER_5,19,130,DAY,1,,,,,tier:5;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0029,WOODCUT_NODE_TIER_6,19,170,DAY,1,,,,,tier:6;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE
+PX_0030,WOODCUT_NODE_TIER_7,19,220,DAY,1,,,,,tier:7;node;gather;woodcut,XP for cutting a wood node (per-node daily).,PER_NODE

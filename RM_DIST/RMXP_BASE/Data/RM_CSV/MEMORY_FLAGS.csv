@@ -1,0 +1,10 @@
+FlagID,Scope,Name,Description,DefaultValue,TTL_Turns
+FLAG_PLAYER_HELPED,RELATION,Player helped me,Set when player provides meaningful help; increases Trust/Respect.,0,
+FLAG_PLAYER_BETRAYED,RELATION,Player betrayed me,Set on betrayal; reduces Trust; may set Suspicion.,0,
+FLAG_PLAYER_LIED,RELATION,Player lied to me,Set when lie is confirmed; can trigger manipulation intents.,0,
+FLAG_PLAYER_THREATENED,RELATION,Player threatened me,Set when coercion occurs; affects future fear/respect.,0,
+FLAG_OUTBURST_RECENT,NPC,Recent outburst,Cooldown indicator; dampens further escalation while active.,0,5.0
+FLAG_OBSESSION_HOOKED,NPC,Obsession hooked,Set when obsession topic is engaged; may override avoidance.,0,
+FLAG_AVOID_PLAYER,NPC,Avoid player,NPC tries to avoid interaction until cleared.,0,
+FLAG_TRUST_LOCKED_LOW,RELATION,Trust locked low,After major betrayal; trust recovers slowly.,0,
+FLAG_NPC0007_AVOID_PLAYER_TEMP,NPC,NPC-0007 avoid player (temp),Set after Mago Louco outburst; temporary avoidance/leave behavior gate for dialogue.,0,10.0

@@ -1,0 +1,10 @@
+{
+  "depends_on": [
+    "RM_CORE"
+  ],
+  "generated_utc": "2026-01-02T17:41:03Z",
+  "last_update_utc": "2026-01-02T21:21:08Z",
+  "module_id": "RM_ACT1",
+  "notes": "AJ_000350: backlog + READMEs (canon vs draft, 4 linhas, sessão batch, âncora de respawn). Módulo=ACT1.\nAJ_000355: Sync de origens/direções de chunks a partir do HUMAN_VIEW_CHUNK_GRID (Legacy). | Build AJ_000360 (2026-01-01T23:10:12Z). | Build AJ_000362 (2026-01-02T02:17:24Z) | Build AJ_000363 (2026-01-01T00:00:00Z) | Build AJ_000363 (2026-01-01T00:00:00Z)\nBuild AJ_000364: resync direções/notas de DIC_CHUNKS_EM_CONSTRUCAO via CORE/CHUNK_CONEXOES. | AJ_000332/334/342 + triggers TBD normalizados (QST/SDQ).",
+  "version_aj": "AJ_000368"
+}

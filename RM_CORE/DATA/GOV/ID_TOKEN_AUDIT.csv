@@ -1,0 +1,30 @@
+token_type,token_raw,token_norm,token_canonical,context,risk,csv_relpath,line,column,value_snippet
+TB,T7.B2,T7.B2,T7.B2,ETID_FIELD,INFO,DATA/QA/LOG_AJUSTES.csv,116,ETID,T7.B2
+TB,T7.B2.1,T7.B2.1,T7.B2.1,ETID_FIELD,INFO,DATA/QA/LOG_AJUSTES.csv,117,ETID,T7.B2.1
+ET,ET1,ET1,ET1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,168,Descricao,"Definir e consolidar convenção limpa (sem T1/T2..., B1/B2..., ET1/ET2...) para track/release/arquivos; manter tabela de aliases legados para rastreio."
+ET,ET1,ET1,ET1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,169,Descricao,"Inventariar e renomear relatórios/abas com sufixos ET1/ET2/ET5... (ex.: RPT_*_ET5), criando aliases e atualizando 00_INDEX/README."
+ET,ET1,ET1,ET1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,170,Descricao,"Procurar tokens T1/T2..., B1/B2..., ET1/ET2... em campos textuais (não-ID) e remover/substituir quando forem lixo de análise antiga; registrar decisões."
+ET,ET5,ET5,ET5,BUILD_NOTE,LOW,DATA/CORE/00_META.csv,11,value,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomencla…"
+ET,ET5,ET5,ET5,BUILD_NOTE,LOW,DATA/DEV/00_META.csv,11,value,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomencla…"
+ET,ET5,ET5,ET5,BUILD_NOTE,LOW,DATA/GOV/00_META.csv,11,value,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomencla…"
+ET,ET5,ET5,ET5,OTHER,LOW,DATA/QA/00_INDEX.csv,24,DescricaoAba,Relatório ET5: valida Level Cap de Perícias (fonte: DEV.CLASS_PERICIAS_MASTER).
+ET,ET5,ET5,ET5,OTHER,LOW,DATA/QA/00_INDEX.csv,25,DescricaoAba,Relatório ET5: valida learn_level de skills (derivado da Escala via DIC_ESCALA_TO_LEARNLEVEL).
+ET,ET5,ET5,ET5,BUILD_NOTE,LOW,DATA/QA/00_META.csv,11,value,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (AJ_000139–AJ_000166) a partir de user stories; recalcula WSJF e reprioriza P0 (Top 5).
+[AJ_000140] Removida nomencla…"
+ET,ET5,ET5,ET5,OTHER,LOW,DATA/QA/CHANGE_LOG.csv,15,Alterações,Quick wins ET5: (1) eliminada duplicidade de Nome entre raridades em ITENS_MASTER (Nome recebe raridade); (2) preenchidos Level Cap faltantes em skills de backlog (DEV) e sincroniz…
+ET,ET5,ET5,ET5,OTHER,LOW,DATA/QA/CHANGE_LOG.csv,23,Alterações,Renomeados relatórios RPT_* removendo sufixo ET5; criado DIC_SHEET_ALIASES; 00_INDEX atualizado; AJ_000168 concluído.
+ET,ET5,ET5,ET5,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,129,Titulo,Quick Win ET5: Resolver duplicidade de Nome entre raridades (RPT_NOME_DUP_ET5)
+ET,ET5,ET5,ET5,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,129,Decisoes,Solução rápida (ET5). AJ_000121 (NomeBase/NomeDisplay) permanece como evolução futura.
+ET,ET5,ET5,ET5,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,130,Titulo,Quick Win ET5: Preencher Level Cap faltante em skills de backlog (RPT_LEVELCAP_ET5)
+ET,ET5,ET5,ET5,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,136,Titulo,Quick Win ET5: Validar e zerar duplicidade de ItemID (RPT_ITEMID_DUP_ET5)
+ET,ET5,ET5,ET5,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,169,Evidencias,Renomeadas 6 abas RPT_* removendo sufixo ET5; aliases registrados em DIC_SHEET_ALIASES; 00_INDEX atualizado. Data UTC: 2025-12-23T05:03:42Z.
+TB,T7.B1,T7.B1,T7.B1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,116,ResultadoConclusao,"Inputs: DEV_PATCH_T6_3, CORE_PATCH_T6_3, assignments/dict do T7.B1. Aplicados=43, Pendentes(ID não encontrado)=2"
+TB,T7.B2,T7.B2,T7.B2,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,116,Titulo,T7.B2 — Aplicação de tags feéricas (metadado engine-ready)
+TB,T7.B2,T7.B2,T7.B2,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,116,Descricao,T7.B2 — Aplicação de tags feéricas (metadado engine-ready)
+TB,T7_B2,T7_B2,T7.B2,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,141,Titulo,Revisar padronização Track MAIN vs release_id T7_B2 e aplicar nos arquivos
+TB,T7_B2,T7_B2,T7.B2,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,141,Descricao,"Como Designer de Jogos necessito revisar informações sobre ""MAIN"""" e """"T7_B2"""" para atualizar e implementar elas nos arquivos corretos. Comece lendo o README"""
+TB,T7.B2.1,T7.B2.1,T7.B2.1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,117,Titulo,T7.B2.1 — Resolver pendências de tags em instâncias (MD-FAE-01/02)
+TB,T7.B2.1,T7.B2.1,T7.B2.1,LOG_TEXT,LOW,DATA/QA/LOG_AJUSTES.csv,117,Descricao,T7.B2.1 — Resolver pendências de tags em instâncias (MD-FAE-01/02)

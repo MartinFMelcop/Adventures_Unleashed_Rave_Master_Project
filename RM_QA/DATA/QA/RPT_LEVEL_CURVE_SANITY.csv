@@ -1,0 +1,8 @@
+CheckID,Description,Result,Observed,Expected,Severity,Notes
+XP_MONO_TOTAL,TotalXP must be non-decreasing by level.,PASS,True,True,INFO,
+XP_POS_NEXT,XPToNext must be >0 for levels 1..179.,PASS,True,True,INFO,
+XP_SPLIT_160,SumXP(1→160) ≈ SumXP(160→180).,PASS,ratio=1.000000 (total160=16898520 tail=16898522),0.95..1.05,INFO,Target from design: SumXP until 160 ≈ SumXP from 160 to 180.
+XP_ENDGAME_INCR,XPToNext must strictly increase from L160 to L179.,PASS,True,True,WARN,
+STAT_MAIN_AVG,Avg MainStatPoints 1–80 must be > avg 81–180.,PASS,early_avg=6.500 late_avg=3.200,early>late,WARN,
+STAT_MAIN_BOUND,Max MainStatPoints after 80 should be <= min in 1–80.,PASS,min_early=5 max_late=4,max_late<=min_early,WARN,
+STAT_HP_AVG,Avg HP_Gain 1–80 > avg 81–180.,PASS,early_avg=20.50 late_avg=8.50,early>late,WARN,

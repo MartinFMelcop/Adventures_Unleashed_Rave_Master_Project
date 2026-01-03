@@ -1,0 +1,23 @@
+{
+  "removed_utc": "2025-12-25T22:07:29Z",
+  "reason": "AJ_000202: deprecated duplicated PDF binaries from snapshot after AI digests. Sources remain in external bundle LEGACY_BUNDLE_0002 + QA digests.",
+  "origin_zip_sha256": "409a1b664ec5908fab7b824f1fa2b3cfd6fe3a0df3b5973f2b9fa3ac8228e97b",
+  "removed_files": [
+    {
+      "path": "LEGACY/REF_LIBRARY/rgss_reference_manual.pdf",
+      "sha256": "d0abaecc154645cfd6e19d5579dd987efe2a9f5d3ed95ae168eab65e5fcaf0ea",
+      "size_bytes": 896773,
+      "doc_id": "LEGACY_DOC_0001",
+      "replacement": "EXTERNAL_BUNDLE::RPGMXP_RGSS_NARRATIVE_REFERENCES.zip::RGSS_REFERENCE_MANUAL.pdf",
+      "aj": "AJ_000202"
+    },
+    {
+      "path": "LEGACY/REF_LIBRARY/rpgmxp_main_document.pdf",
+      "sha256": "6ac61927d5fe196d521d18fdfd449872dc671663a81b46905177be716bb8e97e",
+      "size_bytes": 622997,
+      "doc_id": "LEGACY_DOC_0002",
+      "replacement": "EXTERNAL_BUNDLE::RPGMXP_RGSS_NARRATIVE_REFERENCES.zip::RPGMXP_MAIN_DOCUMENT.pdf",
+      "aj": "AJ_000202"
+    }
+  ]
+}

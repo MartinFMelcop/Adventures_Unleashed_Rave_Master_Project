@@ -1,0 +1,42 @@
+﻿name: AI - Aplicar próximo ajuste
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  apply-next-adjustment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        working-directory: automation
+        run: npm ci
+
+      - name: Run bot (gera mudanças no workspace)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: "gpt-5.2"
+          LOG_PATH: "RM_QA/DATA/QA/LOG_AJUSTES.csv"
+          AI_MAX_FILES: "10"
+          AI_MAX_CHARS: "20000"
+        run: node automation/ai_apply_next_adjustment.mjs
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: "ai/ajustes"
+          title: "AI: aplicar próximo ajuste do LOG_AJUSTES"
+          body-path: automation/_AI_PR_BODY.md
+          commit-message: "AI: aplicar próximo ajuste do LOG_AJUSTES"
+          labels: automated,ai-ajustes

@@ -1,0 +1,17 @@
+Data,Ação,Detalhe
+20251222,Criado,00_GOVERNANCA
+20251222,Renomeado,00_INDEX~1 -> 00_INDEX_DEPRECADA
+20251222,Atualizado,00_INDEX com TipoAba e inclusão de abas faltantes
+20251223,QuickWins_QA,Zerados RPT_NOME_DUP_ET5 (renomeio Nome + raridade em ITENS_MASTER) e RPT_LEVELCAP_ET5 (preenchimento Level Cap + sync no master).
+2025-12-23T01:26:46Z,QA QuickWin + Backlog,LOG_AJUSTES: plano LevelCap/Perícias (BACKLOG) + Quick Win ItemID dup. RPT_ITEMID_DUP_ET5 regenerado.
+2025-12-23T01:52:44Z,AJ_000133,QA: separados relatórios de Perícias (Level Cap) e Skills (Escala→LearnLevel); RPT_LEVELCAP_ET5 marcado DEPRECADA.
+2025-12-23T02:01:42Z,AJ_000132,CORE: criado DIC_ESCALA_TO_LEARNLEVEL; DEV: learn_level materializado; QA: EXPORT_CLASS_SKILLS inclui NivelAprendizado e RPT_SKILL_LEARNLEVEL_ET5 virou validador.
+2025-12-23T02:36:33Z,WSJF,"Após ajuste: recalcular WSJF, reorganizar Prioridade (P0/P1) e manter relatório RPT_WSJF_OPEN_AJUSTES."
+2025-12-23T02:58:35Z,AJ_000065,Homologação concluída: validação de CutsceneIDs (0 missing) e referência reversa no DIC_CUTSCENES.
+2025-12-23T03:11:10Z,AJ_000120,Validação de status no LOG_AJUSTES + DIC_STATUS_AJUSTES + RPT_AJUSTES_FALTANTES + WSJF atualizado.
+2025-12-23T03:45:14Z,BUILD15,LOG_AJUSTES: novos BACKLOGs + WSJF atualizado (Top 5 P0).
+2025-12-23T05:03:42Z,AJ_000168,Limpeza de nomenclatura: remover ETx em nomes de relatórios; aliases mantidos.
+2025-12-25T04:58:32Z,AJ_000201,"RGSS/RMXP reference indexing (metadata-only): added RGSS_API_SYMBOLS + RGSS_AUTHORING_MAP + RMXP_MANUAL_SECTIONS; updated QA indices, README pointers, manifest/checksums; added new BACKLOG AJ_000205 and recalculated open WSJF ranks."
+2025-12-25T22:07:29Z,AJ_000202,Deprecar PDFs/EPUBs do snapshot após AI digest; atualizar LEGACY_AI_DIGEST_INDEX p/ EXTERNAL_BUNDLE; remover duplicatas no RM_LEGACY; registrar remoções.
+2025-12-26T11:52:23Z,AJ_000228,ACT_ENTITY_TAGS (tagging por IDs) para Ato 1 + EXPORT_TAGS atualizado + allowlist/workflow anotados + RPT_ACT1_COVERAGE e RPT_MODULES_VALIDATION atualizados.
+2026-01-02T04:07:15Z,Build,AJ_000364: resync DIC_CHUNKS + smoke test checklist + DIST Data/RM_CSV exports/stubs

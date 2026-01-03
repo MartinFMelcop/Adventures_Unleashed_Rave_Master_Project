@@ -1,0 +1,12 @@
+AutoFix_Safe,Set_No,Campo,NovoValor,Nota_Atual_no_Oposto,SeNota,Origem,Contexto
+SIM,21U6,Oeste_Ref,21T7,,,21T7 -> 21U6 (Leste),Floresta da Rose — Bosque dos Ferrões  ==>  Floresta da Rose — Corredores do Pothergeist
+SIM,22V10,Norte_Ref,21V11,Entrada da Torre (próximo mapa: pontezinha + portão de madeira trancado),Mover para *_Nota (manter),21V11 -> 22V10 (Sul),Torre do Mago — Ponte e Portão Rangente  ==>  Torre do Mago Louco — Platô dos Marcos (Rampa Externa)
+SIM,23S2,Norte_Ref,22S3,,,22S3 -> 23S2 (Sul),Trilha das Ruínas — Ponte da Cachoeira  ==>  Vila Rose — Posto do Guarda Novato
+SIM,23T3,Norte_Ref,22T4,Floresta da Rose (interior / investigação do desaparecimento),Mover para *_Nota (manter),22T4 -> 23T3 (Sul),Floresta da Rose — Borda da Mata (Árvore Anciã)  ==>  Floresta da Rose — Clareira de Âncora
+SIM,23Q6,Oeste_Ref,23P7,,,23P7 -> 23Q6 (Leste),Ruínas — Duelo dos Mentores  ==>  Trilha das Ruínas — Fenda dos Imps
+SIM,24T2,Norte_Ref,23T3,trilha para a Floresta do Desaparecimento da Rose,Mover para *_Nota (manter),23T3 -> 24T2 (Sul),Floresta da Rose — Clareira de Âncora  ==>  Vila Rose — Loja do Mercador
+SIM,24U3,Norte_Ref,23U4,Início do Pântano (ainda pacífico),Mover para *_Nota (manter),23U4 -> 24U3 (Sul),Pântano — Borda Encharcada (Pertences no Lodo)  ==>  Vila Rose — Pasto das Galinhas e Lagoa de Pesca
+SIM,23U4,Leste_Ref,23V5,Pântano a dentro (saída pela beirada direita do mapa),Mover para *_Nota (manter),23V5 -> 23U4 (Oeste),Pântano — Bruma da Cockatrice  ==>  Pântano — Borda Encharcada (Pertences no Lodo)
+SIM,23W8,Leste_Ref,23X9,"continuação ampla do pântano (rota longa, com novos ramos)",Mover para *_Nota (manter),23X9 -> 23W8 (Oeste),Pântano — Margem Longa  ==>  Pântano — Trilha da Torre (Pós-Mini Dungeon)
+SIM,24T2,Leste_Ref,24U3,,,24U3 -> 24T2 (Oeste),Vila Rose — Pasto das Galinhas e Lagoa de Pesca  ==>  Vila Rose — Loja do Mercador
+SIM,23V5,Sul_Ref,24V6,Próximo mapa (continuação do pântano),Mover para *_Nota (manter),24V6 -> 23V5 (Norte),Pântano — Ponte da Emboscada (Bagre Bípedo)  ==>  Pântano — Bruma da Cockatrice

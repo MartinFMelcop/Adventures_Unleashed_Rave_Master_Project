@@ -1,0 +1,6 @@
+TestID,BaseDur,DurApply_percent,Ten_percent,Expected_Duration
+DUR_001_base3,3,0,0,3
+DUR_002_plus50,3,50,0,5
+DUR_003_ten50,3,0,50,2
+DUR_004_min1,1,0,80,1
+DUR_005_mixed,5,25,10,6

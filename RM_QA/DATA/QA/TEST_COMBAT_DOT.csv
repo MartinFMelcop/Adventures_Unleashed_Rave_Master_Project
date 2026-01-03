@@ -1,0 +1,6 @@
+TestID,StatusID,HPmax,Expected_DOT_Tick
+DOT_001_poison_1000,POISON,1000,60
+DOT_002_bleed_999,BLEED,999,30
+DOT_003_burn_333,BURN,333,10
+DOT_004_unknown,FROST,1000,0
+DOT_005_poison_hp1,POISON,1,0

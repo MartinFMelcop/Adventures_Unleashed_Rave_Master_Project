@@ -1,0 +1,32 @@
+Entidade,Workbook_Fonte,Sheet_Fonte,Owner,RegraDeSync,Observacoes
+GOVERNANCA,META_QA,00_GOVERNANCA (criar),PM/Tech Lead,Manual (alterar só com revisão),Tabela central: Entidade→Fonte da verdade→regras.
+LOG_AJUSTES,META_QA,LOG_AJUSTES,QA/PM,Escrita contínua; cada mudança relevante gera linha,Status sugerido: PROPOSTA→EM ANDAMENTO→TESTES→CONCLUIDO.
+CHANGE_LOG,META_QA,CHANGE_LOG,QA/PM,Append-only (não editar linhas antigas),Resumo de releases/patches.
+VALIDACOES,META_QA,VALIDACOES (VIEW/REPORT),QA,Gerado a partir de checagens; não é fonte da verdade,Ideal criar QA_ACHADOS tabular.
+FLAGS,CORE,FLAGS_MASTER,Game Design,Atualiza ALIASES_FLAGS e exports dependentes,IDs estáveis; não reaproveitar; deprecar via status.
+ALIASES_FLAGS,CORE,ALIASES_FLAGS,Game Design,"Sempre que renomear flags, adicionar alias",Evita quebra de scripts/quests.
+TIME_PHASES,CORE,TIME_PHASES_MASTER,Game Design,DEV pode referenciar PhaseMask; manter PhaseID estável,UTC como padrão para horários.
+TIME_FLAGS,CORE,TIME_FLAGS,Game Design,Sincroniza com CHUNK_TIME_OVERRIDES e HOUSE_LIGHTS_PLAN,Switches/vars de tempo.
+STATUS,CORE,Status Categoria e Tipo,Game Design,EXPORT_STATUS deriva daqui,Sugestão: renomear sheet p/ STATUS_MASTER e manter alias no índice.
+GATES,CORE,GATES_MASTER_v2_REF,Game Design/Lore,Usado por chunks/quests como requisitos; manter GateFlag estável,
+REPUTACAO_REGIOES,CORE,DIC_REPUTACAO_REGIOES,Game Design/Lore,Quests/NPCs referenciam RepZona_Target e variáveis,
+REPUTACAO_NIVEIS,CORE,DIC_REPUTACAO_NIVEIS,Game Design/Lore,Regras de acesso e rewards; manter IDs estáveis,
+REPUTACAO_REGRAS,CORE,REP_REGRAS,Game Design,Documenta mecânicas; pode gerar validações,
+ECONOMIA_PRECIFICACAO,CORE,ECON_PRECIFICACAO,Game Design,Pode alimentar preço base e multiplicadores,Sheet está vazia (TODO).
+PERICIAS_SOFTSKILLS,CORE,PERICIAS_SOFTSKILLS,Game Design,Quests/NPCs referenciam Perícias; manter PericiaID,
+ITENS,CORE,ITENS_MASTER,Game Design,DEV (Itens Em Construção) deve espelhar/validar contra ItemID,Fonte da verdade de ItemID/slots/raridade etc.
+CONSUMIVEIS,CORE,CONSUMIVEIS_MASTER,Game Design,Derivado/ligado a ITENS_MASTER; ItemID comum,
+MONSTROS,CORE,MONSTROS_STATS,Game Design,DEV DIC_MONSTROS (Em Construção) é WIP e deve convergir aqui,Tipos em DIC_TIPOS_MONSTROS.
+TIPOS_DANO,CORE,DIC_TIPOS_DANO,Game Design,Referenciado por skills/itens/monstros,
+TIPOS_MONSTROS,CORE,DIC_TIPOS_MONSTROS,Game Design,Referenciado por MONSTROS_STATS,
+FAE_TAGS_DICTIONARY,CORE,FAE_TAGS_DICTIONARY,Lore/Conteúdo,DEV mantém espelho somente-leitura (ou remover duplicata),Duplicado idêntico no DEV hoje.
+FAE_TAG_ASSIGNMENTS,CORE,FAE_TAG_ASSIGNMENTS,Lore/Conteúdo,DEV mantém espelho somente-leitura (ou remover duplicata),Duplicado idêntico no DEV hoje.
+CHUNKS,DEV,DIC_Chunks (Em Construção),Conteúdo/Level Design,Exporta para RMXP/Evento; valida N/L/S/O contra ChaveMapa,Normalizar conexões (refs vs notas).
+CHUNK_TIME_OVERRIDES,DEV,CHUNK_TIME_OVERRIDES,Level Design,Deve usar PhaseMask conforme TIME_PHASES_MASTER,
+HOUSE_LIGHTS_PLAN,DEV,HOUSE_LIGHTS_PLAN,Level Design,Depende de TIME_PHASES/TIME_FLAGS; validações no META_QA,
+NPCS,DEV,DIC_NPCs (Em Construção),Narrativa/Conteúdo,Referenciam RepZona/PhaseMask e Quests; export futuro,Validar IdNPC e ScheduleRuleID.
+NPC_SCHEDULE_RULES,DEV,NPC_SCHEDULE_RULES,Narrativa/Conteúdo,IdNPC deve existir em NPCS; PhaseMask válido,"Sugestão: IdNPC único, ScheduleRuleID opcional."
+QUESTS,DEV,Quests (Em Construção),Narrativa/Conteúdo,IdQuest estável; requisitos em REL (futuro) e exports,
+SIDEQUESTS,DEV,Sidequests (Em Construção),Narrativa/Conteúdo,"IdQuest estável; se repetível, controlar flags",
+CLASS_SKILLS,DEV,Sheets de Classes (21 abas com SkillID),Game Design,EXPORT_SKILLS/EXPORT_CLASS_* deriva dessas abas,Abas detectadas: 21 (ex.: SOLDIER (Backlog ATO 4)).
+EXPORTS_SKILLS_STATUS,META_QA,EXPORT_SKILLS / EXPORT_CLASS_* / EXPORT_STATUS,QA/Build,Gerado; não editar manualmente,EXPORT não é fonte da verdade (README).

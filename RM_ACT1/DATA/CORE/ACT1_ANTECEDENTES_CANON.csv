@@ -1,0 +1,12 @@
+AntecedenteID,AntecedenteKey,DisplayName,Regra_Efeito_Oficial,Observacoes,Status
+1,ERUDITO,Erudito,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+2,CULTISTA,Cultista,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+3,ACOLITO,Acólito,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+4,SOLDADO,Soldado,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+5,GUARDIAO,Guardião,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+7,BATEDOR,Batedor,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+8,CRIMINOSO,Criminoso,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+9,ARTIFICE_COMERCIANTE,Artífice/Comerciante,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+10,ARTISTA,Artista,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+11,CACADOR,Caçador,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON
+12,SOBREVIVENTE,Sobrevivente,Modifica apenas equipamentos/consumíveis/dinheiro,,CANON

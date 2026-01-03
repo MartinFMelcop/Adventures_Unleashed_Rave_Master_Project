@@ -1,0 +1,16 @@
+SourceID,SourceKey,SourceType,BaseXP,CooldownUnit,CooldownValue,CooldownScope,FirstTimeBonusXP,FirstTimeScope,CapPerDay,Tags,Notes
+PLX_0001,QUEST_MAIN_COMPLETE,QUEST,1500,NONE,0,NONE,0,NONE,,quest;main,Main quest completion reward
+PLX_0002,QUEST_SIDE_COMPLETE,QUEST,800,NONE,0,NONE,0,NONE,,quest;side,Side quest completion reward
+PLX_0003,QUEST_REPEATABLE_COMPLETE,QUEST,300,DAY,1,GLOBAL,0,NONE,20,quest;repeatable,Repeatable quest reward with daily cap
+PLX_0004,COMBAT_VICTORY_TIER_1,COMBAT,60,NONE,0,NONE,0,NONE,,combat;tier:1,Combat victory baseline for low tier mobs
+PLX_0005,COMBAT_VICTORY_TIER_2,COMBAT,120,NONE,0,NONE,0,NONE,,combat;tier:2,Combat victory baseline for mid tier mobs
+PLX_0006,COMBAT_VICTORY_TIER_3,COMBAT,220,NONE,0,NONE,0,NONE,,combat;tier:3,Combat victory baseline for high tier mobs
+PLX_0007,COMBAT_BOSS_MINI,COMBAT,500,NONE,0,PER_KEY,0,NONE,,combat;boss,Mini-boss; recommended PER_KEY cooldown by BossID context
+PLX_0008,COMBAT_BOSS_CALAMITY,COMBAT,1200,DAY,1,PER_KEY,0,NONE,,combat;calamity,Calamity kill; per calamity id; daily loop-safe
+PLX_0009,DISCOVERY_NEW_CHUNK,DISCOVERY,120,NONE,0,PER_KEY,80,PER_KEY,,discovery;chunk,First visit to a new chunk/area (per chunk id)
+PLX_0010,DISCOVERY_WAYSTONE_UNLOCK,DISCOVERY,250,NONE,0,PER_KEY,150,PER_KEY,,discovery;waystone,Unlocking a waystone (per waystone id)
+PLX_0011,BOOK_PAGE_FOUND,COLLECT,300,NONE,0,PER_KEY,200,PER_KEY,,collect;book,Finding a page of the book (per page id)
+PLX_0012,DIALOGUE_MAJOR_REVELATION,SOCIAL,200,NONE,0,PER_KEY,120,PER_KEY,,social;dialogue,Major dialogue revelation/cutscene milestone (per scene id)
+PLX_0013,ARENA_MATCH_WIN,ARENA,250,NONE,0,NONE,0,NONE,,arena,Arena match win baseline
+PLX_0014,ARENA_RANK_UP,ARENA,1000,NONE,0,PER_KEY,0,NONE,,arena;rank,Arena rank up (per rank milestone id)
+PLX_0015,QUEST_PAMPHLET_ACCEPT,QUEST,100,NONE,0,GLOBAL,0,NONE,,quest;prologue,Accepting the first pamphlet hook (once)

@@ -1,0 +1,14 @@
+IntentID,DisplayName,Description,DefaultStakes,Notes
+SMALLTALK,Smalltalk,Low-stakes social talk; rapport building.,LOW,
+REQUEST_HELP,Request help,Ask for assistance or service.,ANY,
+NEGOTIATION,Negotiation,Bargaining; align incentives; propose tradeoffs.,ANY,
+BLAME,Blame / Accusation,Accuse or assign fault.,ANY,Often increases Stress.
+APOLOGY,Apology,Admit fault; ask forgiveness.,ANY,Often reduces Stress if accepted.
+THREAT,Threat,Coerce via intimidation or implied violence.,HIGH,
+MANIPULATION_SUSPECTED,Manipulation suspected,Speaker senses manipulation attempt.,ANY,May be inferred from low trust.
+MANIPULATION_CONFIRMED,Manipulation confirmed,Manipulation is confirmed by evidence.,ANY,Strong Stress spike; may trigger Outburst.
+OBSESSION,Obsession topic,Talk about a topic the speaker is obsessed with.,LOW,Can override avoidant states.
+GOODBYE,Goodbye / Leave,End conversation; exit.,LOW,
+PRAISE,Praise / Appreciation,Compliment or show gratitude.,LOW,Improves Trust/Respect.
+INSULT,Insult / Disrespect,Direct disrespect; provocation.,ANY,Raises Stress; may set Mood.
+OFFER_BRIBE,Offer bribe,Try to buy compliance.,ANY,Faction norms may affect.

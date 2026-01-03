@@ -1,0 +1,6 @@
+alias,canonico,Tipo,motivo,ocorrencias_alias,onde_aparece_alias
+T7_B1,T7.B1,ETID_TOKEN,Normalize stage tokens: canonical uses dot separators in ETID (T#.B#.[#]); underscore variants are accepted as aliases.,0,
+T7_B2,T7.B2,ETID_TOKEN,Normalize stage tokens: canonical uses dot separators in ETID (T#.B#.[#]); underscore variants are accepted as aliases.,2,DATA/QA/LOG_AJUSTES.csv::Titulo@L141;DATA/QA/LOG_AJUSTES.csv::Descricao@L141
+T7_B2_1,T7.B2.1,ETID_TOKEN,Normalize stage tokens: canonical uses dot separators in ETID (T#.B#.[#]); underscore variants are accepted as aliases.,0,
+et1,ET1,ET_TOKEN,Normalize ET token case: canonical uses uppercase 'ET#'.,3,DATA/QA/LOG_AJUSTES.csv::Descricao@L168;DATA/QA/LOG_AJUSTES.csv::Descricao@L169;DATA/QA/LOG_AJUSTES.csv::Descricao@L170
+et5,ET5,ET_TOKEN,Normalize ET token case: canonical uses uppercase 'ET#'.,13,DATA/CORE/00_META.csv::value@L11;DATA/DEV/00_META.csv::value@L11;DATA/GOV/00_META.csv::value@L11;DATA/QA/00_INDEX.csv::DescricaoAba@L24;DATA/QA/00_INDEX.csv::DescricaoAba@L25;DATA/QA/00_META.csv::value@L11;DATA/QA/CHANGE_LOG.csv::Alterações@L15;DATA/QA/CHANGE_LOG.csv::Alterações@L23;DATA/QA/LOG_AJUSTES.csv::Titulo@L129;DATA/QA/LOG_AJUSTES.csv::Decisoes@L129;DATA/QA/LOG_AJUSTES.csv::Titulo@L130;DATA/QA/LOG_AJUSTES.csv::Titulo@L136;...

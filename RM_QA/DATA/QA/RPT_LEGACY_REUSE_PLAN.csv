@@ -1,0 +1,6 @@
+ItemType,ItemKey,RecommendedAction,Why,Risk,Evidence
+BUILD,Game.exe,USE_RM_DIST_BASE,Os 3 projetos legados possuem Game.exe idêntico (SHA256) e igual ao RM_DIST/RMXP_BASE.,Baixo,RPT_LEGACY_PROJECT_DIGEST.csv
+SCRIPT,Data/Scripts.rxdata (IAAPP|Extreme),IGNORE_LOADER_USE_BACKUP_OR_DIST,"Nos projetos IAAPP/Extreme, Scripts.rxdata é apenas 'RGSS Script Editor Loader' (~2.4KB); o conteúdo completo está nos backups .rgss-script-editor-backups. RM_DIST já contém Scripts completo + runtimes RM_.",Médio (se usar o loader por engano),RPT_LEGACY_SCRIPTS_DIFF.csv
+SCRIPT,Game_Temp;Game_Actor (RPG_Experimental_LEGADO),PREFER_RM_DIST_VARIANT,"Esses 2 scripts divergem do RM_DIST; IAAPP/Extreme batem com RM_DIST. Para evitar regressão, trate a variante do Experimental como divergente.",Médio,RPT_LEGACY_SCRIPTS_DIFF.csv
+MAP,Map002.rxdata (Extreme/Experimental),REVIEW_KEEP_OR_DROP,Map002 existe em Extreme/Experimental mas não está em RM_DIST nem em IAAPP; pode ter sido removido intencionalmente no base canônico.,Baixo/Médio (canonização de mapa),RPT_LEGACY_MAPS_DIFF.csv
+ASSET,Graphics/* (IAAPP),USE_RM_DIST_AS_CANON,O conjunto de 47 PNGs é idêntico ao RM_DIST (mesmos caminhos e hashes). Não há ganho em importar do legado.,Baixo,RPT_LEGACY_PROJECT_DIGEST.csv

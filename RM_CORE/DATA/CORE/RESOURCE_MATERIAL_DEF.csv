@@ -1,0 +1,17 @@
+MaterialID,Nome,ResourceKind,Tier,SkillID,AcquisitionModes,CompetitiveRelevance,DefaultNodeIDs,Notes
+MAT_ERVAS_MEDICINAIS,Ervas Medicinais,HERB,1,10,WORLD_NODE,LOW,NODE_0001,Base de poções simples.
+MAT_ERVAS_FORTES,Ervas Fortes,HERB,2,10,WORLD_NODE,MID,NODE_0001,Poções melhores; comum no pântano.
+MAT_ERVAS_FEBRE_DO_BREJO,Ervas Febre do Brejo,HERB,3,10,WORLD_NODE,MID,NODE_0001,Ingrediente do brejo; antídotos.
+MAT_FUNGOS_ARCANOS,Fungos Arcanos,FUNGUS,2,10,WORLD_NODE,MID,NODE_0002;NODE_0004,Usado em pós/póções arcanas.
+MAT_MADEIRA_BRUTA,Madeira Bruta,WOOD,1,19,WORLD_NODE,LOW,NODE_0003;NODE_0011,Ferramentas simples e fogo. REVISADO: SkillID=19 (Lenharia).
+MAT_HASTE_MADEIRA,Haste Madeira,WOOD,2,19,ALT_CRAFT,LOW,NODE_0003,Normalmente via refino; pode dropar raro. REVISADO: SkillID=19 (Lenharia).
+MAT_FIBRA,Fibra,FIBER,1,10,WORLD_NODE,LOW,NODE_0008,"Cordas, panos e montagens."
+MAT_SEDA_ARANHA,Seda Aranha,FIBER,3,10,WORLD_NODE,MID,NODE_0008,Para kits melhores e mods leves.
+MAT_SUCATA_METAL,Sucata Metal,SCRAP,2,18,WORLD_NODE,MID,NODE_0005,Base de metalurgia sem mineração pura.
+MAT_CARVAO,Carvao,SCRAP,2,18,WORLD_NODE,LOW,NODE_0005,Combustível de forja/alquimia.
+MAT_PEDRA_RUNICA_BRUTA,Pedra Runica Bruta,RUNIC,3,18,WORLD_NODE,HIGH,NODE_0007,Entrada do meta rúnico; caminho para T5.
+MAT_FRAGMENTO_RUNICO,Fragmento Runico,RUNIC,4,18,WORLD_NODE,HIGH,NODE_0004;NODE_0007,Recurso “competitivo” inicial (T4/T5).
+MAT_SELO_ARCANO,Selo Arcano,RUNIC,5,3,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR,HIGH,NODE_0010,Meta T5; garantido via eco/tokens.
+MAT_ESSENCIA_VEU_T5,Essência do Véu (T5),VEIL,5,3,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR,HIGH,NODE_0010,Meta T5: essência base.
+MAT_ESSENCIA_VEU_T6,Essência do Véu (T6),VEIL,6,3,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR;ALT_CRAFT,HIGH,NODE_0010,T6: especialização; sidegrades.
+MAT_ESSENCIA_VEU_T7,Essência do Véu (T7),VEIL,7,3,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR;ALT_CRAFT,HIGH,NODE_0010,T7: elite; assinatura.

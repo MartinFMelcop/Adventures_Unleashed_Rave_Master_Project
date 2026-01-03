@@ -1,0 +1,13 @@
+DanoID,Nome,Categoria,Observação
+1,Cortante,FÍSICO,Dano físico por lâminas/arestas. Frequentemente associado a BLEED quando a habilidade indicar
+2,Perfurante,FÍSICO,Dano físico por estocada/projétil. Frequentemente associado a BLEED quando a habilidade indicar
+3,Contusão,FÍSICO,Dano físico por impacto/trauma. Pode sustentar efeitos de atordoamento/controle quando a habilidade indicar
+4,Veneno,MÁGICO,Dano tóxico/miasma (‘Sludge Wave’): pode coexistir com POISON (status) quando a habilidade indicar
+5,Necrótico,MÁGICO,Energia de morte/decadência. Comum em mortos-vivos e magia sombria; pode sustentar maldições/debuffs numéricos quando indicado
+6,Ácido,MÁGICO,Corrosivo. Pode sustentar redução de DEF/armadura (debuff numérico) quando indicado
+7,Ígneo,MÁGICO,Fogo/calor. Pode aplicar BURN quando a habilidade indicar
+8,Gélido,MÁGICO,Gelo/frio. Pode aplicar FREEZE quando a habilidade indicar
+9,Elétrico,MÁGICO,Eletricidade/choque. Pode aplicar PARALYSIS ou STUN quando a habilidade indicar
+10,Arcana Pura,MÁGICO,Energia arcana neutra (base de magia). Usada para efeitos ‘puros’ sem alinhamento
+11,Arcana Sombria,MÁGICO,"Arcana profana/corrupta. Comum em rituais, submundo e efeitos de maldição (ex.: SILENCE/CONFUSION quando indicado"
+12,Arcana Divina,MÁGICO,Arcana sagrada. Comum em bênçãos e punição espiritual; relevante contra entidades profanas conforme design da habilidade

@@ -1,0 +1,5 @@
+AccessID,TargetType,TargetID,Tier,AcquisitionPaths,AntiMissablePolicy,Notes
+CAP_0001,Material,MAT_SELO_ARCANO,5,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR,ALWAYS_AVAILABLE,T5 meta. Active é eficiente; Eco+Tokens garantem acesso.
+CAP_0002,Material,MAT_ESSENCIA_VEU_T6,6,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR;ALT_CRAFT,ALWAYS_AVAILABLE,T6 especialização. Ainda não definido na base: placeholder para Act 4.
+CAP_0003,Material,MAT_ESSENCIA_VEU_T7,7,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR;ALT_CRAFT,ALWAYS_AVAILABLE,T7 elite. Placeholder; drop raro + selector via tokens.
+CAP_0004,Material,MAT_ESSENCIA_VEU_T5,5,ACTIVE_EVENT;ECHO_EVENT;TOKEN_VENDOR,ALWAYS_AVAILABLE,Essência T5: meta baseline; garantida via tokens.

@@ -1,0 +1,9 @@
+ChaveMapa,Mapa,Direcao,ValorNota
+21U6,Floresta da Rose — Corredores do Pothergeist,Sul,volta para Clareiras do Aríete Alado (mapa anterior)
+22U5,Floresta da Rose — Clareiras do Aríete Alado,Oeste,retorno para a Mini Dungeon — Rota dos Insetos
+22V10,Torre do Mago Louco — Platô dos Marcos (Rampa Externa),Sul,sem conexão
+22W9,Pântano — Campina da Tumba,Leste,sem conexão
+22W9,Pântano — Campina da Tumba,Sul,volta para a beira do brejo (mapa anterior)
+23S2,Vila Rose — Posto do Guarda Novato,Leste,sem saída (bloqueio por colisão)
+23W8,Pântano — Trilha da Torre (Pós-Mini Dungeon),Oeste,sem conexão (limites/terreno)
+24T2,Vila Rose — Loja do Mercador,Sul,sem saída (limite do recorte)

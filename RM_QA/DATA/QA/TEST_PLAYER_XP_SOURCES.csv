@@ -1,0 +1,7 @@
+TestID,SourceKey,ContextKey,Day,Chapter,Times,ExpectedBehavior,Notes
+T001,QUEST_MAIN_COMPLETE,QST-MAIN-01,0,0,1,grant_once,Expect grant; no cooldown/cap
+T002,QUEST_REPEATABLE_COMPLETE,QST-REP-01,1,0,25,cap_daily_20,First 20 grants ok; grants 21-25 blocked
+T003,COMBAT_BOSS_CALAMITY,CAL-0003,5,0,2,cooldown_day_1_per_key,Second grant same day blocked; next day allowed
+T004,BOOK_PAGE_FOUND,PAGE-0007,0,0,2,first_time_bonus_once_per_key,First grant includes bonus; second has no bonus
+T005,DISCOVERY_NEW_CHUNK,CH-0012,0,0,2,first_time_bonus_once_per_key,Same as above (per chunk)
+T006,ARENA_MATCH_WIN,MATCH-FOO,0,0,3,grant_repeatable,Always grants; no cap

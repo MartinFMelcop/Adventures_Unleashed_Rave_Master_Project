@@ -1,0 +1,13 @@
+CalamidadeID,Nome,Epíteto,ActiveModelID,EchoModelID,WaystoneSkillID,WaystoneLevelReq,TokenID,TokenPerClear_Min,TokenPerClear_Max,CompetitiveTierTarget,EchoCooldownType,Notes
+1,Yama Dharmaraja,o Árbitro do Submundo,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+2,Nāga Karkotaka,o Serpentário Cósmico,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+3,Makara Jala,o Leviatã das Profundezas,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+4,Barāha Asura,o Javali Indomável,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+5,Gaki Voraz,o Insaciável Preta,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+6,Garuda Vāyu,o Soberano Celestial,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+7,Mara Pishacha,o Tormentador Sombrio,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+8,Bodhisattva Apsara,a Guardiã da Luz,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+9,Padma Rakṣa,o Ent Guardião,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+10,Vajra Mantra,o Colosso Relâmpago,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+11,Frederik'zix IX,o Último Imperador Celestial,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."
+12,Dukkha Mahārāj,o Soberano da Aflição,ECHO_MODEL_ACTIVE,ECHO_MODEL_ECHO,3,15,TOK_VEIL_SHARD,5,9,5,DAILY,"Active: aparece por janela/Capítulo. Echo: sempre disponível via Waystone, reward reduzido."

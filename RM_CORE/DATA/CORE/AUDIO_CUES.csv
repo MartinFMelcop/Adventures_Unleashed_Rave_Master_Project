@@ -1,0 +1,26 @@
+CueID,Tipo,PastaDestino,FileStem,Formato,Loop,Categoria,Tags,AssetStatus,ReferenceIDs,Notas
+BGM_VILA_01,BGM,Audio/BGM,BGM_VILA_01,ogg,TRUE,REGION,leve;acolhedor,PLANNED,,Tema da Vila (base).
+BGM_FLORESTA_FADAS_01,BGM,Audio/BGM,BGM_FLORESTA_FADAS_01,ogg,TRUE,REGION,misterioso;magico,PLANNED,REF_0061,Floresta das Fadas (místico).
+BGM_RUINAS_GOBLIN_01,BGM,Audio/BGM,BGM_RUINAS_GOBLIN_01,ogg,TRUE,REGION,tenso;perigo,PLANNED,,Ruínas Goblin (hostil).
+BGM_BREJO_ALAGADO_01,BGM,Audio/BGM,BGM_BREJO_ALAGADO_01,ogg,TRUE,REGION,amedrontador;opressivo,PLANNED,REF_0061,Brejo Alagado (opressivo).
+BGM_CAMINHO_COSTEIRO_01,BGM,Audio/BGM,BGM_CAMINHO_COSTEIRO_01,ogg,TRUE,REGION,aventura;vento,PLANNED,,Caminho costeiro (aberto/vento).
+BGM_REINO_ELFICO_01,BGM,Audio/BGM,BGM_REINO_ELFICO_01,ogg,TRUE,REGION,nobre;luminoso,PLANNED,,Reino Élfico (nobre).
+BGM_CAVERNA_DUNGEON_01,BGM,Audio/BGM,BGM_CAVERNA_DUNGEON_01,ogg,TRUE,DUNGEON,escuro;eco,PLANNED,REF_0061,BGM base para cavernas/dungeons (pode ser comum).
+BGM_BATALHA_COMUM_01,BGM,Audio/BGM,BGM_BATALHA_COMUM_01,ogg,TRUE,BATTLE,acao;ritmo,PLANNED,,Batalha comum (encounters).
+BGM_MINIBOSS_MB001_01,BGM,Audio/BGM,BGM_MINIBOSS_MB001_01,ogg,TRUE,MINIBOSS,tensao;tribal,PLANNED,,Miniboss MB001 (Goblin King).
+BGM_MINIBOSS_MB002_01,BGM,Audio/BGM,BGM_MINIBOSS_MB002_01,ogg,TRUE,MINIBOSS,selvagem;natureza,PLANNED,,Miniboss MB002 (Ent enlouquecido).
+BGM_MINIBOSS_MB003_01,BGM,Audio/BGM,BGM_MINIBOSS_MB003_01,ogg,TRUE,MINIBOSS,horror;fenda,PLANNED,REF_0061,Miniboss MB003 (Demônio na fenda).
+BGM_EVENT_COCKATRICE_01,BGM,Audio/BGM,BGM_EVENT_COCKATRICE_01,ogg,TRUE,EVENT,estranho;ameaça,PLANNED,,Evento Cockatrice (1x).
+BGS_VILA_AMBI_01,BGS,Audio/BGS,BGS_VILA_AMBI_01,ogg,TRUE,AMBIENCE,passaros;mercado,PLANNED,,Ambience Vila (dia).
+BGS_FLORESTA_FADAS_AMBI_01,BGS,Audio/BGS,BGS_FLORESTA_FADAS_AMBI_01,ogg,TRUE,AMBIENCE,folhas;chimes,PLANNED,,Ambience Floresta das Fadas.
+BGS_RUINAS_GOBLIN_AMBI_01,BGS,Audio/BGS,BGS_RUINAS_GOBLIN_AMBI_01,ogg,TRUE,AMBIENCE,ruina;goteira,PLANNED,,Ambience Ruínas Goblin.
+BGS_BREJO_AMBI_01,BGS,Audio/BGS,BGS_BREJO_AMBI_01,ogg,TRUE,AMBIENCE,insetos;lamas,PLANNED,,Ambience Brejo.
+BGS_COSTEIRO_AMBI_01,BGS,Audio/BGS,BGS_COSTEIRO_AMBI_01,ogg,TRUE,AMBIENCE,ondas;vento,PLANNED,,Ambience Caminho costeiro.
+BGS_REINO_ELFICO_AMBI_01,BGS,Audio/BGS,BGS_REINO_ELFICO_AMBI_01,ogg,TRUE,AMBIENCE,fonte;cidade,PLANNED,,Ambience Reino Élfico.
+BGS_CAVERNA_AMBI_01,BGS,Audio/BGS,BGS_CAVERNA_AMBI_01,ogg,TRUE,AMBIENCE,eco;goteira,PLANNED,,Ambience comum para cavernas (duas dungeons).
+SE_UI_CONFIRM_01,SE,Audio/SE,SE_UI_CONFIRM_01,ogg,FALSE,UI,menu,PLANNED,,Confirmar/OK.
+SE_UI_CANCEL_01,SE,Audio/SE,SE_UI_CANCEL_01,ogg,FALSE,UI,menu,PLANNED,,Cancelar/Voltar.
+SE_ATTACK_SLASH_01,SE,Audio/SE,SE_ATTACK_SLASH_01,ogg,FALSE,COMBAT,hit,PLANNED,,Golpe cortante (ataque básico).
+SE_STATUS_APPLY_01,SE,Audio/SE,SE_STATUS_APPLY_01,ogg,FALSE,COMBAT,status,PLANNED,,Aplicação de status (buff/debuff).
+SE_BREAKBAR_HIT_01,SE,Audio/SE,SE_BREAKBAR_HIT_01,ogg,FALSE,COMBAT,breakbar,PLANNED,,Hit na breakbar (mini-boss/calamidade).
+SE_DISARM_01,SE,Audio/SE,SE_DISARM_01,ogg,FALSE,COMBAT,cc,PLANNED,,Desarme aplicado (hard CC).

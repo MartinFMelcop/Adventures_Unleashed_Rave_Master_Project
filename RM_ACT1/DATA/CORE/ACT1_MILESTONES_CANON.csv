@@ -1,0 +1,4 @@
+Act,MilestoneType,BossID,BossName,ChapterID,ChapterName,Location,DungeonID,DungeonName,Notes,CanonStatus,CanonNotes
+ACT_1,MINIBOSS,MB001,Rei Goblin,CAP-0010,10) Dungeon do Núcleo e Goblin King,Ruínas Goblins (Dungeon do Forte — Núcleo),DGN-FORT-01,Dungeon do Núcleo do Clã (Goblin King) — entrada no WorldMap,Canon ACT1 (tags: ACT_1;EXPORT_ACT1).,CANON,Derivado de RPT_ACT1_SCOPE_DIGEST (QA).
+ACT_1,MINIBOSS,MB002,Ent Enfurecido,CAP-0017,"17) Verdade da Rose: fadas, árvore guardiã e Ent enlouquecido",Floresta das Fadas (Santuário); Reino Élfico (fronteiras),,,Canon ACT1 (tags: ACT_1;EXPORT_ACT1).,CANON,Derivado de RPT_ACT1_SCOPE_DIGEST (QA).
+ACT_1,MINIBOSS,MB003,Demônio da Fenda,CAP-0025,"25) O experimento dá errado: fendas, retorno e boss do demônio",Torre do Mago (missão do teleporte); Ruínas Goblins (efeitos colaterais),,,Canon ACT1 (tags: ACT_1;EXPORT_ACT1).,CANON,Derivado de RPT_ACT1_SCOPE_DIGEST (QA).

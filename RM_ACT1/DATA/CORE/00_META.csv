@@ -1,0 +1,13 @@
+key,value
+project,Rave Masters
+file_role,CORE
+track,ACT1_CANON
+release_id,RM_ACT1_CANON_AJ_000257
+build_utc,2025-12-27T22:34:12Z
+source_filename,RM_ACT1_CANON_PATCH_AJ_000279.xlsx
+source_sha256,
+versioning_note,Canon Ato 1 consolidado em CSVs; DEV permanece como rascunho/working.
+origin_hash,
+patch_notes,"2025-12-27T20:07:48Z: AJ_000279 — canonização do Ato 1 (capítulos+mini bosses+gates) + checklist.
+2025-12-27T20:25:24Z: AJ_000268 — canonização Classes+Antecedentes (DIC+REL).
+2025-12-27T22:34:12Z: AJ_000257 — ACT1 scope freeze canon (conteúdo+systems) + QA gate report."

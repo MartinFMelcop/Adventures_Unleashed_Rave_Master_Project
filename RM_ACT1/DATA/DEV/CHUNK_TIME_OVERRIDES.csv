@@ -1,0 +1,20 @@
+ChaveMapa,Mapa,Override_Tipo,PhaseMask,Notas
+23R1,Vila Rose — Casa dos Aventureiros Caídos,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+23S2,Vila Rose — Posto do Guarda Novato,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+24R0_I,Vila Rose — Arredores do Lenhador,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+24S1,Vila (nome TBD) — Centro da Vila (Praça),SAFE_ALWAYS,0|1|2|3|4,Vila (hub narrativo): manter seguro e NPCs estáveis; cutscene de escolta ocorre aqui.
+24T2,Vila Rose — Loja do Mercador,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+24U3,Vila Rose — Pasto das Galinhas e Lagoa de Pesca,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+16V18,Reino Élfico — Mercado Élfico,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+20S13,Reino das Fadas — Vilarejo (Entrada),SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+21S14,Reino das Fadas — Santuário da Guardiã,SAFE_ALWAYS,0|1|2|3|4,Cidade/vilarejo/mercado: manter seguro e NPCs presentes independentemente da fase.
+23U4,Pântano — Borda Encharcada (Pertences no Lodo),HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+23V5,Pântano — Bruma da Cockatrice,HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+24V6,Pântano — Ponte da Emboscada (Bagre Bípedo),HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+24W7,Pântano — Charco dos Líquens,HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+23W8,Pântano — Trilha da Torre (Pós-Mini Dungeon),HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+22W9,Pântano — Campina da Tumba,HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+22V10,Torre do Mago Louco — Platô dos Marcos (Rampa Externa),HOSTILITY_BOOST_NIGHT,2|3,Pântano: aumentar hostilidade/pool nas fases noturnas (2–3).
+22Q5,Trilha das Ruínas — Zigue-Zague dos Pinheiros,HOSTILITY_BOOST_NIGHT,2|3,Ruínas/trilha: risco maior à noite (2–3).
+22R4,Trilha das Ruínas — Ponte do Despenque,HOSTILITY_BOOST_NIGHT,2|3,Ruínas/trilha: risco maior à noite (2–3).
+20R12,Forte — Barricada dos Heróis,HOSTILITY_BOOST_NIGHT,2|3,Ruínas/trilha: risco maior à noite (2–3).

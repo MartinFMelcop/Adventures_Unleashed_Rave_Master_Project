@@ -1,0 +1,6 @@
+TestID,ATK_or_MATK,EscalaCoef,Letalidade,DEF_or_MDEF,LvlDef,DefenderFlag,Expected_FinalDamage
+FINAL_001_no_defender,100,1.0,0.0,0,10,0,100
+FINAL_002_defender,100,1.0,0.0,0,10,1,50
+FINAL_003_with_def,120,0.8,0.25,200,10,0,60
+FINAL_004_with_def_defender,120,0.8,0.25,200,10,1,30
+FINAL_005_rounding_chain,37,2.35,0.07,111,7,1,28

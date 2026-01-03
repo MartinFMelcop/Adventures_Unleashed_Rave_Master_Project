@@ -1,0 +1,11 @@
+EventID,Name,Description,TTL_Turns
+EVT_PLAYER_HELPED,Player helped,Player performed a helpful act.,10
+EVT_PLAYER_LIED,Player lied,Player lied (confirmed).,20
+EVT_PLAYER_THREATENED,Player threatened,Player threatened/coerced.,20
+EVT_PLAYER_PRAISED,Player praised,Player showed appreciation.,10
+EVT_PLAYER_INSULTED,Player insulted,Player insulted/disrespected.,15
+EVT_TOPIC_OBSESSION,Obsession engaged,Conversation about obsession topic occurred.,8
+EVT_MANIPULATION_SUSPECTED,Manipulation suspected,NPC suspects manipulation; used to gate suspicious dialogue.,10
+EVT_NPC_OUTBURST,NPC outburst,NPC had an outburst recently; can dampen repeated escalation.,5
+EVT_NPC0007_LEAVE_SCENE,NPC-0007 left scene,Mago Louco disengaged/left after outburst.,10
+EVT_PLAYER_RESPEC_STATALLOC,Player respec (StatAlloc),Player reset stat allocations via StatAlloc respec; include paid cost (if any) for narrative audit.,50

@@ -1,0 +1,6 @@
+RepZona,NomeRegiao,VariavelRMXP,Start_Default,Start_Obs
+VILA_ROSE,Vila Rose,V_REP_VILA_ROSE,-1.0,"Dinâmico: +1 ou -1 conforme antecedente na praça (QST-0001). | Seed padrão -1 (castigo longo), mas pode ser sobrescrito por ACT1_REP_SEED_ANTECEDENTE_CANON."
+FADAS,Floresta das Fadas,V_REP_FADAS,-3.0,Começa -3 (intruso). Após Rose (QST-0017) faz SET +1.
+GOBLINS,Fortaleza Goblin / Ruínas,V_REP_GOBLINS,-3.0,Começa -3 (caça organizada). Pós Rei Goblin (QST-0010) faz SET -1.
+BREJO,Brejo Alagado + Torre do Mago,V_REP_BREJO,-1.0,Começa -1 (o brejo estranha). Pós boss demônio (QST-0025) faz SET +1.
+REINO_ELFO,Reino Élfico / Castelo Elfo,V_REP_REINO_ELFO,-1.0,Começa -1 (estrangeiro). Salvar a carga (QST-0028) faz SET +1.

@@ -1,0 +1,117 @@
+{
+  "manifesto_spec": 1,
+  "title": "RM bundle 8-artifact entrypoints (1 human + 7 data)",
+  "audience": "ai_primary",
+  "human_mode": "read_only",
+  "intent": "Define fixed entrypoints and allowed formats; does not remove existing supporting files.",
+  "artifacts": {
+    "data": [
+      {
+        "id": "D1",
+        "path": "DATA/DATA_INDEX.csv",
+        "format": "csv",
+        "role": "canonical_index_sheet_to_csv",
+        "source_of_truth": true,
+        "bytes": 28502,
+        "sha256": "77f7d28bdffa667ced9a00667b1c3fd871e2d347b5eb6e0a92f6b4017e922ad2"
+      },
+      {
+        "id": "D2",
+        "path": "DATA/sheet_name_map.json",
+        "format": "json",
+        "role": "sheet_to_csv_lookup_shortcut",
+        "source_of_truth": true,
+        "bytes": 10644,
+        "sha256": "a63663e9ed0c0c21e4b4cba0e0d27d3b348624086277ee5fa0602edd1577fb3f"
+      },
+      {
+        "id": "D3",
+        "path": "DATA/QA/LOG_AJUSTES.csv",
+        "format": "csv",
+        "role": "change_backlog_and_execution_log",
+        "source_of_truth": true,
+        "bytes": 121479,
+        "sha256": "ce9dc365ba8ad4125b2c82f2188afa6cdafd073a4449ec00310d48b7b03410f0"
+      },
+      {
+        "id": "D4",
+        "path": "DATA/QA/RMXP_KNOWLEDGE_BASE_CSV.csv",
+        "format": "csv",
+        "role": "rmxp_terminology_taxonomy_reference",
+        "source_of_truth": true,
+        "bytes": 151928,
+        "sha256": "f098e7fcb84af00f54cb414f411aee32995e46c838429cad0d858786734c53d1"
+      },
+      {
+        "id": "D5",
+        "path": "DATA/CORE/REFERENCIAS_MASTER.csv",
+        "format": "csv",
+        "role": "media_and_inspiration_reference_master",
+        "source_of_truth": true,
+        "bytes": 29477,
+        "sha256": "996ac5184e73be18e1e773a21929518d16d798ebd0ae782f6bdafbd1d15a94e4"
+      },
+      {
+        "id": "D6",
+        "path": "manifest.json",
+        "format": "json",
+        "role": "bundle_file_manifest",
+        "source_of_truth": "integrity",
+        "bytes": null,
+        "sha256": null
+      },
+      {
+        "id": "D7",
+        "path": "checksums.sha256",
+        "format": "sha256",
+        "role": "bundle_integrity_checksums",
+        "source_of_truth": "integrity",
+        "bytes": null,
+        "sha256": null
+      }
+    ],
+    "human": [
+      {
+        "id": "H1",
+        "path": "HUMAN/RM_HUMAN_VIEWS_MAIN.xlsx",
+        "format": "xlsx",
+        "role": "human_read_only_views",
+        "source_of_truth": false,
+        "notes": "Optional for AI. May be replaced by CSV/MD exports in future.",
+        "bytes": 302685,
+        "sha256": "ae958da170ae3282a3deec0c6433b86731743ee335ba02172475fedc7a9a1a7b"
+      }
+    ]
+  },
+  "allowed_formats": [
+    "csv",
+    "json",
+    "md",
+    "txt",
+    "yaml",
+    "yml",
+    "xlsx",
+    "zip"
+  ],
+  "ai_read_order": [
+    "DATA/DATA_INDEX.csv",
+    "DATA/sheet_name_map.json",
+    "DATA/QA/LOG_AJUSTES.csv",
+    "DATA/QA/RMXP_KNOWLEDGE_BASE_CSV.csv",
+    "DATA/CORE/REFERENCIAS_MASTER.csv"
+  ],
+  "rules": [
+    "DATA/* is canonical; README and HUMAN/* are not canonical.",
+    "Do not require XLSX to consume canonical data; prefer CSV/JSON.",
+    "Integrity artifacts (manifest.json, checksums.sha256) may become stale after edits and must be mechanically rebuilt."
+  ],
+  "generated_utc": "2025-12-24T00:13:51Z",
+  "manifesto_version": "1.1",
+  "updated_utc": "2025-12-24T03:54:26Z",
+  "generated_by_adjustment": "AJ_000139",
+  "entrypoint": {
+    "purpose": "Minimal bundle contract: 8 artifacts required for AI ingestion and governance.",
+    "ai_first_read": "Load this manifesto first; then load artifacts in order: data (D1..D7) then human (H1) as optional.",
+    "constraints": "Other files may exist in the bundle; they are non-blocking and treated as extended dataset."
+  }
+}

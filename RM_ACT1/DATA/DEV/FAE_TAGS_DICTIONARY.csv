@@ -1,0 +1,16 @@
+TagID,NomeCurto,Descricao,AplicaEm,Exemplos
+FAE_CORE_ARC,Núcleo Arco Feérico,Elemento diretamente no arco feérico principal (portão/selos/semente/Ent/Rose).,CHUNK;NPC;QUEST;CUTSCENE;CRAFT;FLAG,QST-0017; CS-ATO1-09; CS-ATO1-10
+FAE_GATE,Gate/Portão,Portão/gate feérico e suas condições (abre/fecha).,CHUNK;CUTSCENE;FLAG;QUEST,S_PORTAO_FADAS_ABERTO; CS-ATO1-09
+FAE_SEALS,Selos,Selos/runas/condições ligadas ao gate feérico.,CUTSCENE;QUEST;FLAG,S_SELO_1; CS-ATO1-17
+FAE_SANCTUARY,Santuário,Santuário/área sagrada feérica (local de ritos e upgrades).,CHUNK;NPC;CRAFT;CUTSCENE,WKS-FAE-SHRINE-01; NPC-0021
+FAE_GUARDIAN,Guardiã,Figura guardiã/curadora do santuário/ritual.,NPC;CUTSCENE;QUEST,NPC-0021
+FAE_RITUAL,Ritual,Ritos/altares/banhos/ofertas ligados ao feérico.,CRAFT;CUTSCENE;QUEST;CHUNK,WKS-SWAMP-RITUAL-01; CS-ATO1-10
+FAE_SWAMP_RITUAL,Ritual do Pântano,Rito/altar especificamente no pântano (luzes errantes etc.).,CRAFT;CHUNK;QUEST;CUTSCENE,WKS-SWAMP-RITUAL-01
+FAE_SEED,Semente/Plantio,Semente/plantio dentro do arco feérico.,CUTSCENE;QUEST;FLAG;CRAFT,CS-ATO1-10
+FAE_ENT,Ent/Árvore,Ent/árvore guardiã/entidade associada ao arco feérico.,QUEST;CUTSCENE;CHUNK;FLAG,QST-0017
+FAE_SILK,Seda/Tear,Seda/tear/oficina têxtil feérica e itens correlatos.,CRAFT;ITEM;QUEST;CHUNK,WKS-FAE-LOOM-01; RCP-TEX-002
+FAE_RECEPTION,Recepção,Recepção/acolhimento feérico (entrada/ritual social).,CUTSCENE;QUEST;FLAG;CHUNK,CS-ATO1-08; S_CENA_RECEPCAO_FADAS
+FAE_SOCIAL,Social/Hub,"Interações sociais feéricas (NPCs, cenas, rep gates).",NPC;QUEST;SDQ;CUTSCENE;FLAG,NPC-0020; SDQ-0010
+FAE_ROSE_ARC,Arco da Rose,Rose dentro do contexto feérico (resgate/seed/helper).,NPC;QUEST;CUTSCENE;FLAG,NPC-0022; CS-ATO1-02
+FAE_HELPER_ROSE,Rose Helper,Marca que Rose atua como helper/companheira (pós-fadas).,NPC;FLAG;QUEST;CUTSCENE,NPC-0022
+FAE_HINTS,Sinais/Marcas,Sinais sutis/indícios de presença feérica no mundo.,CHUNK;QUEST;SDQ,19S12; 19T11

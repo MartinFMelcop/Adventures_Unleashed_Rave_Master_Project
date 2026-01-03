@@ -1,0 +1,47 @@
+{
+  "policy_id": "AJ_000126",
+  "name": "Machine-friendly naming conventions (snake_case ASCII)",
+  "version": 1,
+  "generated_utc": "2025-12-24T00:25:46Z",
+  "scope": {
+    "applies_to": [
+      "columns",
+      "ids",
+      "file_names"
+    ],
+    "preferred_for_new": true,
+    "legacy_migration": "gradual"
+  },
+  "rules": {
+    "case": "lower_snake_case",
+    "ascii_only": true,
+    "no_spaces": true,
+    "allowed_chars_regex": "^[a-z0-9_]+$"
+  },
+  "normalization_algorithm": [
+    "trim whitespace and remove UTF-8 BOM",
+    "convert CamelCase to snake_case by inserting '_' before capitals preceded by [a-z0-9]",
+    "remove diacritics (NFKD, drop combining marks)",
+    "lowercase",
+    "replace any non [a-z0-9] sequence with '_'",
+    "collapse multiple '_' and trim leading/trailing '_'"
+  ],
+  "collision_policy": {
+    "if_two_columns_map_to_same_normalized": "BLOCK_APPLY_AND_RESOLVE_IN_MAP",
+    "resolution_strategies": [
+      "manual rename with suffix",
+      "semantic split",
+      "keep one as legacy and alias"
+    ]
+  },
+  "artifacts": {
+    "column_map_csv": "DATA/GOV/NAMING_MAP_COLUMNS.csv"
+  },
+  "migration_strategy": {
+    "step_0": "Generate/update the column map across the bundle.",
+    "step_1": "Pick a single table (or small set) and apply renames.",
+    "step_2": "Update any validators/readers to use normalized names (or consult the map).",
+    "step_3": "Repeat until legacy is fully migrated.",
+    "note": "Do NOT attempt a mass rename across all tables in a single AJ."
+  }
+}

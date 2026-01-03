@@ -1,0 +1,12 @@
+key,value,type,notes
+run_mode,HOLD,enum,HOLD or TOGGLE (toggle = press once)
+run_key,SHIFT,enum,SHIFT/A/B/C/X/Y/Z/L/R (SHIFT maps to Input::A if SHIFT missing)
+run_speed_delta,1,int,Added to walk speed (usually 4)
+run_sprite_suffix,_run,string,Suffix for optional run sprites
+use_run_sprites,true,bool,Swap sprite to <base>_run if exists
+play_footsteps,false,bool,If true, play walk/run SE if present
+se_walk,step_walk,string,Audio/SE/<name> (no extension)
+se_run,step_run,string,Audio/SE/<name> (no extension)
+se_vol,80,int,0-100
+se_pitch_walk,100,int,
+se_pitch_run,115,int,

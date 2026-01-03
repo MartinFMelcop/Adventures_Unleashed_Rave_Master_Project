@@ -1,0 +1,490 @@
+RaçaID,Nome,Alinhamento (Bem/Mal),Status no Ato I,Representação no mundo,Mapas / Aparição Ato I,NPCs notáveis (Ato I),Gancho / Notas,Fonte,Descrição (Algumas ideias e anotações),Cultura e Sociedade (Algumas ideias e anotações),Aparência (Algumas ideias e anotações),Altura (Algumas ideias e anotações),Peso (Algumas ideias e anotações),Classes Habilitadas (Algumas ideias e anotações),Possiveis interações por classe (Algumas ideias e anotações),Traços Raciais no Jogo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,Mornakk,Bem,NÃO,,,,,Legado (Raças em Construção),"Os Mornakk são uma raça de robustos humanoides cuja aparência rústica e estilo de vida simples escondem um histórico marcado por sobrevivência e luta. Eles habitam regiões montanhosas e vales profundos, onde constroem pequenas aldeias protegidas por muralhas de pedra. Cada comunidade funciona como uma fortaleza que defende seu povo contra as forças do mundo externo, seja em batalhas contra feras, tribos rivais ou forças sobrenaturais.
+
+Culturalmente, os Mornakk são trabalhadores dedicados e guerreiros resilientes, com um forte senso de dever comunitário. Eles possuem uma tradição oral rica, passada através de músicas e histórias cantadas em tavernas e fogueiras. Sua ligação com a magia e o espiritual é instintiva, tratada como parte natural de sua vida cotidiana — algo que é praticado, mas não necessariamente reverenciado como sagrado.
+
+Apesar de sua cultura trabalhadora e prática, os Mornakk são conhecidos por seu espírito indomável. Quando um de seus vilarejos é ameaçado, toda a aldeia se une para enfrentar o perigo, seja por meio de espadas e lanças ou invocando forças mágicas ancestrais para defender seu território.
+","Os Mornakk não possuem reis ou líderes absolutos. Em vez disso, cada aldeia é liderada por um Conselho de Cinzas, composto por guerreiros veteranos, bardos respeitados e xamãs sábios que guiam o povo com base em consenso.
+
+Eles acreditam em um conceito chamado Ciclo do Esforço, que valoriza o trabalho duro e a lealdade. Forjar ferramentas, proteger o lar ou cantar histórias ancestrais são todos considerados atos de igual importância. As aldeias Mornakk são conhecidas por celebrações comunitárias animadas, onde a música e o riso ecoam pelas montanhas, mesmo em tempos difíceis.","Estrutura Física: Corpulentos e de ombros largos, os Mornakk possuem uma constituição robusta, moldada por anos de trabalho manual e treinamento de combate.
+Cabelos e Traços: Seus cabelos variam entre tons escuros e prateados, muitas vezes usados longos ou presos. Muitos têm cicatrizes, que são vistas como marcas de orgulho.
+Olhos: Olhos intensos em tons terrosos, como âmbar e verde-musgo, frequentemente com uma expressão de determinação natural.
+Roupas e Equipamentos: Usam trajes práticos feitos de couro grosso e tecidos rústicos, reforçados com placas de ferro ou bronze, e adornos simples como contas ou amuletos.","Masculino: 1,80m-2,10m / Feminino: 1,70m-1,90m",Masculino: 90-140kg / Feminino: 80-120kg,"Dragon Slayer, Soldier, Knight, Pyromancer, Cryomancer, Esper, Dark Mage, Necromancer, Bard, Shaman","Dragon Slayer / Soldier / Knight
+Os Mornakk que se tornam combatentes são conhecidos como Quebradores de Pedra, utilizando armas forjadas em suas aldeias. Eles lutam com táticas simples, mas eficazes, valorizando disciplina e força bruta.
+
+Pyromancer / Cryomancer
+Alguns Mornakk nascem com uma afinidade inata pelos elementos, chamados de Filhos da Montanha. Esses magos canalizam o calor dos fornos das forjas ou o frio cortante das montanhas para criar magia destrutiva.
+
+Esper
+Os psíquicos Mornakk, conhecidos como Sussurradores, usam suas habilidades para proteger as aldeias, detectando perigos antes que eles se manifestem ou manipulando a moral de aliados e inimigos.
+
+Dark Mage / Necromancer
+Aqueles que praticam as artes sombrias não são banidos, mas sim respeitados como Guardiões das Cinzas. Eles utilizam seus poderes para proteger a comunidade, invocando os espíritos de ancestrais ou moldando sombras em armas letais.
+
+Bard
+Os bardos Mornakk são peças centrais da cultura, chamados de Portadores da Chama. Suas canções inspiram força e coragem em batalhas e mantêm as histórias vivas, unindo a comunidade.
+
+Shaman
+Xamãs Mornakk são líderes espirituais e curandeiros conhecidos como Vozes da Pedra. Eles invocam forças naturais para fortalecer aliados ou proteger suas terras contra invasores.","Fortaleza Natural: Resistência extra contra ataques físicos, devido à sua robustez física e treinamento constante.
+Senso Comunitário: Ganha bônus de moral e eficácia quando luta ou realiza ações ao lado de aliados.
+Afinidade Elemental: Escolha inicial entre fogo ou gelo para receber um pequeno bônus em magia relacionada a esses elementos.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Sylkrin,Bem,SIM,Sylkrin = Fadas (Reino das Fadas / Floresta encantada),Floresta da Rose — Portão do Reino Encantado (19S12) | Reino das Fadas — Vilarejo (Entrada) (20S13) | Reino das Fadas — Santuário da Guardiã (21S14),,Tratar como povo-fada: interação social/ritual; mantém nome 'Sylkrin'.,CANON (WorldMap) + decisão de lore (chat: Sylkrin=fadas),"Os Sylkrin são uma raça de humanoides ágeis e furtivos que habitam florestas densas, pradarias amplas e pequenas ilhas escondidas. Conhecidos por sua habilidade de se adaptar ao ambiente natural, os Sylkrin possuem um estilo de vida simples e focado na simbiose com a natureza. Sua pele apresenta tons suaves de verde-oliva ou marrom claro, muitas vezes com marcas naturais que lembram folhas ou galhos. Suas orelhas alongadas e sensíveis os ajudam a captar sons sutis, e seus olhos de tonalidades douradas ou prateadas brilham levemente no escuro.
+
+Os Sylkrin possuem asas finas e translúcidas que lhes permitem planar graciosamente ou realizar voos curtos. Essas asas, inspiradas pela leveza e elegância da natureza, são frequentemente decoradas com padrões bioluminescentes que variam conforme a personalidade e habilidades de cada indivíduo. Suas capacidades aéreas são utilizadas para navegar por florestas densas e escaparem de ameaças em terrenos difíceis, reforçando sua reputação como mestres da furtividade e da agilidade.
+
+Embora suas aldeias sejam pequenas e muitas vezes ocultas, os Sylkrin são surpreendentemente cosmopolitas, viajando frequentemente para trocar recursos ou compartilhar conhecimento com outras culturas. Eles preferem evitar confrontos diretos, mas são extremamente letais quando forçados a lutar, utilizando sua agilidade, magia natural e táticas astutas.","Os Sylkrin vivem em pequenas comunidades chamadas Ninhos, lideradas por conselhos formados por representantes das principais áreas de sua sociedade: caçadores, curandeiros, bardos e místicos. Cada Ninho é autossuficiente, mas mantém laços estreitos com outros através de encontros periódicos conhecidos como Celebrações do Céu, eventos que incluem danças, músicas e rituais destinados a fortalecer os laços culturais.
+
+Eles veneram os Espíritos da Trama, entidades naturais que acreditam habitar árvores, rios e até ventos. Essa veneração os incentiva a viver com respeito pela natureza, usando apenas o que precisam e sempre replantando ou restaurando o que retiram.","Estrutura Física: Esbeltos e ágeis, com músculos longos e tonificados que refletem seu estilo de vida ativo.
+Pele e Marcas: Pele em tons de verde ou marrom com padrões que parecem ramos ou veios, muitas vezes brilhando fracamente sob a luz da lua.
+Cabelos: Variam de tons terrosos como castanho ou cinza a cores vibrantes, como dourado ou cobre. Muitos adornam seus cabelos com penas, flores ou pequenos galhos.
+Olhos: Grandes e expressivos, com brilho metálico que reflete sua conexão com a natureza.
+Adaptação: Os Sylkrin possuem asas delicadas, semelhantes às de libélulas ou pássaros pequenos, que permitem pequenos voos ou saltos amplificados, úteis em terrenos difíceis. Suas asas são transparentes com padrões intrincados que brilham sob a luz, refletindo sua conexão com a natureza e sua capacidade de se mover furtivamente.","Masculino: 1,60m-1,80m / Feminino: 1,50m-1,70m",Masculino: 50-70kg / Feminino: 40-60kg,"Monk, Rogue (Male), Rogue (Female), Warrior, Ranger, Cleric, Battlemage, Bard, Druid, Pyromancer, Esper","Monk
+Sylkrin monásticos seguem o ""Caminho da Trama"", um estilo de luta fluido inspirado no movimento do vento e dos galhos. Seus golpes são rápidos, imprevisíveis e quase dançantes.
+
+Rogue (Male/Female)
+Sylkrin furtivos, chamados de Caçadores das Sombras, usam sua afinidade natural para desaparecer na paisagem, movendo-se com graça e precisão.
+
+Warrior
+Os Sylkrin guerreiros, conhecidos como Defensores da Folha, protegem suas aldeias com armas simples como lanças de madeira e espadas forjadas em ferro leve, preferindo ataques rápidos a força bruta.
+
+Ranger
+Mestres do arco e da caça, os Sylkrin Rangers utilizam flechas feitas de galhos encantados e têm um vínculo profundo com criaturas da floresta, muitas vezes acompanhados por animais companheiros.
+
+Cleric
+Os clérigos Sylkrin, chamados de Guardadores da Trama, são curandeiros e líderes espirituais que invocam bênçãos dos Espíritos da Trama para proteger e curar.
+
+Battlemage
+Sylkrin batalhadores combinam ataques físicos com magia natural, envolvendo suas armas em chamas verdes ou raios de energia luminosa.
+
+Bard
+Bardos Sylkrin são Tecelões de Harmonia, cujas canções hipnotizantes canalizam magia sutil que inspira aliados e desorienta inimigos.
+
+Druid
+Os druidas Sylkrin são a alma de sua sociedade, moldando a natureza ao seu redor para criar defesas, curar feridas e convocar forças naturais para o combate.
+
+Pyromancer
+Os magos de fogo Sylkrin manipulam chamas esverdeadas, criando feitiços que queimam sem destruir completamente, simbolizando purificação.
+
+Esper
+Psíquicos Sylkrin se conectam mentalmente aos Espíritos da Trama e outros seres, usando suas habilidades para guiar ou enganar com mensagens sutis ou controle emocional.","Trama das Sombras: Recebem bônus em furtividade e podem se camuflar naturalmente em ambientes naturais, como florestas ou pradarias.
+Afinidade Espiritual: Ganham pequenas vantagens ao interagir com criaturas mágicas ou ao usar magias naturais.
+Agilidade Silenciosa: Movem-se rapidamente em terrenos difíceis sem penalidades, graças à sua conexão com o ambiente.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,Thornath,Bem,NÃO,,,,,Legado (Raças em Construção),"Os Thornath são uma raça humanoide robusta e resiliente, nascida em terras selvagens marcadas por florestas densas e montanhas cobertas por neblina eterna. Sua cultura é baseada na força, tanto física quanto espiritual, e eles se destacam por sua conexão única com o ciclo de vida e morte que permeia as florestas que habitam.
+
+Fisicamente, os Thornath possuem corpos vigorosos, cobertos por uma camada de pele texturizada com traços que lembram cascas de árvores ou pedras erodidas. Seus olhos brilham como pequenos faróis, indo de tons de âmbar ao prateado, enquanto seus cabelos grossos e escuros muitas vezes são decorados com folhas secas, galhos ou até fragmentos de cristal.
+
+Os Thornath desenvolveram quatro braços ao longo de gerações para se adaptar à vida em ambientes desafiadores. Enquanto seus braços principais são usados para combate e força bruta, os secundários são precisos e ágeis, perfeitos para manipular ferramentas, esculpir totens ou realizar magias complexas durante batalhas. Essa característica única tornou os Thornath mestres da multifuncionalidade em combate e sobrevivência.
+
+Apesar de sua aparência bruta, os Thornath possuem uma cultura profundamente espiritual. Eles reverenciam as forças que governam a vida e a morte, acreditando que todos os seres retornam à terra para nutrir a próxima geração. Essa filosofia permeia sua magia, suas canções e até mesmo sua abordagem ao combate, que combina brutalidade com ritualística.
+","Os Thornath vivem em pequenas comunidades chamadas Clãs da Raiz, assentamentos situados em clareiras protegidas ou em cavernas ocultas. Cada clã é liderado por um Guardião do Eterno, um líder espiritual que orienta o povo em tempos de paz e guerra.
+
+A sociedade Thornath valoriza tradições orais e visuais. Eles registram seus feitos em grandes totens esculpidos e pintados, conhecidos como Marcos da Memória, que ficam espalhados por seus territórios. Quando não estão em conflito com invasores, os Thornath se dedicam a caçar, cultivar ou proteger as terras sagradas onde seus ancestrais descansam.","Estrutura Física: Altos e robustos, com quatro braços, ombros largos e uma postura firme.
+Pele e Textura: Pele que varia de tons terrosos a cinzas claros, com texturas que lembram madeira rústica ou rochas esculpidas.
+Cabelos: Escuros e grossos, muitas vezes adornados com elementos naturais como folhas, musgo ou pequenos cristais encontrados em suas florestas.
+Olhos: Brilhantes como âmbar ou prata, com um leve brilho sobrenatural que simboliza sua conexão espiritual.","Masculino: 2,20m-2,60m / Feminino: 2,00m-2,40m",Masculino: 200-300kg / Feminino: 180-260kg,"Dragon Slayer, Berserker, Warrior, Alchemist, Dark Mage, Necromancer, Cryomancer, Sentinel, Shaman, Bard","Dragon Slayer / Berserker / Warrior
+Os Thornath combatentes são conhecidos como Golpes das Raízes, guerreiros que utilizam armas feitas de madeira encantada ou pedra lapidada. Seus estilos de luta combinam força bruta com táticas diretas.
+
+Alchemist
+Os alquimistas Thornath, chamados de Misturadores de Vida, utilizam ervas, venenos e cristais encontrados em suas terras para criar poções ou explosivos rudimentares, muitas vezes combinando elementos naturais e mágicos.
+
+Dark Mage / Necromancer
+Os Thornath que seguem as artes sombrias são chamados de Sussurros da Terra, manipulando a energia vital e as sombras das florestas para invocar espíritos ou animar corpos em combate.
+
+Cryomancer
+Os magos de gelo Thornath utilizam o frio das montanhas e a umidade constante da névoa para criar feitiços gélidos que congelam e dominam seus inimigos.
+
+Sentinel
+Os Sentinelas Thornath, chamados de Guardas da Seiva, protegem seus territórios com escudos massivos feitos de madeira encantada e armaduras pesadas esculpidas em pedra.
+
+Shaman
+Os xamãs Thornath, conhecidos como Corações da Raiz, invocam espíritos ancestrais e forças naturais para curar aliados ou devastar inimigos com rituais complexos.
+
+Bard
+Bardos Thornath são Contadores de Ecos, músicos que tocam instrumentos rústicos feitos de madeira e ossos. Suas canções inspiram coragem nos aliados e desorientam os inimigos, imitando os sons das florestas.
+","Força da Terra: Resistência extra contra ataques físicos e mágicos quando em terrenos naturais.
+Ancestrais Vigilantes: Pode invocar espíritos ancestrais para assistência temporária, seja em combate ou em tarefas específicas.
+Fortaleza Natural: Bônus em habilidades defensivas ou de resistência, representando sua resiliência física e espiritual.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,Dravkyn,Bem,NÃO,Raça do bem (a revelar) — rota costeira,Litoral — Marco do Litoral (19Y20) + trechos costeiros (backlog),,Conectar a ventos/tempestades e rotas de caravanas marítimas; manter nome 'Dravkyn'.,PROPOSTA (direção de mundo): lado da costa -> Dravkyn,"Os Dravkyn são uma raça de humanoides marcados por sua ligação profunda com tempestades e fenômenos climáticos extremos. Eles habitam vastas planícies, cânions e territórios expostos onde o céu aberto é uma constante. Sua cultura é moldada pelo vento, relâmpagos e chuvas torrenciais, que eles veem como manifestações divinas.
+
+Fisicamente, os Dravkyn são robustos, com traços que refletem sua conexão com o ambiente selvagem. Muitos possuem cabelos que parecem dançar como faíscas sob a luz, e suas peles frequentemente exibem padrões semelhantes a rachaduras ou ondulações, como se fossem mapas das forças naturais que os cercam. Sua sociedade é altamente marcial e organizada, mas com um profundo respeito pelo espiritual e pelo equilíbrio natural.","Os Dravkyn vivem em comunidades móveis chamadas Tempestades Itinerantes, que migram seguindo padrões climáticos. Suas habitações são tendas reforçadas com couro grosso e estruturas leves, projetadas para resistir aos ventos mais fortes. Cada comunidade é liderada por um Oráculo dos Ventos, uma figura espiritual que interpreta os sinais do céu e guia o povo em tempos de crise.
+
+Eles possuem uma hierarquia baseada no mérito, onde guerreiros, magos e caçadores ganham respeito por suas ações e contribuições para o clã. Cerimônias como o Rito da Nuvem marcam a maioridade, onde jovens Dravkyn enfrentam os elementos para provar sua força e valor.","Estrutura Física: Altos e com músculos definidos, projetados para aguentar o desgaste físico constante de suas vidas ao ar livre.
+Pele e Marcas: Tons de pele que variam de bronzeado a cinza pálido, muitas vezes com marcas naturais que brilham fracamente em tempestades.
+Cabelos: Cabelos selvagens em tons de preto, cinza ou branco, frequentemente desordenados, como se fossem moldados pelo vento.
+Olhos: Intensos, em tons de azul, prata ou dourado, que parecem refletir o céu acima deles.","Masculino: 1,85m-2,10m  / Feminino: 1,75m-2,00m",Masculino: 85-120kg / Feminino: 70-100kg,"Soldier, Knight, Berserker, Pyromancer, Esper, Necromancer, Battlemage, Cleric, Druid, Ranger, Rogue (Male)","Soldier / Knight / Berserker
+Os guerreiros Dravkyn são chamados de Lanças do Trovão, combatentes implacáveis que utilizam lanças, espadas longas ou martelos de guerra para dominar o campo de batalha.
+
+Pyromancer
+Magos Dravkyn canalizam a energia do calor acumulado nas tempestades, utilizando chamas que lembram relâmpagos dançantes para incinerar inimigos.
+
+Esper
+Os psíquicos Dravkyn, conhecidos como Sussurros do Vento, usam sua conexão mental para antecipar movimentos ou transmitir mensagens à distância.
+
+Necromancer
+Necromantes Dravkyn, chamados de Ecos do Trovão, canalizam a energia elétrica da terra para animar os mortos ou manipular forças sobrenaturais.
+
+Battlemage
+Dravkyn batalhadores combinam combate físico com magia destrutiva, envolvendo suas armas em raios ou usando feitiços explosivos para ampliar seus ataques.
+
+Cleric
+Clérigos Dravkyn são os Guardiões das Nuvens, que canalizam a força do céu para curar aliados e proteger suas comunidades contra forças malignas.
+
+Druid
+Os druidas Dravkyn, conhecidos como Pastores da Tempestade, manipulam o clima para invocar ventos fortes ou chuvas torrenciais que auxiliam aliados ou atrasam inimigos.
+
+Ranger
+Rangers Dravkyn são mestres do terreno aberto, utilizando arcos longos para caçar ou defender seus territórios. Suas flechas cortam o vento com precisão mortal.
+
+Rogue (Male)
+Os furtivos Dravkyn, chamados de Sombras do Redemoinho, utilizam as condições caóticas do ambiente para desaparecer à vista de seus inimigos.
+","Resistência Elemental: Reduz o dano de ataques elétricos, de vento ou de gelo, graças à sua conexão com as forças climáticas.
+Movimento Fluido: Pode ignorar penalidades de movimento em terrenos difíceis devido à sua experiência com ambientes extremos.
+Visão Tempestuosa: Ganha bônus de percepção em ambientes com pouca visibilidade, como tempestades ou neblinas densas.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,Kelvrin,Bem,NÃO,Raça do bem (a revelar) — rota montanhosa/vulcânica pós-goblins,Estrada — Marco da Fronteira (17S20) + Serra (backlog montanha/vulcânica),,Preparar encontros/aldeias em encostas/cavernas; manter nomes 'Orvalin' e 'Kelvrin'.,PROPOSTA (direção de mundo): rota goblins -> montanhas/vulcânica,"Os Kelvrin são uma raça de humanoides reclusos, conhecidos por suas habilidades em combinar arte, alquimia e magia. Eles vivem em vastas redes de cavernas iluminadas por cristais luminescentes, que eles cultivam e utilizam em praticamente todos os aspectos de sua sociedade, desde a construção de ferramentas até a criação de feitiços complexos. Os Kelvrin têm uma ligação natural com as forças da terra e do calor, moldando os recursos ao seu redor com uma precisão quase artística.
+
+Focados em beleza funcional, os Kelvrin valorizam o trabalho e a criatividade acima de tudo. Suas cavernas são decoradas com mosaicos brilhantes e entalhes que contam histórias de sua história, combinando narrativa visual e oral. Embora sua sociedade seja geralmente pacífica, os Kelvrin são formidáveis em batalha, empregando uma mistura de combate físico disciplinado e magia devastadora para proteger seus lares.","Os Kelvrin vivem em comunidades conhecidas como Forjas de Cristal, onde cada membro tem um papel específico. Mestres artesãos, bardos e magos trabalham lado a lado para criar armas, instrumentos musicais e relíquias mágicas que são tanto práticas quanto belas.
+
+Eles acreditam em um conceito chamado Harmonia de Fogo e Pedra, que simboliza o equilíbrio entre esforço físico, criatividade e espiritualidade. Essa filosofia é ensinada desde cedo e permeia todos os aspectos da vida Kelvrin, desde o treinamento em combate até os rituais espirituais realizados pelos xamãs.
+
+Cerimônias como o Rito da Forja Viva marcam a transição de um Kelvrin para a idade adulta, onde o jovem deve criar um item que simbolize sua personalidade e habilidades, seja uma arma, uma joia mágica ou uma peça de arte.","Estrutura Física: De estatura mediana, os Kelvrin possuem corpos atléticos, moldados pelo trabalho constante. Possuem calda como lagarto.
+Pele: Sua pele possui tons metálicos ou pedregosos, como cobre, ferro ou granito, frequentemente com um brilho opaco.
+Cabelos e Traços: Cabelos espessos e vibrantes que lembram lava solidificada ou cristais minerais, variando em tons de vermelho, azul ou prateado.
+Olhos: Brilhantes e iridescentes, refletindo a luz como gemas lapidadas, com cores que variam conforme sua afinidade mágica.","Masculino: 1,70m-1,90m / 	Feminino: 1,60m-1,80m",Masculino: 70-100kg / Feminino: 60-90kg,"Monk, Rogue (Female), Pyromancer, Cryomancer, Warrior, Alchemist, Sentinel, Shaman, Dark Mage, Bard","Monk
+Os Kelvrin monásticos, conhecidos como Mãos da Pedra, combinam movimentos fluídos com força precisa, inspirados no fluxo natural de lava e na resistência da rocha.
+
+Rogue (Female)
+As furtivas Kelvrin, chamadas de Sombras da Mina, são especialistas em usar o terreno para se camuflar e atacar com armas feitas de cristais encantados.
+
+Pyromancer
+Os magos de fogo Kelvrin, conhecidos como Tecebrasas, manipulam o calor das forjas e o magma que percorre suas cavernas para criar feitiços incinerantes.
+
+Cryomancer
+Alguns Kelvrin têm afinidade com o frio das pedras profundas, moldando gelo que assume formas cortantes ou barreiras sólidas.
+
+Warrior
+Guerreiros Kelvrin, chamados de Guardas do Núcleo, usam armas e armaduras incrivelmente resistentes feitas de cristal ou metal encantado, tornando-os escudos vivos para suas comunidades.
+
+Alchemist
+Os alquimistas Kelvrin são mestres em misturar pós cristalinos e minerais mágicos para criar elixires e explosivos devastadores.
+
+Sentinel
+Os Sentinelas Kelvrin, conhecidos como Vigias de Cristal, são guardiões imponentes que defendem as entradas das cavernas com escudos reforçados e habilidades defensivas excepcionais.
+
+Shaman
+Xamãs Kelvrin, chamados de Ecoardentes, canalizam o poder espiritual da terra e do magma para curar, fortalecer aliados e convocar forças naturais em batalha.
+
+Dark Mage
+Magos sombrios Kelvrin, conhecidos como Profetas de Cinzas, canalizam energias da escuridão das cavernas e do calor da terra para criar feitiços destrutivos e invocações aterrorizantes.
+
+Bard
+Bardos Kelvrin, chamados de Cantores da Geoda, utilizam instrumentos feitos de cristal para criar músicas que amplificam magia e inspiram coragem em aliados.","Forja Viva: Podem criar ou reparar armas e itens de cristal ou metal em curtos períodos de descanso, sem necessidade de ferramentas complexas.
+Resistência Subterrânea: Bônus em resistência a calor, fogo e venenos naturais devido à sua vida em cavernas profundas.
+Eco de Cristal: Suas vozes ressonantes conferem bônus ao inspirar aliados ou desorientar inimigos em combate.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,Bravharn,Bem,NÃO,,,,,Legado (Raças em Construção),"Os Bravharn são uma raça de humanoides com corpos fortes e compactos, adaptados a uma vida nômade em regiões desérticas e savanas áridas. Eles são conhecidos por sua resistência física e mental, além de uma cultura profundamente enraizada no espírito de batalha e na busca de equilíbrio espiritual.
+
+Famosos por sua habilidade de prosperar em condições severas, os Bravharn têm uma sociedade que valoriza o treinamento físico e a conexão com o espírito interior. Eles vivem em grupos móveis chamados Caravanas da Areia, compostos por famílias extensas e guerreiros dedicados que viajam de um oásis a outro. Embora seu foco esteja na sobrevivência, os Bravharn também são conhecidos por sua música rítmica e danças que combinam movimento e espiritualidade.","Os Bravharn têm uma estrutura social hierárquica, mas baseada em mérito. O líder de cada Caravana é chamado de Portador do Vento, escolhido por sua habilidade de proteger e guiar o grupo. Cada membro da Caravana tem um papel vital, desde guerreiros até curandeiros, todos treinados desde cedo para enfrentar as adversidades do deserto.
+
+A espiritualidade dos Bravharn é simples, mas profundamente significativa. Eles acreditam no Sopro dos Antigos, uma força invisível que conecta todos os seres vivos e guia seus passos no mundo. Rituais diários de meditação e combate simbólico são usados para alinhar corpo, mente e espírito com o fluxo do vento e da areia.","Estrutura Física: De estatura média a alta, os Bravharn possuem corpos musculosos e densos, com traços que mostram uma vida de trabalho árduo e combate.
+Pele e Cabelos: Pele em tons quentes, como bronze ou marrom avermelhado, muitas vezes marcada por tatuagens simbólicas. Seus cabelos variam de preto profundo a cinza metálico, frequentemente raspados ou trançados para praticidade.
+Olhos: De tonalidades claras, como dourado ou verde-oliva, que brilham fracamente sob a luz do sol.
+Traços Distintivos: Muitos Bravharn têm cicatrizes proeminentes que são exibidas com orgulho, símbolos de batalhas passadas e força interior.","Masculino: 1,90m-2,30m / Feminino: 1,80m-2,10m",Masculino: 100-150kg / Feminino: 90-130kg,"Dragon Slayer, Soldier, Berserker, Monk, Rogue (Male), Warrior, Ranger, Cleric, Battlemage, Esper","Dragon Slayer / Berserker / Warrior
+Os combatentes Bravharn, conhecidos como Lâminas do Vento, lutam com armas simples, como espadas curvas e lanças resistentes, mas empregam técnicas brutais e diretas, inspiradas no movimento do vento cortante.
+
+Soldier
+Bravharn soldados são disciplinados e pragmáticos, treinados para formar fileiras defensivas e proteger as caravanas contra invasores e feras selvagens.
+
+Monk
+Monásticos Bravharn seguem o ""Caminho do Sopro"", um estilo de combate que combina agilidade e força, com movimentos que imitam redemoinhos de areia.
+
+Rogue (Male)
+Os furtivos Bravharn, chamados de Sombras da Duna, utilizam a paisagem desértica para se camuflar e atacar inimigos desavisados com precisão.
+
+Ranger
+Bravharn Rangers são caçadores e exploradores, experts em encontrar recursos escassos e rastrear inimigos através do deserto.
+
+Cleric
+Clérigos Bravharn, conhecidos como Guardadores do Oásis, invocam o Sopro dos Antigos para curar aliados e proteger os vulneráveis.
+
+Battlemage
+Os Battlemages Bravharn, chamados de Tecedores do Vento, canalizam magia elemental para ampliar seus ataques, criando rajadas cortantes ou explosões de areia mágica.
+
+Esper
+Psíquicos Bravharn utilizam suas mentes para prever os movimentos dos inimigos ou manipular pensamentos, ganhando vantagens em combate e negociações.","Resiliência do Deserto: Resistência extra contra calor extremo, sede e condições adversas.
+Caminhantes da Areia: Pode se mover rapidamente em terrenos difíceis como dunas ou savanas sem penalidades.
+Sopro dos Antigos: Pode gastar energia espiritual para ganhar um bônus temporário em percepção, esquiva ou reflexos.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,Umbrael,Bem,SIM,Umbrael = Elfos (Reino Élfico),Reino Élfico — Portão de Folhas e Pedra (17V17) | Reino Élfico — Mercado Élfico (16V18) | Reino Élfico — Jardins Nobres (16U19) | Reino Élfico — Portões do Castelo (16T20),Mago Louco (Umbrael) — Battlemage/Darkmage; vive na Torre,Motivo de exílio/saída do reino: gancho de Ato II; explica aptidão em magia de batalha e sombria.,CANON (WorldMap/Capítulos citam Mago Louco) + decisão de lore (chat: Umbrael=elfos; Mago Louco=Umbrael),"Os Umbrael são uma raça misteriosa e noturna, que habita territórios escuros e enevoados, como florestas profundas e cavernas iluminadas apenas por bioluminescência. Seus corpos altos e magros têm uma pele pálida ou cinzenta que reflete fracamente a luz, quase como um véu de neblina, e seus olhos brilham em tonalidades vívidas como roxo, verde ou dourado.
+
+Culturalmente, os Umbrael são reservados e pragmáticos, mas têm uma relação íntima com os mistérios da morte e do desconhecido. Eles não veem a morte como um fim, mas como uma transição, e acreditam que forças espirituais permeiam o mundo físico, guiando seus destinos. Apesar de sua aparência sombria, são seres complexos e honram a beleza através de canções, poções e histórias sobre o ciclo da vida.","Os Umbrael vivem em cidades ocultas chamadas Santuários de Névoa, cercadas por densas brumas que protegem seus lares de intrusos. Cada comunidade é liderada por um Sombravidente, uma figura respeitada por sua sabedoria espiritual e habilidade em guiar seu povo através de rituais e conselhos.
+
+A sociedade é estruturada em torno de duas facções: os Guardadores das Sombras, responsáveis pela proteção física e mágica, e os Tecelões do Véu, alquimistas, xamãs e bardos que manipulam energias espirituais. Essa divisão promove equilíbrio entre a força e o misticismo, dois pilares fundamentais dos Umbrael.
+
+Eles realizam rituais chamados Cantigas do Crepúsculo, nos quais todos se reúnem para honrar seus ancestrais, entoando cânticos que misturam magia e música.","Estrutura Física: Altos e esguios, com uma postura elegante e movimentos suaves.
+Pele: Pálida ou cinzenta, com uma textura fina que dá a impressão de ser translúcida sob certas luzes.
+Cabelos: Lisos ou ondulados, com tons escuros como preto ou azul profundo, mas frequentemente adornados com joias ou flores que brilham suavemente.
+Olhos: Brilhantes e hipnotizantes, refletindo a energia espiritual que os conecta ao mundo sombrio.","Masculino: 1,90m-2,10m / Feminino: 1,80m-2,00m",Masculino: 70-100kg /Feminino: 60-90kg,"Knight, Berserker, Alchemist, Pyromancer, Cryomancer, Esper, Dark Mage, Necromancer, Bard, Sentinel, Shaman","Knight / Berserker / Sentinel
+Os combatentes Umbrael são conhecidos como Guardas do Véu, utilizando armaduras negras ornamentadas e armas encantadas com runas de proteção. São defensores ferozes que unem força e disciplina.
+
+Pyromancer / Cryomancer
+Magos elementais Umbrael canalizam fogo espectral ou gelo mortal, usando feitiços que refletem sua ligação com o mundo espiritual.
+
+Esper
+Psíquicos Umbrael, chamados de Mentes do Véu, manipulam pensamentos ou percepções, usando sua habilidade de enxergar as sombras da mente para confundir inimigos e guiar aliados.
+
+Dark Mage / Necromancer
+Praticantes das artes sombrias, os Tecelões da Morte usam magia para invocar sombras vivas ou manipular cadáveres, sempre com um tom de reverência aos ciclos naturais.
+
+Bard
+Os bardos Umbrael, conhecidos como Eco das Sombras, cantam canções que misturam melancolia e beleza, inspirando aliados e perturbando a mente dos inimigos.
+
+Alchemist
+Alquimistas Umbrael criam poções que brilham suavemente no escuro, misturando elementos espirituais e materiais para curar, envenenar ou fortalecer.
+
+Shaman
+Os xamãs Umbrael, chamados de Oráculos da Névoa, conectam-se aos espíritos ancestrais para realizar rituais de cura ou invocação de forças etéreas.
+","Véu das Sombras: Ganha vantagem em furtividade e resistência a magias de luz ou radiação.
+Luz Crepuscular: Pode usar sua energia espiritual para criar uma pequena aura de luz suave que melhora a percepção e confunde inimigos próximos.
+Conexão Ancestral: Permite interagir ou invocar espíritos ancestrais temporariamente, seja para combate ou orientação.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Vallharan,Bem,NÃO,,,,,Legado (Raças em Construção),"Os Vallharan são uma raça de humanoides adaptados a regiões montanhosas e vales densamente florestados. Eles são conhecidos por sua força física e conexão espiritual com a terra, vivendo em harmonia com os ciclos naturais que regem suas terras. Sua cultura é marcada por um equilíbrio entre a vida simples, de caçadores e agricultores, e uma surpreendente proficiência em magia, que é vista como uma extensão da natureza ao seu redor.
+
+Fisicamente, os Vallharan possuem corpos robustos e traços que refletem a paisagem que habitam: pele com tons de terra e pedras, frequentemente com marcas naturais que se assemelham a fissuras ou padrões de raízes. Apesar de sua aparência rude, são conhecidos por sua hospitalidade calorosa e habilidade em resolver conflitos tanto pela força quanto pela diplomacia.","Os Vallharan vivem em vilarejos fortificados chamados Círculos de Pedra, posicionados estrategicamente para proteger seus lares de invasores e feras selvagens. A sociedade é liderada por um Conselho das Estações, formado por representantes das profissões mais importantes: guerreiros, druidas, curandeiros e bardos.
+
+Eles veneram os Espíritos das Alturas, forças da natureza que acreditam residir nas montanhas, rios e ventos. Esses espíritos são honrados em festivais sazonais como o Ritual do Primeiro Verde, que celebra o ciclo de vida e morte.
+
+Apesar de sua forte ligação com a natureza, os Vallharan são práticos e auto-suficientes, sendo exímios construtores, ferreiros e exploradores, sempre buscando expandir e proteger suas comunidades.","Estrutura Física: Altos e musculosos, com ombros largos e pernas fortes, moldados pelo trabalho físico e vida em terreno irregular.
+Pele: Tons terrosos, como bronze ou marrom escuro, muitas vezes com marcas que lembram veios de pedras ou raízes.
+Cabelos: Longos e espessos, variando de castanho escuro a tons de musgo ou dourado, frequentemente adornados com pequenas tramas de couro ou pedaços de madeira polida.
+Olhos: Profundos e hipnotizantes, com tons que variam de verde esmeralda a âmbar dourado, refletindo sua conexão espiritual.","Masculino: 2,10m-2,50m / Feminino: 2,00m-2,30m",Masculino: 150-250kg / Feminino: 120-200kg,"Soldier, Warrior, Druid, Ranger, Battlemage, Monk, Rogue (Male), Cryomancer, Necromancer, Bard, Cleric","Soldier / Warrior
+Os Vallharan que escolhem o caminho militar, chamados de Escudos das Montanhas, são guerreiros disciplinados que lutam com armas pesadas e armaduras reforçadas com pedras locais.
+
+Druid
+Os druidas Vallharan, conhecidos como Guardadores do Vale, usam magia para manipular plantas, controlar o clima e proteger suas terras contra ameaças externas.
+
+Ranger
+Mestres do arco e da caça, os Rangers Vallharan utilizam armadilhas e habilidades de rastreamento para manter as fronteiras de seus vilarejos seguras.
+
+Battlemage
+Vallharan batalhadores combinam o poder bruto das armas com feitiços rústicos que amplificam suas investidas ou criam barreiras mágicas protetoras.
+
+Monk
+Os monásticos Vallharan seguem o Caminho das Rochas Vivas, um estilo de combate que usa força física e equilíbrio, inspirado nas formações rochosas e rios caudalosos.
+
+Rogue (Male)
+Furtivos Vallharan, chamados de Ladrões da Bruma, utilizam o conhecimento do terreno e camuflagem natural para se infiltrar em territórios inimigos ou realizar emboscadas.
+
+Cryomancer
+Magos de gelo Vallharan canalizam o frio das montanhas para criar feitiços que congelam inimigos ou fortalecem barreiras naturais.
+
+Necromancer
+Praticantes das artes sombrias, os Chamadores das Raízes Negras utilizam cadáveres e sombras das florestas para proteger suas terras ou assustar invasores.
+
+Bard
+Os bardos Vallharan, chamados de Vozes da Terra, combinam canções e histórias com magia sutil que inspira coragem e cura feridas em aliados.
+
+Cleric
+Os clérigos Vallharan, conhecidos como Pastores das Estações, usam magia divina para restaurar a saúde e abençoar suas comunidades em tempos de colheita ou conflito.","Pés Firmes: Movem-se com facilidade em terrenos difíceis como montanhas e florestas densas, ganhando bônus de deslocamento nesses ambientes.
+Fortaleza Natural: Resistência a venenos e vantagens contra efeitos que forcem quedas, devido à sua vida em terrenos irregulares.
+Chamado das Alturas: Pode invocar temporariamente um espírito natural para curar aliados ou causar dano em inimigos.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Orvalin,Bem,NÃO,Raça do bem (a revelar) — rota montanhosa/vulcânica pós-goblins,Estrada — Marco da Fronteira (17S20) + Serra (backlog montanha/vulcânica),,Preparar encontros/aldeias em encostas/cavernas; manter nomes 'Orvalin' e 'Kelvrin'.,PROPOSTA (direção de mundo): rota goblins -> montanhas/vulcânica,"Os Orvalin são uma raça de humanoides corpulentos e resilientes que habitam vastos cânions e terras vulcânicas. Com uma aparência robusta e traços que remetem a criaturas das profundezas da terra, os Orvalin são forjados pelo calor e pela pressão de seus ambientes extremos. Sua pele é grossa como pedra, com veios brilhantes que parecem lava solidificada, simbolizando sua ligação com o fogo e a força da terra.
+
+Culturalmente, os Orvalin são conhecidos por sua lealdade inabalável e por viverem em comunidades que funcionam como fortalezas, protegendo seus territórios e lares com fervor. Eles são construtores habilidosos, criando cidades esculpidas diretamente na rocha e forjas alimentadas por fluxos de magma. Apesar de sua aparência intimidadora, os Orvalin possuem uma cultura rica em espiritualidade e tradição, celebrando a conexão entre terra, fogo e espírito.","Os Orvalin vivem em cidades chamadas Cidadelas de Chama, que servem tanto como fortalezas quanto como centros espirituais e industriais. Cada Cidadela é governada por um Lorde da Forja, que atua como líder militar e administrador, auxiliado por Chamas Anciãs, conselheiros espirituais e mágicos.
+
+Eles veneram o conceito de Forja Eterna, que simboliza a transformação constante da vida através de esforço, calor e pressão. Essa filosofia é refletida em suas práticas culturais, desde o treinamento militar até a criação de artefatos mágicos e armas lendárias.
+
+Festivais como o Ritual da Lava Viva marcam eventos importantes, onde os Orvalin celebram conquistas e reforçam sua união, com danças e cânticos realizados em torno de grandes caldeirões de magma.","Estrutura Física: Altos e imponentes, com uma musculatura compacta e braços fortes adaptados para trabalho pesado e combate.
+Pele: Tons de cinza ou vermelho-terra, frequentemente com veios brilhantes que lembram magma solidificado, que se intensificam quando usam magia ou estão em batalha.
+Cabelos: Espessos e com tons escuros, como carvão ou cinzas, mas frequentemente cortados curtos ou presos para evitar interferência no trabalho.
+Olhos: Luminosos, em tons de âmbar, laranja ou vermelho, parecendo brilhar como brasas.","Masculino: 2,20m-2,80m / Feminino: 2,00m-2,60m",Masculino: 300-500kg / Feminino: 250-400kg,"Dragon Slayer, Knight, Berserker, Warrior, Alchemist, Sentinel, Cleric, Pyromancer, Cryomancer, Esper, Shaman","Dragon Slayer / Knight / Berserker / Warrior
+Os Orvalin que escolhem o caminho do combate, conhecidos como Martelos da Terra, utilizam armas pesadas, como martelos e machados gigantes, forjados com metais especiais extraídos de suas terras vulcânicas.
+
+Alchemist
+Alquimistas Orvalin, chamados de Misturadores da Rocha, usam minerais raros e substâncias voláteis encontradas em seus territórios para criar poções explosivas e elixires reforçadores.
+
+Sentinel
+Sentinelas Orvalin, conhecidos como Escudos de Lava, defendem suas fortalezas com armaduras massivas e escudos infundidos com magia elemental, capazes de resistir aos ataques mais devastadores.
+
+Cleric
+Os clérigos Orvalin, chamados de Guardas da Chama, canalizam a energia espiritual da terra e do fogo para curar feridas e fortalecer aliados.
+
+Pyromancer / Cryomancer
+Magos elementais Orvalin, conhecidos como Moldadores do Núcleo, manipulam calor e frio de forma devastadora, criando explosões de lava ou geadas mortais para controlar o campo de batalha.
+
+Esper
+Psíquicos Orvalin, chamados de Vozes da Pedra, utilizam sua conexão mental para prever ataques e amplificar a coragem de seus aliados em momentos críticos.
+
+Shaman
+Xamãs Orvalin, conhecidos como Chamadores do Núcleo, invocam forças espirituais ligadas à terra e ao fogo para proteger sua comunidade ou destruir invasores.
+","Resistência Elemental: Reduz o dano de fogo e calor, e ganha vantagens em testes contra efeitos relacionados a fogo ou terra.
+Forja Interna: Pode temporariamente reforçar suas armas ou armaduras, aumentando sua eficácia em combate por um curto período.
+Fortaleza do Magma: Recebe bônus em habilidades de defesa quando estiver em terreno vulcânico, montanhoso ou rochoso.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Xylthar,Mal,SIM (Cutscene),Raça do mal (invasora); Observador carismático (vilão futuro),Serra — Mirante do Vento (18W17) — Cutscene final do Ato I (farmando aura),,"Estilo 'Shigaraki': presença inquietante, coleta de aura e observação à distância; deixa rastro de éter moldado.",PROPOSTA (roteiro Ato I): cameo do vilão principal do Ato II,"Os Xylthar são uma raça invasora que chegou a este mundo há pouco tempo, emergindo de portais formados em zonas remotas e inóspitas. Eles são provenientes de um plano conhecido como Espiral do Éter, um mundo de energia instável e caos mágico, onde a sobrevivência depende de manipulação constante do ambiente e de outros seres.
+
+Inicialmente, os Xylthar se estabeleceram como exploradores, mas logo se revelaram como conquistadores astutos, visando dominar e moldar este mundo para refletir sua terra natal. Seus motivos são um misto de sobrevivência e expansão: o Espiral do Éter está entrando em colapso, e os Xylthar acreditam que apenas dominando outros planos poderão assegurar sua continuidade como espécie.","Os Xylthar são uma raça invasora que chegou a este mundo há pouco tempo, emergindo de portais formados em zonas remotas e inóspitas. Eles são provenientes de um plano conhecido como Espiral do Éter, um mundo de energia instável e caos mágico, onde a sobrevivência depende de manipulação constante do ambiente e de outros seres.
+
+Inicialmente, os Xylthar se estabeleceram como exploradores, mas logo se revelaram como conquistadores astutos, visando dominar e moldar este mundo para refletir sua terra natal. Seus motivos são um misto de sobrevivência e expansão: o Espiral do Éter está entrando em colapso, e os Xylthar acreditam que apenas dominando outros planos poderão assegurar sua continuidade como espécie.","Estrutura Física: Os Xylthar têm corpos esguios e maleáveis, com extremidades que podem se alongar ou moldar ligeiramente para tarefas específicas.
+Pele e Textura: Sua pele é quase translúcida, com padrões pulsantes de energia brilhante que se intensificam quando estão utilizando habilidades ou magia.
+Olhos: Grandes e opalescentes, refletem a energia do Éter, mudando de cor conforme suas emoções ou poderes invocados.
+Traços Únicos: Cada Xylthar possui apêndices ou deformações específicas, como protuberâncias de cristal ou filamentos de luz, resultado de mutações constantes de sua conexão com o Éter.","Masculino: 1,70m-2,00m / Feminino: 1,60m-1,90m",Masculino: 60-90kg / Feminino: 50-80kg,"Monk, Rogue (Female), Rogue (Male), Warrior, Pyromancer, Cryomancer, Alchemist, Battlemage, Bard, Druid","Monk
+Os Xylthar monásticos utilizam a energia do Éter para criar movimentos extremamente rápidos e imprevisíveis, usando seus corpos flexíveis para ataques acrobáticos.
+
+Rogue (Female / Male)
+Furtivos Xylthar, chamados de Sombras do Éter, são especialistas em infiltração e sabotagem, podendo se camuflar ou alterar suas formas temporariamente para enganar os inimigos.
+
+Warrior
+Os guerreiros Xylthar, conhecidos como Lâminas Pulsantes, reforçam suas armas e corpos com energia do Éter, criando ataques brutais e explosivos.
+
+Pyromancer / Cryomancer
+Magos elementais Xylthar canalizam o caos do Éter para conjurar chamas ou gelo de cores brilhantes, criando feitiços de destruição que afetam grandes áreas.
+
+Alchemist
+Alquimistas Xylthar combinam substâncias nativas deste mundo com fragmentos do Éter, criando poções imprevisíveis que variam de curativas a explosivas.
+
+Battlemage
+Xylthar batalhadores equilibram feitiços devastadores com combate físico, envolvendo-se em ataques rápidos e encantados que confundem seus adversários.
+
+Bard
+Os bardos Xylthar, conhecidos como Vozes do Caos, utilizam frequências e tons ressonantes do Éter para inspirar aliados ou desorientar inimigos com melodias perturbadoras.
+
+Druid
+Os Xylthar druidas manipulam o ambiente do mundo invadido para convertê-lo em zonas que refletem o Éter, acelerando mutações e criando armadilhas naturais para seus inimigos.","Moldabilidade do Éter: Podem alterar temporariamente seus corpos para ganhar vantagem em furtividade, movimento ou combate.
+Ressonância Caótica: Ganha um bônus em magias e habilidades quando está perto de grandes fontes de energia mágica ou em ambientes instáveis.
+Mutação Adaptativa: Após um descanso curto, pode escolher um bônus temporário (defesa, ataque ou magia), refletindo sua adaptabilidade ao combate.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,Vrakkith,Mal,NÃO,,,,,Legado (Raças em Construção),"Os Vrakkith são uma raça invasora que chegou a este mundo há séculos, mas apenas recentemente começaram a sair das sombras e revelar seu verdadeiro propósito. Eles vieram de um plano marcado por trevas perpétuas chamado Umbra Feralis, onde a luz é um recurso raro e a força define a sobrevivência.
+
+Originalmente enviados como batedores de uma civilização maior, os Vrakkith decidiram se desvincular de seus mestres, utilizando este novo mundo como um refúgio para crescer em poder e influência. Apesar de seu passado violento, a sociedade Vrakkith se organiza em torno de uma forte hierarquia marcial, valorizando tanto a brutalidade física quanto a astúcia mágica.","Os Vrakkith operaram nas sombras por gerações, utilizando emboscadas e controle tático para se infiltrar lentamente em territórios estratégicos. Apenas recentemente começaram a se manifestar abertamente, suas fortalezas subterrâneas e florestas sombrias agora servem como centros de poder militar e mágico.
+
+A sociedade Vrakkith é liderada por um Senhor da Gula, um comandante que combina poder físico e magia sombria. Abaixo dele, há os Cinzentos, generais que controlam as divisões de guerra e os esquadrões de batedores.
+
+Eles seguem uma filosofia chamada Lei da Voracidade, que defende que apenas os mais fortes têm o direito de prosperar, seja através da força, magia ou manipulação.","Estrutura Física: Imponentes e musculosos, com corpos esculpidos para o combate. Os Vrakkith possuem uma pele escamosa que varia de preto brilhante a cinza opaco, reforçada por uma camada de placas ósseas que se formam naturalmente.
+Traços Distintivos: Protuberâncias ósseas nos ombros, cotovelos e costas, que não apenas os protegem, mas também servem como armas improvisadas em combate.
+Olhos: Olhos pequenos e brilhantes em tons de vermelho, amarelo ou azul, adaptados para enxergar na escuridão absoluta.
+Adornos: Muitos Vrakkith adornam suas armaduras e armas com ossos e fragmentos de seus inimigos, como símbolos de vitória e intimidação.","Masculino: 2,30m-2,70m / Feminino: 2,20m-2,50m",Masculino: 200-350kg / Feminino: 180-300kg,"Dragon Slayer, Soldier, Knight, Berserker, Ranger, Cleric, Dark Mage, Necromancer, Battlemage, Bard, Sentinel","Dragon Slayer / Berserker / Knight / Soldier
+Os Vrakkith combatentes são chamados de Terror das Escamas, lutando com uma mistura de força bruta e táticas implacáveis. Suas armas são reforçadas com magia sombria ou criadas a partir de ossos endurecidos.
+
+Ranger
+Os Vrakkith Rangers, conhecidos como Caçadores das Trevas, utilizam arcos leves ou bestas com munição envenenada, movendo-se silenciosamente para eliminar inimigos à distância.
+
+Cleric
+Os clérigos Vrakkith, chamados de Devotos da Fome, canalizam energias obscuras para curar seus aliados e corroer as forças vitais de seus inimigos.
+
+Dark Mage / Necromancer
+Os magos sombrios e necromantes Vrakkith, chamados de Sussurros da Umbra, manipulam sombras e cadáveres para aterrorizar e subjugar aqueles que os enfrentam.
+
+Battlemage
+Os Battlemages Vrakkith utilizam encantos sombrios para amplificar seus ataques físicos, envolvendo suas armas em chamas negras ou explosões destrutivas.
+
+Bard
+Bardos Vrakkith, chamados de Corruptores da Harmonia, utilizam músicas dissonantes e encantos vocais para manipular mentes e espalhar medo nos corações de seus adversários.
+
+Sentinel
+Sentinelas Vrakkith, conhecidos como Escudos da Umbra, servem como muralhas vivas, bloqueando ataques e liderando investidas com resistência quase inquebrável.","Força da Escuridão: Ganha resistência extra quando em ambientes sombrios ou mal iluminados, com bônus em furtividade e percepção.
+Voracidade Natural: Ao derrotar um inimigo, pode recuperar uma pequena quantidade de vida ou energia, refletindo sua filosofia de sobrevivência.
+Carapaça Reforçada: Reduz o dano de ataques físicos graças à sua pele escamosa e protuberâncias ósseas.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,n
+12,Nexari,Mal,NÃO,,,,,Legado (Raças em Construção),"Os Nexari são uma raça invasora originária de um plano etéreo chamado Espiral Nexal, onde as leis da realidade são maleáveis e constantemente reescritas por forças mágicas. Eles chegaram a este mundo por acidente, quando uma falha em seus experimentos mágicos abriu portais instáveis entre dimensões.
+
+Embora inicialmente confusos, os Nexari rapidamente perceberam o potencial deste novo plano e começaram a moldá-lo para refletir seu lar. Sua invasão não é motivada por malícia, mas por uma necessidade de sobrevivência: o Espiral Nexal está desmoronando devido ao uso excessivo de magia, e eles precisam de um novo lar. No entanto, seu impacto é devastador, pois a mera presença dos Nexari altera a flora, fauna e o tecido mágico do mundo invadido.
+
+Os Nexari têm asas que emanam uma aura etérea, com membranas metálicas cobertas por runas vivas que brilham enquanto voam. Essas asas permitem que eles flutuem no ar e realizem voos prolongados, uma habilidade vital em sua missão de moldar este mundo. Quando em combate, os Nexari usam suas capacidades aéreas para evadir ataques ou lançar magias devastadoras de posições vantajosas, reforçando sua supremacia como seres mágicos.","Os Nexari são organizados em Nexos de Convergência, comunidades altamente mágicas que servem como centros de expansão. Cada Nexo é liderado por um Harmonizador, uma figura com habilidades excepcionais em manipular magia e manter a conexão entre os Nexari e sua dimensão original.
+
+Apesar de sua organização eficiente, os Nexari não são uma raça militarista. Sua invasão é um processo gradual e orgânico, com sua magia remodelando lentamente o mundo ao seu redor. Eles acreditam no conceito de Unidade Essencial, onde tudo deve ser moldado em harmonia com a energia mágica que permeia o universo.","Estrutura Física: Os Nexari possuem corpos altos e magros, com membros alongados que parecem flutuar levemente ao caminhar.
+Pele e Textura: Sua pele possui um brilho metálico suave, variando de prateado a dourado, frequentemente coberta por padrões geométricos que se movem lentamente como runas vivas.
+Olhos: Brilhantes e sem pupilas, emitindo uma luz constante em tons de azul, violeta ou branco, que intensifica quando usam magia.
+Traços Únicos: Alguns Nexari possuem apêndices ou acessórios naturais que parecem antenas, chifres ou cristais flutuantes ao redor de seus corpos.
+Adaptação: Os Nexari possuem asas longas e segmentadas, semelhantes às de mariposas ou morcegos, que emitem um brilho metálico quando expostas à luz. Essas asas são mais funcionais em voo do que as dos Sylkrin, permitindo que os Nexari permaneçam no ar por períodos mais longos e realizem manobras aéreas precisas durante combate ou exploração.","Masculino: 2,00m-2,40m / Feminino: 1,90m-2,30m",Masculino: 100-180kg / Feminino: 80-150kg,"Warrior, Monk, Rogue (Female), Pyromancer, Cryomancer, Esper, Shaman, Alchemist, Druid, Bard","Warrior
+Os Nexari guerreiros, conhecidos como Guardas do Prisma, canalizam energia mágica em suas armas, transformando ataques físicos em golpes de luz ou explosões de força pura.
+
+Monk
+Monásticos Nexari, chamados de Tecedores de Fluxo, utilizam movimentos graciosos e precisos, inspirados pelas ondulações constantes do plano Nexal.
+
+Rogue (Female)
+Nexari furtivos, conhecidos como Sombras da Luz, manipulam refrações mágicas para criar ilusões ou desaparecer da vista de seus inimigos.
+
+Pyromancer / Cryomancer
+Os Nexari magos elementais são especialistas em moldar calor e frio, utilizando feitiços que criam rajadas flamejantes ou geadas cristalinas que parecem obras de arte vivas.
+
+Esper
+Psíquicos Nexari utilizam suas mentes hiperdesenvolvidas para manipular emoções ou prever movimentos de seus inimigos, agindo como estrategistas naturais.
+
+Shaman
+Os xamãs Nexari, conhecidos como Condutores do Éter, conectam-se ao fluxo mágico do mundo para curar, fortalecer aliados ou remodelar o terreno ao seu redor.
+
+Alchemist
+Alquimistas Nexari, chamados de Misturadores de Essência, utilizam elementos instáveis de sua dimensão para criar poções ou explosivos de efeitos imprevisíveis.
+
+Druid
+Nexari druidas moldam a flora e fauna locais em versões mágicas e hiperadaptadas, transformando a natureza em um reflexo do Espiral Nexal.
+
+Bard
+Bardos Nexari, conhecidos como Tecelões de Frequência, usam música mágica para manipular a realidade, inspirando aliados ou alterando o estado mental de seus inimigos.","Refração Etérea: Pode criar ilusões simples ou distorções mágicas para confundir inimigos ou esconder aliados temporariamente.
+Presença Moldadora: Áreas ao redor dos Nexari se alteram sutilmente, causando mudanças no terreno ou pequenos efeitos mágicos passivos.
+Adaptabilidade Engenharia Rúnica (Waystones): Ganha resistência contra magias hostis e recebe bônus ao interagir com fontes mágicas ou artefatos.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,Thraxxid,Mal,NÃO,,,,,Legado (Raças em Construção),"Os Thraxxid são uma raça insectoide de um mundo colmeia chamado Chrysalis Prime, onde a evolução é acelerada por um ciclo interminável de adaptação e predomínio biológico. Eles chegaram a este mundo através de grandes colônias em forma de meteoros biológicos, que caíram em regiões isoladas e desertas.
+
+Muitos Thraxxid possuem quatro braços que variam em tamanho e função. Os braços primários são poderosos e especializados em combate, enquanto os secundários são mais finos e precisos, usados para manipular estruturas da colmeia, armas ou realizar ataques rápidos e mortais. Essa adaptabilidade é um reflexo de sua origem em um ambiente altamente competitivo e em constante evolução.
+
+Os Thraxxid não invadem por desejo de conquista, mas por instinto: seu ciclo de vida exige novos ambientes para expansão e assimilação. Cada Thraxxid é projetado biologicamente para um propósito específico, seja combate, coleta ou comando. À medida que assimilam a fauna, flora e até elementos mágicos do mundo, criam formas especializadas para enfrentar qualquer ameaça e garantir a sobrevivência da colmeia.","Os Thraxxid operam como uma mente coletiva, coordenada por uma Rainha da Colmeia, uma entidade gigantesca que reside no centro da colônia principal. A Rainha é protegida por Guardiões Primevos, as formas mais avançadas de guerreiros Thraxxid.
+
+Cada colônia é altamente adaptável, utilizando magia, biologia e tecnologia natural para se fortalecer. Os Thraxxid assimilam características de qualquer ambiente que habitam, criando formas especializadas para interagir com esse novo mundo. Isso os torna uma ameaça tanto biológica quanto mágica, com suas colônias se expandindo de maneira quase impossível de conter.","Estrutura Física: Os Thraxxid variam em tamanho e forma, podendo apresentar 2 ou 4 braços dependendo de sua função. Guerreiros têm corpos maciços com carapaças reforçadas e armas naturais como garras ou lâminas ósseas, enquanto drones e líderes possuem formas mais esguias.
+Pele e Carapaça: Suas carapaças possuem tons metálicos ou iridescentes, como bronze ou verde-escuro, refletindo sua evolução constante.
+Olhos: Compostos e brilhantes, em tons de vermelho, amarelo ou azul, com um brilho que varia conforme sua atividade.
+Traços Únicos: Muitos possuem protuberâncias cristalinas que agem como receptores mágicos ou armas, além de membranas nas costas que vibram quando comunicam-se telepaticamente.","Operários: 1,80m-2,10m / Guerreiros: 2,40m-3,00m",Operários: 150-300kg / Guerreiros: 300-500kg,"Dragon Slayer, Berserker, Knight, Soldier, Pyromancer, Cryomancer, Alchemist, Dark Mage, Necromancer, Bard, Sentinel, Druid","Dragon Slayer / Berserker / Knight / Soldier
+Os guerreiros Thraxxid, chamados de Carnífagos, são combatentes implacáveis com carapaças reforçadas e armas naturais como garras, pinças ou espinhos, capazes de destruir até as maiores criaturas.
+
+Pyromancer / Cryomancer
+Magos Thraxxid, conhecidos como Moldadores de Fluxo, canalizam energias elementais assimiladas do ambiente, criando chamas corrosivas ou geadas que congelam tudo ao toque.
+
+Alchemist
+Os alquimistas Thraxxid são especializados na mistura de substâncias biológicas, como venenos, ácidos ou substâncias explosivas, utilizando glândulas ou secreções naturais.
+
+Dark Mage / Necromancer
+Thraxxid sombrios, chamados de Tece-almas, manipularam magia ao devorar entidades mágicas deste mundo. Eles invocam sombras ou cadáveres para expandir o alcance da colmeia.
+
+Bard
+Bardos Thraxxid, conhecidos como Ressoadores, emitem sons hipnotizantes através de suas membranas vibratórias, inspirando aliados ou desorientando inimigos.
+
+Sentinel
+Sentinelas Thraxxid, chamadas de Torres Vivas, são enormes e imóveis, atuando como defensores implacáveis da colônia com espinhos arremessáveis e armaduras indestrutíveis.
+
+Druid
+Os druidas Thraxxid manipulam o ambiente ao redor, transformando a flora e fauna locais em formas que atendem às necessidades da colônia. Eles agem como moldadores ecológicos, dominando a natureza para facilitar sua expansão.","Assimilação Biológica: Ganha uma habilidade temporária do ambiente (como resistência ao fogo em áreas vulcânicas ou furtividade em florestas densas).
+Carapaça Adaptativa: Reduz dano físico e mágico, com melhorias específicas em ambientes assimilados.
+Colmeia Telepática: Pode comunicar-se mentalmente com outros Thraxxid em um raio significativo, permitindo táticas altamente coordenadas.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,Vorynthi,Mal,NÃO,,,,,Legado (Raças em Construção),"Os Vorynthi são uma raça parasítica de origem interdimensional, vindos de um plano chamado Fragmento Anímico, onde todas as criaturas são conectadas por uma força vital compartilhada. Eles chegaram a este mundo através de fissuras criadas por experimentos mágicos mal-sucedidos, espalhando-se silenciosamente por décadas antes de se tornarem uma ameaça visível.
+
+Os Vorynthi não possuem corpos próprios; em vez disso, habitam e corrompem seres nativos, transformando-os em híbridos grotescos com força física e habilidades mágicas aprimoradas. Sua motivação é simples: eles acreditam que toda vida deve se fundir ao Coletivo Vorynthi, uma consciência unificada que visa ""purificar"" os mundos e integrá-los ao seu ideal de harmonia parasítica.","Os Vorynthi são regidos por uma consciência coletiva, o Núcleo Anímico, que governa todas as decisões estratégicas e coordena suas ações. Hospedeiros infectados agem como extensões dessa consciência, criando uma hierarquia natural onde as entidades mais fortes são moldadas para funções específicas.
+
+Eles operam de forma furtiva, corrompendo lentamente territórios através de rituais e contaminações biológicas. Os infectados frequentemente mantêm resquícios de sua personalidade original, o que permite infiltrações mais eficazes e a disseminação de sua influência antes de serem detectados.","Corpos Hospedeiros: Os Vorynthi transformam seres que infectam, cobrindo-os com tecidos escuros e fibrosos que pulsam como veias vivas. Esses hospedeiros apresentam deformidades únicas, como tentáculos, garras ou até mesmo olhos extras.
+Parasitas Puros: Quando vistos fora de hospedeiros, os Vorynthi são massas flutuantes de energia viscosa, com formas indefinidas e luzes pulsantes em seu interior.
+Olhos: Em hospedeiros, os olhos brilham em tons hipnóticos, como verde-esmeralda ou roxo, simbolizando o controle do parasita.","Hospedeiros: 1,80m-2,20m / Parasitas Puros: 1,00m",Hospedeiros: 80-150kg / Parasitas Puros: 10-15kg,"Monk, Rogue (Male), Warrior, Ranger, Alchemist, Esper, Necromancer, Cleric, Pyromancer, Cryomancer, Battlemage, Shaman","Monk
+Os Vorynthi monásticos são chamados de Tecelões da Sombra, e utilizam a flexibilidade física de seus hospedeiros para criar estilos de luta imprevisíveis e mortais.
+
+Rogue (Male)
+Infiltradores Vorynthi, conhecidos como Espíritos Ocultos, usam seus hospedeiros para agir nas sombras, movendo-se com silêncio absoluto e atacando pontos vitais.
+
+Warrior
+Hospedeiros Vorynthi guerreiros, chamados de Abominações de Ferro, são transformados em tanques de combate, com garras enormes e corpos resistentes a golpes.
+
+Ranger
+Os Rangers Vorynthi, conhecidos como Olhos do Parasita, utilizam arcos naturais feitos de matéria orgânica para disparar projéteis contaminados que espalham infecção.
+
+Alchemist
+Alquimistas Vorynthi utilizam substâncias extraídas de hospedeiros corrompidos para criar poções de efeito devastador ou curativo, adaptando-se a cada situação.
+
+Esper
+Psíquicos Vorynthi, chamados de Vozes do Núcleo, manipulam a mente dos inimigos, causando confusão e medo enquanto conectam aliados à consciência coletiva.
+
+Necromancer
+Necromantes Vorynthi, conhecidos como Tecelões de Carniça, animam corpos infectados e os transformam em soldados grotescos sob seu comando.
+
+Cleric
+Clerigos Vorynthi, chamados de Guardadores da Unidade, canalizam energia do Coletivo para curar aliados infectados ou amplificar sua força.
+
+Pyromancer / Cryomancer
+Magos elementais Vorynthi são capazes de canalizar fogo ou gelo através de tecidos parasíticos, criando ataques elementais que se adaptam à resistência dos oponentes.
+
+Battlemage
+Os Battlemages Vorynthi, chamados de Cavaleiros do Vazio, misturam combate físico e magia de forma brutal, usando seus hospedeiros para se tornarem máquinas de guerra completas.
+
+Shaman
+Xamãs Vorynthi, conhecidos como Chamadores do Parasita, invocam fragmentos do Coletivo para auxiliar em batalha, criando criaturas híbridas para atacar ou proteger.","Invasão Biológica: Hospedeiros Vorynthi podem ganhar uma habilidade temporária ao assimilar uma criatura ou absorver parte do ambiente.
+Resistência Orgânica: Hospedeiros Vorynthi possuem bônus em resistência física e mágica, representando sua biologia anômala.
+Vínculo do Coletivo: Vorynthi aliados podem compartilhar pequenas quantidades de dano entre si, reduzindo a gravidade de ataques fatais.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

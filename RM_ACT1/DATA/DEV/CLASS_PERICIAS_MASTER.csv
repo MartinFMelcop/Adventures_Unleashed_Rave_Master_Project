@@ -1,0 +1,379 @@
+class_key,class_variant,class_sheet,pericia_nome,pericia_id,level_cap,row_in_sheet,legacy_level_cap,xp_rate_mult,start_level_bonus,affinity_band
+SOLDIER,,SOLDIER (Backlog ATO 4),Mobilidade,1,99,2,10,1.1,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Vínculo (Criaturas & Goblins),2,99,3,8,0.95,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Engenharia Rúnica (Waystones),3,99,4,6,0.8,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Vigor & Carga,4,99,5,14,1.4,10,A
+SOLDIER,,SOLDIER (Backlog ATO 4),Trapaça,5,99,6,9,1.02,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Crônicas do Mundo,6,99,7,11,1.18,5,A
+SOLDIER,,SOLDIER (Backlog ATO 4),Leitura de Malícia,7,99,8,10,1.1,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Postura,8,99,9,12,1.25,5,A
+SOLDIER,,SOLDIER (Backlog ATO 4),Investigação,9,99,10,10,1.1,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Colheita (Ervas/Fungos/Fibras),10,99,11,8,0.95,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Alquimia do Pântano,11,99,12,10,1.1,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Atenção,12,99,13,11,1.18,5,A
+SOLDIER,,SOLDIER (Backlog ATO 4),Metalurgia,13,99,14,7,0.88,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Influência,14,99,15,10,1.1,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Ritos do Véu,15,99,16,7,0.88,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,9,1.02,0,B
+SOLDIER,,SOLDIER (Backlog ATO 4),Sombra,17,99,18,8,0.95,0,C
+SOLDIER,,SOLDIER (Backlog ATO 4),Extração (Minério/Pedra/Cristais),18,99,19,12,1.25,5,A
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Mobilidade,1,99,2,14,1.27,5,A
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Vínculo (Criaturas & Goblins),2,99,3,12,1.13,0,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Engenharia Rúnica (Waystones),3,99,4,10,1.0,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Vigor & Carga,4,99,5,15,1.33,10,A
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Trapaça,5,99,6,8,0.87,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Crônicas do Mundo,6,99,7,13,1.2,5,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Leitura de Malícia,7,99,8,12,1.13,0,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Postura,8,99,9,14,1.27,5,A
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Investigação,9,99,10,11,1.07,0,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Colheita (Ervas/Fungos/Fibras),10,99,11,7,0.8,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Alquimia do Pântano,11,99,12,14,1.27,5,A
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Atenção,12,99,13,13,1.2,5,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Metalurgia,13,99,14,9,0.93,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Influência,14,99,15,10,1.0,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Ritos do Véu,15,99,16,8,0.87,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,10,1.0,0,C
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Sombra,17,99,18,12,1.13,0,B
+DRAGON_SLAYER,,DRAGON SLAYER (Backlog ATO 4),Extração (Minério/Pedra/Cristais),18,99,19,16,1.4,10,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Mobilidade,1,99,2,18,1.4,10,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,7,0.89,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Engenharia Rúnica (Waystones),3,99,4,5,0.8,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Vigor & Carga,4,99,5,12,1.12,0,B
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Trapaça,5,99,6,16,1.31,10,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Crônicas do Mundo,6,99,7,7,0.89,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Leitura de Malícia,7,99,8,10,1.03,0,B
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Postura,8,99,9,9,0.98,0,B
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Investigação,9,99,10,14,1.22,5,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,6,0.85,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Alquimia do Pântano,11,99,12,8,0.94,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Atenção,12,99,13,15,1.26,5,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Metalurgia,13,99,14,10,1.03,0,B
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Influência,14,99,15,12,1.12,0,B
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Ritos do Véu,15,99,16,5,0.8,0,C
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,18,1.4,10,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Sombra,17,99,18,18,1.4,10,A
+ROGUE,MALE,ROGUE (MALE) (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,12,1.12,0,B
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Mobilidade,1,99,2,17,1.35,10,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Vínculo (Criaturas & Goblins),2,99,3,7,0.85,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Engenharia Rúnica (Waystones),3,99,4,6,0.8,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Vigor & Carga,4,99,5,11,1.05,0,B
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Trapaça,5,99,6,15,1.25,5,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Crônicas do Mundo,6,99,7,8,0.9,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Leitura de Malícia,7,99,8,11,1.05,0,B
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Postura,8,99,9,10,1.0,0,B
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Investigação,9,99,10,13,1.15,5,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Colheita (Ervas/Fungos/Fibras),10,99,11,7,0.85,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Alquimia do Pântano,11,99,12,9,0.95,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Atenção,12,99,13,16,1.3,10,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Metalurgia,13,99,14,9,0.95,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Influência,14,99,15,12,1.1,0,B
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Ritos do Véu,15,99,16,6,0.8,0,C
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,17,1.35,10,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Sombra,17,99,18,18,1.4,10,A
+ROGUE,FEMALE,ROGUE (FEMALE) (Backlog),Extração (Minério/Pedra/Cristais),18,99,19,11,1.05,0,B
+KNIGHT,,KNIGHT (Em Construção),Mobilidade,1,99,2,8,0.96,0,C
+KNIGHT,,KNIGHT (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,10,1.07,0,B
+KNIGHT,,KNIGHT (Em Construção),Engenharia Rúnica (Waystones),3,99,4,6,0.85,0,C
+KNIGHT,,KNIGHT (Em Construção),Vigor & Carga,4,99,5,16,1.4,10,A
+KNIGHT,,KNIGHT (Em Construção),Trapaça,5,99,6,7,0.91,0,C
+KNIGHT,,KNIGHT (Em Construção),Crônicas do Mundo,6,99,7,12,1.18,5,A
+KNIGHT,,KNIGHT (Em Construção),Leitura de Malícia,7,99,8,13,1.24,5,A
+KNIGHT,,KNIGHT (Em Construção),Postura,8,99,9,14,1.29,5,A
+KNIGHT,,KNIGHT (Em Construção),Investigação,9,99,10,8,0.96,0,C
+KNIGHT,,KNIGHT (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,9,1.02,0,B
+KNIGHT,,KNIGHT (Em Construção),Alquimia do Pântano,11,99,12,10,1.07,0,B
+KNIGHT,,KNIGHT (Em Construção),Atenção,12,99,13,11,1.13,0,A
+KNIGHT,,KNIGHT (Em Construção),Metalurgia,13,99,14,6,0.85,0,C
+KNIGHT,,KNIGHT (Em Construção),Influência,14,99,15,10,1.07,0,B
+KNIGHT,,KNIGHT (Em Construção),Ritos do Véu,15,99,16,11,1.13,0,A
+KNIGHT,,KNIGHT (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,6,0.85,0,C
+KNIGHT,,KNIGHT (Em Construção),Sombra,17,99,18,5,0.8,0,C
+KNIGHT,,KNIGHT (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,10,1.07,0,B
+BERSERKER,,BERSERKER (Em Construção),Mobilidade,1,99,2,12,1.12,0,A
+BERSERKER,,BERSERKER (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,10,1.03,0,A
+BERSERKER,,BERSERKER (Em Construção),Engenharia Rúnica (Waystones),3,99,4,5,0.8,0,C
+BERSERKER,,BERSERKER (Em Construção),Vigor & Carga,4,99,5,18,1.4,10,A
+BERSERKER,,BERSERKER (Em Construção),Trapaça,5,99,6,7,0.89,0,B
+BERSERKER,,BERSERKER (Em Construção),Crônicas do Mundo,6,99,7,6,0.85,0,C
+BERSERKER,,BERSERKER (Em Construção),Leitura de Malícia,7,99,8,8,0.94,0,B
+BERSERKER,,BERSERKER (Em Construção),Postura,8,99,9,18,1.4,10,A
+BERSERKER,,BERSERKER (Em Construção),Investigação,9,99,10,6,0.85,0,C
+BERSERKER,,BERSERKER (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,5,0.8,0,C
+BERSERKER,,BERSERKER (Em Construção),Alquimia do Pântano,11,99,12,8,0.94,0,B
+BERSERKER,,BERSERKER (Em Construção),Atenção,12,99,13,11,1.08,0,A
+BERSERKER,,BERSERKER (Em Construção),Metalurgia,13,99,14,6,0.85,0,C
+BERSERKER,,BERSERKER (Em Construção),Influência,14,99,15,7,0.89,0,B
+BERSERKER,,BERSERKER (Em Construção),Ritos do Véu,15,99,16,5,0.8,0,C
+BERSERKER,,BERSERKER (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,6,0.85,0,C
+BERSERKER,,BERSERKER (Em Construção),Sombra,17,99,18,7,0.89,0,B
+BERSERKER,,BERSERKER (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,14,1.22,5,A
+RANGER,,RANGER (Em Construção),Mobilidade,1,99,2,15,1.24,5,A
+RANGER,,RANGER (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,18,1.4,10,A
+RANGER,,RANGER (Em Construção),Engenharia Rúnica (Waystones),3,99,4,7,0.8,0,C
+RANGER,,RANGER (Em Construção),Vigor & Carga,4,99,5,12,1.07,0,B
+RANGER,,RANGER (Em Construção),Trapaça,5,99,6,8,0.85,0,C
+RANGER,,RANGER (Em Construção),Crônicas do Mundo,6,99,7,9,0.91,0,C
+RANGER,,RANGER (Em Construção),Leitura de Malícia,7,99,8,12,1.07,0,B
+RANGER,,RANGER (Em Construção),Postura,8,99,9,8,0.85,0,C
+RANGER,,RANGER (Em Construção),Investigação,9,99,10,10,0.96,0,B
+RANGER,,RANGER (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,11,1.02,0,B
+RANGER,,RANGER (Em Construção),Alquimia do Pântano,11,99,12,18,1.4,10,A
+RANGER,,RANGER (Em Construção),Atenção,12,99,13,18,1.4,10,A
+RANGER,,RANGER (Em Construção),Metalurgia,13,99,14,7,0.8,0,C
+RANGER,,RANGER (Em Construção),Influência,14,99,15,10,0.96,0,B
+RANGER,,RANGER (Em Construção),Ritos do Véu,15,99,16,7,0.8,0,C
+RANGER,,RANGER (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,12,1.07,0,B
+RANGER,,RANGER (Em Construção),Sombra,17,99,18,15,1.24,5,A
+RANGER,,RANGER (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,18,1.4,10,A
+MONK,,MONK (Backlog),Mobilidade,1,99,2,15,1.33,10,A
+MONK,,MONK (Backlog),Vínculo (Criaturas & Goblins),2,99,3,10,0.95,0,C
+MONK,,MONK (Backlog),Engenharia Rúnica (Waystones),3,99,4,9,0.88,0,C
+MONK,,MONK (Backlog),Vigor & Carga,4,99,5,14,1.25,5,B
+MONK,,MONK (Backlog),Trapaça,5,99,6,8,0.8,0,C
+MONK,,MONK (Backlog),Crônicas do Mundo,6,99,7,10,0.95,0,C
+MONK,,MONK (Backlog),Leitura de Malícia,7,99,8,16,1.4,10,A
+MONK,,MONK (Backlog),Postura,8,99,9,9,0.88,0,C
+MONK,,MONK (Backlog),Investigação,9,99,10,10,0.95,0,C
+MONK,,MONK (Backlog),Colheita (Ervas/Fungos/Fibras),10,99,11,15,1.33,10,A
+MONK,,MONK (Backlog),Alquimia do Pântano,11,99,12,12,1.1,0,B
+MONK,,MONK (Backlog),Atenção,12,99,13,14,1.25,5,B
+MONK,,MONK (Backlog),Metalurgia,13,99,14,12,1.1,0,B
+MONK,,MONK (Backlog),Influência,14,99,15,11,1.02,0,B
+MONK,,MONK (Backlog),Ritos do Véu,15,99,16,13,1.18,5,B
+MONK,,MONK (Backlog),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,13,1.18,5,B
+MONK,,MONK (Backlog),Sombra,17,99,18,15,1.33,10,A
+MONK,,MONK (Backlog),Extração (Minério/Pedra/Cristais),18,99,19,14,1.25,5,B
+WARRIOR,,WARRIOR (Em Construção),Mobilidade,1,99,2,10,1.06,0,A
+WARRIOR,,WARRIOR (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,8,0.97,0,B
+WARRIOR,,WARRIOR (Em Construção),Engenharia Rúnica (Waystones),3,99,4,4,0.8,0,C
+WARRIOR,,WARRIOR (Em Construção),Vigor & Carga,4,99,5,18,1.4,10,A
+WARRIOR,,WARRIOR (Em Construção),Trapaça,5,99,6,6,0.89,0,C
+WARRIOR,,WARRIOR (Em Construção),Crônicas do Mundo,6,99,7,8,0.97,0,B
+WARRIOR,,WARRIOR (Em Construção),Leitura de Malícia,7,99,8,10,1.06,0,A
+WARRIOR,,WARRIOR (Em Construção),Postura,8,99,9,15,1.27,5,A
+WARRIOR,,WARRIOR (Em Construção),Investigação,9,99,10,7,0.93,0,B
+WARRIOR,,WARRIOR (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,6,0.89,0,C
+WARRIOR,,WARRIOR (Em Construção),Alquimia do Pântano,11,99,12,7,0.93,0,B
+WARRIOR,,WARRIOR (Em Construção),Atenção,12,99,13,12,1.14,0,A
+WARRIOR,,WARRIOR (Em Construção),Metalurgia,13,99,14,5,0.84,0,C
+WARRIOR,,WARRIOR (Em Construção),Influência,14,99,15,9,1.01,0,B
+WARRIOR,,WARRIOR (Em Construção),Ritos do Véu,15,99,16,6,0.89,0,C
+WARRIOR,,WARRIOR (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,5,0.84,0,C
+WARRIOR,,WARRIOR (Em Construção),Sombra,17,99,18,6,0.89,0,C
+WARRIOR,,WARRIOR (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,12,1.14,0,A
+ALCHEMIST,,Alchemist (Backlog),Mobilidade,1,99,2,7,0.85,0,C
+ALCHEMIST,,Alchemist (Backlog),Vínculo (Criaturas & Goblins),2,99,3,8,0.91,0,C
+ALCHEMIST,,Alchemist (Backlog),Engenharia Rúnica (Waystones),3,99,4,16,1.35,10,A
+ALCHEMIST,,Alchemist (Backlog),Vigor & Carga,4,99,5,6,0.8,0,C
+ALCHEMIST,,Alchemist (Backlog),Trapaça,5,99,6,10,1.02,0,B
+ALCHEMIST,,Alchemist (Backlog),Crônicas do Mundo,6,99,7,14,1.24,5,A
+ALCHEMIST,,Alchemist (Backlog),Leitura de Malícia,7,99,8,11,1.07,0,B
+ALCHEMIST,,Alchemist (Backlog),Postura,8,99,9,6,0.8,0,C
+ALCHEMIST,,Alchemist (Backlog),Investigação,9,99,10,17,1.4,10,A
+ALCHEMIST,,Alchemist (Backlog),Colheita (Ervas/Fungos/Fibras),10,99,11,15,1.29,5,A
+ALCHEMIST,,Alchemist (Backlog),Alquimia do Pântano,11,99,12,14,1.24,5,A
+ALCHEMIST,,Alchemist (Backlog),Atenção,12,99,13,12,1.13,0,B
+ALCHEMIST,,Alchemist (Backlog),Metalurgia,13,99,14,7,0.85,0,C
+ALCHEMIST,,Alchemist (Backlog),Influência,14,99,15,9,0.96,0,B
+ALCHEMIST,,Alchemist (Backlog),Ritos do Véu,15,99,16,10,1.02,0,B
+ALCHEMIST,,Alchemist (Backlog),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,14,1.24,5,A
+ALCHEMIST,,Alchemist (Backlog),Sombra,17,99,18,8,0.91,0,C
+ALCHEMIST,,Alchemist (Backlog),Extração (Minério/Pedra/Cristais),18,99,19,10,1.02,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Mobilidade,1,99,2,8,0.91,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,6,0.8,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Engenharia Rúnica (Waystones),3,99,4,17,1.4,10,A
+CRYOMANCER,,Cryomancer (Em Construção),Vigor & Carga,4,99,5,7,0.85,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Trapaça,5,99,6,9,0.96,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Crônicas do Mundo,6,99,7,10,1.02,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Leitura de Malícia,7,99,8,12,1.13,0,A
+CRYOMANCER,,Cryomancer (Em Construção),Postura,8,99,9,8,0.91,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Investigação,9,99,10,10,1.02,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,7,0.85,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Alquimia do Pântano,11,99,12,12,1.13,0,A
+CRYOMANCER,,Cryomancer (Em Construção),Atenção,12,99,13,11,1.07,0,A
+CRYOMANCER,,Cryomancer (Em Construção),Metalurgia,13,99,14,8,0.91,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Influência,14,99,15,9,0.96,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Ritos do Véu,15,99,16,11,1.07,0,A
+CRYOMANCER,,Cryomancer (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,7,0.85,0,C
+CRYOMANCER,,Cryomancer (Em Construção),Sombra,17,99,18,10,1.02,0,B
+CRYOMANCER,,Cryomancer (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,9,0.96,0,B
+NECROMANCER,,Necromancer (Backlog),Mobilidade,1,99,2,6,0.85,0,C
+NECROMANCER,,Necromancer (Backlog),Vínculo (Criaturas & Goblins),2,99,3,7,0.89,0,C
+NECROMANCER,,Necromancer (Backlog),Engenharia Rúnica (Waystones),3,99,4,18,1.4,10,A
+NECROMANCER,,Necromancer (Backlog),Vigor & Carga,4,99,5,5,0.8,0,C
+NECROMANCER,,Necromancer (Backlog),Trapaça,5,99,6,12,1.12,0,A
+NECROMANCER,,Necromancer (Backlog),Crônicas do Mundo,6,99,7,14,1.22,5,A
+NECROMANCER,,Necromancer (Backlog),Leitura de Malícia,7,99,8,10,1.03,0,B
+NECROMANCER,,Necromancer (Backlog),Postura,8,99,9,10,1.03,0,B
+NECROMANCER,,Necromancer (Backlog),Investigação,9,99,10,12,1.12,0,A
+NECROMANCER,,Necromancer (Backlog),Colheita (Ervas/Fungos/Fibras),10,99,11,11,1.08,0,A
+NECROMANCER,,Necromancer (Backlog),Alquimia do Pântano,11,99,12,9,0.98,0,B
+NECROMANCER,,Necromancer (Backlog),Atenção,12,99,13,10,1.03,0,B
+NECROMANCER,,Necromancer (Backlog),Metalurgia,13,99,14,8,0.94,0,C
+NECROMANCER,,Necromancer (Backlog),Influência,14,99,15,9,0.98,0,B
+NECROMANCER,,Necromancer (Backlog),Ritos do Véu,15,99,16,16,1.31,10,A
+NECROMANCER,,Necromancer (Backlog),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,7,0.89,0,C
+NECROMANCER,,Necromancer (Backlog),Sombra,17,99,18,9,0.98,0,B
+NECROMANCER,,Necromancer (Backlog),Extração (Minério/Pedra/Cristais),18,99,19,8,0.94,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Mobilidade,1,99,2,12,1.1,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Vínculo (Criaturas & Goblins),2,99,3,8,0.8,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Engenharia Rúnica (Waystones),3,99,4,16,1.4,10,A
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Vigor & Carga,4,99,5,13,1.18,5,A
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Trapaça,5,99,6,10,0.95,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Crônicas do Mundo,6,99,7,12,1.1,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Leitura de Malícia,7,99,8,11,1.02,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Postura,8,99,9,10,0.95,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Investigação,9,99,10,13,1.18,5,A
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Colheita (Ervas/Fungos/Fibras),10,99,11,9,0.88,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Alquimia do Pântano,11,99,12,11,1.02,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Atenção,12,99,13,12,1.1,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Metalurgia,13,99,14,9,0.88,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Influência,14,99,15,10,0.95,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Ritos do Véu,15,99,16,14,1.25,5,A
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,10,0.95,0,C
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Sombra,17,99,18,11,1.02,0,B
+BATTLEMAGE,,Battlemage (Backlog ATO 2),Extração (Minério/Pedra/Cristais),18,99,19,12,1.1,0,B
+ESPER,,Esper (Backlog),Mobilidade,1,99,2,10,1.0,0,B
+ESPER,,Esper (Backlog),Vínculo (Criaturas & Goblins),2,99,3,8,0.87,0,C
+ESPER,,Esper (Backlog),Engenharia Rúnica (Waystones),3,99,4,14,1.27,5,A
+ESPER,,Esper (Backlog),Vigor & Carga,4,99,5,7,0.8,0,C
+ESPER,,Esper (Backlog),Trapaça,5,99,6,12,1.13,0,A
+ESPER,,Esper (Backlog),Crônicas do Mundo,6,99,7,11,1.07,0,B
+ESPER,,Esper (Backlog),Leitura de Malícia,7,99,8,16,1.4,10,A
+ESPER,,Esper (Backlog),Postura,8,99,9,9,0.93,0,C
+ESPER,,Esper (Backlog),Investigação,9,99,10,13,1.2,5,A
+ESPER,,Esper (Backlog),Colheita (Ervas/Fungos/Fibras),10,99,11,8,0.87,0,C
+ESPER,,Esper (Backlog),Alquimia do Pântano,11,99,12,9,0.93,0,C
+ESPER,,Esper (Backlog),Atenção,12,99,13,14,1.27,5,A
+ESPER,,Esper (Backlog),Metalurgia,13,99,14,10,1.0,0,B
+ESPER,,Esper (Backlog),Influência,14,99,15,13,1.2,5,A
+ESPER,,Esper (Backlog),Ritos do Véu,15,99,16,10,1.0,0,B
+ESPER,,Esper (Backlog),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,9,0.93,0,C
+ESPER,,Esper (Backlog),Sombra,17,99,18,11,1.07,0,B
+ESPER,,Esper (Backlog),Extração (Minério/Pedra/Cristais),18,99,19,10,1.0,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Mobilidade,1,99,2,6,0.8,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Vínculo (Criaturas & Goblins),2,99,3,7,0.85,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Engenharia Rúnica (Waystones),3,99,4,18,1.4,10,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Vigor & Carga,4,99,5,6,0.8,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Trapaça,5,99,6,14,1.2,5,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Crônicas do Mundo,6,99,7,15,1.25,5,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Leitura de Malícia,7,99,8,12,1.1,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Postura,8,99,9,13,1.15,5,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Investigação,9,99,10,16,1.3,10,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Colheita (Ervas/Fungos/Fibras),10,99,11,7,0.85,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Alquimia do Pântano,11,99,12,10,1.0,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Atenção,12,99,13,11,1.05,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Metalurgia,13,99,14,8,0.9,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Influência,14,99,15,9,0.95,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Ritos do Véu,15,99,16,17,1.35,10,A
+DARKMAGE,,Darkmage (Backlog ATO 2),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,8,0.9,0,C
+DARKMAGE,,Darkmage (Backlog ATO 2),Sombra,17,99,18,10,1.0,0,B
+DARKMAGE,,Darkmage (Backlog ATO 2),Extração (Minério/Pedra/Cristais),18,99,19,9,0.95,0,B
+PYROMANCER,,Pyromancer (Em Construção),Mobilidade,1,99,2,9,0.96,0,C
+PYROMANCER,,Pyromancer (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,7,0.85,0,C
+PYROMANCER,,Pyromancer (Em Construção),Engenharia Rúnica (Waystones),3,99,4,17,1.4,10,A
+PYROMANCER,,Pyromancer (Em Construção),Vigor & Carga,4,99,5,8,0.91,0,C
+PYROMANCER,,Pyromancer (Em Construção),Trapaça,5,99,6,10,1.02,0,B
+PYROMANCER,,Pyromancer (Em Construção),Crônicas do Mundo,6,99,7,10,1.02,0,B
+PYROMANCER,,Pyromancer (Em Construção),Leitura de Malícia,7,99,8,11,1.07,0,B
+PYROMANCER,,Pyromancer (Em Construção),Postura,8,99,9,12,1.13,0,A
+PYROMANCER,,Pyromancer (Em Construção),Investigação,9,99,10,10,1.02,0,B
+PYROMANCER,,Pyromancer (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,6,0.8,0,C
+PYROMANCER,,Pyromancer (Em Construção),Alquimia do Pântano,11,99,12,13,1.18,5,A
+PYROMANCER,,Pyromancer (Em Construção),Atenção,12,99,13,12,1.13,0,A
+PYROMANCER,,Pyromancer (Em Construção),Metalurgia,13,99,14,9,0.96,0,C
+PYROMANCER,,Pyromancer (Em Construção),Influência,14,99,15,10,1.02,0,B
+PYROMANCER,,Pyromancer (Em Construção),Ritos do Véu,15,99,16,12,1.13,0,A
+PYROMANCER,,Pyromancer (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,8,0.91,0,C
+PYROMANCER,,Pyromancer (Em Construção),Sombra,17,99,18,10,1.02,0,B
+PYROMANCER,,Pyromancer (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,11,1.07,0,B
+DRUID,,Druid (Em Construção),Mobilidade,1,99,2,9,0.91,0,C
+DRUID,,Druid (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,15,1.24,5,A
+DRUID,,Druid (Em Construção),Engenharia Rúnica (Waystones),3,99,4,14,1.18,5,A
+DRUID,,Druid (Em Construção),Vigor & Carga,4,99,5,8,0.85,0,C
+DRUID,,Druid (Em Construção),Trapaça,5,99,6,7,0.8,0,C
+DRUID,,Druid (Em Construção),Crônicas do Mundo,6,99,7,10,0.96,0,B
+DRUID,,Druid (Em Construção),Leitura de Malícia,7,99,8,13,1.13,0,B
+DRUID,,Druid (Em Construção),Postura,8,99,9,7,0.8,0,C
+DRUID,,Druid (Em Construção),Investigação,9,99,10,9,0.91,0,C
+DRUID,,Druid (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,14,1.18,5,A
+DRUID,,Druid (Em Construção),Alquimia do Pântano,11,99,12,18,1.4,10,A
+DRUID,,Druid (Em Construção),Atenção,12,99,13,16,1.29,5,A
+DRUID,,Druid (Em Construção),Metalurgia,13,99,14,8,0.85,0,C
+DRUID,,Druid (Em Construção),Influência,14,99,15,11,1.02,0,B
+DRUID,,Druid (Em Construção),Ritos do Véu,15,99,16,12,1.07,0,B
+DRUID,,Druid (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,8,0.85,0,C
+DRUID,,Druid (Em Construção),Sombra,17,99,18,10,0.96,0,B
+DRUID,,Druid (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,17,1.35,10,A
+SHAMAN,,Shaman (Em Construção),Mobilidade,1,99,2,8,0.88,0,C
+SHAMAN,,Shaman (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,12,1.18,5,B
+SHAMAN,,Shaman (Em Construção),Engenharia Rúnica (Waystones),3,99,4,15,1.4,10,A
+SHAMAN,,Shaman (Em Construção),Vigor & Carga,4,99,5,7,0.8,0,C
+SHAMAN,,Shaman (Em Construção),Trapaça,5,99,6,9,0.95,0,C
+SHAMAN,,Shaman (Em Construção),Crônicas do Mundo,6,99,7,12,1.18,5,B
+SHAMAN,,Shaman (Em Construção),Leitura de Malícia,7,99,8,14,1.33,10,A
+SHAMAN,,Shaman (Em Construção),Postura,8,99,9,7,0.8,0,C
+SHAMAN,,Shaman (Em Construção),Investigação,9,99,10,11,1.1,0,B
+SHAMAN,,Shaman (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,15,1.4,10,A
+SHAMAN,,Shaman (Em Construção),Alquimia do Pântano,11,99,12,15,1.4,10,A
+SHAMAN,,Shaman (Em Construção),Atenção,12,99,13,13,1.25,5,B
+SHAMAN,,Shaman (Em Construção),Metalurgia,13,99,14,10,1.02,0,B
+SHAMAN,,Shaman (Em Construção),Influência,14,99,15,11,1.1,0,B
+SHAMAN,,Shaman (Em Construção),Ritos do Véu,15,99,16,14,1.33,10,A
+SHAMAN,,Shaman (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,8,0.88,0,C
+SHAMAN,,Shaman (Em Construção),Sombra,17,99,18,9,0.95,0,C
+SHAMAN,,Shaman (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,13,1.25,5,B
+SENTINEL,,Sentinel (Backlog ATO 2),Mobilidade,1,99,2,9,0.98,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Vínculo (Criaturas & Goblins),2,99,3,9,0.98,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Engenharia Rúnica (Waystones),3,99,4,7,0.86,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Vigor & Carga,4,99,5,16,1.4,10,A
+SENTINEL,,Sentinel (Backlog ATO 2),Trapaça,5,99,6,8,0.92,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Crônicas do Mundo,6,99,7,10,1.04,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Leitura de Malícia,7,99,8,12,1.16,5,A
+SENTINEL,,Sentinel (Backlog ATO 2),Postura,8,99,9,15,1.34,10,A
+SENTINEL,,Sentinel (Backlog ATO 2),Investigação,9,99,10,9,0.98,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Colheita (Ervas/Fungos/Fibras),10,99,11,8,0.92,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Alquimia do Pântano,11,99,12,9,0.98,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Atenção,12,99,13,12,1.16,5,A
+SENTINEL,,Sentinel (Backlog ATO 2),Metalurgia,13,99,14,7,0.86,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Influência,14,99,15,11,1.1,0,A
+SENTINEL,,Sentinel (Backlog ATO 2),Ritos do Véu,15,99,16,9,0.98,0,B
+SENTINEL,,Sentinel (Backlog ATO 2),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,7,0.86,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Sombra,17,99,18,6,0.8,0,C
+SENTINEL,,Sentinel (Backlog ATO 2),Extração (Minério/Pedra/Cristais),18,99,19,11,1.1,0,A
+CLERIC,,Cleric (Em Construção),Mobilidade,1,99,2,7,0.8,0,C
+CLERIC,,Cleric (Em Construção),Vínculo (Criaturas & Goblins),2,99,3,10,0.96,0,C
+CLERIC,,Cleric (Em Construção),Engenharia Rúnica (Waystones),3,99,4,12,1.07,0,B
+CLERIC,,Cleric (Em Construção),Vigor & Carga,4,99,5,9,0.91,0,C
+CLERIC,,Cleric (Em Construção),Trapaça,5,99,6,8,0.85,0,C
+CLERIC,,Cleric (Em Construção),Crônicas do Mundo,6,99,7,13,1.13,0,A
+CLERIC,,Cleric (Em Construção),Leitura de Malícia,7,99,8,15,1.24,5,A
+CLERIC,,Cleric (Em Construção),Postura,8,99,9,10,0.96,0,C
+CLERIC,,Cleric (Em Construção),Investigação,9,99,10,11,1.02,0,B
+CLERIC,,Cleric (Em Construção),Colheita (Ervas/Fungos/Fibras),10,99,11,16,1.29,5,A
+CLERIC,,Cleric (Em Construção),Alquimia do Pântano,11,99,12,11,1.02,0,B
+CLERIC,,Cleric (Em Construção),Atenção,12,99,13,13,1.13,0,A
+CLERIC,,Cleric (Em Construção),Metalurgia,13,99,14,10,0.96,0,C
+CLERIC,,Cleric (Em Construção),Influência,14,99,15,14,1.18,5,A
+CLERIC,,Cleric (Em Construção),Ritos do Véu,15,99,16,18,1.4,10,A
+CLERIC,,Cleric (Em Construção),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,7,0.8,0,C
+CLERIC,,Cleric (Em Construção),Sombra,17,99,18,8,0.85,0,C
+CLERIC,,Cleric (Em Construção),Extração (Minério/Pedra/Cristais),18,99,19,10,0.96,0,C
+BARD,,Bard (Backlog ATO 3),Mobilidade,1,99,2,11,0.98,0,B
+BARD,,Bard (Backlog ATO 3),Vínculo (Criaturas & Goblins),2,99,3,10,0.92,0,C
+BARD,,Bard (Backlog ATO 3),Engenharia Rúnica (Waystones),3,99,4,10,0.92,0,C
+BARD,,Bard (Backlog ATO 3),Vigor & Carga,4,99,5,8,0.8,0,C
+BARD,,Bard (Backlog ATO 3),Trapaça,5,99,6,15,1.22,5,A
+BARD,,Bard (Backlog ATO 3),Crônicas do Mundo,6,99,7,14,1.16,5,A
+BARD,,Bard (Backlog ATO 3),Leitura de Malícia,7,99,8,13,1.1,0,B
+BARD,,Bard (Backlog ATO 3),Postura,8,99,9,9,0.86,0,C
+BARD,,Bard (Backlog ATO 3),Investigação,9,99,10,12,1.04,0,B
+BARD,,Bard (Backlog ATO 3),Colheita (Ervas/Fungos/Fibras),10,99,11,10,0.92,0,C
+BARD,,Bard (Backlog ATO 3),Alquimia do Pântano,11,99,12,12,1.04,0,B
+BARD,,Bard (Backlog ATO 3),Atenção,12,99,13,14,1.16,5,A
+BARD,,Bard (Backlog ATO 3),Metalurgia,13,99,14,18,1.4,10,A
+BARD,,Bard (Backlog ATO 3),Influência,14,99,15,17,1.34,10,A
+BARD,,Bard (Backlog ATO 3),Ritos do Véu,15,99,16,11,0.98,0,B
+BARD,,Bard (Backlog ATO 3),Gambiarra (Ferramentas/Trancas/Armadilhas),16,99,17,14,1.16,5,A
+BARD,,Bard (Backlog ATO 3),Sombra,17,99,18,13,1.1,0,B
+BARD,,Bard (Backlog ATO 3),Extração (Minério/Pedra/Cristais),18,99,19,10,0.92,0,C

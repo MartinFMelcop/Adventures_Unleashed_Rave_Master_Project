@@ -1,0 +1,7 @@
+old_sheet,new_sheet,reason,date_utc,owner
+RPT_ITEMID_DUP_ET5,RPT_ITEMID_DUP,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360
+RPT_NOME_DUP_ET5,RPT_NOME_DUP,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360
+RPT_LEVELCAP_ET5,RPT_LEVELCAP,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360
+RPT_PERICIA_LEVELCAP_ET5,RPT_PERICIA_LEVELCAP,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360
+RPT_SKILL_LEARNLEVEL_ET5,RPT_SKILL_LEARNLEVEL,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360
+RPT_SKILLID_DUP_ET5,RPT_SKILLID_DUP,Remover sufixo ETx de relatórios/abas; manter ETID como campo (não no nome).,2025-12-23T05:02:05Z,RM Orquestrador 360

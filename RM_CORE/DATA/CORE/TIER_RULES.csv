@@ -1,0 +1,8 @@
+Tier,TierBand,CompetitiveRole,ResourceAccessLabel,GearBaseScalarMin,GearBaseScalarMax,GearAffixSlots,GearSignatureAffixChancePct,Notes
+1,EARLY,START,T1: básico,0.55,0.65,0,0,"Entrada: itens improvisados; recursos comuns, baixo risco."
+2,EARLY,START,T2: básico+,0.70,0.80,0,0,Ferramentas simples; começa a refinar/cook básico.
+3,MID,ENTRY,T3: explorador,0.85,0.95,1,0,Normal para iniciar arena (quase T4).
+4,COMP,BASELINE,T4: competitivo comum,0.95,1.00,1,0,Baseline competitivo comum; kit T4 é esperado.
+5,COMP,META,T5: meta,1.00,1.03,1,0,Meta: base estável; não pode ser missable.
+6,END,SPECIAL,T6: especialização,1.03,1.05,2,10,Pouco acima de T5 + 2 slots; sidegrade com afixos.
+7,END,SPECIAL,T7: elite/assinatura,1.05,1.08,2,20,Pouco acima de T6 + chance de afixo assinatura (tradeoffs leves).

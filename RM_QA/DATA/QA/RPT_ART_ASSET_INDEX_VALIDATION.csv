@@ -1,0 +1,6 @@
+check,ref,status,details
+ART.index_file_exists,DATA/CORE/ART_IMAGE_ASSET_INDEX.csv,PASS,
+ART.required_columns,ART_IMAGE_ASSET_INDEX,PASS,
+ART.assetid_unique,AssetID,PASS,
+ART.rows_nonnegative,rows,PASS,rows=293 (EXTERNAL_PENDING=246; ACTIVE_with_sha_dims=47)
+ART.sha_dims_present_min1,ART_IMAGE_ASSET_INDEX,PASS,ACTIVE_with_sha_dims=47

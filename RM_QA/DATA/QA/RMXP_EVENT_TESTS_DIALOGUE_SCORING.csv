@@ -1,0 +1,9 @@
+ScenarioID,NPCID,IntentID,Tags,FlagsTrue,Pre_Stress_0_100,Pre_Mood,Pre_Fear_0_100,Pre_Trust_Player,ScriptCall_RMXP,ExpectedVariantID,Expected_SetMood,Expected_Stress_After,Expected_AddFlags
+T_DLG_001,NPC-0007,BLAME,STAKES_LOW,,20,NEUTRAL,10,50,"t = RM::DialogueScoring.say(""NPC-0007"", ""BLAME"", [""STAKES_LOW""]); $game_message.add(t)",DV_NPC0007_BLAME_001,NEUTRAL,23,
+T_DLG_002,NPC-0007,INSULT,,,90,OUTBURST,30,30,"t = RM::DialogueScoring.say(""NPC-0007"", ""INSULT"", []); $game_message.add(t)",DV_NPC0007_INSULT_002,OUTBURST,88,FLAG_OUTBURST_RECENT
+T_DLG_003,NPC-0007,GOODBYE,,,25,NEUTRAL,10,50,"t = RM::DialogueScoring.say(""NPC-0007"", ""GOODBYE"", []); $game_message.add(t)",DV_NPC0007_GOODBYE_001,NEUTRAL,25,
+T_DLG_004,NPC-0007,GOODBYE,,FLAG_NPC0007_AVOID_PLAYER_TEMP,25,NEUTRAL,10,50,"# Pre: ensure flags ['FLAG_NPC0007_AVOID_PLAYER_TEMP'] are true in $game_system.rm_flags\nt = RM::DialogueScoring.say(""NPC-0007"", ""GOODBYE"", []); $game_message.add(t)",DV_NPC0007_GOODBYE_002,AVOIDANT,15,FLAG_NPC0007_AVOID_PLAYER_TEMP
+T_DLG_005,NPC-0007,REQUEST_HELP,OBSESSION_TOPIC,,45,NEUTRAL,10,60,"t = RM::DialogueScoring.say(""NPC-0007"", ""REQUEST_HELP"", [""OBSESSION_TOPIC""]); $game_message.add(t)",DV_NPC0007_REQUEST_HELP_001,OBSESSED,39,
+T_DLG_006,NPC-0007,SMALLTALK,QUIRK_SELF_TALK,,10,NEUTRAL,10,50,"t = RM::DialogueScoring.say(""NPC-0007"", ""SMALLTALK"", [""QUIRK_SELF_TALK""]); $game_message.add(t)",DV_NPC0007_SMALLTALK_002,NEUTRAL,10,
+T_DLG_007,NPC-0007,NEGOTIATION,,,10,NEUTRAL,10,60,"t = RM::DialogueScoring.say(""NPC-0007"", ""NEGOTIATION"", []); $game_message.add(t)",DV_NPC0007_NEGOTIATION_001,NEUTRAL,10,
+T_DLG_008,NPC-0007,NEGOTIATION,,,10,NEUTRAL,10,20,"t = RM::DialogueScoring.say(""NPC-0007"", ""NEGOTIATION"", []); $game_message.add(t)",DV_NPC0007_NEGOTIATION_002,WARY,14,

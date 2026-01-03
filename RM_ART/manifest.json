@@ -1,0 +1,164 @@
+{
+  "module": "RM_ART",
+  "version_aj": "AJ_000368",
+  "manifest_version": 1,
+  "generated_utc": "2026-01-03T00:19:37Z",
+  "files": [
+    {
+      "relpath": "BUNDLES/.keep",
+      "bytes": 37,
+      "sha256": "f54b07688be4b43d6dc9da565eb459be6a3cbc587f5c9291259fa0643797f050"
+    },
+    {
+      "relpath": "BUNDLES/ART_BUNDLE_0001_LEGACY_GRAPHICS.zip",
+      "bytes": 922611,
+      "sha256": "8fcac41b99b763d91e635f1ec0b9ce4b7047ff9ffe2268e7a817cafad9a45086"
+    },
+    {
+      "relpath": "BUNDLES/AUDIO_BUNDLE_0001_ACT1_PLACEHOLDER.zip",
+      "bytes": 894,
+      "sha256": "3c0a2e5518cfaf8eafac6529e692ca75023b34a1fee51ebb407fc66ff8a9b6e2"
+    },
+    {
+      "relpath": "DATA/.keep",
+      "bytes": 17,
+      "sha256": "e7e1747d1d868032382a25fad07ac5765f740d60771c706797824d5fc6e3fedd"
+    },
+    {
+      "relpath": "DATA/ART/00_INDEX.csv",
+      "bytes": 1376,
+      "sha256": "f6b8beed0a1e3d89ceac8e73bfc3c72ab9051941a885b393bfddb17803dbd1a5"
+    },
+    {
+      "relpath": "DATA/ART/ART_BUNDLE_REGISTRY.csv",
+      "bytes": 566,
+      "sha256": "eddb432d3b9a9cc6aa81757a929035a038311de3e8e9fa912c0c982345f7029d"
+    },
+    {
+      "relpath": "DATA/ART/ART_PIXEL_BIBLE.csv",
+      "bytes": 5760,
+      "sha256": "b064380aab8ee2db6ab624feeca8bbe7c0e63ff7485a1d286b78b572778b9cb0"
+    },
+    {
+      "relpath": "DATA/ART/ART_PIXEL_BIBLE.md",
+      "bytes": 1789,
+      "sha256": "ddd09fa31b67712b57d42dfa9ded7ae14d246ce16bab782eac9f80e139cd2332"
+    },
+    {
+      "relpath": "DATA/ART/ART_TEMPLATE_REGISTRY.csv",
+      "bytes": 1456,
+      "sha256": "df3387c25a218005eb2232c3ccac851a1c64aedc0045c95cf1b74a59c9df4aa0"
+    },
+    {
+      "relpath": "DATA/ART/AUDIO_BUNDLE_REGISTRY.csv",
+      "bytes": 288,
+      "sha256": "257a4dffa1a306ccbee218bf2be85768e5b60807d940715dc0cbf5b215a719d2"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_autotile_anim_384x128.png",
+      "bytes": 607,
+      "sha256": "a12a218d17e2776a332b73ee86c07a24fc176d6e27605ceb791f43d9d6f95637"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_autotile_block_96x128.png",
+      "bytes": 395,
+      "sha256": "a7330bebe95c06a74302d13cc351ac2aa870e378224b28186618974764d9191f"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_battleback_640x320.png",
+      "bytes": 1772,
+      "sha256": "064718eda0f3aabf7709fab7546ce0a0f357d5a124db37ea82bcef814084a5f7"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_charset_single_128x192.png",
+      "bytes": 581,
+      "sha256": "cb144cddadf56f476776391c1180b36ad54b02e161bc7a2f75a9455fd2a1b578"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_icon_sheet_240x240.png",
+      "bytes": 865,
+      "sha256": "71d1ec9d882f2775f0659da0675d0ddf14495f5c8332ebec95fa0ea08a721c80"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_tileset_256x1024.png",
+      "bytes": 3624,
+      "sha256": "a4ded6bdbbb2ecdefa0a791a0d1a704f91fc5aa63ae84374ab6af5b1986fe00d"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_tileset_256x256.png",
+      "bytes": 975,
+      "sha256": "4f90b9213678e6a2e880fcf372e30d6a543fe1e93e50a5fed8d667d26697f697"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_title_640x480.png",
+      "bytes": 2612,
+      "sha256": "ad7ffe5cc1421b1187aab94e2f078f15cdb0f36f40214fc7f94e17c35129f086"
+    },
+    {
+      "relpath": "DATA/ART/OVERLAYS/overlay_windowskin_192x128.png",
+      "bytes": 509,
+      "sha256": "50ebe836959b66702e4794536b580209a067833971cbfeb2651e4378e3506ade"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_autotile_anim_384x128.png",
+      "bytes": 271,
+      "sha256": "5038fcb183e4f3124d3a7c0b03356e647c969b67815757630c957c87f3750b72"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_autotile_block_96x128.png",
+      "bytes": 125,
+      "sha256": "58d736ceb7b41236ef27bceba10c71a3a5bb2b3cba057514cc20dfcec796ebbd"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_battleback_640x320.png",
+      "bytes": 874,
+      "sha256": "a9da1d735eae30c923f56314d9d110e18ef461a4e6103b862142568afc687041"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_charset_single_128x192.png",
+      "bytes": 175,
+      "sha256": "8f86ccf2cf49c8a36294f15416de3456247aa2130bb6032ff07dbbeab8fe136a"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_icon_sheet_240x240.png",
+      "bytes": 302,
+      "sha256": "8cb146b1164b2d4ee0976503840c34ac550c4727f69ce40dc216600373380418"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_tileset_256x1024.png",
+      "bytes": 1097,
+      "sha256": "0e19c2a1224d7a9b3499ae40a1647d3a6387905c68b5239df0a86509f3a7d152"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_tileset_256x256.png",
+      "bytes": 334,
+      "sha256": "3c6c50f94ab35e9f96c772731fe6b7950048179bc81b8ab0396cc1edbde89163"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_title_640x480.png",
+      "bytes": 1271,
+      "sha256": "9eef35b7ac97f27bebd524c573b685307b228080ebca75be8c5858727ca8b872"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES/template_windowskin_192x128.png",
+      "bytes": 175,
+      "sha256": "074e37346b28f942df8de981459076dc4696a57ae87a774c03017ca68cfe047a"
+    },
+    {
+      "relpath": "DATA/ART/TEMPLATES_README.md",
+      "bytes": 927,
+      "sha256": "cac5748e6879871f06c1fc3cdf2d610606ad4d103bd831469507b699910b4772"
+    },
+    {
+      "relpath": "MODULE_INFO.json",
+      "bytes": 590,
+      "sha256": "7ae048cf247f06654c280e48cc045eab7fff431f9d731f501a0dd966c8b78ab4"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 3242,
+      "sha256": "2e90db5b077765e76a00b482ba34feff1855370a530bebfdf59eb341220f765f"
+    }
+  ],
+  "version_build": "Build_000001"
+}

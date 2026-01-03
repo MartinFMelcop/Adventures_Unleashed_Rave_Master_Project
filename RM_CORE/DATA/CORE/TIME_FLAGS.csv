@@ -1,0 +1,8 @@
+Tipo,Nome,Descricao
+VAR,V_TIME_PHASE,0..4 fase atual (Dia/Tarde/NoiteStart/NoitePico/Amanhecer)
+VAR,V_TIME_IN_PHASE,segundos dentro da fase
+VAR,V_TIME_LAST_FRAME,Graphics.frame_count para delta de tempo
+VAR,V_LUZ_CASAS,0 apagada / 1 parcial / 2 acesa
+SWITCH,S_DIA,ON em PH_DAY/PH_AFTERNOON_START/PH_DAWN
+SWITCH,S_NOITE,ON em PH_NIGHT_START/PH_NIGHT_PEAK
+VAR,V_DIA,Contador de dias (incrementa no wrap 4→0) — compat com respawn diário.

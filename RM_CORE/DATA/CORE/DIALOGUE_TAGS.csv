@@ -1,0 +1,12 @@
+TagID,TagType,Description,ExampleUsage,Status,Notes
+STAKES_LOW,STAKES,Low stakes context (small consequences).,HasTag(STAKES_LOW)=true,ACTIVE,Used to prevent outburst escalation.
+STAKES_HIGH,STAKES,High stakes context (important consequences).,HasTag(STAKES_HIGH)=true,ACTIVE,Used to enable escalation/outburst thresholds.
+PLAYER_IS_WRONG,SCENE,Player admits or is objectively wrong in current scene.,HasTag(PLAYER_IS_WRONG)=true,ACTIVE,Used for apology/negotiation outcomes.
+PLAYER_APOLOGIZED,SCENE,Player apologizes in current scene.,HasTag(PLAYER_APOLOGIZED)=true,ACTIVE,Often paired with PLAYER_IS_WRONG.
+OBSESSION_TOPIC,TOPIC,"Conversation touches NPC obsession topic (e.g., waystones/time-space).",HasTag(OBSESSION_TOPIC)=true,ACTIVE,Can override avoidance and increase effort.
+QUIRK_SELF_TALK,QUIRK,NPC self-talks; adds weird flavor line.,HasTag(QUIRK_SELF_TALK)=true,ACTIVE,Pilot: Mago Louco.
+QUIRK_SWAMP_HERBS,QUIRK,NPC is smoking/using swamp magical herbs in scene.,HasTag(QUIRK_SWAMP_HERBS)=true,ACTIVE,Pilot: Mago Louco.
+MANIPULATION_SUSPECTED,SCENE,NPC suspects manipulation/lie in scene.,HasTag(MANIPULATION_SUSPECTED)=true,ACTIVE,Reserved for future variants.
+MANIPULATION_CONFIRMED,SCENE,NPC confirms manipulation/lie in scene.,HasTag(MANIPULATION_CONFIRMED)=true,ACTIVE,Often triggers OUTBURST if stress threshold is met.
+ECHO_CONTEXT,WORLD,Scene occurs inside Waystone Echo / time loop instance.,HasTag(ECHO_CONTEXT)=true,ACTIVE,Useful for special dialogue and gating.
+CALAMITY_NEARBY,WORLD,Calamity influence present in region.,HasTag(CALAMITY_NEARBY)=true,ACTIVE,Can affect mood/fear and unlocks.
