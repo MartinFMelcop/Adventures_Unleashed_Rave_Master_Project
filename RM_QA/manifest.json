@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000436",
+  "version_aj": "AJ_000217",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T16:18:00Z",
+  "generated_utc": "2026-01-04T20:27:34Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -12,7 +12,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 23908,
-      "sha256": "8563eeba37a5497694a27645f7281fbbe049775c66b4f32367568998f255005d"
+      "sha256": "273fedb6204688470a0736cef50f27f83cdb3f303477349cf9ba9e2a438a42a7"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 415627,
-      "sha256": "b1b7a05a6fe02508816701630879e21ae5a96c95ac4555d1c344978e4f98847d"
+      "bytes": 416443,
+      "sha256": "375071dcdd170fb663e8c816f4de698b2ab60cebd98284de8ef37860c64afbdb"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -607,7 +607,7 @@
     {
       "relpath": "checksums.sha256",
       "bytes": 12261,
-      "sha256": "660ca63b0d02d9e59785fa8e56995f1cbb83a2f8d98383a1cfa0b866d60dcb66"
+      "sha256": "c9ce26f550abdd76efa652833336b3943484f943489a48577b7b2c9716dad932"
     }
   ]
 }

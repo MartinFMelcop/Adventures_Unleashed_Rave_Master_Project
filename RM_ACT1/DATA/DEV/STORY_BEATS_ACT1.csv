@@ -1,0 +1,4 @@
+BeatID,Sequencia,Descricao,QuestIDs,MapRefs,NPCIDs,Flags,SaidasNarrativas
+HOOK_BEAT_01,1,"Capital: visita escolar termina em ruas ricas e choque de desigualdade; cartazes de menina desaparecida (Rose) estão nos postes.",QST-0001,Capital_Slideshow;24R0_I,NPC_CAPITAL_GUARD;NPC_CAPITAL_GUIDE,FLAG_HOOK_POSTERS,Entrega rumor inicial e justifica saída para vila.
+HOOK_BEAT_02,2,"Panfletos e boatos apontam para a Vila Rose: guarda sugere rota de caravana; registro de escolta rápida (sem combate).",QST-0001,24R0_I;24S1,NPC_CAPITAL_GUARD;NPC_MERCADOR_INICIAL,FLAG_ESCOLTA_INICIAL,Move o jogador para o mapa inicial com motivo concreto.
+HOOK_BEAT_03,3,"Chegada à Vila Rose: líder contrata o protagonista para investigar Rose; pistas direcionam à borda norte e à minidungeon do sumiço.",QST-0001;QST-0014,24S1;23T3,NPC_VILLAGE_LEADER;NPC_LENHADOR_MAE_DA_ROSE,FLAG_INVESTIGACAO_ATIVA,Desbloqueia investigação principal e liga tutorial aos mapas canônicos.

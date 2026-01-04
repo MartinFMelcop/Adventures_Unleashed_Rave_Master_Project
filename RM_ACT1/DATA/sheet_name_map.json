@@ -89,6 +89,7 @@
     "Sentinel (Backlog ATO 2)": "DATA/DEV/SENTINEL_BACKLOG_ATO_2.csv",
     "Shaman (Em Construção)": "DATA/DEV/SHAMAN_EM_CONSTRUCAO.csv",
     "Sidequests (Em Construção)": "DATA/DEV/SIDEQUESTS_EM_CONSTRUCAO.csv",
-    "WARRIOR (Em Construção)": "DATA/DEV/WARRIOR_EM_CONSTRUCAO.csv"
+    "WARRIOR (Em Construção)": "DATA/DEV/WARRIOR_EM_CONSTRUCAO.csv",
+    "STORY_BEATS_ACT1": "DATA/DEV/STORY_BEATS_ACT1.csv"
   }
 }
