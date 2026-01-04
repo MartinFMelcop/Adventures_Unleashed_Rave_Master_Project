@@ -5,10 +5,10 @@
 
 module RM_Time
   DEFAULT_PHASES = [
-    {:id=>"DAWN", :tone=>[0,0,0,0], :ticks=>3600},
-    {:id=>"DAY",  :tone=>[0,0,0,0], :ticks=>7200},
-    {:id=>"DUSK", :tone=>[-20,-20,0,30], :ticks=>3600},
-    {:id=>"NIGHT",:tone=>[-68,-68,0,120], :ticks=>7200},
+    {:id=>"PH_DAY",        :tone=>[0,0,0,0],   :ticks=>7200},
+    {:id=>"PH_AFTERNOON",  :tone=>[10,-10,-10,0], :ticks=>1200},
+    {:id=>"PH_NIGHT_START",:tone=>[-40,-40,0,40], :ticks=>1800},
+    {:id=>"PH_NIGHT_PEAK", :tone=>[-80,-80,20,80],:ticks=>3600},
   ]
 
   def self._ensure
@@ -21,17 +21,23 @@ module RM_Time
   def self._load_phases
     rows = RM_Data.csv_rows('Data/RM_CSV/TIME_PHASES_MASTER.csv')
     return DEFAULT_PHASES if rows.nil? || rows.empty?
+    fps = Graphics.respond_to?(:frame_rate) ? Graphics.frame_rate : 40
     phases = []
     rows.each do |r|
-      pid = r['TimePhaseID'] || r['PhaseID'] || r['ID']
-      next if pid.nil? || pid == '' || pid == 'TimePhaseID'
-      dur = (r['DurationTicks'] || r['Duration'] || '3600').to_i
-      tr = (r['Tone_R'] || r['ToneR'] || '0').to_i
-      tg = (r['Tone_G'] || r['ToneG'] || '0').to_i
-      tb = (r['Tone_B'] || r['ToneB'] || '0').to_i
-      gry = (r['Tone_Gray'] || r['ToneGray'] || '0').to_i
-      phases << {:id=>pid, :tone=>[tr,tg,tb,gry], :ticks=>dur}
+      pid = r['PhaseID'] || r['TimePhaseID'] || r['ID']
+      next if pid.nil? || pid == '' || pid == 'PhaseID'
+      order = (r['Ordem'] || r['Order'] || '0').to_i
+      dur_sec = (r['DuracaoSeg'] || r['DurationSeconds'] || r['Duration'] || '0').to_i
+      ticks = (dur_sec > 0 ? dur_sec * fps : (r['DurationTicks'] || '0').to_i)
+      ticks = 3600 if ticks <= 0
+      tr = (r['ToneR'] || r['Tone_R'] || '0').to_i
+      tg = (r['ToneG'] || r['Tone_G'] || '0').to_i
+      tb = (r['ToneB'] || r['Tone_B'] || '0').to_i
+      gry = (r['ToneGray'] || r['Tone_Gray'] || '0').to_i
+      phases << {:id=>pid, :tone=>[tr,tg,tb,gry], :ticks=>ticks, :order=>order}
     end
+    phases.sort! { |a,b| a[:order] <=> b[:order] }
+    phases.each { |p| p.delete(:order) }
     phases = DEFAULT_PHASES if phases.empty?
     phases
   rescue
@@ -48,6 +54,7 @@ module RM_Time
     pid = st[:phase_id]
     if pid.nil?
       st[:phase_id] = phases[0][:id]
+      st[:ticks] = 0
       return phases[0]
     end
     phases.each { |p| return p if p[:id] == pid }
