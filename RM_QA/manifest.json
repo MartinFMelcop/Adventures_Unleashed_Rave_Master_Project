@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000410",
+  "version_aj": "AJ_000442",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T13:58:47.915768Z",
+  "generated_utc": "2026-01-04T14:20:58Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -12,7 +12,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 23611,
-      "sha256": "02376dcbdd86133318a0cd0171c355160f6150976cb51cdf3a665414a880a27b"
+      "sha256": "fbde6773567274777bf286eb45f08dad160660606cc207fd4d2a8f121e81e7b1"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -181,9 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 409654,
-      "sha256": "0d59d2e21265a63853aeeb22d95e328214646683adbaaf183548c5aa4b826a9d",
-      "size": 408219
+      "bytes": 411908,
+      "sha256": "d6ccb440dc3fcec28f2cbfee7f5747226a395c37981e52ca379c5ef092362422"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -422,8 +421,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 25729,
-      "sha256": "6fd66ce532035dc56ae7e5a3cbc947381340f5a2b2d8cb33d46fa674c3dc622b"
+      "bytes": 28275,
+      "sha256": "58c5f80d894d90409160aea4e841530c88022053b1202f2b3431914af452cbfc"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",
@@ -603,7 +602,7 @@
     {
       "relpath": "checksums.sha256",
       "bytes": 12150,
-      "sha256": "645081138c0ada025fe8d8e84c10711674f9a2f232d4f6b905427a7692a86d54"
+      "sha256": "745b4ea8b03e91cb3a53e7b9a73833414512518ff7773093aa3c5b818ac3f121"
     }
   ]
 }

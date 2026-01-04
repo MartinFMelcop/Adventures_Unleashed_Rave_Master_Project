@@ -49,6 +49,8 @@ module RM_QuestState
 
   def self.complete!(qid)
     ensure(qid)[:status] = STATUS_DONE
+    max_step = RM_QuestData.max_step_index(qid)
+    ensure(qid)[:step_index] = max_step if max_step && max_step > 0
   end
 end
 
@@ -206,6 +208,12 @@ module RM_QuestData
     @steps_index = {}
   end
 
+  def self.max_step_index(ref_id)
+    steps = _steps_index[ref_id] || []
+    return 0 if steps.empty?
+    steps.map { |s| (s['StepIndex'] || '0').to_i }.max
+  end
+
   def self.quest_view(qid)
     quest = _rows.find { |r| r[:id] == qid } || {:id=>qid, :ref_type=>'QUEST', :title=>'(desconhecida)', :objective=>'', :reward=>'', :map_key=>'', :canon=>''}
     journal = _journal_index[qid]
@@ -229,5 +237,40 @@ module RM_QuestData
     found = steps.find { |s| s['StepIndex'].to_i == idx }
     return found['StepText'] if found
     steps.first && steps.first['StepText']
+  end
+end
+
+module RM_QuestProgress
+  def self.record_trigger(trigger_type, trigger_value)
+    return if trigger_type.nil? || trigger_value.nil?
+    ttype = trigger_type.to_s.strip
+    tval  = trigger_value.to_s.strip
+    return if ttype == '' || tval == ''
+
+    steps = RM_QuestData._steps_index
+    steps.each do |ref_id, entries|
+      entries.each do |row|
+        next unless (row['TriggerTipo'] || '').casecmp(ttype) == 0
+        next unless (row['TriggerValor'] || '').casecmp(tval) == 0
+        apply_step(ref_id, row)
+      end
+    end
+  end
+
+  def self.apply_step(ref_id, row)
+    state = RM_QuestState.ensure(ref_id)
+    target_idx = (row['StepIndex'] || '0').to_i
+    return if target_idx <= 0
+
+    current_idx = state[:step_index] || 0
+    return if current_idx >= target_idx
+
+    state[:status] = RM_QuestState::STATUS_ACTIVE
+    state[:step_index] = target_idx
+
+    max_idx = RM_QuestData.max_step_index(ref_id)
+    if max_idx > 0 && target_idx >= max_idx
+      state[:status] = RM_QuestState::STATUS_DONE
+    end
   end
 end
