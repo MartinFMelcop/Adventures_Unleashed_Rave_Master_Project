@@ -21,6 +21,8 @@ python DATA/QA/TOOLS/prepack_gate_validate.py RM_CORE RM_ACT1 RM_QA RM_ART RM_LE
 - `--json-out gate.json` writes a structured summary (status + findings)
 - `--md-out gate.md` writes a Markdown summary (handy for PR comments or notifications)
 - `--notify-webhook <URL>` or env `RM_NOTIFY_WEBHOOK`: posts a JSON payload when the gate **fails** (or on pass when `--notify-on-pass`)
+- `--notify-template {json,slack,discord,email}`: shapes the payload for the target channel (default: json)
+- `--notify-retries N` + `--notify-backoff S`: optional retry/backoff for flaky webhooks (default: 0 retries)
 
 Example:
 ```bash
@@ -37,5 +39,5 @@ python DATA/QA/TOOLS/prepack_gate_validate.py \
 
 ## Notes
 - This is the **gate** only. Generating the reports (ex.: `RPT_TRACEABILITY_VALIDATION`) happens in earlier pipeline steps.
-- Notification payload is generic JSON (`status`, counters, preview of findings, and optional link to the generated Markdown). Adapt to Slack/Discord by wrapping in the target service format.
-- Version: **AJ_000248** (2026-01-03)
+- Notification payload now ships built-in templates: JSON (default), Slack (Block Kit light), Discord (embed), and email (subject/body). Retries/backoff are best-effort and do not block the gate.
+- Version: **AJ_000421** (2026-01-04)
