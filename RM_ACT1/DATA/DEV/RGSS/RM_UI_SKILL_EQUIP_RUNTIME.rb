@@ -38,6 +38,7 @@ class RM_Scene_SkillEquip
     @status.contents.clear
     @status.draw_text(0,0,280,32,"Slot: #{@slot+1}/#{SLOTS}")
     eq = ($game_system && $game_system.rm_skills_equipped) ? $game_system.rm_skills_equipped : {}
+    RM_SkillData.sanitize_equipped!(eq)
     4.times do |i|
       v = eq[i] || '(vazio)'
       @status.draw_text(0, 32 + i*32, 280, 32, "S#{i+1}: #{v}")
@@ -71,22 +72,42 @@ end
 module RM_SkillData
   def self._load
     rows = RM_Data.csv_rows('Data/RM_CSV/ACT1_COMBAT_SKILLS_CANON.csv')
+    allowed_class = $game_system && $game_system.respond_to?(:rm_class_key) ? $game_system.rm_class_key : nil
     ids=[]
     names=[]
     rows.each do |r|
       sid = r['SkillID'] || r['ID']
       next if sid.nil? || sid==''
+      class_key = r['ClassKey'] || r['Classe']
+      next if allowed_class && class_key && class_key != allowed_class
       ids << sid
-      names << (r['DisplayName'] || sid)
+      label = r['DisplayName'] || sid
+      label = "#{label} (#{class_key})" if class_key && class_key != '' && allowed_class.nil?
+      names << label
     end
     if ids.empty?
       ids = ['SKILL_NONE']
-      names = ['(sem skills no Data/RM_CSV)']
+      names = ['(sem skills compatíveis no Data/RM_CSV)']
     end
     [ids,names]
   rescue
     [['SKILL_NONE'], ['(sem skills)']]
   end
+
   def self.skill_ids; @cache ||= _load; @cache[0]; end
   def self.skill_names; @cache ||= _load; @cache[1]; end
+
+  def self.allowed_ids
+    @cache ||= _load
+    @cache[0]
+  end
+
+  def self.sanitize_equipped!(eq_hash)
+    allowed = allowed_ids
+    4.times do |i|
+      sid = eq_hash[i]
+      next if sid.nil?
+      eq_hash[i] = nil unless allowed.include?(sid)
+    end
+  end
 end
