@@ -53,7 +53,7 @@ ChaveMapa,Row_DIC_Chunks,Direcao,Conexao,ConexaoRaw,ConexaoTipo,TargetType,Targe
 18W17,14,Oeste,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 18X18,15,Norte,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 18X18,15,Leste,BLOQUEADO (TERRENO): Terrain,Blocked ( Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
-18X18,15,Sul,19X19 — Serra — Passo Final,19X19,CHUNK,CHUNK,19X19,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
+18X18,15,Sul,19X19 — Serra — Passo Final,19X19,CHUNK,CHUNK,19X19,,,,Entrada da caverna de prova; gating por SDQ-0027 (ferreiro) antes do 19X19.,Legacy HUMAN_VIEW_CHUNK_GRID
 18X18,15,Oeste,18W17 — Serra — Mirante do Vento,18W17,CHUNK,CHUNK,18W17,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 19R13,16,Norte,18R14 — Forte — Portão do Forte Goblin,18R14,CHUNK,CHUNK,18R14,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 19R13,16,Leste,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
