@@ -2,7 +2,7 @@
   "module": "RM_DIST",
   "version_aj": "AJ_000407",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T06:41:27Z",
+  "generated_utc": "2026-01-04T23:34:25.509003Z",
   "files": [
     {
       "relpath": "MODULE_INFO.json",
@@ -436,8 +436,8 @@
     },
     {
       "relpath": "RMXP_BASE/Data/RM_CSV/QUESTS_EM_CONSTRUCAO.csv",
-      "bytes": 44764,
-      "sha256": "79c05b574235cd3553de376cde55cc2d182ca9457a6fc6cb2596d44a61c20740"
+      "bytes": 46267,
+      "sha256": "2e51ce4994c5b6f850bf43fbbfe3234f3aaa52a66f9a7f1a7ec2e7e61953b88d"
     },
     {
       "relpath": "RMXP_BASE/Data/RM_CSV/QUEST_JOURNAL_VIEW.csv",

@@ -2,7 +2,7 @@
   "module": "RM_CORE",
   "version_aj": "AJ_000410",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T14:34:35Z",
+  "generated_utc": "2026-01-04T23:34:25.524890Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -627,8 +627,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 37305,
-      "sha256": "4d84e3e560b1e7e76e59b6f708b61a9b74451b658ae7a75bd81334f6166d04d2"
+      "bytes": 39400,
+      "sha256": "171a2a4f00812a843cb6260a533d01a712e0902e5739a260cf47c7a264ecade0"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -697,8 +697,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 25401,
-      "sha256": "4bfcfa4899f8fea8390c964b1e9044854a9d79b6bcf4c22e9790f993fb151244"
+      "bytes": 28151,
+      "sha256": "e13da1c7085d38142586b163e6a33af9e288f38ab94e446f70ada49ac5ba6355"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -707,8 +707,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 23653,
-      "sha256": "0767699cdfd31044f6170a1559bb392131e055146b254795014867fe424fcf1d"
+      "bytes": 26146,
+      "sha256": "8e5a162e609f75ac3d21f395fa196bff570b6424e3c04fc8b567e01f9cb99898"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -722,8 +722,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 4343,
-      "sha256": "d092e6fb04fa228ae648d28b098a789eef2284f986d393a9744ed208012a7c06"
+      "bytes": 4798,
+      "sha256": "3b15d22d39769d6f29bcb0048cc07ee7cbc426e2c79bc9545a77d4a0058bf610"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
