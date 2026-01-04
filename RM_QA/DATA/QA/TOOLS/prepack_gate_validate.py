@@ -38,6 +38,7 @@ import tempfile
 import shutil
 import urllib.error
 import urllib.request
+import time
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
@@ -365,11 +366,107 @@ def _build_notify_payload(status: str, fails: List[Finding], warns: List[Finding
     }
 
 
-def _send_webhook(url: str, payload: Dict) -> None:
+def _build_slack_payload(base: Dict) -> Dict:
+    """Return a Slack-friendly JSON payload using Block Kit light formatting."""
+
+    blocks = [
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": f"*{base['summary']}*",
+            },
+        },
+        {
+            "type": "section",
+            "fields": [
+                {"type": "mrkdwn", "text": f"*Fails:* {base['fail_count']}"},
+                {"type": "mrkdwn", "text": f"*Warns:* {base['warn_count']}"},
+            ],
+        },
+    ]
+
+    if base["preview"]:
+        preview_lines = "\n".join(f"• {line}" for line in base["preview"])
+        blocks.append(
+            {
+                "type": "section",
+                "text": {"type": "mrkdwn", "text": f"*Preview*\n{preview_lines}"},
+            }
+        )
+
+    if base.get("details_md"):
+        blocks.append(
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": f"Markdown: `{base['details_md']}`",
+                },
+            }
+        )
+
+    return {"text": base["summary"], "blocks": blocks}
+
+
+def _build_discord_payload(base: Dict) -> Dict:
+    """Return a Discord embed payload without external dependencies."""
+
+    description_lines = [f"Fails: {base['fail_count']}", f"Warns: {base['warn_count']}"]
+    if base["preview"]:
+        description_lines.append("Preview:")
+        description_lines.extend(f"• {line}" for line in base["preview"])
+    embed = {
+        "title": base["summary"],
+        "description": "\n".join(description_lines),
+        "color": 0xCC0000 if base["status"] == "FAIL" else 0x1E90FF,
+    }
+    if base.get("details_md"):
+        embed["footer"] = {"text": f"Markdown: {base['details_md']}"}
+    return {"embeds": [embed]}
+
+
+def _build_email_payload(base: Dict) -> Dict:
+    """Return a minimal email-like payload (subject/body) so gateways can fan out."""
+
+    lines = [
+        base["summary"],
+        f"Fails: {base['fail_count']} | Warns: {base['warn_count']}",
+    ]
+    if base["preview"]:
+        lines.append("Preview:")
+        lines.extend(f"- {line}" for line in base["preview"])
+    if base.get("details_md"):
+        lines.append(f"Markdown: {base['details_md']}")
+    return {"subject": base["summary"], "body": "\n".join(lines)}
+
+
+def _build_templated_payload(template: str, status: str, fails: List[Finding], warns: List[Finding], md_out: Optional[str]) -> Dict:
+    base = _build_notify_payload(status, fails, warns, md_out)
+    template = (template or "json").strip().lower()
+    if template == "slack":
+        return _build_slack_payload(base)
+    if template == "discord":
+        return _build_discord_payload(base)
+    if template in {"mail", "email"}:
+        return _build_email_payload(base)
+    return base
+
+
+def _send_webhook(url: str, payload: Dict, retries: int = 0, backoff: float = 0.0) -> None:
     data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=10) as resp:
-        resp.read()
+    attempt = 0
+    while True:
+        try:
+            req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                resp.read()
+            return
+        except Exception:
+            attempt += 1
+            if attempt > retries:
+                raise
+            time.sleep(backoff * attempt)
 
 def _render_markdown_summary(all_findings: List[Finding]) -> str:
     data = _findings_to_json(all_findings)
@@ -543,6 +640,12 @@ def main(argv: Optional[List[str]] = None) -> int:
                     help="Environment variable that stores the webhook URL (default: RM_NOTIFY_WEBHOOK).")
     ap.add_argument("--notify-on-pass", action="store_true",
                     help="Also send notification when the gate passes (default: only on FAIL).")
+    ap.add_argument("--notify-template", choices=["json", "slack", "discord", "email"], default="json",
+                    help="Format of the webhook payload (default: json).")
+    ap.add_argument("--notify-retries", type=int, default=0,
+                    help="Retry count for webhook failures (default: 0).")
+    ap.add_argument("--notify-backoff", type=float, default=1.5,
+                    help="Backoff multiplier in seconds between webhook retries (default: 1.5).")
     ap.add_argument("modules", nargs="+", help="One or more module ZIPs (or extracted module folders).")
     args = ap.parse_args(argv)
 
@@ -581,7 +684,8 @@ def main(argv: Optional[List[str]] = None) -> int:
                 print(f"[{f.module}] {f.code}: {f.message}")
         if notify_url:
             try:
-                _send_webhook(notify_url, _build_notify_payload("FAIL", fails, warns, args.md_out))
+                payload = _build_templated_payload(args.notify_template, "FAIL", fails, warns, args.md_out)
+                _send_webhook(notify_url, payload, retries=args.notify_retries, backoff=args.notify_backoff)
             except Exception as e:
                 print(f"PREPACK_GATE: WARN (notify failed): {e}", file=sys.stderr)
         return 1
@@ -592,7 +696,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             print(f"[{f.module}] {f.code}: {f.message}")
     if notify_url and args.notify_on_pass:
         try:
-            _send_webhook(notify_url, _build_notify_payload("PASS", fails, warns, args.md_out))
+            payload = _build_templated_payload(args.notify_template, "PASS", fails, warns, args.md_out)
+            _send_webhook(notify_url, payload, retries=args.notify_retries, backoff=args.notify_backoff)
         except Exception as e:
             print(f"PREPACK_GATE: WARN (notify failed): {e}", file=sys.stderr)
     return 0

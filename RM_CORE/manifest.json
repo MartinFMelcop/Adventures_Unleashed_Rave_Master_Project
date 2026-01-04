@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000398",
+  "version_aj": "AJ_000421",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T03:17:36.189135Z",
+  "generated_utc": "2026-01-04T03:42:10Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -501,8 +501,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 32235,
-      "sha256": "ce9cfe5080ee827c16e3325b9a52e739f1726aeca613b208b78a19074000ce4b"
+      "bytes": 32006,
+      "sha256": "a5c99e2fdaa449c767340e5fe7891f8ed77a58aa5ead20b594c43ac225f08ad8"
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 13911,
-      "sha256": "8eac14fd35bdc7243d91d82569e4ed3c87d2ef18fab21e2397fe90cb3767afa7"
+      "bytes": 14700,
+      "sha256": "5189c76158474dd7b050304f57d3bfea0bdc613e0b52eefba1f9e32e029b1999"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,8 +721,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 2189,
-      "sha256": "b4daf7687f48ce1040e11ec64c186e5caba467652b83895348c893b6af0747f9"
+      "bytes": 2340,
+      "sha256": "24c4a314d1721f93b94389e3e0deae5afb2b039960e2a8c3986cb0a13fb336ef"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
@@ -738,6 +738,11 @@
       "relpath": "README_RM_MAIN.md",
       "bytes": 31264,
       "sha256": "051fec3855086b334cff2956050ac0d890e8fa88bbd406f3293a12bf95f95607"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 14191,
+      "sha256": "40babcd9f81ad79f4742feecadc11bd0419df5b258e72675bc530ae16deaf58b"
     }
   ]
 }

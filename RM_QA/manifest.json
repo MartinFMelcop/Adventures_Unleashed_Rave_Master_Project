@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000398",
+  "version_aj": "AJ_000421",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T03:17:36.189135Z",
+  "generated_utc": "2026-01-04T03:42:08Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -12,7 +12,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 23611,
-      "sha256": "71306e5caed6a986cd657f4742b33507543d98d591768d0b4d60a7ad444efbd8"
+      "sha256": "02376dcbdd86133318a0cd0171c355160f6150976cb51cdf3a665414a880a27b"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -41,8 +41,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 32061,
-      "sha256": "bda2dd528d076e7f05310f753ea020574931e12311487540bc8eb5253dde0d58"
+      "bytes": 32360,
+      "sha256": "c2e7453737a19f193f1309f00f2b809cba0f715fcbb62c1d0dfcfd63041447ab"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 394615,
-      "sha256": "0fef386a2bcee92f442892a690050be812e3b9398ce6d8623f0b88129d0f48c3"
+      "bytes": 396112,
+      "sha256": "99ac01205bc74d574974ef8c50260cdacb5ea664c06fff69cbef73508f4712b2"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -516,8 +516,8 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/PREPACK_GATE.md",
-      "bytes": 1799,
-      "sha256": "f4ba2cd342dfde8bd447bca8b97d58e4885cdbc815cd660d9bf02790e9fd1f79"
+      "bytes": 2021,
+      "sha256": "2a099e43370227a2d4dee1f8f2d54b51b4cbfe993bdfe8ebea6ef705efa05787"
     },
     {
       "relpath": "DATA/QA/TOOLS/__pycache__/prepack_gate_validate.cpython-311.pyc",
@@ -546,8 +546,8 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/prepack_gate_validate.py",
-      "bytes": 27560,
-      "sha256": "a59792c0f6c55332d470c29696c8547ab02f280f93c0b6c37617caa6b4cda14f"
+      "bytes": 31416,
+      "sha256": "d12d3362b4681f3d732990e420d77b128e0f4bf8acf08ac2823fc18e72b95689"
     },
     {
       "relpath": "DATA/QA/TOOLS/refresh_integrity_artifacts.py",
@@ -598,6 +598,11 @@
       "relpath": "MODULE_INFO.json",
       "bytes": 706,
       "sha256": "dbe63536b85e04269923500f205730d10d80bc14bab2f12e58efc210f9768278"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 12150,
+      "sha256": "d1d0b586de533bd46234dfee0ebee0ce48ea05b0de375a29b336f31cfa0bbc2e"
     }
   ]
 }
