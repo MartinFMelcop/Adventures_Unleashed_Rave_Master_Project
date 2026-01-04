@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 386867,
-      "sha256": "ac739a51c87f1fdaf8fb1f74edca9709dff8c660482e52488fcd5ba0d8055377"
+      "bytes": 391406,
+      "sha256": "d073cc7cd9547fc5d7999173877c7aeb37085738cbb1638d6ce7667a245343f8"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -241,8 +241,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_ACT1_SCOPE_FREEZE_STATUS.csv",
-      "bytes": 1997,
-      "sha256": "5e3d6fdc215a9599e7ace12bc8b1b29a14fb9ce4ae8237fab537b5c0236ca670"
+      "bytes": 2242,
+      "sha256": "a7c67cf2e7f4205c225edcd5b156e1b488d00f6270f312ad0e7ecb17d8988e93"
     },
     {
       "relpath": "DATA/QA/RPT_ACT1_SKILLS_PASSIVES_CANON_VALIDATION.csv",
