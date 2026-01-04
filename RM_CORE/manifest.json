@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000406",
+  "version_aj": "AJ_000158",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T05:32:56Z",
+  "generated_utc": "2026-01-04T06:30:00Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -501,8 +501,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 32006,
-      "sha256": "a5c99e2fdaa449c767340e5fe7891f8ed77a58aa5ead20b594c43ac225f08ad8"
+      "bytes": 32271,
+      "sha256": "4f22ac987a3b0f17de78b6cf66e156e5cda0411ca3daac52bc864246d47e42de"
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -626,8 +626,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 36243,
-      "sha256": "b7dea4959bc0d07628f46f9804e46fef09c209c532e7074397c9050821335995"
+      "bytes": 36765,
+      "sha256": "9478f82e241155294c416feb59e64ad197072a9125b1fed950a880e58e370799"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -696,8 +696,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 25765,
-      "sha256": "7f16570aca8307d14a3729f3c087808e342cac4388e497d920e81273da70408c"
+      "bytes": 24751,
+      "sha256": "44ec7853c66dda3e3f11cf22267eee2c5d238eb01cdfde76d54beef846fcdb6c"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 18539,
-      "sha256": "6fdede0154103b6419f44f41a2c5e734267c8988116afd1eab4dfb0efef82bf0"
+      "bytes": 19597,
+      "sha256": "3952a0edad5df5fd0939d28332de4e46532392250c7481963165b7d66fdab916"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,13 +721,13 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 3135,
-      "sha256": "aa192a28bc373b250d2298ba80401ae0bcc83cc4b35d5067849e37d5abe6cf97"
+      "bytes": 3329,
+      "sha256": "6f79e747e9530259a755b7517cb326227c16113c44353878cdb90ddab3f33f7e"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
-      "bytes": 6747,
-      "sha256": "a46af921840d1268711e37975350a5cf878a3df3303e72bf8a2dceedf5de925a"
+      "bytes": 6793,
+      "sha256": "49d6f7c3ea02cccb05882b4729b17bedc6782e0e2f32caff77d3e56a3a03db8d"
     },
     {
       "relpath": "MODULE_INFO.json",
