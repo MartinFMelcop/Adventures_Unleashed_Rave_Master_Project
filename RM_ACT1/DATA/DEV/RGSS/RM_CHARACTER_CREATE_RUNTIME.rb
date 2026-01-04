@@ -238,6 +238,7 @@ class Game_System
   attr_accessor :rm_class_key
   attr_accessor :rm_antecedente_id
   attr_accessor :rm_last_loadout_log
+  attr_accessor :rm_prologue_seen
 end
 
 # Extensão segura do Window_Command para permitir atualizar comandos
@@ -279,6 +280,11 @@ end
 
 class Scene_CharacterCreate
   def main
+    if $game_system && !$game_system.rm_prologue_seen
+      RM_PrologueSlideshow.play_once
+      $game_system.rm_prologue_seen = true
+    end
+
     @help_window = Window_Help.new
     @help_window.set_text("Criação: escolha Classe e Antecedente (Enter/Z confirma; Esc/X volta)")
 
