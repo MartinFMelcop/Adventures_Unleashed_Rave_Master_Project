@@ -18,8 +18,9 @@ Assumes folders at repo root:
 This tool is "best effort": it won't crash the build on missing optional files.
 """
 
-import argparse, os, shutil, hashlib
+import argparse, os, shutil, hashlib, json
 from pathlib import Path
+from datetime import datetime, timezone
 
 def sha256_file(p: Path) -> str:
     h = hashlib.sha256()
@@ -43,12 +44,43 @@ def copy_csvs(src_dir: Path, out_csv_dir: Path):
         rel = csvp.name
         shutil.copy2(csvp, out_csv_dir / rel)
 
+
+def capture_saves(out_dir: Path):
+    saved = []
+    if not out_dir.exists():
+        return saved
+    for save in out_dir.glob("Save*.lsd"):
+        saved.append((save.name, save.read_bytes()))
+    return saved
+
+
+def restore_saves(out_dir: Path, saves):
+    for name, data in saves:
+        (out_dir / name).write_bytes(data)
+
+
+def check_integrity(module_dir: Path):
+    missing = []
+    for fname in ("manifest.json", "checksums.sha256"):
+        if not (module_dir / fname).exists():
+            missing.append(fname)
+    return missing
+
+
+def write_report(out_dir: Path, payload: dict):
+    ensure_dir(out_dir)
+    report_path = out_dir / "local_test_report.json"
+    payload["generated_utc"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    report_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    return report_path
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", required=True, help="Output folder for local test project")
     ap.add_argument("--dist", default="RM_DIST", help="Path to RM_DIST module root")
     ap.add_argument("--core", default="RM_CORE", help="Path to RM_CORE module root")
     ap.add_argument("--act1", default="RM_ACT1", help="Path to RM_ACT1 module root")
+    ap.add_argument("--preserve-saves", action="store_true", help="Keep existing Save*.lsd from previous build")
     args = ap.parse_args()
 
     dist = Path(args.dist)
@@ -60,8 +92,18 @@ def main():
     if not base.exists():
         raise SystemExit(f"RMXP_BASE not found: {base}")
 
+    preflight = {}
+    for module in (dist, core, act1):
+        missing = check_integrity(module)
+        if missing:
+            preflight[module.name] = {"missing": missing}
+
+    preserved_saves = capture_saves(out) if args.preserve_saves else []
+
     print(f"[1/4] Copy RMXP_BASE -> {out}")
     copy_tree(base, out)
+    if preserved_saves:
+        restore_saves(out, preserved_saves)
 
     print("[2/4] Sync ScriptsCustom from ACT1/DATA/DEV/RGSS")
     scripts_src = act1 / "DATA" / "DEV" / "RGSS"
@@ -86,6 +128,22 @@ def main():
     print(f"ScriptsCustom: {len(list((out/'ScriptsCustom').glob('*.rb')))} scripts")
     print(f"RM_CSV: {len(list(csv_dst.glob('*.csv')))} csvs")
     print("Tip: run rgss_pack.rb (in RM_DIST/TOOLS) to embed scripts into Scripts.rxdata if needed.")
+
+    report = {
+        "preflight": preflight,
+        "output": {
+            "scripts": len(list((out / "ScriptsCustom").glob("*.rb"))),
+            "csvs": len(list(csv_dst.glob("*.csv"))),
+            "preserved_saves": [name for name, _ in preserved_saves],
+        },
+        "sources": {
+            "dist": str(dist),
+            "core": str(core),
+            "act1": str(act1),
+        },
+    }
+    report_path = write_report(out, report)
+    print(f"Report: {report_path}")
 
 if __name__ == "__main__":
     main()

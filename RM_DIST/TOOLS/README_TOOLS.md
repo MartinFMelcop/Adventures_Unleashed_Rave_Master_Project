@@ -33,9 +33,12 @@ Uso (na raiz do repositório):
 
 ```bash
 python RM_DIST/TOOLS/local_test_assembler.py --out ./_local_test
+python RM_DIST/TOOLS/local_test_assembler.py --out ./_local_test --preserve-saves
 ```
 
 O assembler:
 - copia `RM_DIST/RMXP_BASE` para `--out`
 - sincroniza `ScriptsCustom` a partir de `RM_ACT1/DATA/DEV/RGSS`
 - agrega CSVs em `Data/RM_CSV` a partir de `RM_CORE/DATA/CORE`, `RM_ACT1/DATA/CORE` e `RM_ACT1/DATA/DEV`
+- gera `local_test_report.json` no destino com contagem de scripts/CSVs e eventuais faltas de `manifest.json/checksums.sha256`
+- `--preserve-saves` mantém `Save*.lsd` existentes na pasta de saída
