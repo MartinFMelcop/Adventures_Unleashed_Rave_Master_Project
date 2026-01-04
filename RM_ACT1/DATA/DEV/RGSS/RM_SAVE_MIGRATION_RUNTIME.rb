@@ -28,6 +28,13 @@ class Game_System
     if !instance_variable_defined?(:@rm_skills_equipped)
       @rm_skills_equipped = {}
     end
+    # garante estrutura de 4 slots mesmo em saves antigos
+    if @rm_skills_equipped.nil? || !@rm_skills_equipped.is_a?(Hash)
+      @rm_skills_equipped = {}
+    end
+    4.times do |i|
+      @rm_skills_equipped[i] = nil unless @rm_skills_equipped.key?(i)
+    end
     if !instance_variable_defined?(:@rm_quests_state)
       @rm_quests_state = {}
     end
