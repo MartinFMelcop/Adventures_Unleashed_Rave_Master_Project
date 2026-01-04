@@ -1,4 +1,5 @@
 IssueID,Severity,Check,Target,Observed,Expected,Details,References,GeneratedUTC
+SFZCHK_MODE,WARN,MODE_SET,Freeze Mode,STRICT,STRICT,"Scope freeze mode must be STRICT during Act1 slices; switch to MILESTONE/OFF only with explicit AJ + WSJF reprioritization.",RM_ACT1/DATA/CORE/ACT1_SCOPE_FREEZE_CANON.csv,2026-01-04T01:15:00Z
 SFZCHK_0001,OK,COUNT_MATCH,Chapters,32,32,DEV count matches freeze (Build_000001).,RM_ACT1/DATA/DEV/DIC_CAPITULOS_EM_CONSTRUCAO.csv,2026-01-03T00:19:37Z
 SFZCHK_0002,OK,COUNT_MATCH,Quests,28,28,DEV count matches freeze snapshot.,RM_ACT1/DATA/DEV/QUESTS_EM_CONSTRUCAO.csv,2026-01-03T00:19:37Z
 SFZCHK_0003,OK,COUNT_MATCH,Sidequests,41,41,DEV count matches freeze snapshot.,RM_ACT1/DATA/DEV/SIDEQUESTS_EM_CONSTRUCAO.csv,2026-01-03T00:19:37Z

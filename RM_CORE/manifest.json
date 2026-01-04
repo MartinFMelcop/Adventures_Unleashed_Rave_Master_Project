@@ -626,8 +626,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 27881,
-      "sha256": "cba83226dc6b499c4d8b4aa3919a823da0ba9b3c2ee8410fd975734a19c0e135"
+      "bytes": 28754,
+      "sha256": "49140d7ce0b4e5f29c4865ffef808a21fedba49f7367dc10c53e5734ffbaed0f"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -696,8 +696,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 19220,
-      "sha256": "993ab018c38a514cf6df639c6afc18d23147ab4836383ac8e4d33377bb906f5f"
+      "bytes": 20452,
+      "sha256": "92e4bfa318938a921e4aaa7a8fa7b158f7a452904ed79fa6fec986f493cdda0e"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 11667,
-      "sha256": "45c2c9b79f454b6a09324dd3a0bd7bf7a8941e3d0feeac3ad706981e25bf1169"
+      "bytes": 12769,
+      "sha256": "2d92c6661a5e2b12a970549f3fff08af704663755d5462dea7c47f135a9e78b8"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,8 +721,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 1733,
-      "sha256": "44471cd5b477ad8cb3638b82359181ec1501926978c89dac379a026946b5156a"
+      "bytes": 1929,
+      "sha256": "d31e9432935365f34aa55c0a09ba3f2fed750648ff5ede147e759231f0729f24"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
