@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000407",
+  "version_aj": "AJ_000409",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T06:41:23Z",
+  "generated_utc": "2026-01-04T07:45:24Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -441,8 +441,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_LIGHTING_RUNTIME.rb",
-      "bytes": 2213,
-      "sha256": "3dfedb7388d1352041caeacfca4498b100d1e120e6cd3e4368fcaace5d7131da"
+      "bytes": 6307,
+      "sha256": "2ffce09d4acb482cd9e93a01494dd3147a96c35c1e7fd83017fed96ba772db6b"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_LOOT_RUNTIME.rb",
@@ -603,6 +603,11 @@
       "relpath": "checksums.sha256",
       "bytes": 12048,
       "sha256": "72894db673107315a2b5460ba3bf88fc02faf40977a5a7b564922dc52cad500c"
+    },
+    {
+      "relpath": "DATA/DEV/CAVE_LIGHTING_CONFIG.csv",
+      "bytes": 333,
+      "sha256": "c7db1bd2f89d97b2fca256de91df0cc196920b5278419c41dbc4da0ff95b7468"
     }
   ]
 }

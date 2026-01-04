@@ -1,0 +1,4 @@
+MapID,ChunkKey,DarknessAlpha,PlayerRadius,Notas
+15,18U17,200,144,Dungeon do Núcleo do Clã (Forte Goblin) - overlay escuro com raio maior do player.
+18,18X18,190,160,Caverna de Prova costeira - raio maior para evitar softlock.
+,DEFAULT,180,128,Perfil padrão para mapas marcados manualmente como caverna (RM_WorldContext.is_cave?).
