@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000368",
+  "version_aj": "AJ_000387",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T00:52:29Z",
+  "generated_utc": "2026-01-04T01:06:56Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -41,13 +41,13 @@
     },
     {
       "relpath": "DATA/CORE/ACT1_ENCOUNTERS_BY_CHUNK_OVERRIDE.csv",
-      "bytes": 47,
-      "sha256": "64b8fa040892b6d0d46274e5f311391ca8432df8436c191da4a57c8add798847"
+      "bytes": 405,
+      "sha256": "57b722774568c3c5d7247d4d2d94ad3710ab13cf73058f09c32c02cffc6e0667"
     },
     {
       "relpath": "DATA/CORE/ACT1_ENCOUNTERS_BY_MAPTYPE_CANON.csv",
-      "bytes": 45,
-      "sha256": "f0785874906a623e1f8e8ace5a9990e56ad7e4b5beee41e6f049b0e3e42cf05f"
+      "bytes": 716,
+      "sha256": "2b870397848a8f41d6402610752b7137f5c53bd2cf16fb0ebc95d94ee8ef9b6a"
     },
     {
       "relpath": "DATA/CORE/ACT1_GATES_CANON.csv",
