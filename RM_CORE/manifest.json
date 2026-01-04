@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000158",
+  "version_aj": "AJ_000407",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T06:30:00Z",
+  "generated_utc": "2026-01-04T06:43:51Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -502,7 +502,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 32271,
-      "sha256": "4f22ac987a3b0f17de78b6cf66e156e5cda0411ca3daac52bc864246d47e42de"
+      "sha256": "91842c6acafe29f0399f23d17b68925e4989be219b0c0d96b33be1aec1f30713"
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -626,8 +626,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 36765,
-      "sha256": "9478f82e241155294c416feb59e64ad197072a9125b1fed950a880e58e370799"
+      "bytes": 36995,
+      "sha256": "857a061d0de3f2df5254ff5842c90ff6d98e3fbcaac9353cf0477b5770d95e35"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -696,8 +696,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 24751,
-      "sha256": "44ec7853c66dda3e3f11cf22267eee2c5d238eb01cdfde76d54beef846fcdb6c"
+      "bytes": 25882,
+      "sha256": "3140cf8e4dde508bbddd1200e781d2c7f440a09848e312f0b10c54714df7328f"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 19597,
-      "sha256": "3952a0edad5df5fd0939d28332de4e46532392250c7481963165b7d66fdab916"
+      "bytes": 19807,
+      "sha256": "39312c335c4578d36eb8ca4a288c516c45734382418a0349aff66cca5d2d8260"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,8 +721,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 3329,
-      "sha256": "6f79e747e9530259a755b7517cb326227c16113c44353878cdb90ddab3f33f7e"
+      "bytes": 3503,
+      "sha256": "5eeb8ac4a2087df35abd1a12b37c2886b89e36cba476bb8a0761e2448b980dc3"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
@@ -742,7 +742,7 @@
     {
       "relpath": "checksums.sha256",
       "bytes": 14191,
-      "sha256": "6f7cd035b0e378af1f23cf93b517fc395127a975482604ff297b895f8312d71c"
+      "sha256": "d7319627c9567fda87732515912f864fbd8e59a5908eaefa32284282ba038500"
     }
   ]
 }

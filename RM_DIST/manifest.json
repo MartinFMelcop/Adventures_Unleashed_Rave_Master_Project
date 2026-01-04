@@ -1,8 +1,8 @@
 {
   "module": "RM_DIST",
-  "version_aj": "AJ_000398",
+  "version_aj": "AJ_000407",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T03:17:36.189135Z",
+  "generated_utc": "2026-01-04T06:41:27Z",
   "files": [
     {
       "relpath": "MODULE_INFO.json",
@@ -1361,8 +1361,8 @@
     },
     {
       "relpath": "RMXP_BASE/ScriptsCustom/RM_TIME_RUNTIME.rb",
-      "bytes": 2388,
-      "sha256": "083e2d73142f47143288282c639461639699ef75c74cd43e776aecbc1ecbe246"
+      "bytes": 6372,
+      "sha256": "bbe214583205bf6d83228b7425db25c376457108924387beca9315e0a0b39b1f"
     },
     {
       "relpath": "RMXP_BASE/ScriptsCustom/RM_UI_PASSIVE_EQUIP_RUNTIME.rb",
@@ -1413,6 +1413,11 @@
       "relpath": "TOOLS/rgss_verify_report.json",
       "bytes": 1184,
       "sha256": "c185af541fd89fe4f85ae063a7a1b7f2added8539c893bc3499303e28b702c1c"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 28820,
+      "sha256": "8285ffd5b037929045bf0fba39167a4cf33b5f46320f58e6fea0836680a8e64e"
     }
   ]
 }
