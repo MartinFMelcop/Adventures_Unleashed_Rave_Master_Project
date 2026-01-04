@@ -41,8 +41,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 31409,
-      "sha256": "3921540eb971197abf9fc89e8dfd84b1ff03eb2da7ae8a15df3ec60b00509b54"
+      "bytes": 31743,
+      "sha256": "35d2978f3b145c9f434cb46a7c140857069a973cdc6b713001c38a9afbea976f"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 382180,
-      "sha256": "5f37212733296da400643f16183eee4963352d563b60c73f99ec9d10d910889d"
+      "bytes": 383827,
+      "sha256": "91e56d37f86b4cbb50ee5a7f4cee2b5a0426b8b237840933e5bb33eb310e79ca"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -261,8 +261,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_ART_ASSET_INDEX_VALIDATION.csv",
-      "bytes": 336,
-      "sha256": "b3bfeb33ee7329d9e3491c12a606c9f035d9d29603237673aa5635238db5fc15"
+      "bytes": 432,
+      "sha256": "8ae9be8da057eee36912e3f95e0321af4a015abf59d35672f161577f42148718"
     },
     {
       "relpath": "DATA/QA/RPT_AUDIO_CUES_PLAN_VALIDATION.csv",
@@ -421,8 +421,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 25657,
-      "sha256": "d8116a45016ca7074c6480d4fd22cf0481d59b723b87d2f1041657602bc81415"
+      "bytes": 25729,
+      "sha256": "6fd66ce532035dc56ae7e5a3cbc947381340f5a2b2d8cb33d46fa674c3dc622b"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",

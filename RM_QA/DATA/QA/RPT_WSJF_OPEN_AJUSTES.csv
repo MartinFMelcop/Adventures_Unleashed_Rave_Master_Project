@@ -129,7 +129,6 @@ AJ_000196,"Digest narrativo do Overlord (técnicas, estrutura, checklist) sem tr
 AJ_000204,Generate unified AI_TABLE_CATALOG (00_INDEX + DATA_INDEX),,P2,BACKLOG,1.25,128.0,4,3,3,10,8,,,
 AJ_000206,Speaker registry (NPC + Monster talkers) and authoring contract,SCHEMA,P2,BACKLOG,1.25,129.0,4,3,3,10,8,AJ_000205,,
 AJ_000210,Aliados/Summons: templates de stats + runtime RGSS (spawn/controle/cleanup) + validações,Arquitetura/Combate,P2,BACKLOG,1.25,130.0,4,3,3,10,8,,,
-AJ_000246,ART: auto-tag por diretório + normalização de nomes no ART_IMAGE_ASSET_INDEX,ART/Build,P2,BACKLOG,1.25,131.0,4,3,3,10,8,,,
 AJ_000250,QA/Dialogue: adicionar cenários de HasRecentEvent + sessão de tick TTL (skip first),QA/Dialogue,P2,BACKLOG,1.25,132.0,4,3,3,10,8,,,
 AJ_000255,ART: Pack Ato 1 (tileset principal + player + NPCs base + UI ícones + portraits),ART/Produção,P2,BACKLOG,1.25,133.0,4,3,3,10,8,Depende do style bible (AJ_000254) e do ingest binário (AJ_000245/000241 já existentes).,,
 AJ_000259,Release: empacotamento/installer + versioning + credits/licensing,Release/Packaging,P2,BACKLOG,1.25,134.0,4,3,3,10,8,Depende do DIST rodável (AJ_000252).,,
@@ -146,3 +145,4 @@ AJ_000161,Revisar Especificação Funcional (BDD/TDD) e registrar no ecossistema
 AJ_000162,Revisar Especificação Técnica e registrar no ecossistema,Arquitetura,P2,BACKLOG,1.231,145.0,6,3,7,16,13,,,
 AJ_000190,COL_META: enriquecer semântica + constraints e gerar MER/Specs ai-friendly,GOV/SCHEMA,P2,BACKLOG,1.231,146.0,6,3,7,16,13,AJ_000124,,
 AJ_000286,Chunk 16V18 — Revisar e canonizar (Reino Élfico — Mercado Élfico),MAPA,P2,BACKLOG,1.231,147.0,6,3,7,16,13,AJ_000290,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
+AJ_000422,ART: lint de auto-tags + dedupe por sha256/PathNormalized,ART/Build,P2,BACKLOG,1.4,150.0,3,2,2,7,5,AJ_000246,Lint disponível em QA + fila WSJF atualizada.,Adicionado na homologação do AJ_000246.
