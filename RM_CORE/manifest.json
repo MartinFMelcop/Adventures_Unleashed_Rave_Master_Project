@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000409",
+  "version_aj": "AJ_000410",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T07:48:02Z",
+  "generated_utc": "2026-01-04T13:58:47.913248Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -301,8 +301,8 @@
     },
     {
       "relpath": "DATA/CORE/ITENS_MASTER.csv",
-      "bytes": 87464,
-      "sha256": "73d163813601cead81c6295ed8d0610a516f0c2f54415c15bbe1d72236193f45"
+      "bytes": 88610,
+      "sha256": "b8d3bfff9ef29d88f3ada71a69ec97bee5f8c6fa6dc4454ab4ed33e2aff8ccbf"
     },
     {
       "relpath": "DATA/CORE/KITS_INICIAIS.csv",
@@ -627,8 +627,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 36842,
-      "sha256": "9d201fd5509528888beedfdd0f1d6c58316dff31f511d3797226ab0652903116"
+      "bytes": 37305,
+      "sha256": "4d84e3e560b1e7e76e59b6f708b61a9b74451b658ae7a75bd81334f6166d04d2"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -697,8 +697,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 25804,
-      "sha256": "e2584faaa7f6133c77717b6c69252a5820d4c732dcebc2f15ac1643d3b5a87eb"
+      "bytes": 26678,
+      "sha256": "c1fb7518890626f8006c8389e0f93fce50e260d7663076bdd802e9164ac53c8f"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -707,8 +707,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 19922,
-      "sha256": "182b0ebdf2a6a6a21cfee3b6447f21c08963ae6139353b5780327489ec0ae352"
+      "bytes": 20727,
+      "sha256": "e459101592e28e35187453f2b498ff2e2cad44a9ed9f36b508a75b7de767a3a2"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -722,8 +722,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 3700,
-      "sha256": "99461bfffffa7b053685f11502c8d4bcfd3827bafe388c3eafde889e52c46cee"
+      "bytes": 3841,
+      "sha256": "853ec43ee90265f6bd7f5ffd166d401f04fb73f0464cd2eb418fb7de4dd4e901"
     },
     {
       "relpath": "DATA/sheet_name_map.json",

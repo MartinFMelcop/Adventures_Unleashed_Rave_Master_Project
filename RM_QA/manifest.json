@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000409",
+  "version_aj": "AJ_000410",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T07:45:45Z",
+  "generated_utc": "2026-01-04T13:58:47.915768Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -41,8 +41,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 32360,
-      "sha256": "c2e7453737a19f193f1309f00f2b809cba0f715fcbb62c1d0dfcfd63041447ab"
+      "bytes": 32553,
+      "sha256": "3cf55d4107731cc9ba35514c4ea28a807b7a8db1def49c9762131b16c09121f8"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 407172,
-      "sha256": "a95c015e6edafd9a9e4034aacc113c10c05a6fac0aaaff1db3dcaa02e592f47f",
+      "bytes": 409654,
+      "sha256": "0d59d2e21265a63853aeeb22d95e328214646683adbaaf183548c5aa4b826a9d",
       "size": 408219
     },
     {

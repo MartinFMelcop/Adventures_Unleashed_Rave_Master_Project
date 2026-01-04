@@ -14,6 +14,17 @@ module RM_Lighting
   @config_by_map = nil
   @light_kernel = nil
   @event_sources = {}
+  @cached_switch_ids = {}
+
+  PLAYER_LIGHT_SWITCHES = {
+    :lantern => ['S_LANTERNA_ATIVA', 'S_LIGHT_LANTERN'],
+    :torch   => ['S_ITEM_TOCHA_ATIVA', 'S_LIGHT_TORCH']
+  }
+
+  PLAYER_LIGHT_BONUS = {
+    :lantern => 160,
+    :torch   => 96
+  }
 
   def self.config_path_candidates
     [
@@ -92,6 +103,25 @@ module RM_Lighting
   def self.reset_events!
     @event_sources = {}
   end
+
+  def self.resolve_switch_id(name)
+    return nil if $data_system.nil? || $data_system.switches.nil?
+    return @cached_switch_ids[name] if @cached_switch_ids.key?(name)
+    @cached_switch_ids[name] = $data_system.switches.index(name)
+  end
+
+  def self.player_light_bonus
+    PLAYER_LIGHT_SWITCHES.each do |kind, names|
+      names.each do |sw_name|
+        idx = resolve_switch_id(sw_name)
+        next if idx.nil?
+        return PLAYER_LIGHT_BONUS[kind] if $game_switches && $game_switches[idx]
+      end
+    end
+    0
+  rescue
+    0
+  end
 end
 
 if defined?(Game_Map)
@@ -146,6 +176,7 @@ if defined?(Spriteset_Map)
       sources = []
       if $game_player
         radius = (profile[:player_radius] || RM_Lighting::DEFAULT_CONFIG[:player_radius]).to_i
+        radius += RM_Lighting.player_light_bonus
         sources << [:player, $game_player.screen_x, $game_player.screen_y, radius]
       end
       RM_Lighting.instance_variable_get(:@event_sources).each_value do |src|

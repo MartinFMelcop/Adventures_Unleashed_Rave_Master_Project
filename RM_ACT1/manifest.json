@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000409",
+  "version_aj": "AJ_000410",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T07:45:24Z",
+  "generated_utc": "2026-01-04T13:58:47.914887Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -441,8 +441,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_LIGHTING_RUNTIME.rb",
-      "bytes": 6307,
-      "sha256": "2ffce09d4acb482cd9e93a01494dd3147a96c35c1e7fd83017fed96ba772db6b"
+      "bytes": 7141,
+      "sha256": "ce268660731d357c0d24848e1e26ec7c967b493582ee436d7397df85dcfbbbb2"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_LOOT_RUNTIME.rb",
