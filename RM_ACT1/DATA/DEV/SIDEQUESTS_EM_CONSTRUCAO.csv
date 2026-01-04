@@ -741,7 +741,7 @@ Assets:
 Resumo_Anterior:
 Nós de minério; limite de carga; variável 'Oferta_Minerio'.","**Loop:** extrair → transportar → entregar.
 **Impacto:** oferta alta reduz preços e habilita upgrades; fraude mistura minério e cria punição.","**Loop:** extrair → transportar → entregar.
-**Impacto:** oferta alta reduz preços e habilita upgrades; fraude mistura minério e cria punição.",,"NPCs:
+**Impacto:** oferta alta reduz preços e habilita upgrades; fraude mistura minério e cria punição.",Fixar hub no chunk 18X18 (porta da caverna de prova); ferreiro NPC-0019 inicia e encerra o loop.,"NPCs:
 - 
 Variáveis:
 - 

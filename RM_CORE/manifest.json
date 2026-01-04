@@ -2,7 +2,7 @@
   "module": "RM_CORE",
   "version_aj": "AJ_000199",
   "manifest_version": 1,
-  "generated_utc": "2026-01-03T19:53:57Z",
+  "generated_utc": "2026-01-04T00:52:29Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -91,8 +91,8 @@
     },
     {
       "relpath": "DATA/CORE/CHUNK_CONEXOES.csv",
-      "bytes": 28572,
-      "sha256": "eb23c9f8e3f91dcb1b3da1abbd3d4f7e9a232e348f80018ba54e1a0dba3c83c2"
+      "bytes": 28892,
+      "sha256": "5566ed283c56ad4e3b01c1ce6b4629be9d4d2ed340c3fd0c5c646774fb40b817"
     },
     {
       "relpath": "DATA/CORE/CHUNK_EVENTOS.csv",
@@ -501,8 +501,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 32237,
-      "sha256": "9176181affd469cf5aacf5cc303c5700ba2dde75ccf5d691c091aa6c2ce85488"
+      "bytes": 32235,
+      "sha256": "ce9cfe5080ee827c16e3325b9a52e739f1726aeca613b208b78a19074000ce4b"
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -741,13 +741,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 14098,
-      "sha256": "6fa2ea7cea7c34f7800eadfa76d2e7ed32218b5e92f5f0dcf9f1b90bfe3919eb"
-    },
-    {
-      "relpath": "manifest.json",
-      "bytes": 24739,
-      "sha256": "7dadf0764e191f706a6ec1035861baca15d8b9b92f2590e2832d989879a7ee7e"
+      "bytes": 14354,
+      "sha256": "7f2e44cca8cf8de99e5e4a3b126a50cb48ce450018fa49a3fc46ca1aa63d0dc4"
     }
   ],
   "version_build": "Build_000001"
