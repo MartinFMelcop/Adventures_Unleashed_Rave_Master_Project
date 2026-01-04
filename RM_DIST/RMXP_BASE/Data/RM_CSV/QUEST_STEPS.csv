@@ -1,0 +1,74 @@
+RefType,RefID,StepIndex,StepKey,StepText,IsOptional,TriggerTipo,TriggerValor
+QUEST,QST-0011,1,S1,Após QST-0001; falar com a liderança da vila.,0,Talk,NPC:NPC-0001
+QUEST,QST-0019,1,S1,Ao entrar em 23U4 (auto-start). Pode ser ignorado; a Cockatrice força a linha do brejo.,0,EnterArea,23U4
+QUEST,QST-0020,1,S1,"Ao entrar em 23V5, evento força batalha contra a Cockatrice (não depende de QST-0019).",0,EnterArea,23V5
+QUEST,QST-0009,1,S1,Após QST-0008; chegar ao acampamento dos mentores.,0,EnterArea,22P8
+QUEST,QST-0001,1,S1,Automática ao iniciar campanha / ao entrar em Vila Rose.,0,EnterArea,24R0_I
+SIDEQUEST,SDQ-0001,1,S1,[DESCONSIDERAR] A enfermaria de Rose está sem suprimentos: colete materiais e prepare remédios simples.,0,Talk,NPC:TBD
+SIDEQUEST,SDQ-0042,1,S1,Falar com o Lenhador durante/apos o evento de chegada.,0,Talk,NPC-0023
+QUEST,QST-0002,1,S1,Falar com a Líder da Vila (NPC-0001) no Centro da Vila para ouvir sobre as casas isoladas ao norte.,0,Talk,NPC:NPC-0001
+SIDEQUEST,SDQ-0002,1,S1,[DESCONSIDERAR] Noite de palco na praça: aumente a moral com uma apresentação e lide com um sabotador.,0,Talk,NPC:TBD
+QUEST,QST-0003,1,S1,Após fim do prólogo (sandbox liberado); visitar 23R1.,0,EnterArea,23R1
+SIDEQUEST,SDQ-0003,1,S1,Ouvir pedido de um morador na área norte ou no mercado.,0,EnterArea,24R0_I
+QUEST,QST-0004,1,S1,Após QST-0001; falar com o guardinha no posto.,0,Talk,NPC:NPC-0002
+SIDEQUEST,SDQ-0004,1,S1,Falar com agricultor no pasto/celeiro.,0,Talk,NPC:NPC-0006
+QUEST,QST-0005,1,S1,Após QST-0004 ou ao se aproximar da ponte da cachoeira.,0,EnterArea,22S3
+SIDEQUEST,SDQ-0005,1,S1,Falar com o Guarda Novato (NPC-0002) no posto para acessar o mural/placar de recompensas.,0,Talk,NPC:NPC-0002
+QUEST,QST-0006,1,S1,Após QST-0005; entrar na Ponte do Despenque.,0,EnterArea,22R4
+SIDEQUEST,SDQ-0006,1,S1,Encontrar a Passagem dos Totens durante exploração.,0,EnterArea,21P9
+QUEST,QST-0007,1,S1,Após QST-0006; receber indicação de perigo na trilha.,0,EnterArea,23Q6
+SIDEQUEST,SDQ-0007,1,S1,Falar com o Artífice do Acampamento (NPC-0030) no Acampamento dos Mentores.,0,Talk,NPC:NPC-0030
+QUEST,QST-0008,1,S1,Após QST-0007; avançar pela trilha das ruínas.,0,EnterArea,21P9
+SIDEQUEST,SDQ-0008,1,S1,Receber pedido de estudioso (ou do mercador) após explorar ruínas.,0,Talk,NPC:NPC-0018
+SIDEQUEST,SDQ-0009,1,S1,Pedido do mercador/alquimista após ter acesso à floresta.,0,EnterArea,20U9
+QUEST,QST-0010,1,S1,Após QST-0009; possuir o ídolo/autorização.,0,EnterArea,18R14
+SIDEQUEST,SDQ-0010,1,S1,Encontrar a fada; Ira_Fadas não estar alta.,0,Talk,NPC:NPC-0020
+SIDEQUEST,SDQ-0034,1,S1,Falar com o 'delegado sindical' goblin no piquete do curral.,0,Talk,NPC:TBD
+SIDEQUEST,SDQ-0036,1,S1,"Após QST-0010; Você encontra três bandos de goblins perdidos brigando por comida e símbolos do rei. Dá para separar, intimidar, ou prop",0,EnterArea,17U18
+SIDEQUEST,SDQ-0037,1,S1,"Após QST-0010; Ajude três líderes improvisados (cozinheiro, ferreiro e batedor) a concordarem num conjunto de regras. Cada um quer algo",0,EnterArea,17U18
+SIDEQUEST,SDQ-0038,1,S1,"Após QST-0010; Mini-cadeia de treinos: marcha, vigia e coleta. Dependendo do tom, você forma 'guarda do forte' (reduz encontros hostis)",0,EnterArea,18S15
+SIDEQUEST,SDQ-0039,1,S1,"Após QST-0010; Coletar madeira/pedra, instalar travas e treinar um turno de vigias. Evento final: repelir um bando oportunista.",0,EnterArea,18R14
+SIDEQUEST,SDQ-0040,1,S1,"Após QST-0010; Sistema repetível: escolha um contrato, espere 1 ciclo, receba recursos. Eventos aleatórios: atraso, briga, sucesso extr",0,EnterArea,17U18
+SIDEQUEST,SDQ-0041,1,S1,"Após QST-0010; Defina regras de troca, impeça golpe óbvio (que todo mundo vê) e libere um NPC de comércio. Estoque varia por reputação ",0,EnterArea,17U18
+SIDEQUEST,SDQ-0011,1,S1,Receber rumor no posto/mercador; reputação com elfos/fadas neutra.,0,EnterArea,22T4
+QUEST,QST-0012,1,S1,Após QST-0001 (fim do tutorial linear); falar com o Mercador.,0,Talk,NPC:NPC-0003
+SIDEQUEST,SDQ-0012,1,S1,Pedido do artesão/mercador após QST-0014.,0,EnterArea,21T7
+SIDEQUEST,SDQ-0043,1,S1,Após QST-0012; falar com o Mercador.,0,Talk,NPC:NPC-0003
+SIDEQUEST,SDQ-0044,1,S1,Após QST-0012; falar com o Mercador.,0,Talk,NPC:NPC-0003
+SIDEQUEST,SDQ-0045,1,S1,Após QST-0012; falar com o Mercador.,0,Talk,NPC:NPC-0003
+QUEST,QST-0013,1,S1,Após QST-0011; avançar pela trilha ao norte do mercador até a clareira.,0,EnterArea,23T3
+SIDEQUEST,SDQ-0013,1,S1,Curandeira pede suprimento quando Surtos>0.,0,Talk,NPC:NPC-0004
+QUEST,QST-0014,1,S1,Após QST-0013; seguir pela trilha do pólen/bosque.,0,EnterArea,20U9
+SIDEQUEST,SDQ-0014,1,S1,Encontrar o círculo de pedras à noite.,0,EnterArea,21W12
+QUEST,QST-0015,1,S1,Após QST-0014; entrar nas clareiras internas.,0,EnterArea,22U5
+SIDEQUEST,SDQ-0015,1,S1,Cartaz de recompensa no hub/mercador.,0,EnterArea,24W7
+QUEST,QST-0016,1,S1,Após QST-0015; avançar para corredores assombrados.,0,EnterArea,21U6
+SIDEQUEST,SDQ-0016,1,S1,Encontrar travessia quebrada após QST-0021.,0,Talk,NPC:NPC-0016
+SIDEQUEST,SDQ-0033,1,S1,Interagir com a Espada Voadora em crise e aceitar mediar a sessão.,0,EnterArea,21U6
+QUEST,QST-0017,1,S1,Após QST-0016; seguir a pista até o santuário.,0,Talk,NPC:NPC-0021
+SIDEQUEST,SDQ-0017,1,S1,Acesso à torre; falar com assistente.,0,Talk,NPC:NPC-0007
+QUEST,QST-0018,1,S1,Após QST-0011; disponível a qualquer momento no Hub.,0,EnterArea,24U3
+SIDEQUEST,SDQ-0018,1,S1,Após ocorrer uma anomalia/ativação de selos na torre (variável V_SDQ_0018_ANOMALIA_TORRE > 0).,0,Var,VAR:V_SDQ_0018_ANOMALIA_TORRE
+SIDEQUEST,SDQ-0019,1,S1,Pedido do assistente; ter acesso ao mercador.,0,Talk,NPC:NPC-0007
+SIDEQUEST,SDQ-0020,1,S1,Falar com assistente após QST-0024.,0,Talk,NPC:NPC-0008
+QUEST,QST-0021,1,S1,Após QST-0020; tentar cruzar para margens profundas.,0,EnterArea,24V6
+SIDEQUEST,SDQ-0021,1,S1,Ter salvo-conduto; falar com mestre de música/mercador.,0,Talk,NPC:NPC-0009
+SIDEQUEST,SDQ-0035,1,S1,Aceitar ajudar o Bagre Bípedo a montar o set de gravação na ponte.,0,EnterArea,24V6
+QUEST,QST-0022,1,S1,Após QST-0021; seguir marcas de líquens.,0,EnterArea,22X10
+SIDEQUEST,SDQ-0022,1,S1,Ter acesso ao posto élfico; falar com batedor.,0,Talk,NPC:NPC-0010
+QUEST,QST-0023,1,S1,Após QST-0022; entrar na Campina da Tumba (evento noturno 1ª vez).,0,EnterArea,22W9
+SIDEQUEST,SDQ-0023,1,S1,Ter salvo-conduto e reputação neutra/boa; ocorre em noite específica.,0,EnterArea,18V16
+QUEST,QST-0024,1,S1,Após QST-0023; seguir a trilha pós-minidungeon até a torre.,0,EnterArea,22V10
+SIDEQUEST,SDQ-0024,1,S1,Falar com jardineiro/guarda do jardim; ter salvo-conduto.,0,Talk,NPC:NPC-0011
+QUEST,QST-0025,1,S1,"Após QST-0024; quando o evento do experimento definir V_QST_0025_EXPERIMENTO (ex.: > 0), iniciar o capítulo das fendas.",0,Var,VAR:V_QST_0025_EXPERIMENTO
+SIDEQUEST,SDQ-0025,1,S1,Cartaz de recompensa ao aumentar 'Risco_Estrada'.,0,EnterArea,19W16
+QUEST,QST-0026,1,S1,Após QST-0025; retornar ao Centro da Vila (Hub).,0,Talk,NPC:NPC-0007
+SIDEQUEST,SDQ-0026,1,S1,Aparece após tempestade (gatilho de tempo).,0,EnterArea,19X19
+QUEST,QST-0027,1,S1,Após QST-0026; aceitar etapa 1 do projeto (ou seguir rumo ao mar).,0,Talk,NPC:NPC-0007
+SIDEQUEST,SDQ-0027,1,S1,Falar com ferreiro/mercador após visitar a serra.,0,Talk,NPC:NPC-0019
+QUEST,QST-0028,1,S1,Após QST-0027; chegar ao Portão de Folhas e Pedra e não ter reputação negativa com guardas.,0,EnterArea,17V17
+SIDEQUEST,SDQ-0028,1,S1,Evento disparado por rumor no litoral.,0,Talk,NPC:NPC-0017
+SIDEQUEST,SDQ-0029,1,S1,[DESCONSIDERAR] Cartografia do caminho: marque rotas e perigos para vender mapas confiáveis (ou forjar e arriscar).,0,Talk,NPC:TBD
+SIDEQUEST,SDQ-0030,1,S1,Mercador oferece após confiança; bloqueia se reputação com guardas é alta.,0,Talk,NPC:NPC-0003
+SIDEQUEST,SDQ-0031,1,S1,Encontrar um altar e receber dica de devoto.,0,Talk,NPC:NPC-0014
+SIDEQUEST,SDQ-0032,1,S1,Encontrar placa do desafio (ou instrutor).,0,Talk,NPC:NPC-0015
