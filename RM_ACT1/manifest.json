@@ -61,8 +61,8 @@
     },
     {
       "relpath": "DATA/CORE/ACT1_LOOT_BY_CHUNK_CANON.csv",
-      "bytes": 56,
-      "sha256": "9a883143ffe405a5bd81c6a186154cbf0bfcacb0ace8f93466160ab3b3cb9401"
+      "bytes": 648,
+      "sha256": "76fa2b030031abcb6ca40d0315752a015b1bc663d2d442a85cb21bf8a80919dd"
     },
     {
       "relpath": "DATA/CORE/ACT1_MILESTONES_CANON.csv",
@@ -111,8 +111,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 25251,
-      "sha256": "86f25b3909213f6936c88f0feea7fc5ac782b6559e8211bd5a32e73bbc82fb31"
+      "bytes": 25387,
+      "sha256": "80fa4b5596fd7d9a9cdef95e4cc85d95b1bddc6830b913df5424b05cb90420b7"
     },
     {
       "relpath": "DATA/DEV/00_INDEX.csv",
@@ -446,8 +446,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_LOOT_RUNTIME.rb",
-      "bytes": 339,
-      "sha256": "6108aff7c9b235cd6ffc5b39978e79e4e100ee6d7454dc9bf161748505e298a5"
+      "bytes": 660,
+      "sha256": "c23c49ae28dcd9019502e40a025d8fe490c96cdce1de9cb3682482f75eb3c9e0"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_MOVEMENT_RUN_RUNTIME.rb",
