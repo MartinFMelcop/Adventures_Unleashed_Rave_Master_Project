@@ -2,7 +2,7 @@
   "module": "RM_ACT1",
   "version_aj": "AJ_000410",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T13:58:47.914887Z",
+  "generated_utc": "2026-01-04T14:34:35Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -608,6 +608,11 @@
       "relpath": "DATA/DEV/CAVE_LIGHTING_CONFIG.csv",
       "bytes": 333,
       "sha256": "c7db1bd2f89d97b2fca256de91df0cc196920b5278419c41dbc4da0ff95b7468"
+    },
+    {
+      "relpath": "DATA/DEV/RGSS/RM_QA_SAVE_VALIDATION.rb",
+      "bytes": 2025,
+      "sha256": "08b4ea347106e94e18038ca0518a70e359b03b51030334834a88e41c16187313"
     }
   ]
 }
