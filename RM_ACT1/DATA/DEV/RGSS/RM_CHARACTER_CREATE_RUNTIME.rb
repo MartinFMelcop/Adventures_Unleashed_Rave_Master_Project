@@ -49,6 +49,88 @@ module RM_CharCreate
     nil
   end
 
+  # --- Loadout (kits iniciais) ---
+  def self.load_kits
+    return @kits_cache if @kits_cache
+    kits = _safe_read_csv('Data/RM_CSV/KITS_INICIAIS.csv')
+    @kits_cache = kits || []
+  end
+
+  def self._parse_money_delta(text)
+    return 0 if text.nil?
+    money = 0
+    # B (bronze) = 1; S (silver) = 100; G (gold) = 10_000; P (platinum) = 1_000_000
+    unit = { 'B' => 1, 'S' => 100, 'G' => 10_000, 'P' => 1_000_000 }
+    text.scan(/dinheiro\s*([+-]?)(\d+)\s*([BSGP])/i) do |sign, num, u|
+      mult = unit[u.upcase] || 1
+      delta = num.to_i * mult
+      delta *= -1 if sign == '-'
+      money += delta
+    end
+    money
+  end
+
+  def self._find_item_by_name(name)
+    return nil if name.nil?
+    target = name.strip.downcase
+    candidates = []
+    [$data_items, $data_weapons, $data_armors].each do |arr|
+      next if arr.nil?
+      arr.each do |obj|
+        next if obj.nil? || obj.name.nil?
+        candidates << obj if obj.name.downcase.include?(target)
+      end
+    end
+    candidates.first
+  end
+
+  def self._apply_item_token(token)
+    return nil if token.nil?
+    qty = 1
+    if token =~ /(x|\+|-)\s*(\d+)/i
+      qty = $2.to_i
+      qty *= -1 if token.include?('-')
+    end
+    name = token.split(/\(|x|\+/).first.to_s.strip
+    item = _find_item_by_name(name)
+    return nil if item.nil?
+    $game_party.gain_item(item, qty)
+    { :name => item.name, :qty => qty }
+  end
+
+  def self.apply_loadout(class_key, antecedente_id)
+    kits = load_kits
+    return [] if kits.nil? || kits.empty?
+    log = []
+    kits.each do |r|
+      next unless r['Classe'] == class_key
+      next unless r['Antecedente'].to_s.strip != ''
+      next unless r['Antecedente'].to_s.downcase.include?(antecedente_id.to_s.downcase)
+      mud = r['Mudanca'].to_s
+      money = _parse_money_delta(mud)
+      if money != 0
+        $game_party.gain_gold(money)
+        log << "Dinheiro ajustado em #{money} (B base)."
+      end
+      mud.split(';').each do |tok|
+        info = _apply_item_token(tok)
+        log << "Item #{info[:name]} (#{info[:qty]})" if info
+      end
+    end
+    if log.empty?
+      # fallback: dar um pequeno kit genérico para evitar testes sem suprimentos
+      potion = _find_item_by_name('Poção') || _find_item_by_name('Potion')
+      if potion
+        $game_party.gain_item(potion, 2)
+        log << "Fallback: #{potion.name} x2"
+      end
+      $game_party.gain_gold(200)
+      log << 'Fallback: dinheiro +200 (B).'
+    end
+    $game_system.rm_last_loadout_log = log
+    log
+  end
+
   def self.load_canon_data!
     classes = _safe_read_csv('Data/RM_CSV/ACT1_CLASSES_CANON.csv')
     antecedentes = _safe_read_csv('Data/RM_CSV/ACT1_ANTECEDENTES_CANON.csv')
@@ -155,6 +237,7 @@ end
 class Game_System
   attr_accessor :rm_class_key
   attr_accessor :rm_antecedente_id
+  attr_accessor :rm_last_loadout_log
 end
 
 # Extensão segura do Window_Command para permitir atualizar comandos
@@ -363,6 +446,7 @@ class Scene_CharacterCreate
     ante = RM_CharCreate.ante_by_name(ante_name)
     $game_system.rm_class_key = key
     $game_system.rm_antecedente_id = ante ? ante[:id] : 0
+    RM_CharCreate.apply_loadout(key, $game_system.rm_antecedente_id)
   end
 
   def start_game
