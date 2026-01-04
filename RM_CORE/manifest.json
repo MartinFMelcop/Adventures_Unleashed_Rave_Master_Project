@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000387",
+  "version_aj": "AJ_000397",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T01:08:01Z",
+  "generated_utc": "2026-01-04T02:10:48.570943Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -626,8 +626,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 28754,
-      "sha256": "49140d7ce0b4e5f29c4865ffef808a21fedba49f7367dc10c53e5734ffbaed0f"
+      "bytes": 29657,
+      "sha256": "1158524988aabf3d3081e9553b6355d87b05dd6e6e92b28d905eba5f7585a7c3"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -696,8 +696,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 20452,
-      "sha256": "92e4bfa318938a921e4aaa7a8fa7b158f7a452904ed79fa6fec986f493cdda0e"
+      "bytes": 20690,
+      "sha256": "c4ac18551a2745eb414bad1ef7c06a4680ed20f7423a4531af65b60b9164be88"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 12769,
-      "sha256": "2d92c6661a5e2b12a970549f3fff08af704663755d5462dea7c47f135a9e78b8"
+      "bytes": 12969,
+      "sha256": "c1b34cd424faf473fb3f465c2bd43ef9420d79bfc9e2014e4a84ddbdc7115559"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,8 +721,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 1929,
-      "sha256": "d31e9432935365f34aa55c0a09ba3f2fed750648ff5ede147e759231f0729f24"
+      "bytes": 2005,
+      "sha256": "129a1ffbc1a7c50af1bf3fe63dc6618516967ceda7ca96ddce6189786188b431"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
@@ -741,9 +741,13 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 14354,
-      "sha256": "7f2e44cca8cf8de99e5e4a3b126a50cb48ce450018fa49a3fc46ca1aa63d0dc4"
+      "bytes": 14274,
+      "sha256": "b45edada6d8ec7a0cd1573dc35b4f694b281e9328293bf7c33c0668e93f6e3f3"
+    },
+    {
+      "relpath": "manifest.json",
+      "bytes": 24903,
+      "sha256": "41712966368345ffe122a77eab6f1e975f1944ccd09f91c490f64b27bc75ef62"
     }
-  ],
-  "version_build": "Build_000001"
+  ]
 }

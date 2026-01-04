@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000387",
+  "version_aj": "AJ_000397",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T01:06:56Z",
+  "generated_utc": "2026-01-04T02:10:48.570943Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -406,8 +406,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_CHARACTER_CREATE_RUNTIME.rb",
-      "bytes": 12014,
-      "sha256": "2585a36bff2ebd5afd2f786355a74e3f655d1ae665d316e30c5e1a83b4ffb79f"
+      "bytes": 12246,
+      "sha256": "cce835ef526072659a704b20719482351a7ca2da59ea5d3bb35266504f4897dd"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_COMBAT_RUNTIME.rb",
@@ -601,9 +601,13 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12048,
-      "sha256": "e688360c0f5e1aa72d0d4f15bcad022b17ee945aba32f6ad3c4c376e630f3d88"
+      "bytes": 12131,
+      "sha256": "27b335acb1a16ca86857be65f6aa6795f068e416b2e8596b0588df32b5edc7cc"
+    },
+    {
+      "relpath": "manifest.json",
+      "bytes": 20827,
+      "sha256": "d08ebd0bfaac6e0d6c1e252c19aaf4120b05a3878b6172b2227f85b97f49f155"
     }
-  ],
-  "version_build": "Build_000001"
+  ]
 }
