@@ -502,7 +502,8 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 32271,
-      "sha256": "91842c6acafe29f0399f23d17b68925e4989be219b0c0d96b33be1aec1f30713"
+      "sha256": "3b6bd43e2c1bfb883584ad7a390b7ca21c9bccdbbfe6f4dce32544cb03336ca3",
+      "size": 34989
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -727,7 +728,8 @@
     {
       "relpath": "DATA/sheet_name_map.json",
       "bytes": 6793,
-      "sha256": "49d6f7c3ea02cccb05882b4729b17bedc6782e0e2f32caff77d3e56a3a03db8d"
+      "sha256": "0b584b5041f77747a4c42f021613a2c933e1677dad0d4d7eb3e745136ab85065",
+      "size": 7519
     },
     {
       "relpath": "MODULE_INFO.json",
