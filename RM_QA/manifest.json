@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000248",
+  "version_aj": "AJ_000373",
   "manifest_version": 1,
-  "generated_utc": "2026-01-03T20:40:32Z",
+  "generated_utc": "2026-01-04T00:30:07Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -12,7 +12,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 23611,
-      "sha256": "52614a5663efa1969276be575e8f3453191a7598cf50121d746378f755f0540c"
+      "sha256": "71306e5caed6a986cd657f4742b33507543d98d591768d0b4d60a7ad444efbd8"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -22,7 +22,7 @@
     {
       "relpath": "DATA/QA/00_INDEX.csv",
       "bytes": 23161,
-      "sha256": "a0429f9b11b8b4f171410ee235102f681926ef8555beb411c6bc37cae9f1aba5"
+      "sha256": "580e8629a79fc9d80f00a6b1eb1f7f187baf8bbf5833fe54b4759e0f2a14d288"
     },
     {
       "relpath": "DATA/QA/00_INDEX_DEPRECADA.csv",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 383827,
-      "sha256": "91e56d37f86b4cbb50ee5a7f4cee2b5a0426b8b237840933e5bb33eb310e79ca"
+      "bytes": 385793,
+      "sha256": "daab7d26df040ea203541c1737ca82fe1a0a5c3d36f344c7e2bd458f2b1ed15e"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -525,6 +525,11 @@
       "sha256": "93208566c7fe95aba2ab1ef93cdb0b218b3480114571b1aa39d3b37aa4af6802"
     },
     {
+      "relpath": "DATA/QA/TOOLS/apply_art_tags_and_normalize.py",
+      "bytes": 3565,
+      "sha256": "99ccb1bbffb9434b1cbfd26c59ea05c85d3c3b2146c94bff31a6c26ee8962701"
+    },
+    {
       "relpath": "DATA/QA/TOOLS/coverage_metrics_act_et.py",
       "bytes": 5318,
       "sha256": "f7fd41dc8c9b42bd3a76904f69491a3562b3ec3f482f43a4e88d9dc65da13f65"
@@ -596,8 +601,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12038,
-      "sha256": "b14ca13310af187129025f95eaf4524fb7344ec62b13dbe21b38c4d374d53e3b"
+      "bytes": 12150,
+      "sha256": "5db98c0fa6592dbac99c0c2eb3d0be8d32aa462a75c5dacd2dd6ee61a1576d5c"
     }
   ]
 }
