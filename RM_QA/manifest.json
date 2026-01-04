@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000373",
+  "version_aj": "AJ_000397",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T00:52:29Z",
+  "generated_utc": "2026-01-04T02:10:48.570943Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -41,8 +41,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 31743,
-      "sha256": "35d2978f3b145c9f434cb46a7c140857069a973cdc6b713001c38a9afbea976f"
+      "bytes": 32061,
+      "sha256": "bda2dd528d076e7f05310f753ea020574931e12311487540bc8eb5253dde0d58"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 391406,
-      "sha256": "d073cc7cd9547fc5d7999173877c7aeb37085738cbb1638d6ce7667a245343f8"
+      "bytes": 393802,
+      "sha256": "16a6d9c600068dce5d4c7e820e4491d9043e469da320e09ca775dcd0e6435b7d"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -601,8 +601,13 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12150,
-      "sha256": "5db98c0fa6592dbac99c0c2eb3d0be8d32aa462a75c5dacd2dd6ee61a1576d5c"
+      "bytes": 12233,
+      "sha256": "a5e9b88fc88273015e121cba15afeafb1d8100abd1b6ec31a97b6d3a7c49bd23"
+    },
+    {
+      "relpath": "manifest.json",
+      "bytes": 20839,
+      "sha256": "9b7f0f51cff10a94a8d85b7bd5ae228f2010212f6ad419b9fd05b1ba3456a98d"
     }
   ]
 }

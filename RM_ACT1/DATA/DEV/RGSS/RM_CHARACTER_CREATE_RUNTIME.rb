@@ -30,7 +30,7 @@ module RM_CharCreate
   def self._safe_read_csv(rel_path)
     return nil unless File.exist?(rel_path)
     raw = File.read(rel_path)
-    lines = raw.split(/?
+    lines = raw.split(/\r?\n/)
 /)
     return nil if lines.empty?
     header = lines.shift.split(',', -1).map { |h| h.strip }
@@ -80,10 +80,17 @@ module RM_CharCreate
 
     allowed = {}
     if rel
-      rel.each do |r|
-        ck = r['ClassKey'] || r['Class'] || r['ClasseKey']
-        aid = r['AntecedenteID'] || r['AntecedenteId'] || r['AntecedenteKey']
-        next if ck.nil? || ck == '' || aid.nil? || aid == ''
+    filtered = ANTECEDENTES.select { |a| ids.include?(a[:id]) }
+    filtered.empty? ? ANTECEDENTES : filtered
+    name = class_display_name(key)
+    name.to_s.downcase.gsub('_',' ').split(' ').map{|w| w.capitalize}.join(' ')
+    list = allowed_antecedentes_for(class_key)
+    list = list.map{|a| a[:name]} if list.respond_to?(:first) && list.first.is_a?(Hash)
+    if list.nil? || list.size == 0
+      ante_name_list
+    else
+      list
+    end
         num_str = aid.to_s.gsub(/[^0-9]/, '')
         num = (num_str == '' ? aid.to_i : num_str.to_i)
         allowed[ck] ||= []
