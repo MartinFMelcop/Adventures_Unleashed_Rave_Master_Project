@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000442",
+  "version_aj": "AJ_000436",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T14:34:35Z",
+  "generated_utc": "2026-01-04T16:18:00Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -11,8 +11,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 23611,
-      "sha256": "fbde6773567274777bf286eb45f08dad160660606cc207fd4d2a8f121e81e7b1"
+      "bytes": 23908,
+      "sha256": "8563eeba37a5497694a27645f7281fbbe049775c66b4f32367568998f255005d"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
@@ -21,8 +21,8 @@
     },
     {
       "relpath": "DATA/QA/00_INDEX.csv",
-      "bytes": 23161,
-      "sha256": "580e8629a79fc9d80f00a6b1eb1f7f187baf8bbf5833fe54b4759e0f2a14d288"
+      "bytes": 23404,
+      "sha256": "6ff0f61d0440f1aa0eb128b9094351c9c8e28abe5301efd7192227736b662547"
     },
     {
       "relpath": "DATA/QA/00_INDEX_DEPRECADA.csv",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 413138,
-      "sha256": "7634837bb3e375804e056f6c626da6c14d15c19bc34f69f4bf2e4500b8846850"
+      "bytes": 415627,
+      "sha256": "b1b7a05a6fe02508816701630879e21ae5a96c95ac4555d1c344978e4f98847d"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
@@ -421,13 +421,18 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 28275,
-      "sha256": "58c5f80d894d90409160aea4e841530c88022053b1202f2b3431914af452cbfc"
+      "bytes": 28279,
+      "sha256": "0f3985107c5baa525ac3209a602718c529fe26bda9c1a14a188cf4898a83b45a"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",
       "bytes": 487,
       "sha256": "af2d688f594fb2c1f411254259e14bb72137d6b2013df716140c7f4795fac58b"
+    },
+    {
+      "relpath": "DATA/QA/TEST_CHARACTER_CREATE_AUTOMATION.csv",
+      "bytes": 764,
+      "sha256": "783c16f8049625761d0543bc371f64ffd6519d08a012c9183f4b660a8ac71138"
     },
     {
       "relpath": "DATA/QA/TEST_COMBAT_APPLY.csv",
@@ -591,8 +596,8 @@
     },
     {
       "relpath": "DATA/sheet_name_map.json",
-      "bytes": 5580,
-      "sha256": "d863d0683f648f865c18392b432ba6afdc4be664ba8e70d7b13d48f1ea2ab610"
+      "bytes": 5667,
+      "sha256": "9c32090413be66d292c788516cf1100d6eed4f0351432b36337e3af5955ba799"
     },
     {
       "relpath": "MODULE_INFO.json",
@@ -601,8 +606,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12150,
-      "sha256": "745b4ea8b03e91cb3a53e7b9a73833414512518ff7773093aa3c5b818ac3f121"
+      "bytes": 12261,
+      "sha256": "660ca63b0d02d9e59785fa8e56995f1cbb83a2f8d98383a1cfa0b866d60dcb66"
     }
   ]
 }

@@ -3,7 +3,7 @@ AJ_000400,Quest Journal jogável (main + side),UI/Quests,P0,HOMOLOGACAO,3.375,10
 AJ_000408,Aplicar Tone dia/noite em mapas externos + persistir em transfer,Iluminação/DiaNoite,P0,HOMOLOGACAO,3.375,12.0,9.0,10.0,8.0,27.0,8.0,,,Precisamos decidir storage da TIME_TONE_OVERRIDES (CSV vs script) e convenção de nomes de mapas; alinhar se interiores especiais usam tone global ou opt-out explícito; checar se há mapas com tone custom atual que não devem ser sobrescritos.
 AJ_000443,Automatizar QA de save/load para flags/quests/reputação/passiva,QA/Save,P1,BACKLOG,4.4,16.5,8.0,8.0,6.0,,5.0,,,
 AJ_000411,Plano de iluminação Ato 1: DGN-FORT-01 e DGN-COAST-01 + casas da vila,Iluminação/Conteúdo,P0,BACKLOG,3.125,17.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000436,Teste automatizado da UI de criação (flow + persistência),QA/Automation,P2,BACKLOG,3.0,17.0,,,,,,,,
+AJ_000436,Teste automatizado da UI de criação (flow + persistência),QA/Automation,P2,EM_EXECUCAO,3.0,17.0,,,,,,,,
 AJ_000217,Ato 1: Gancho do protagonista (menina desaparecida + panfletos + mapa narrativo),STORY/HOOK,P0,BACKLOG,3.0,18.0,9.0,9.0,6.0,24.0,8.0,Define starting capital chunk IDs + initial quest ID namespace.,Hook + quest/beat data exists and references validate.,
 AJ_000381,Implementar prólogo slideshow no RMXP (skip/avanço),Narrativa/UX,P0,BACKLOG,3.0,19.0,9.0,9.0,6.0,24.0,8.0,,,
 AJ_000384,Gancho 'Menina desaparecida' (pôster/rumores → QST-0001),Narrativa/Quests,P0,BACKLOG,3.0,20.0,9.0,9.0,6.0,24.0,8.0,,,
