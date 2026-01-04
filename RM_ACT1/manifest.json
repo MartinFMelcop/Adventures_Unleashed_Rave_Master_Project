@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000398",
+  "version_aj": "AJ_000406",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T03:17:36.189135Z",
+  "generated_utc": "2026-01-04T05:32:56Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -476,8 +476,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_SAVE_MIGRATION_RUNTIME.rb",
-      "bytes": 1243,
-      "sha256": "fbeaa6582bd8299ca0e80d0d217b428c39c549e3ba7ba10f3030fa3bf64e3d6e"
+      "bytes": 2574,
+      "sha256": "2ef3ce9bfe8fce52321b3da429e5cb12e3a703f48bfc0510ccc2b3bbea9f802a"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_TIME_RUNTIME.rb",
@@ -491,13 +491,13 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_QUEST_JOURNAL_RUNTIME.rb",
-      "bytes": 2046,
-      "sha256": "32db12a3f8070fa1f5c5ffeabbaaa6687d8743c2c114c702d544ac3f8871fe9e"
+      "bytes": 6482,
+      "sha256": "6d5d1b5b67b669abf9f9f34b95e64ad9269d170739ce645c6a7e5d62e5a4e148"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_SKILL_EQUIP_RUNTIME.rb",
-      "bytes": 2249,
-      "sha256": "b31e13dc55f2b25b05f4d5b040a25e23343d58c1a04ec465f9b6fde061240d7d"
+      "bytes": 2905,
+      "sha256": "d8ef41857dea51f435a0693aac2c689e769c5e39be1ce874ae515e472f241fe1"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_WORLD_CONTEXT_RUNTIME.rb",
@@ -598,6 +598,11 @@
       "relpath": "MODULE_INFO.json",
       "bytes": 715,
       "sha256": "39b0add569a29d394ddb14118ab085ec00d5b5000ab213d5503d75ea8ac5748d"
+    },
+    {
+      "relpath": "checksums.sha256",
+      "bytes": 12048,
+      "sha256": "1537d6da669f39d91cdc5d8205d9be34a9d1e8b28d07df219b37052a2465becb"
     }
   ]
 }
