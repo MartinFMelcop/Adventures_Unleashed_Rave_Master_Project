@@ -1,8 +1,8 @@
 {
   "module": "RM_CORE",
-  "version_aj": "AJ_000397",
+  "version_aj": "AJ_000398",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T02:10:48.570943Z",
+  "generated_utc": "2026-01-04T03:17:36.189135Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -626,8 +626,8 @@
     },
     {
       "relpath": "DATA/GOV/MER_AI.csv",
-      "bytes": 29657,
-      "sha256": "1158524988aabf3d3081e9553b6355d87b05dd6e6e92b28d905eba5f7585a7c3"
+      "bytes": 30623,
+      "sha256": "8a099705961b74ed625bbc871882946d7d568f24650aa4c0e93d2e8447153d77"
     },
     {
       "relpath": "DATA/GOV/MER_AI.md",
@@ -696,8 +696,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.csv",
-      "bytes": 20690,
-      "sha256": "c4ac18551a2745eb414bad1ef7c06a4680ed20f7423a4531af65b60b9164be88"
+      "bytes": 21597,
+      "sha256": "7729e25055876d6c2b14c268f4d6c67bad1a276cf0ce86052bb313c23b7883c0"
     },
     {
       "relpath": "DATA/GOV/SPEC_FUNC_AI.md",
@@ -706,8 +706,8 @@
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.csv",
-      "bytes": 12969,
-      "sha256": "c1b34cd424faf473fb3f465c2bd43ef9420d79bfc9e2014e4a84ddbdc7115559"
+      "bytes": 13911,
+      "sha256": "8eac14fd35bdc7243d91d82569e4ed3c87d2ef18fab21e2397fe90cb3767afa7"
     },
     {
       "relpath": "DATA/GOV/SPEC_TEC_AI.md",
@@ -721,8 +721,8 @@
     },
     {
       "relpath": "DATA/GOV/TRACEABILITY_MAP.csv",
-      "bytes": 2005,
-      "sha256": "129a1ffbc1a7c50af1bf3fe63dc6618516967ceda7ca96ddce6189786188b431"
+      "bytes": 2189,
+      "sha256": "b4daf7687f48ce1040e11ec64c186e5caba467652b83895348c893b6af0747f9"
     },
     {
       "relpath": "DATA/sheet_name_map.json",
@@ -738,16 +738,6 @@
       "relpath": "README_RM_MAIN.md",
       "bytes": 31264,
       "sha256": "051fec3855086b334cff2956050ac0d890e8fa88bbd406f3293a12bf95f95607"
-    },
-    {
-      "relpath": "checksums.sha256",
-      "bytes": 14274,
-      "sha256": "b45edada6d8ec7a0cd1573dc35b4f694b281e9328293bf7c33c0668e93f6e3f3"
-    },
-    {
-      "relpath": "manifest.json",
-      "bytes": 24903,
-      "sha256": "41712966368345ffe122a77eab6f1e975f1944ccd09f91c490f64b27bc75ef62"
     }
   ]
 }
