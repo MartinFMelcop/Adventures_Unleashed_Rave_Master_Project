@@ -1,0 +1,5 @@
+TestID,StepOrder,Setup,Action,ExpectedResult,Notes
+CC_AUTO_001,1,Start at title screen,Invoke New Game -> Scene_CharacterCreate opens,Creation scene loads with class/antecedente options visible,baseline smoke
+CC_AUTO_001,2,Scene_CharacterCreate loaded,Select class=KNIGHT and antecedente=Erudito then confirm,Game_System stores rm_class_key=KNIGHT and rm_antecedente_id=1,verify $game_system serialization
+CC_AUTO_001,3,State from previous step,Return to title -> reload save slot 1,Selections persist after returning (rm_class_key/rm_antecedente_id preserved),needs harness to stub save
+CC_AUTO_002,1,Scene_CharacterCreate loaded,Filter antecedente list by class=DRUID,Antecedente options stay enabled (no crash) and list not empty,guards against missing mapping
