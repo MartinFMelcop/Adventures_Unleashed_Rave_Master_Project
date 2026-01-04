@@ -440,6 +440,16 @@
       "sha256": "79c05b574235cd3553de376cde55cc2d182ca9457a6fc6cb2596d44a61c20740"
     },
     {
+      "relpath": "RMXP_BASE/Data/RM_CSV/QUEST_JOURNAL_VIEW.csv",
+      "bytes": 23174,
+      "sha256": "a4a6e0d99c58c91779c0d24d383acad9e00f06c42aa36c5c23ea5c20ed1ea3e5"
+    },
+    {
+      "relpath": "RMXP_BASE/Data/RM_CSV/QUEST_STEPS.csv",
+      "bytes": 7972,
+      "sha256": "25206c7f5aae4d3bf84693521b29954277bca6c22f8fd12041bc2909074e7a8b"
+    },
+    {
       "relpath": "RMXP_BASE/Data/RM_CSV/README.txt",
       "bytes": 203,
       "sha256": "1bcf32a3d27908c4cf44f0a14ecdab28349c1c965fee9c600dc7916ac546ba27"
@@ -1361,8 +1371,8 @@
     },
     {
       "relpath": "RMXP_BASE/ScriptsCustom/RM_UI_QUEST_JOURNAL_RUNTIME.rb",
-      "bytes": 2046,
-      "sha256": "32db12a3f8070fa1f5c5ffeabbaaa6687d8743c2c114c702d544ac3f8871fe9e"
+      "bytes": 6482,
+      "sha256": "6d5d1b5b67b669abf9f9f34b95e64ad9269d170739ce645c6a7e5d62e5a4e148"
     },
     {
       "relpath": "RMXP_BASE/ScriptsCustom/RM_UI_SKILL_EQUIP_RUNTIME.rb",
