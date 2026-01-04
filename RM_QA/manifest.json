@@ -2,7 +2,7 @@
   "module": "RM_QA",
   "version_aj": "AJ_000217",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T20:27:34Z",
+  "generated_utc": "2026-01-04T23:34:25.514732Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 416443,
-      "sha256": "375071dcdd170fb663e8c816f4de698b2ab60cebd98284de8ef37860c64afbdb"
+      "bytes": 419239,
+      "sha256": "60345f584eef45110c489964c0c870044d5466f3144680794baa6bdced4db437"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
