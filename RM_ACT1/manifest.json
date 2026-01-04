@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000406",
+  "version_aj": "AJ_000407",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T05:32:56Z",
+  "generated_utc": "2026-01-04T06:41:23Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -111,8 +111,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 25387,
-      "sha256": "80fa4b5596fd7d9a9cdef95e4cc85d95b1bddc6830b913df5424b05cb90420b7"
+      "bytes": 25220,
+      "sha256": "63a45c3725a3fb82e693486ebe071b54ffddc04ab2aaf8fa2469303bea3a5339"
     },
     {
       "relpath": "DATA/DEV/00_INDEX.csv",
@@ -481,8 +481,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_TIME_RUNTIME.rb",
-      "bytes": 2814,
-      "sha256": "3571c6814f3265dbb066ea9a297bcaf991373f691a06ed8e9660e09174089d84"
+      "bytes": 6372,
+      "sha256": "bbe214583205bf6d83228b7425db25c376457108924387beca9315e0a0b39b1f"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_PASSIVE_EQUIP_RUNTIME.rb",
@@ -602,7 +602,7 @@
     {
       "relpath": "checksums.sha256",
       "bytes": 12048,
-      "sha256": "1537d6da669f39d91cdc5d8205d9be34a9d1e8b28d07df219b37052a2465becb"
+      "sha256": "72894db673107315a2b5460ba3bf88fc02faf40977a5a7b564922dc52cad500c"
     }
   ]
 }
