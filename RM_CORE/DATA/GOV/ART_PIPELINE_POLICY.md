@@ -21,6 +21,7 @@ Regardless of storage, the index is mandatory.
 
 - `AssetID` (unique)
 - `RelativePath` (path inside bundle, e.g. `ART/portraits/NPC-0001.png`)
+- `PathNormalized` (lowercase + spaces→"_"; used for lint/dedupe without changing the source path)
 - `Bundle` (e.g. `RM_ART`, `RM_ACT1`, `RM_CORE`, `EXTERNAL`)
 - `Sha256` (sha256 of the image bytes)
 - `Bytes`, `Width`, `Height`, `Format`
@@ -53,4 +54,15 @@ Rules (minimum):
 - FAIL if a row with `Bundle != EXTERNAL` references a missing file (when that bundle includes binaries).
 
 > Note: current bundles do not ship image binaries yet; validation is structural only.
+
+### Auto-tag rules (AJ_000246)
+
+During ingest/maintenance we auto-fill `Tags` and `PathNormalized` using deterministic prefixes:
+
+- `RPG_ExperimentalIAAPP_LEGADO/Graphics/Icons` → `ui_icon;legacy_import`
+- `RPG_ExperimentalIAAPP_LEGADO/Graphics/Titles` → `title_screen;legacy_import`
+- `RPG_ExperimentalIAAPP_LEGADO/Graphics/Windowskins` → `ui_skin;legacy_import`
+- `OVERLORD_LIGHTNOVELS/Light Novels/Illustrations` → `reference_illustration;legacy_bundle`
+
+Do **not** edit these tags manually unless a follow-up AJ updates the rules; use `PathNormalized` for dedupe/lint.
 

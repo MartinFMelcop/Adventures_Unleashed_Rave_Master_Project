@@ -16,8 +16,8 @@
     },
     {
       "relpath": "DATA/CORE/00_META.csv",
-      "bytes": 1919,
-      "sha256": "cbcaf023782cf9699e8c20c4d1ef91af10e4641612016ce3edf13cb023cb28ad"
+      "bytes": 2034,
+      "sha256": "f2141fa6bfa882139c7b921a5f6171ebfd348543c798f628f9d4771541f70e05"
     },
     {
       "relpath": "DATA/CORE/ALIASES_CHUNKS.csv",
@@ -71,8 +71,8 @@
     },
     {
       "relpath": "DATA/CORE/ART_IMAGE_ASSET_INDEX.csv",
-      "bytes": 135740,
-      "sha256": "c3b791e83b8d5a2d8e51d8e8be8e0175ac5e4ec75fbd132b843a9bf92a463604"
+      "bytes": 172884,
+      "sha256": "723295a9916c27db116229af8ae20dc6fa503a57089a6c5b044b0ce450ad390c"
     },
     {
       "relpath": "DATA/CORE/AUDIO_CUES.csv",
@@ -501,8 +501,8 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 32119,
-      "sha256": "4bd1b6f49f313a2aa2a3e2ec7eef00eee24cbdf3315cefa25d5ea93a0ed22841"
+      "bytes": 32237,
+      "sha256": "9176181affd469cf5aacf5cc303c5700ba2dde75ccf5d691c091aa6c2ce85488"
     },
     {
       "relpath": "DATA/GOV/00_GOVERNANCA.csv",
@@ -556,8 +556,8 @@
     },
     {
       "relpath": "DATA/GOV/ART_PIPELINE_POLICY.md",
-      "bytes": 1852,
-      "sha256": "694f9927aae5fa62b22b285afcee4190134a4169923f46842fe556201b290e28"
+      "bytes": 2535,
+      "sha256": "422cb0c2d0e45369b504d540530c073d228ba74c7565cf518d2373ec0c2fb0c1"
     },
     {
       "relpath": "DATA/GOV/BUNDLE_SCALING_PLAN.json",
