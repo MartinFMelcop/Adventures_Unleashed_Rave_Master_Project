@@ -1,8 +1,8 @@
 {
   "module": "RM_DIST",
-  "version_aj": "AJ_000373",
+  "version_aj": "AJ_000398",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T00:30:05Z",
+  "generated_utc": "2026-01-04T03:17:36.189135Z",
   "files": [
     {
       "relpath": "MODULE_INFO.json",
@@ -335,6 +335,11 @@
       "sha256": "9a883143ffe405a5bd81c6a186154cbf0bfcacb0ace8f93466160ab3b3cb9401"
     },
     {
+      "relpath": "RMXP_BASE/Data/RM_CSV/ACT1_PASSIVES_CANON.csv",
+      "bytes": 21351,
+      "sha256": "0a767068176249d0e2fcde5bf069f0244bee594f8e12e330ddd6ba2311215b5a"
+    },
+    {
       "relpath": "RMXP_BASE/Data/RM_CSV/ACT1_REL_CLASS_ANTECEDENTE_CANON.csv",
       "bytes": 1729,
       "sha256": "fc2be2b26a15130d5ac5730866bcb8caf8006b6058c67787fe6bbe4a8aa50498"
@@ -393,6 +398,11 @@
       "relpath": "RMXP_BASE/Data/RM_CSV/NPC_STATE.csv",
       "bytes": 1027,
       "sha256": "1a66b77b5bc9793f844a3d2fa61c7792007f957f1169be1f51384e5561d3f2cd"
+    },
+    {
+      "relpath": "RMXP_BASE/Data/RM_CSV/PASSIVE_EQUIP_RULES.csv",
+      "bytes": 268,
+      "sha256": "8a22e1c97a5336e27e2bec8012190f628f61e9466dc0d0213d40a30cfad38130"
     },
     {
       "relpath": "RMXP_BASE/Data/RM_CSV/PERICIA_UNLOCKS.csv",
@@ -1393,11 +1403,6 @@
       "relpath": "TOOLS/rgss_verify_report.json",
       "bytes": 1184,
       "sha256": "c185af541fd89fe4f85ae063a7a1b7f2added8539c893bc3499303e28b702c1c"
-    },
-    {
-      "relpath": "checksums.sha256",
-      "bytes": 28381,
-      "sha256": "7433905ccd4d2e382ef63d520575d30503c3dbf40b8162d2ddb7fa4ed80439b0"
     }
   ]
 }

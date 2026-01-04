@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000397",
+  "version_aj": "AJ_000398",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T02:10:48.570943Z",
+  "generated_utc": "2026-01-04T03:17:36.189135Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -406,8 +406,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_CHARACTER_CREATE_RUNTIME.rb",
-      "bytes": 12246,
-      "sha256": "cce835ef526072659a704b20719482351a7ca2da59ea5d3bb35266504f4897dd"
+      "bytes": 12243,
+      "sha256": "c32f4c5f065f9c74aa6166e0ce064ba053b3ba1691c871fdd57662dacbaeba5c"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_COMBAT_RUNTIME.rb",
@@ -486,8 +486,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_PASSIVE_EQUIP_RUNTIME.rb",
-      "bytes": 1954,
-      "sha256": "241d84cef46c9bee830c0f217919df6832d112de8a42f9e61eb71e743807a639"
+      "bytes": 3549,
+      "sha256": "3fade011d1b905d7eaf3cdf2158f67fffa7a4df69ad3d81e72b47eb30ec515b2"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_QUEST_JOURNAL_RUNTIME.rb",
@@ -598,16 +598,6 @@
       "relpath": "MODULE_INFO.json",
       "bytes": 715,
       "sha256": "39b0add569a29d394ddb14118ab085ec00d5b5000ab213d5503d75ea8ac5748d"
-    },
-    {
-      "relpath": "checksums.sha256",
-      "bytes": 12131,
-      "sha256": "27b335acb1a16ca86857be65f6aa6795f068e416b2e8596b0588df32b5edc7cc"
-    },
-    {
-      "relpath": "manifest.json",
-      "bytes": 20827,
-      "sha256": "d08ebd0bfaac6e0d6c1e252c19aaf4120b05a3878b6172b2227f85b97f49f155"
     }
   ]
 }
