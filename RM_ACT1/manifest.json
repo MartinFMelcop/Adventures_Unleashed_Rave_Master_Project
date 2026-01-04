@@ -416,8 +416,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_DAYNIGHT_TONE_RUNTIME.rb",
-      "bytes": 633,
-      "sha256": "68bff52ed3b4f946d4d711347dfcedebbd32f0fe5331195b8b39131710197fc5"
+      "bytes": 1184,
+      "sha256": "d77d6c9f9ac148af80b52d1a8fe8164b8510533f65beaab623f5bc612dc33289"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_DEBUG_HOTKEYS_RUNTIME.rb",
@@ -481,8 +481,8 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_TIME_RUNTIME.rb",
-      "bytes": 2388,
-      "sha256": "083e2d73142f47143288282c639461639699ef75c74cd43e776aecbc1ecbe246"
+      "bytes": 2814,
+      "sha256": "3571c6814f3265dbb066ea9a297bcaf991373f691a06ed8e9660e09174089d84"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_UI_PASSIVE_EQUIP_RUNTIME.rb",

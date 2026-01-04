@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 399524,
-      "sha256": "0ce37884df3d54132509cdc5ebf7dab0b85eb9d320f0924b47de3aef4e5404d2"
+      "bytes": 401155,
+      "sha256": "acda3cae7d162c76e02d9bd3fe1c0838d381f94de03f1622f4f34df61d92a626"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
