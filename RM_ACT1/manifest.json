@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000330",
+  "version_aj": "AJ_000331",
   "manifest_version": 1,
-  "generated_utc": "2026-01-05T01:09:02.713052Z",
+  "generated_utc": "2026-01-05T01:42:58Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -112,7 +112,7 @@
     {
       "relpath": "DATA/DATA_INDEX.csv",
       "bytes": 25487,
-      "sha256": "53ac92cc333149f673c3ea1c9f69f40f357c1c79700803a1874830bf62ba5c06"
+      "sha256": "63d79a40599bca47d381d12c881a9b101afaeda8bccea124330801f3719bee90"
     },
     {
       "relpath": "DATA/DEV/00_INDEX.csv",
@@ -226,8 +226,8 @@
     },
     {
       "relpath": "DATA/DEV/DIC_CHUNKS_EM_CONSTRUCAO.csv",
-      "bytes": 36036,
-      "sha256": "db33e3b796c82f13dbdd149a71b2a8d31be748c9fa1c88bf3cf3c318f3803951"
+      "bytes": 36649,
+      "sha256": "59fd5aac565cc4901b51d6eea08bd79b81d9dac93b0058d60ffed7e710379676"
     },
     {
       "relpath": "DATA/DEV/DIC_DUNGEON_EM_CONSTRUCAO.csv",
@@ -621,13 +621,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12772,
-      "sha256": "0c9a8d5dbfaa52b94d055339e86f0b2518f625f9e463c6f1be7b199d2079e061"
-    },
-    {
-      "relpath": "manifest.json",
-      "bytes": 21312,
-      "sha256": "01054a23d0ab872c2d3a18808aef4ab2e48ebc5513a07d90237e557256c0cdc5"
+      "bytes": 12462,
+      "sha256": "0b210d64d771b07f1cf352197880a6fdeae95f51ce613e7d81311245f68cca73"
     }
   ]
 }
