@@ -195,10 +195,10 @@ ChaveMapa,Row_DIC_Chunks,Direcao,Conexao,ConexaoRaw,ConexaoTipo,TargetType,Targe
 23R1,50,Leste,23S2 — Vila Rose — Posto do Guarda Novato,23S2,CHUNK,CHUNK,23S2,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 23R1,50,Sul,24R0_I — Vila Rose — Arredores do Lenhador,24R0_I,CHUNK,CHUNK,24R0_I,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 23R1,50,Oeste,BLOQUEADO (ÁGUA): Water,Blocked (Water),BLOCKED,NONE,,WATER,,,,Legacy HUMAN_VIEW_CHUNK_GRID
-23S2,51,Norte,22S3 — Trilha das Ruínas — Ponte da Cachoeira,22S3,CHUNK,CHUNK,22S3,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
-23S2,51,Leste,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
-23S2,51,Sul,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
-23S2,51,Oeste,23R1 — Vila Rose — Casa dos Aventureiros,23R1,CHUNK,CHUNK,23R1,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
+23S2,51,Norte,22S3 — Trilha das Ruínas — Ponte da Cachoeira,22S3,CHUNK,CHUNK,22S3,,FLAG_BRIEFING_POSTO,,Acesso à trilha só após EV_BRIEFING_PATRULHA (checkpoint social).,Legacy HUMAN_VIEW_CHUNK_GRID
+23S2,51,Leste,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,MAP_BORDER,,,Borda da vila (sem tile jogável); manter bloqueio. ,Legacy HUMAN_VIEW_CHUNK_GRID
+23S2,51,Sul,BLOQUEADO (DESNIVEL): praça inferior 24S1,Blocked (Height Gap),BLOCKED,NONE,,ALTITUDE_DROP_TO_PLAZA,,,Desnível até praça inferior (24S1); transição futura via escada/warp controlado.,Legacy HUMAN_VIEW_CHUNK_GRID
+23S2,51,Oeste,23R1 — Vila Rose — Casa dos Aventureiros,23R1,CHUNK,CHUNK,23R1,,,,Retorno seguro para casas de aventureiros caídos (23R1); sem gate.,Legacy HUMAN_VIEW_CHUNK_GRID
 23T3,52,Norte,22T4 — Floresta da Rose — Borda da Mata (Árvore Anciã),22T4,CHUNK,CHUNK,22T4,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 23T3,52,Leste,BLOQUEADO (TERRENO): Terrain,Blocked (Terrain),BLOCKED,NONE,,TERRAIN,,,,Legacy HUMAN_VIEW_CHUNK_GRID
 23T3,52,Sul,24T2 — Vila Rose — Loja do Mercador,24T2,CHUNK,CHUNK,24T2,,,,,Legacy HUMAN_VIEW_CHUNK_GRID
