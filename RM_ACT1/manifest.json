@@ -1,8 +1,8 @@
 {
   "module": "RM_ACT1",
-  "version_aj": "AJ_000217",
+  "version_aj": "AJ_000330",
   "manifest_version": 1,
-  "generated_utc": "2026-01-04T23:34:25.503737Z",
+  "generated_utc": "2026-01-05T01:09:02.713052Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -226,8 +226,8 @@
     },
     {
       "relpath": "DATA/DEV/DIC_CHUNKS_EM_CONSTRUCAO.csv",
-      "bytes": 35577,
-      "sha256": "28e81bcd6bcef959ba78026cb671ce6daaa22a5d58455e05eff0c6d993666af6"
+      "bytes": 36036,
+      "sha256": "db33e3b796c82f13dbdd149a71b2a8d31be748c9fa1c88bf3cf3c318f3803951"
     },
     {
       "relpath": "DATA/DEV/DIC_DUNGEON_EM_CONSTRUCAO.csv",
@@ -401,18 +401,18 @@
     },
     {
       "relpath": "DATA/DEV/RGSS/RGSS_PACK_MANIFEST.json",
-      "bytes": 3918,
-      "sha256": "4df72d9a38fcead8ee0ad4f680b2dde52241479140bc01e8c4e342a1266a921d"
+      "bytes": 4111,
+      "sha256": "f370f6f5a3aa5d8dc4e6a3ec01131dcd838a1ede7878c762c51988c9af86577e"
     },
     {
       "relpath": "DATA/DEV/RGSS/RGSS_PACK_ORDER.csv",
-      "bytes": 2431,
-      "sha256": "45ed54824f560aed40a21563812d389f9641033c9590c01f1a7d4db6d4a3ba51"
+      "bytes": 2564,
+      "sha256": "288454400a416e349cdf7d72e93026d50a2dc786bd14cde212140acafad26004"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_CHARACTER_CREATE_RUNTIME.rb",
-      "bytes": 14845,
-      "sha256": "758cfb7ccae27f7050f64be82c46f2aecf9eb9de19041bd6e76153bae90fd0b7"
+      "bytes": 15022,
+      "sha256": "5f24a3ad9daaa230b039ce15b43a8780aa0b73e0c499e28cd90146eae613c7d0"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_COMBAT_RUNTIME.rb",
@@ -473,6 +473,11 @@
       "relpath": "DATA/DEV/RGSS/RM_PLAYER_LEVEL_RUNTIME.rb",
       "bytes": 9092,
       "sha256": "4a4876721a614a535b015a2688aafc587101b2cc71ddeb2c808efa3c121f62ed"
+    },
+    {
+      "relpath": "DATA/DEV/RGSS/RM_PROLOGUE_SLIDESHOW_RUNTIME.rb",
+      "bytes": 1407,
+      "sha256": "746797ec493c1d980b6046bb714d501beba32c033a97b994eb4eebb5ea7b0529"
     },
     {
       "relpath": "DATA/DEV/RGSS/RM_QA_SAVE_VALIDATION.rb",
@@ -616,8 +621,13 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 12349,
-      "sha256": "5278b4a4d90c9a4426fcd86f406efbef68b2de8f40e0b05cb329dce109e48de4"
+      "bytes": 12772,
+      "sha256": "0c9a8d5dbfaa52b94d055339e86f0b2518f625f9e463c6f1be7b199d2079e061"
+    },
+    {
+      "relpath": "manifest.json",
+      "bytes": 21312,
+      "sha256": "01054a23d0ab872c2d3a18808aef4ab2e48ebc5513a07d90237e557256c0cdc5"
     }
   ]
 }
