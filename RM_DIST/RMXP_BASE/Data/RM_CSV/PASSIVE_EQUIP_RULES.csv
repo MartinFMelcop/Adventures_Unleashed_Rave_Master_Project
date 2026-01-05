@@ -1,0 +1,2 @@
+EquipRuleID,SlotGroup,MaxEquipped,SwapContext,UI_Context,Notes
+PASSIVE_MAIN_1,PASSIVE_MAIN,1,OUT_OF_COMBAT_ONLY,Tela de detalhes do personagem (fora de combate/cutscene).,Regra: apenas 1 passiva equipada por vez. Troca preserva seleção e remove efeitos da anterior.

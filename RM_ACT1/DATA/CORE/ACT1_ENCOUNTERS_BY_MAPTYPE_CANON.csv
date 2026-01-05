@@ -1,1 +1,11 @@
 MapType,MonsterID,MinLvl,MaxLvl,Weight,Notes
+Swamp,EG001,12,14,3,Brejo pools com crocodilo elite para encontros raros.
+Swamp,EG002,11,13,5,Lontras caçadoras em pares; spawn diurno/noite.
+Grassland,EG003,9,11,2,Cavaleiros goblins em patrulha de estrada.
+Woods,EG004,8,10,4,Fadas hostis nas bordas do Véu Verde.
+Woods,EG008,7,9,5,Matilha de lobos de bruma em área de floresta úmida.
+Woods,EG009,5,7,3,Javalis para early-game com risco de sangramento.
+Beach,EG005,6,8,3,Escaravelhos aríetes em falésias costeiras.
+Beach,EG006,2,4,4,Serpentes da maré em faixa rasa inicial.
+Beach,EG010,3,5,3,Cães de guerra dispersos em rotas costeiras.
+Grassland,EG007,5,7,2,Alces-raiz migrando em campos e encostas.

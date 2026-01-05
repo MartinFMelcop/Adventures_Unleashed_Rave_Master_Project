@@ -1,8 +1,8 @@
 {
   "module": "RM_QA",
-  "version_aj": "AJ_000368",
+  "version_aj": "AJ_000331",
   "manifest_version": 1,
-  "generated_utc": "2026-01-03T00:19:37Z",
+  "generated_utc": "2026-01-05T01:42:55Z",
   "files": [
     {
       "relpath": "DATA/.keep",
@@ -11,23 +11,23 @@
     },
     {
       "relpath": "DATA/DATA_INDEX.csv",
-      "bytes": 23190,
-      "sha256": "395057c413663c22834b9c2a5073a4a56812b5331711f43f65e7b65445af17f8"
+      "bytes": 23908,
+      "sha256": "a4bc1eeea2006b34ed5be8d5318d5c86fa50c036fb8b7745ca78845d53f39a48"
     },
     {
       "relpath": "DATA/QA/00_GOVERNANCA.csv",
-      "bytes": 10709,
-      "sha256": "ac6217dd65f53a6eb3a0f119a50e148678d9823b645c7f5d321b04e2cfe09e93"
+      "bytes": 10648,
+      "sha256": "1b1e8ca82293c34dd7a1ccefeeb0b410058fdb060b405dcede4b5e4f65764c26"
     },
     {
       "relpath": "DATA/QA/00_INDEX.csv",
-      "bytes": 23029,
-      "sha256": "81c67dec8ca83ea023a3d5647c6fa5c65ffc5cb22024be360a7446654ab7318c"
+      "bytes": 23404,
+      "sha256": "6ff0f61d0440f1aa0eb128b9094351c9c8e28abe5301efd7192227736b662547"
     },
     {
       "relpath": "DATA/QA/00_INDEX_DEPRECADA.csv",
-      "bytes": 4360,
-      "sha256": "ca667b434c5fec070c858407464880321bbd39442655633b4b25bed722522548"
+      "bytes": 4302,
+      "sha256": "3f6ef452060c3f8873266a17a15bf6996582a191ae0664c84642456daa10668f"
     },
     {
       "relpath": "DATA/QA/00_META.csv",
@@ -35,24 +35,29 @@
       "sha256": "f05edb790ceb3f6fa1b808a132b30791ecb35a94c833a21c0f9c89aa92c3343d"
     },
     {
+      "relpath": "DATA/QA/ANALISES_AJ_000405_000408.md",
+      "bytes": 3699,
+      "sha256": "e441f32494e65e0a81f17c64f3c829a39d0141e5a88f82467413243901b9c451"
+    },
+    {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 29888,
-      "sha256": "b7e0e959b6a2548c97c613f9e8cb24b4796557e8fb73f1d0febb4d5d53518216"
+      "bytes": 32823,
+      "sha256": "3562efbade7489990ccad9bb8e0a90c3c0cb4cfb2f068f98eca4b38596de4cbb"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
-      "bytes": 1262,
-      "sha256": "1cb4dee48ce261d2d1ec36004f91426a6f467e87bd7ebd70ee3868595ceb69d4"
+      "bytes": 1467,
+      "sha256": "c0519ad7a4615120c027249012bea059e29cfa89615613f09023bc1967774b1c"
     },
     {
       "relpath": "DATA/QA/CI/github_actions_rm_prepack_gate.yml",
-      "bytes": 1385,
-      "sha256": "e123efc6637bd7b75915d7b7c591e19efaab3a57a09566afdaa6bf60e11089cf"
+      "bytes": 1099,
+      "sha256": "e5d4b54fe4621853e1744d07aec9a9145610e80f1fb3542e1cfdf00ee1407e06"
     },
     {
       "relpath": "DATA/QA/DIC_SHEET_ALIASES.csv",
-      "bytes": 991,
-      "sha256": "c2c1910076216a9f6b61cf10173add67d4571e3a03ca8f2f8baa3ae701d051ce"
+      "bytes": 984,
+      "sha256": "96d169dd86e77ffed09c4f33fe031e3a15ce3ff15393c8c7ed97162bba61bc22"
     },
     {
       "relpath": "DATA/QA/DIC_STATUS_AJUSTES.csv",
@@ -61,8 +66,18 @@
     },
     {
       "relpath": "DATA/QA/DOCUMENTACAO_CLASSES.csv",
-      "bytes": 49473,
-      "sha256": "7551dbb26e797106a24bbc270c5574f33d55ef2d8de33e473bf5fd233b1644e0"
+      "bytes": 49451,
+      "sha256": "50434ce3b0fcd14311ff6bbaf6ac3b23862879219cdb09ae2d5e59c2827bd810"
+    },
+    {
+      "relpath": "DATA/QA/EVIDENCES/AJ_000248_ANALISE.md",
+      "bytes": 1928,
+      "sha256": "3891a95c4e2bf01d653d2f7db6a14023c9cfb5c33dcefefdfd75154d5b5b3f47"
+    },
+    {
+      "relpath": "DATA/QA/EVIDENCES/AJ_000373_ANALISE.md",
+      "bytes": 3110,
+      "sha256": "320c5efd66c13e8e224195a685561deb20ab546be2a8cfba53c94c8ce92e3d0e"
     },
     {
       "relpath": "DATA/QA/EVIDENCES/SMOKE/.keep",
@@ -71,23 +86,23 @@
     },
     {
       "relpath": "DATA/QA/EXPORT_CLASS_PASSIVES.csv",
-      "bytes": 29088,
-      "sha256": "20529ede4a6203b0aa708a9018497f0264ab128bc7f17689f5a2895cd1f64ca3"
+      "bytes": 28940,
+      "sha256": "992a73775b1c36316acfc033b675618f607d465cbace7da93f601dd373fb2417"
     },
     {
       "relpath": "DATA/QA/EXPORT_CLASS_SKILLS.csv",
-      "bytes": 121712,
-      "sha256": "5edd04fb3f7f04256d486cb5a0a8af6a11868994cc112cd77e41bde8f1536680"
+      "bytes": 121361,
+      "sha256": "496bbbdd3457a3ab23fd92ca77533dc9f0c9eb323ed2ebc7cedf9d6815b9a686"
     },
     {
       "relpath": "DATA/QA/EXPORT_SKILLS.csv",
-      "bytes": 9151,
-      "sha256": "e30842772b3b51ba99f83b1cd870d95f9ff8c4e87ad26ac5c57f1adec0756fb1"
+      "bytes": 9132,
+      "sha256": "d2869f4b980ed13c13f96535efcaa38016f51c60a062a930486ab7b2f4e1f333"
     },
     {
       "relpath": "DATA/QA/EXPORT_STATUS.csv",
-      "bytes": 435,
-      "sha256": "81091fc2bb2963178243a1647ccb3d5d946187066e3f28477ca586361af0f23c"
+      "bytes": 424,
+      "sha256": "92aeb8e77701c2d8bbc2cfd6afe037034e278a73d2191bbccabac0e3f5c9baa4"
     },
     {
       "relpath": "DATA/QA/EXTERNAL_BUNDLE_INVENTORY__LEGACY_BUNDLE_0002.csv",
@@ -166,13 +181,13 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 367064,
-      "sha256": "df84d41e20a085b1ccebf5b3b8515de392cf26a7dbac0a84e7bfbc6a1985a80e"
+      "bytes": 447824,
+      "sha256": "8d1973a27087a42f7d6472b3e777eaedbb0e7cd33c8c96f5a7ab776f73c26ce9"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
-      "bytes": 540,
-      "sha256": "fb99f1eb4a2eb6b15b5faebaf25b95ab8f81b80b0f44441728319ef0f069bd3e"
+      "bytes": 530,
+      "sha256": "ff629de489e34928c78c653084c8784c853614e53b5f4902c42bb1c64834bbcb"
     },
     {
       "relpath": "DATA/QA/PATCH_SUMMARY.csv",
@@ -181,8 +196,8 @@
     },
     {
       "relpath": "DATA/QA/RELATORIO_DIVERGENCIAS_ETAPA4.csv",
-      "bytes": 54,
-      "sha256": "00af3a4a99653ac452b7794c3860ecf12e0648e524e880f8e56be4342d988a65"
+      "bytes": 53,
+      "sha256": "4b9f9186fd31a30dd2079edeb7fa7d180233409e6b11977a495a94fcad16d6fd"
     },
     {
       "relpath": "DATA/QA/RELEASE_SMOKE_TEST_CHECKLIST.csv",
@@ -226,8 +241,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_ACT1_SCOPE_FREEZE_STATUS.csv",
-      "bytes": 1997,
-      "sha256": "5e3d6fdc215a9599e7ace12bc8b1b29a14fb9ce4ae8237fab537b5c0236ca670"
+      "bytes": 2242,
+      "sha256": "a7c67cf2e7f4205c225edcd5b156e1b488d00f6270f312ad0e7ecb17d8988e93"
     },
     {
       "relpath": "DATA/QA/RPT_ACT1_SKILLS_PASSIVES_CANON_VALIDATION.csv",
@@ -241,13 +256,13 @@
     },
     {
       "relpath": "DATA/QA/RPT_AJUSTES_FALTANTES.csv",
-      "bytes": 551,
-      "sha256": "027278d544b9a83502c5a81386612b62ae42014593e51695d3ffa60298c49a56"
+      "bytes": 541,
+      "sha256": "c7ac476d21e23adc0a68360543bc4d0d48660d3e5773b0511f45687ac63b0469"
     },
     {
       "relpath": "DATA/QA/RPT_ART_ASSET_INDEX_VALIDATION.csv",
-      "bytes": 336,
-      "sha256": "b3bfeb33ee7329d9e3491c12a606c9f035d9d29603237673aa5635238db5fc15"
+      "bytes": 432,
+      "sha256": "8ae9be8da057eee36912e3f95e0321af4a015abf59d35672f161577f42148718"
     },
     {
       "relpath": "DATA/QA/RPT_AUDIO_CUES_PLAN_VALIDATION.csv",
@@ -266,8 +281,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_COVERAGE_ACT_ET.csv",
-      "bytes": 1538,
-      "sha256": "aca6a370031e7fce5d1874f546a9e98c98722b499ae9bea928e7666f6ecd6014"
+      "bytes": 1508,
+      "sha256": "c91d6cddab6375a113ed88f3f6e9f5fa33382ad36a32d1c7b3a86e9c7c594b95"
     },
     {
       "relpath": "DATA/QA/RPT_DIALOGUE_CONDITIONSEXPR_VALIDATION.csv",
@@ -276,8 +291,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_DIALOGUE_SCENARIO_RUNNER.csv",
-      "bytes": 3080,
-      "sha256": "656c6e10f37801c072259f02944208d578a6d45c0a35397cb83e7800dd8cb9b2"
+      "bytes": 3060,
+      "sha256": "6eb94176f95d0b18f00a416323434fd100551e172e02e45dd000aef49f6a1240"
     },
     {
       "relpath": "DATA/QA/RPT_DIARIO_AVENTURAS.csv",
@@ -296,8 +311,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_ITEMID_DUP.csv",
-      "bytes": 29,
-      "sha256": "7f0a2f374ff137775bdcdfa3300f6e0f6541759f86e229180e71e448a2d8c300"
+      "bytes": 28,
+      "sha256": "1bed863de8a55f4bc79955bd940ad5d393155cbb8ba7601260f35fb1d8c40c2a"
     },
     {
       "relpath": "DATA/QA/RPT_LEGACY_MAPS_DIFF.csv",
@@ -326,8 +341,8 @@
     },
     {
       "relpath": "DATA/QA/RPT_LEVELCAP.csv",
-      "bytes": 51,
-      "sha256": "f867f60c59d298ad4cafaef1aa4377a6c8b7b3b403cd8c1ea9deb19eab52936f"
+      "bytes": 50,
+      "sha256": "75fad3a5010a6aa94baaa3c9aeb3bb2caaeefbd1c29b41b6cceb12db9f4acc50"
     },
     {
       "relpath": "DATA/QA/RPT_LEVEL_CURVE_SANITY.csv",
@@ -346,13 +361,13 @@
     },
     {
       "relpath": "DATA/QA/RPT_MOVEMENT_SETTINGS.csv",
-      "bytes": 1050,
-      "sha256": "40e63aab5ae8ad0cfd7c5f605bd1acf2af433620befa699585b5c6b592133319"
+      "bytes": 1043,
+      "sha256": "86ed744e14eea92526ca15c7b24f07391355ced686e77ee19e6346bf35327ec3"
     },
     {
       "relpath": "DATA/QA/RPT_NOME_DUP.csv",
-      "bytes": 57,
-      "sha256": "8d0dca66b99ee55ae1ecb88c876daae38b69f434d7f9ea6f55ec7c2d7233672a"
+      "bytes": 56,
+      "sha256": "c073a49566fa5a33cd94b705760efcd2b1604f60048663ef4aab72d9f14ff1ce"
     },
     {
       "relpath": "DATA/QA/RPT_PERICIA_LEVELCAP.csv",
@@ -381,13 +396,13 @@
     },
     {
       "relpath": "DATA/QA/RPT_SKILLID_DUP.csv",
-      "bytes": 24,
-      "sha256": "d5c5edb111a70d3f791ec26db5ff41d64128143611e04f7371e9728d55470144"
+      "bytes": 23,
+      "sha256": "d315d30419e6f31ce070b8b8c0a10e7ac59c7926955c7f88ce50621ede7d5e59"
     },
     {
       "relpath": "DATA/QA/RPT_SKILL_LEARNLEVEL.csv",
-      "bytes": 62,
-      "sha256": "a74b467c6ccbda360bbbb9f6f7e926dd3d64a3031a9b325d22c39866f2f057fb"
+      "bytes": 61,
+      "sha256": "14b71df206337a93b412af5485a878b935e58d458f3440c52aebb15745cf98c0"
     },
     {
       "relpath": "DATA/QA/RPT_TRACEABILITY_ENFORCEMENT.csv",
@@ -406,13 +421,18 @@
     },
     {
       "relpath": "DATA/QA/RPT_WSJF_OPEN_AJUSTES.csv",
-      "bytes": 25258,
-      "sha256": "cf34d0d24c9478b29beb9067541270a6e98a386a839ca8b63a1b80884cdbee23"
+      "bytes": 28279,
+      "sha256": "0f3985107c5baa525ac3209a602718c529fe26bda9c1a14a188cf4898a83b45a"
     },
     {
       "relpath": "DATA/QA/TEMPLATES_PADROES.csv",
-      "bytes": 491,
-      "sha256": "4834a8a59df757e4ea1d71c6d2aa75ba3e0b977d34c45fb84af1c4caf2bdc222"
+      "bytes": 487,
+      "sha256": "af2d688f594fb2c1f411254259e14bb72137d6b2013df716140c7f4795fac58b"
+    },
+    {
+      "relpath": "DATA/QA/TEST_CHARACTER_CREATE_AUTOMATION.csv",
+      "bytes": 764,
+      "sha256": "783c16f8049625761d0543bc371f64ffd6519d08a012c9183f4b660a8ac71138"
     },
     {
       "relpath": "DATA/QA/TEST_COMBAT_APPLY.csv",
@@ -486,8 +506,8 @@
     },
     {
       "relpath": "DATA/QA/TEST_SCENARIOS_DIALOGUE.csv",
-      "bytes": 5056,
-      "sha256": "2733fa0b5239e9b912e1df953c2464d5e6a22e3a66d1e04390760fbdd788e671"
+      "bytes": 5045,
+      "sha256": "13e4686d9e8b9d70ecc865a636a29573e2207d9e203611e5cf6fb091b4e8df0b"
     },
     {
       "relpath": "DATA/QA/TOOLS/INGEST_ART_BUNDLE.md",
@@ -501,13 +521,18 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/PREPACK_GATE.md",
-      "bytes": 1403,
-      "sha256": "9ce9393d37878e59290f2e18178a38815453aa1b5fd00d7566b6e6c24db7b08d"
+      "bytes": 2021,
+      "sha256": "2a099e43370227a2d4dee1f8f2d54b51b4cbfe993bdfe8ebea6ef705efa05787"
     },
     {
       "relpath": "DATA/QA/TOOLS/__pycache__/prepack_gate_validate.cpython-311.pyc",
       "bytes": 41007,
       "sha256": "93208566c7fe95aba2ab1ef93cdb0b218b3480114571b1aa39d3b37aa4af6802"
+    },
+    {
+      "relpath": "DATA/QA/TOOLS/apply_art_tags_and_normalize.py",
+      "bytes": 3565,
+      "sha256": "99ccb1bbffb9434b1cbfd26c59ea05c85d3c3b2146c94bff31a6c26ee8962701"
     },
     {
       "relpath": "DATA/QA/TOOLS/coverage_metrics_act_et.py",
@@ -526,8 +551,13 @@
     },
     {
       "relpath": "DATA/QA/TOOLS/prepack_gate_validate.py",
-      "bytes": 25591,
-      "sha256": "b3370fb6eb05f27fd44d09162450110beee14bfb1d1586c461cbd824c29bc9ea"
+      "bytes": 31416,
+      "sha256": "d12d3362b4681f3d732990e420d77b128e0f4bf8acf08ac2823fc18e72b95689"
+    },
+    {
+      "relpath": "DATA/QA/TOOLS/refresh_integrity_artifacts.py",
+      "bytes": 5244,
+      "sha256": "e8f7ff5aca9d30e599513e7be86ecc2b439a81839314ae9c33ac310da4317ec9"
     },
     {
       "relpath": "DATA/QA/TOOLS/run_combat_vector_runner.py",
@@ -551,8 +581,8 @@
     },
     {
       "relpath": "DATA/QA/VALIDACOES.csv",
-      "bytes": 39967,
-      "sha256": "2bf34c592cffa4dba4ad36b091d3766aa7e5648770260ad76f8e9b237c0bc10b"
+      "bytes": 39251,
+      "sha256": "dace14aa4c2c66b711aa1656ec1a3f0d941300d9a00e4d213588540d2fd67cef"
     },
     {
       "relpath": "DATA/QA/VIEW_HUMANA_AUDIT.csv",
@@ -566,8 +596,8 @@
     },
     {
       "relpath": "DATA/sheet_name_map.json",
-      "bytes": 5580,
-      "sha256": "d863d0683f648f865c18392b432ba6afdc4be664ba8e70d7b13d48f1ea2ab610"
+      "bytes": 5667,
+      "sha256": "9c32090413be66d292c788516cf1100d6eed4f0351432b36337e3af5955ba799"
     },
     {
       "relpath": "MODULE_INFO.json",
@@ -576,9 +606,8 @@
     },
     {
       "relpath": "checksums.sha256",
-      "bytes": 11614,
-      "sha256": "ea01a4a243d5a05f117b296cf900ba54cba452b4bf3435ff16e4e01cadf94b40"
+      "bytes": 12261,
+      "sha256": "f2e04e64bc63de27bea9a9cfd04255f689230aa9fe9d66e0afb985e1874567b7"
     }
-  ],
-  "version_build": "Build_000001"
+  ]
 }

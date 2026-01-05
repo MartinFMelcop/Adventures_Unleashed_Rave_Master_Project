@@ -1,21 +1,9 @@
 AjusteID,Titulo,Area,Prioridade,Status,WSJF_SCORE,WSJF_RANK,BV,TC,RR_OE,CoD,JobSize,Dependencias,DefinicaoDePronto,Notas
-AJ_000373,Local Test Assembler (montar pasta jogável),Release/Teste,P0,BACKLOG,5.4,1.0,9.0,10.0,8.0,27.0,5.0,,,
-AJ_000248,CI: notificação opcional (Slack/Discord/email) em FAIL do prepack gate,QA/CI,P0,BACKLOG,5.0,2.0,8.0,9.0,8.0,25.0,5.0,,,
-AJ_000297,Chunk 18X18 — Revisar e canonizar (Serra — Porta da Caverna de Prova),MAPA,P0,BACKLOG,5.0,3.0,9.0,9.0,7.0,25.0,5.0,AJ_000296,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
-AJ_000387,Tabelas de encontro por região/chunk (Monstros ↔ ChavesMapa),Encontros,P0,BACKLOG,3.4,4.0,7.0,6.0,4.0,17.0,5.0,,,
-AJ_000388,Loot mínimo por chunk (drops/baús),Loot,P0,BACKLOG,3.4,5.0,7.0,6.0,4.0,17.0,5.0,,,
-AJ_000369,Revisar política do Act1 Scope Freeze (modo STRICT/MILESTONE/OFF),GOV/Processo,P0,BACKLOG,3.375,6.0,9.0,9.0,9.0,27.0,8.0,,,
-AJ_000397,UI criação de personagem (classe + antecedente),UI/UX,P0,BACKLOG,3.375,7.0,10.0,10.0,7.0,27.0,8.0,,,
-AJ_000398,UI seleção de passiva única equipada,UI/Build,P0,BACKLOG,3.375,8.0,10.0,10.0,7.0,27.0,8.0,,,
-AJ_000399,UI slots de habilidades ativas,UI/Combate,P0,BACKLOG,3.375,9.0,10.0,10.0,7.0,27.0,8.0,,,
-AJ_000400,Quest Journal jogável (main + side),UI/Quests,P0,BACKLOG,3.375,10.0,10.0,10.0,7.0,27.0,8.0,,,
-AJ_000406,Persistência local-test (save/load) para flags/quests/reputação/passiva,Save/Load,P0,BACKLOG,3.375,11.0,9.0,10.0,8.0,27.0,8.0,,,
-AJ_000408,Aplicar Tone dia/noite em mapas externos + persistir em transfer,Iluminação/DiaNoite,P0,BACKLOG,3.375,12.0,9.0,10.0,8.0,27.0,8.0,,,
-AJ_000158,Revisar cavernas/iluminação/tochas/postes de luz (mecânicas e dados),Dungeons,P0,BACKLOG,3.125,13.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000407,Runtime do Tempo (tick + troca de fase + flags),Tempo,P0,BACKLOG,3.125,14.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000409,Framework 'Caverna Escura' (overlay + luzes por evento),Iluminação/Cavernas,P0,BACKLOG,3.125,15.0,9.0,9.0,7.0,25.0,8.0,,,
-AJ_000410,Item/estado Tocha/Lanterna integrado ao lighting,Iluminação/Itens,P0,BACKLOG,3.125,16.0,9.0,9.0,7.0,25.0,8.0,,,
+AJ_000400,Quest Journal jogável (main + side),UI/Quests,P0,HOMOLOGACAO,3.375,10.0,10.0,10.0,7.0,27.0,8.0,,,
+AJ_000408,Aplicar Tone dia/noite em mapas externos + persistir em transfer,Iluminação/DiaNoite,P0,HOMOLOGACAO,3.375,12.0,9.0,10.0,8.0,27.0,8.0,,,Precisamos decidir storage da TIME_TONE_OVERRIDES (CSV vs script) e convenção de nomes de mapas; alinhar se interiores especiais usam tone global ou opt-out explícito; checar se há mapas com tone custom atual que não devem ser sobrescritos.
+AJ_000443,Automatizar QA de save/load para flags/quests/reputação/passiva,QA/Save,P1,BACKLOG,4.4,16.5,8.0,8.0,6.0,,5.0,,,
 AJ_000411,Plano de iluminação Ato 1: DGN-FORT-01 e DGN-COAST-01 + casas da vila,Iluminação/Conteúdo,P0,BACKLOG,3.125,17.0,9.0,9.0,7.0,25.0,8.0,,,
+AJ_000436,Teste automatizado da UI de criação (flow + persistência),QA/Automation,P2,EM_EXECUCAO,3.0,17.0,,,,,,,,
 AJ_000217,Ato 1: Gancho do protagonista (menina desaparecida + panfletos + mapa narrativo),STORY/HOOK,P0,BACKLOG,3.0,18.0,9.0,9.0,6.0,24.0,8.0,Define starting capital chunk IDs + initial quest ID namespace.,Hook + quest/beat data exists and references validate.,
 AJ_000381,Implementar prólogo slideshow no RMXP (skip/avanço),Narrativa/UX,P0,BACKLOG,3.0,19.0,9.0,9.0,6.0,24.0,8.0,,,
 AJ_000384,Gancho 'Menina desaparecida' (pôster/rumores → QST-0001),Narrativa/Quests,P0,BACKLOG,3.0,20.0,9.0,9.0,6.0,24.0,8.0,,,
@@ -49,21 +37,28 @@ AJ_000328,Chunk 22W9 — Revisar e canonizar (Pântano — Campina da Tumba),MAP
 AJ_000329,Chunk 22X10 — Revisar e canonizar (Pântano — Campo dos Líquens Luminosos),MAPA,P0,BACKLOG,2.4,48.0,5.0,4.0,3.0,12.0,5.0,AJ_000338,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000148,"Unificar base única de habilidades (Monstros, Classes, Aliados, Summons, Combate)",Combate/Skills,P0,BACKLOG,2.375,49.0,8.0,6.0,5.0,19.0,8.0,,,
 AJ_000150,Revisar regras de combate/cálculos/escalabilidade/multiplicadores/competitividade,Combate/Balance,P0,BACKLOG,2.375,50.0,8.0,6.0,5.0,19.0,8.0,,,
-AJ_000184,Melhoria: LinhasCopiadas/ColunasCopiadas por última célula não vazia (não max_row/max_col),Governança,P0,BACKLOG,2.375,51.0,6.0,4.0,9.0,19.0,8.0,Nenhuma,,
+AJ_000423,Mapear TOOLS/RMXP_BASE no sheet_name_map dos módulos,Governanca,P2,BACKLOG,2.4,50.0,,,,,,,,
+AJ_000451,Validar MapIDs reais na CAVE_LIGHTING_CONFIG,Governança/Dados,P2,BACKLOG,2.6,50.0,,,,,,,,
+AJ_000424,Especificar Local Test Assembler em SPEC_TEC/TRACE,GOV/Processo,P2,BACKLOG,2.6,51.0,,,,,,,,
 AJ_000354,Terminologia: padronizar Âncora de Respawn (Lareira/Acampamento) em dados e docs,GOV/Terminologia,P0,BACKLOG,2.375,52.0,6.0,4.0,9.0,19.0,8.0,AJ_000350,,
+AJ_000416,Automação CI: recalcular used range do 00_INDEX e alertar drift,Governança/CI,P1,BACKLOG,3.0,52.0,6.0,5.0,4.0,15.0,5.0,,,Follow-up de AJ_000184 para evitar recalculo manual e monitorar drift.
+AJ_000425,Copiar overlays opcionais (tiles/áudio) no assembler,Release/Teste,P2,BACKLOG,2.6,52.0,,,,,,,,
 AJ_000367,Normalizar sheet_name_map.json para schema único,GOV/SCHEMA,P0,BACKLOG,2.375,53.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000368,Criar README de módulo (ACT1/QA/ART) + links cruzados,Governança/README,P0,BACKLOG,2.375,54.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000370,Definir DoD formal para 'canonizar chunk' + validação QA,GOV/Chunks,P0,BACKLOG,2.375,55.0,6.0,4.0,9.0,19.0,8.0,,,
+AJ_000452,Adicionar RMXP_BASE ao sheet_name_map e DATA_INDEX,Governança/Dados,P1,BACKLOG,2.25,55.0,,,,,,,,
 AJ_000374,Índice mestre de referências RMXP (doc único + links),GOV/RMXP,P0,BACKLOG,2.375,56.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000375,Validador anti-regressão: índices órfãos (DATA_INDEX vs arquivos),QA/CI,P0,BACKLOG,2.375,57.0,6.0,4.0,9.0,19.0,8.0,,,
 AJ_000376,Padronizar WorkbooksImpactados/SheetsImpactadas + validação,QA/GOV,P0,BACKLOG,2.375,58.0,6.0,4.0,9.0,19.0,8.0,,,
-AJ_000405,Troca automática de BGM/BGS por contexto (Ato 1),Áudio,P0,BACKLOG,2.2,59.0,5.0,3.0,3.0,11.0,5.0,,,
+AJ_000405,Troca automática de BGM/BGS por contexto (Ato 1),Áudio,P0,BACKLOG,2.2,59.0,5.0,3.0,3.0,11.0,5.0,,,Confirmar BGM/BGS default por MapType e naming final dos arquivos; definir nível de log/alerta quando fallback é usado; alinhar ordem de prioridade entre cutscene/combate/ambiente para scripts existentes.
 AJ_000121,Trocar política de nome duplicado de itens: NomeBase + NomeDisplay,Itens,P1,BACKLOG,2.125,60.0,7.0,6.0,4.0,17.0,8.0,Referência ao ajuste anterior 'Como evitar confusão de itens com mesmo nome (por raridade)?' (AJ_000026),,
+AJ_000453,Sincronizar QUEST_STEPS com TRACEABILITY_MAP,Governança/Trace,P2,BACKLOG,1.88,60.0,,,,,,,,
 AJ_000149,"Revisar nomes de regiões, personagens e monstros (nomenclatura e consistência)",Padrões/IDs,P1,BACKLOG,2.125,61.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000154,"Revisar itens de coleta (picaretas, machados, pesca, herborismo etc.)",Itens,P1,BACKLOG,2.125,62.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000155,Revisar itens/categorias/slots de equipamentos (jogadores e aliados),Itens,P1,BACKLOG,2.125,63.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000164,"Revisar Shopping e acesso a Itens (economia, lojas, drop, crafting)",Economia,P1,BACKLOG,2.125,64.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000214,Itens: adicionar campo Tier + framework de afixos (geração determinística) + upgrades T5→T6/T7,Economia/Itens/Builds,P1,BACKLOG,2.125,65.0,7.0,6.0,4.0,17.0,8.0,,,
+AJ_000454,Cobrir CSVs de NPC/Audio do RMXP_BASE no sheet_name_map,Governança/Dados,P2,BACKLOG,1.625,65.0,,,,,,,,
 AJ_000244,Economia: aplicar RM_Currency em HUD/lojas/drops + unificar display B/S/G/P,,P1,BACKLOG,2.125,66.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000389,Distribuir Resource Nodes no mapa (coleta/crafting),Coleta/Crafting,P1,BACKLOG,2.125,67.0,7.0,6.0,4.0,17.0,8.0,,,
 AJ_000402,Economia baseline (moeda + preços + loja),Economia,P1,BACKLOG,2.125,68.0,7.0,6.0,4.0,17.0,8.0,,,
@@ -98,6 +93,7 @@ AJ_000312,Chunk 21P9 — Revisar e canonizar (Ruínas — Passagem dos Totens),M
 AJ_000313,Chunk 21Q10 — Revisar e canonizar (Ruínas — Vigia Goblin),MAPA,P1,BACKLOG,1.6,97.0,3.0,3.0,2.0,8.0,5.0,AJ_000312,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000314,Chunk 21R11 — Revisar e canonizar (Ruínas — Desfiladeiro do Entulho),MAPA,P1,BACKLOG,1.6,98.0,3.0,3.0,2.0,8.0,5.0,AJ_000313,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000315,Chunk 21S14 — Revisar e canonizar (Reino das Fadas — Santuário da Guardiã),MAPA,P1,BACKLOG,1.6,99.0,3.0,3.0,2.0,8.0,5.0,AJ_000307,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
+AJ_000427,Criar drops/baús alinhados às novas tabelas de encontro,Loot/Balanco,P2,BACKLOG,,99.0,,,,,,,,
 AJ_000316,Chunk 21T7 — Revisar e canonizar (Floresta da Rose — Bosque dos Ferrões),MAPA,P1,BACKLOG,1.6,100.0,3.0,3.0,2.0,8.0,5.0,AJ_000317,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000317,Chunk 21U6 — Revisar e canonizar (Floresta da Rose — Corredores do Pothergeist),MAPA,P1,BACKLOG,1.6,101.0,3.0,3.0,2.0,8.0,5.0,AJ_000326,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
 AJ_000318,Chunk 21V11 — Revisar e canonizar (Torre do Mago — Ponte e Portão Rangente),MAPA,P1,BACKLOG,1.6,102.0,3.0,3.0,2.0,8.0,5.0,AJ_000327,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
@@ -123,11 +119,9 @@ AJ_000166,Build: gerar RaveMasters.exe no ZIP a partir do Game.exe legado,Logs/V
 AJ_000169,Auditar tokens T*/B*/ET* em textos (nomes/descrições) e limpar ruído,Conteúdo,P2,BACKLOG,1.25,122.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000171,Atualizar pipeline/validações para convenção limpa (MAIN + RM_YYYYMMDD_Rxx),Automação,P2,BACKLOG,1.25,123.0,4.0,3.0,3.0,10.0,8.0,AJ_000167,,
 AJ_000196,"Digest narrativo do Overlord (técnicas, estrutura, checklist) sem transcrição",HUMAN,P2,BACKLOG,1.25,124.0,4.0,3.0,3.0,10.0,8.0,AJ_000194,,
-AJ_000199,README: explicit AI-only spec item (log visibility) + linter rules,,P2,BACKLOG,1.25,125.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000204,Generate unified AI_TABLE_CATALOG (00_INDEX + DATA_INDEX),,P2,BACKLOG,1.25,126.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000206,Speaker registry (NPC + Monster talkers) and authoring contract,SCHEMA,P2,BACKLOG,1.25,127.0,4.0,3.0,3.0,10.0,8.0,AJ_000205,,
 AJ_000210,Aliados/Summons: templates de stats + runtime RGSS (spawn/controle/cleanup) + validações,Arquitetura/Combate,P2,BACKLOG,1.25,128.0,4.0,3.0,3.0,10.0,8.0,,,
-AJ_000246,ART: auto-tag por diretório + normalização de nomes no ART_IMAGE_ASSET_INDEX,ART/Build,P2,BACKLOG,1.25,129.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000250,QA/Dialogue: adicionar cenários de HasRecentEvent + sessão de tick TTL (skip first),QA/Dialogue,P2,BACKLOG,1.25,130.0,4.0,3.0,3.0,10.0,8.0,,,
 AJ_000255,ART: Pack Ato 1 (tileset principal + player + NPCs base + UI ícones + portraits),ART/Produção,P2,BACKLOG,1.25,131.0,4.0,3.0,3.0,10.0,8.0,Depende do style bible (AJ_000254) e do ingest binário (AJ_000245/000241 já existentes).,,
 AJ_000259,Release: empacotamento/installer + versioning + credits/licensing,Release/Packaging,P2,BACKLOG,1.25,132.0,4.0,3.0,3.0,10.0,8.0,Depende do DIST rodável (AJ_000252).,,
@@ -144,3 +138,33 @@ AJ_000161,Revisar Especificação Funcional (BDD/TDD) e registrar no ecossistema
 AJ_000162,Revisar Especificação Técnica e registrar no ecossistema,Arquitetura,P2,BACKLOG,1.230769,143.0,6.0,3.0,7.0,16.0,13.0,,,
 AJ_000190,COL_META: enriquecer semântica + constraints e gerar MER/Specs ai-friendly,GOV/SCHEMA,P2,BACKLOG,1.230769,144.0,6.0,3.0,7.0,16.0,13.0,AJ_000124,,
 AJ_000286,Chunk 16V18 — Revisar e canonizar (Reino Élfico — Mercado Élfico),MAPA,P2,BACKLOG,1.230769,145.0,6.0,3.0,7.0,16.0,13.0,AJ_000290,,Gerado automaticamente para encadear correções chunk-por-chunk. Ajustar após revisão.
+AJ_000417,CI: linter automático de legibilidade AI + visibilidade de log,QA/CI,P2,BACKLOG,2.6,146.0,5.0,4.0,4.0,13,5.0,,Checklist automatizado rodando no pipeline com falha clara.,Depende de AI_READABILITY.md publicado.
+AJ_000419,Integrar refresh ao CI (todos módulos) + diff de hashes,QA/CI,P1,BACKLOG,1.875,148.0,,,,,,,,Follow-up do AJ_000418 para propagar automação para todos os módulos.
+AJ_000420,CI lint para áudio/tempo: validar planos e assets antes do build,QA/CI,P1,BACKLOG,1.625,149.0,5.0,4.0,4.0,12.0,8.0,AJ_000405;AJ_000407,Lint rodando em CI com relatório armazenado em QA; flags configuráveis por módulo.,
+AJ_000422,ART: lint de auto-tags + dedupe por sha256/PathNormalized,ART/Build,P2,BACKLOG,1.4,150.0,,,,,,AJ_000246,Lint disponível em QA + fila WSJF atualizada.,Backlog registrado na homologação do AJ_000246.
+AJ_000426,MER/SPEC/TRACE — Formalizar caverna de prova (18X18) e gating por SDQ-0027,Governança,P2,BACKLOG,1.25,151.0,,,,,,,,Gerado após AJ_000297 para cobrir specs ausentes.
+AJ_000441,Mapear sheets RMXP_BASE/SKILLS para CSV e validar ingestão,Governança/Build,P2,BACKLOG,,200.0,,,,,,,,
+AJ_000431,sheet_name_map cobre QA,GOV/QA,P2,BACKLOG,1.875,999.0,,,,,,,,
+AJ_000432,Automação do modo do scope freeze,QA/Processo,P2,BACKLOG,1.875,999.0,,,,,,,,
+AJ_000433,Histórico de modos do scope freeze,GOV/Processo,P2,BACKLOG,1.875,999.0,,,,,,,,
+AJ_000437,Sync passivas com efeitos e QA de save,UI/Build,Média,BACKLOG,,999,,,,,,,,
+AJ_000450,Resolver IDs canônicos para TIME_FLAGS no banco RMXP,Governanca/Tempo,P1,BACKLOG,1.875,999.0,,,,,,,,
+AJ_000455,Resolver binding de switches de luz no RMXP,Governanca/Iluminacao,P2,BACKLOG,,999.0,,,,,,,,
+AJ_000456,Mapear sheet QUESTS no sheet_name_map,Governanca/Quests,P2,BACKLOG,,999.0,,,,,,,,
+AJ_000457,Cobrir MEMORY_FLAGS/RECENT_EVENTS em sheet_name_map,Governanca/Save,P2,BACKLOG,,999.0,,,,,,,,
+AJ_000461,Cobrir triggers Talk/NPC no avanço automático de quests,Quests/UI,P1,BACKLOG,0.0,999.0,,,,,,,,
+AJ_000428,QA odds e validação de loot por chunk,Loot,P1,BACKLOG,,,,,,,,,,
+AJ_000429,Mapear sheet CHUNKS → CSV no sheet_name_map,GOV/Processo,P2,BACKLOG,,,,,,,,,,
+AJ_000430,Exportar loot tables para build RMXP,Build,P1,BACKLOG,,,,,,,,,,
+AJ_000438,Quiet hours e agrupamento de notificações do gate,QA/CI,P1,BACKLOG,,,,,,,,,,
+AJ_000439,QA_RPT_LOOT: gerar relatório e validar odds,QA/Conteudo,P1,BACKLOG,,,,,,,,,,
+AJ_000440,sheet_name_map: cobrir abas ACT1/QA críticas,Governanca,P1,BACKLOG,,,,,,,,,,
+AJ_000444,Mapear DIC_DUNGEON_EM_CONSTRUCAO no sheet_name_map/DATA_INDEX,Governanca/Dungeons,P2,BACKLOG,,,,,,,,,,
+AJ_000445,Criar TIME_TONE_OVERRIDES por MapID/Fase,Iluminacao/DiaNoite,P1,BACKLOG,,,,,,,,,,
+AJ_000446,Teste automático de ciclo de tempo (load/transfer),QA/Tempo,P1,BACKLOG,,,,,,,,,,
+AJ_000447,Planilha CAVE_LIGHTING_CONFIG por mapa,Iluminacao,P1,BACKLOG,,,,,,,,,,
+AJ_000448,Postes de luz e tocha integrados ao runtime,Iluminacao,P1,BACKLOG,,,,,,,,,,
+AJ_000449,Traceability para lighting/tempo/caverna,Governanca,P1,BACKLOG,,,,,,,,,,
+AJ_000458,Formalizar mapa QUESTS/QUESTS_EM_CONSTRUCAO no sheet_name_map,Governanca/Quests,P2,BACKLOG,,,,,,,,,,
+AJ_000459,Normalizar MEMORY_FLAGS/RECENT_EVENTS no index,Governanca/Save,P2,BACKLOG,,,,,,,,,,
+AJ_000460,Mapear itens de KITS_INICIAIS para IDs oficiais,Governanca/Itens,P2,BACKLOG,,,,,,,,,,

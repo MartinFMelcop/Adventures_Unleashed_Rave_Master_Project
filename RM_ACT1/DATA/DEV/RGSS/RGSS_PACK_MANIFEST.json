@@ -97,6 +97,11 @@
       "sha256": "32db12a3f8070fa1f5c5ffeabbaaa6687d8743c2c114c702d544ac3f8871fe9e"
     },
     {
+      "file": "RM_PROLOGUE_SLIDESHOW_RUNTIME.rb",
+      "name": "RM_PROLOGUE_SLIDESHOW_RUNTIME",
+      "sha256": "746797ec493c1d980b6046bb714d501beba32c033a97b994eb4eebb5ea7b0529"
+    },
+    {
       "file": "RM_DEBUG_HOTKEYS_RUNTIME.rb",
       "name": "RM_DEBUG_HOTKEYS_RUNTIME",
       "sha256": "bc87691b826b56564fd1f47369449f952b033d3581c403651099083eabfce490"
@@ -104,7 +109,7 @@
     {
       "file": "RM_CHARACTER_CREATE_RUNTIME.rb",
       "name": "RM_CHARACTER_CREATE_RUNTIME",
-      "sha256": "2585a36bff2ebd5afd2f786355a74e3f655d1ae665d316e30c5e1a83b4ffb79f"
+      "sha256": "5f24a3ad9daaa230b039ce15b43a8780aa0b73e0c499e28cd90146eae613c7d0"
     }
   ],
   "source_module": "ACT1",

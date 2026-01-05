@@ -1,1 +1,6 @@
 ChaveMapa,LootTableID,ItemID,MinQty,MaxQty,Weight,Notes
+23T3,LT-ANCHOR-START,CON_POCAO_DE_CURA_PEQUENA_COMUM,1,2,60,"Baú inicial na Clareira de Âncora garante cura básica."
+23T3,LT-ANCHOR-START,CON_POCAO_DE_MANA_PEQUENA_COMUM,1,1,40,"Complemento de mana para o começo do sandbox."
+24S1,LT-VILA-ROSE-CRATES,CON_POCAO_DE_CURA_PEQUENA_COMUM,1,1,50,"Caixas/baús leves na Vila Rose para reabastecer o hub."
+23U4,LT-MAD-MAGE-FOOTHOLD,MAT_PEDRA_RUNICA_BRUTA,1,1,35,"Material bruto para recipes de runa durante o arco do mago."
+23V5,LT-COCKATRICE-ROAD,CON_POCAO_DE_CURA_PEQUENA_COMUM,1,1,45,"Rota da Cockatrice entrega cura entre encontros seguidos."

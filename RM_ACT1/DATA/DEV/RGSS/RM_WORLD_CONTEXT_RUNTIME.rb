@@ -48,6 +48,10 @@ module RM_WorldContext
     _ensure
     ctx = $game_system.instance_variable_get(:@rm_world_ctx)
     ctx[:chunk_key] = chunk_key
+    begin
+      RM_QuestProgress.record_trigger('EnterArea', chunk_key) if defined?(RM_QuestProgress)
+    rescue
+    end
   end
 
   def self.chunk

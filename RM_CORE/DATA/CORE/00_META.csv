@@ -21,3 +21,4 @@ patch_notes,"2025-12-23T03:45:14Z: BUILD15 — adiciona novos ajustes BACKLOG (A
 2025-12-25T21:15:13Z: AJ_000203 — traceability contract + act/stage map.
 2025-12-26T20:49:12Z: AJ_000235 — build sync (metadados) + QA prepack gate disponível no módulo RM_QA.
 2025-12-26T21:37:12Z: AJ_000234 — add ART_IMAGE_ASSET_INDEX (empty scaffold) + ART_PIPELINE_POLICY.md; indices/map updated."
+2026-01-03T23:58:15Z: AJ_000246 — auto-tag + PathNormalized no ART_IMAGE_ASSET_INDEX; doc/política atualizados.
