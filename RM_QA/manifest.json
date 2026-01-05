@@ -41,8 +41,8 @@
     },
     {
       "relpath": "DATA/QA/CHANGE_LOG.csv",
-      "bytes": 32553,
-      "sha256": "3cf55d4107731cc9ba35514c4ea28a807b7a8db1def49c9762131b16c09121f8"
+      "bytes": 32823,
+      "sha256": "3562efbade7489990ccad9bb8e0a90c3c0cb4cfb2f068f98eca4b38596de4cbb"
     },
     {
       "relpath": "DATA/QA/CI/README.md",
@@ -181,8 +181,8 @@
     },
     {
       "relpath": "DATA/QA/LOG_AJUSTES.csv",
-      "bytes": 419239,
-      "sha256": "60345f584eef45110c489964c0c870044d5466f3144680794baa6bdced4db437"
+      "bytes": 444881,
+      "sha256": "c9d5841d483642d3f30280cb168a5d030f83f4937357da7e73b7bfb0f24af88e"
     },
     {
       "relpath": "DATA/QA/MAPA_WORLDMAP_VIEW.csv",
